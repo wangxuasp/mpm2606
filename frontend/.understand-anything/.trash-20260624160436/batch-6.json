@@ -1,0 +1,940 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/app/(workspace)/copilot/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "src/app/(workspace)/copilot/page.tsx",
+      "summary": "Next.js 页面组件，渲染工作台或管理模块的 UI 与交互。",
+      "tags": [
+        "entry-point",
+        "component",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/app/(workspace)/copilot/page.tsx:CopilotPage",
+      "type": "function",
+      "name": "CopilotPage",
+      "filePath": "src/app/(workspace)/copilot/page.tsx",
+      "summary": "函数 CopilotPage，位于 page.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/app/(workspace)/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "src/app/(workspace)/page.tsx",
+      "summary": "Next.js 页面组件，渲染工作台或管理模块的 UI 与交互。",
+      "tags": [
+        "entry-point",
+        "component",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/app/(workspace)/page.tsx:DashboardPage",
+      "type": "function",
+      "name": "DashboardPage",
+      "filePath": "src/app/(workspace)/page.tsx",
+      "summary": "函数 DashboardPage，位于 page.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/copilot/apd-import-wizard.tsx",
+      "type": "file",
+      "name": "apd-import-wizard.tsx",
+      "filePath": "src/components/copilot/apd-import-wizard.tsx",
+      "summary": "React 组件 apd-import-wizard.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/copilot/apd-import-wizard.tsx:ApdImportWizard",
+      "type": "function",
+      "name": "ApdImportWizard",
+      "filePath": "src/components/copilot/apd-import-wizard.tsx",
+      "summary": "函数 ApdImportWizard，位于 apd-import-wizard.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/components/copilot/copilot-command-input.tsx",
+      "type": "file",
+      "name": "copilot-command-input.tsx",
+      "filePath": "src/components/copilot/copilot-command-input.tsx",
+      "summary": "React 组件 copilot-command-input.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/copilot/copilot-command-input.tsx:CopilotCommandInput",
+      "type": "function",
+      "name": "CopilotCommandInput",
+      "filePath": "src/components/copilot/copilot-command-input.tsx",
+      "summary": "函数 CopilotCommandInput，位于 copilot-command-input.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/components/copilot/copilot-message-list.tsx",
+      "type": "file",
+      "name": "copilot-message-list.tsx",
+      "filePath": "src/components/copilot/copilot-message-list.tsx",
+      "summary": "React 组件 copilot-message-list.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/copilot/copilot-message-list.tsx:formatTime",
+      "type": "function",
+      "name": "formatTime",
+      "filePath": "src/components/copilot/copilot-message-list.tsx",
+      "summary": "函数 formatTime，位于 copilot-message-list.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/copilot/copilot-message-list.tsx:CopilotMessageList",
+      "type": "function",
+      "name": "CopilotMessageList",
+      "filePath": "src/components/copilot/copilot-message-list.tsx",
+      "summary": "函数 CopilotMessageList，位于 copilot-message-list.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/components/ui/checkbox.tsx",
+      "type": "file",
+      "name": "checkbox.tsx",
+      "filePath": "src/components/ui/checkbox.tsx",
+      "summary": "React 组件 checkbox.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ui/checkbox.tsx:Checkbox",
+      "type": "function",
+      "name": "Checkbox",
+      "filePath": "src/components/ui/checkbox.tsx",
+      "summary": "函数 Checkbox，位于 checkbox.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/hooks/use-app-meta.ts",
+      "type": "file",
+      "name": "use-app-meta.ts",
+      "filePath": "src/hooks/use-app-meta.ts",
+      "summary": "React Hook use-app-meta.ts，封装数据获取或状态订阅逻辑。",
+      "tags": [
+        "hook",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/hooks/use-bom-nodes.ts",
+      "type": "file",
+      "name": "use-bom-nodes.ts",
+      "filePath": "src/hooks/use-bom-nodes.ts",
+      "summary": "React Hook use-bom-nodes.ts，封装数据获取或状态订阅逻辑。",
+      "tags": [
+        "hook",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/ai/apd-import-commit.ts",
+      "type": "file",
+      "name": "apd-import-commit.ts",
+      "filePath": "src/lib/ai/apd-import-commit.ts",
+      "summary": "库模块 apd-import-commit.ts，提供认证、导航或工具能力。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/ai/apd-import-commit.ts:ensureBopRoot",
+      "type": "function",
+      "name": "ensureBopRoot",
+      "filePath": "src/lib/ai/apd-import-commit.ts",
+      "summary": "函数 ensureBopRoot，位于 apd-import-commit.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/ai/apd-import-commit.ts:commitApdImportRows",
+      "type": "function",
+      "name": "commitApdImportRows",
+      "filePath": "src/lib/ai/apd-import-commit.ts",
+      "summary": "函数 commitApdImportRows，位于 apd-import-commit.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/lib/ai/apd-import-parser.ts",
+      "type": "file",
+      "name": "apd-import-parser.ts",
+      "filePath": "src/lib/ai/apd-import-parser.ts",
+      "summary": "库模块 apd-import-parser.ts，提供认证、导航或工具能力。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/ai/apd-import-parser.ts:cellValue",
+      "type": "function",
+      "name": "cellValue",
+      "filePath": "src/lib/ai/apd-import-parser.ts",
+      "summary": "函数 cellValue，位于 apd-import-parser.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/ai/apd-import-parser.ts:inferEntityFromRow",
+      "type": "function",
+      "name": "inferEntityFromRow",
+      "filePath": "src/lib/ai/apd-import-parser.ts",
+      "summary": "函数 inferEntityFromRow，位于 apd-import-parser.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/ai/apd-import-parser.ts:parseApdExcel",
+      "type": "function",
+      "name": "parseApdExcel",
+      "filePath": "src/lib/ai/apd-import-parser.ts",
+      "summary": "函数 parseApdExcel，位于 apd-import-parser.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/ai/apd-import-parser.ts:mockEnrichWithLlm",
+      "type": "function",
+      "name": "mockEnrichWithLlm",
+      "filePath": "src/lib/ai/apd-import-parser.ts",
+      "summary": "函数 mockEnrichWithLlm，位于 apd-import-parser.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/ai/copilot-scenarios.ts",
+      "type": "file",
+      "name": "copilot-scenarios.ts",
+      "filePath": "src/lib/ai/copilot-scenarios.ts",
+      "summary": "库模块 copilot-scenarios.ts，提供认证、导航或工具能力。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/lib/ai/copilot-scenarios.ts:handleComplianceReview",
+      "type": "function",
+      "name": "handleComplianceReview",
+      "filePath": "src/lib/ai/copilot-scenarios.ts",
+      "summary": "函数 handleComplianceReview，位于 copilot-scenarios.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/ai/copilot-scenarios.ts:handleBomConversion",
+      "type": "function",
+      "name": "handleBomConversion",
+      "filePath": "src/lib/ai/copilot-scenarios.ts",
+      "summary": "函数 handleBomConversion，位于 copilot-scenarios.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/ai/copilot-scenarios.ts:handleStructuredEdit",
+      "type": "function",
+      "name": "handleStructuredEdit",
+      "filePath": "src/lib/ai/copilot-scenarios.ts",
+      "summary": "函数 handleStructuredEdit，位于 copilot-scenarios.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/ai/copilot-scenarios.ts:handleKnowledgeAssistant",
+      "type": "function",
+      "name": "handleKnowledgeAssistant",
+      "filePath": "src/lib/ai/copilot-scenarios.ts",
+      "summary": "函数 handleKnowledgeAssistant，位于 copilot-scenarios.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/ai/copilot-scenarios.ts:buildCopilotContext",
+      "type": "function",
+      "name": "buildCopilotContext",
+      "filePath": "src/lib/ai/copilot-scenarios.ts",
+      "summary": "函数 buildCopilotContext，位于 copilot-scenarios.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/ai/llm-client.ts",
+      "type": "file",
+      "name": "llm-client.ts",
+      "filePath": "src/lib/ai/llm-client.ts",
+      "summary": "库模块 llm-client.ts，提供认证、导航或工具能力。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/ai/llm-client.ts:resolveMockResponse",
+      "type": "function",
+      "name": "resolveMockResponse",
+      "filePath": "src/lib/ai/llm-client.ts",
+      "summary": "函数 resolveMockResponse，位于 llm-client.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/ai/llm-client.ts:invoke",
+      "type": "function",
+      "name": "invoke",
+      "filePath": "src/lib/ai/llm-client.ts",
+      "summary": "函数 invoke，位于 llm-client.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/stores/copilot-store.ts",
+      "type": "file",
+      "name": "copilot-store.ts",
+      "filePath": "src/stores/copilot-store.ts",
+      "summary": "Zustand 状态仓库 copilot-store.ts，管理客户端全局状态。",
+      "tags": [
+        "service",
+        "utility"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/app/(workspace)/copilot/page.tsx",
+      "target": "file:src/components/copilot/apd-import-wizard.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/copilot/page.tsx",
+      "target": "file:src/components/copilot/copilot-command-input.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/copilot/page.tsx",
+      "target": "file:src/components/copilot/copilot-message-list.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/copilot/page.tsx",
+      "target": "file:src/components/ui/badge.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/copilot/page.tsx",
+      "target": "file:src/components/ui/button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/copilot/page.tsx",
+      "target": "file:src/components/ui/tabs.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/copilot/page.tsx",
+      "target": "file:src/hooks/use-bom-nodes.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/copilot/page.tsx",
+      "target": "file:src/hooks/use-collaboration.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/copilot/page.tsx",
+      "target": "file:src/lib/ai/copilot-scenarios.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/copilot/page.tsx",
+      "target": "file:src/lib/ai/llm-client.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/copilot/page.tsx",
+      "target": "file:src/stores/copilot-store.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/copilot/page.tsx",
+      "target": "file:src/stores/workspace-store.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/copilot/page.tsx",
+      "target": "function:src/app/(workspace)/copilot/page.tsx:CopilotPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/app/(workspace)/copilot/page.tsx",
+      "target": "function:src/app/(workspace)/copilot/page.tsx:CopilotPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/app/(workspace)/page.tsx",
+      "target": "file:src/components/ui/button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/page.tsx",
+      "target": "file:src/components/ui/card.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/page.tsx",
+      "target": "file:src/hooks/use-app-meta.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/page.tsx",
+      "target": "file:src/hooks/use-bom-nodes.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/page.tsx",
+      "target": "file:src/hooks/use-collaboration.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/page.tsx",
+      "target": "file:src/hooks/use-dictionaries.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/page.tsx",
+      "target": "function:src/app/(workspace)/page.tsx:DashboardPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/app/(workspace)/page.tsx",
+      "target": "function:src/app/(workspace)/page.tsx:DashboardPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/copilot/apd-import-wizard.tsx",
+      "target": "file:src/components/ui/alert.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/copilot/apd-import-wizard.tsx",
+      "target": "file:src/components/ui/badge.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/copilot/apd-import-wizard.tsx",
+      "target": "file:src/components/ui/button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/copilot/apd-import-wizard.tsx",
+      "target": "file:src/components/ui/checkbox.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/copilot/apd-import-wizard.tsx",
+      "target": "file:src/components/ui/table.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/copilot/apd-import-wizard.tsx",
+      "target": "file:src/lib/ai/apd-import-commit.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/copilot/apd-import-wizard.tsx",
+      "target": "file:src/lib/ai/apd-import-parser.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/copilot/apd-import-wizard.tsx",
+      "target": "function:src/components/copilot/apd-import-wizard.tsx:ApdImportWizard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/copilot/apd-import-wizard.tsx",
+      "target": "function:src/components/copilot/apd-import-wizard.tsx:ApdImportWizard",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/copilot/copilot-command-input.tsx",
+      "target": "file:src/components/ui/button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/copilot/copilot-command-input.tsx",
+      "target": "file:src/components/ui/textarea.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/copilot/copilot-command-input.tsx",
+      "target": "file:src/lib/ai/copilot-scenarios.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/copilot/copilot-command-input.tsx",
+      "target": "file:src/lib/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/copilot/copilot-command-input.tsx",
+      "target": "function:src/components/copilot/copilot-command-input.tsx:CopilotCommandInput",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/copilot/copilot-command-input.tsx",
+      "target": "function:src/components/copilot/copilot-command-input.tsx:CopilotCommandInput",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/copilot/copilot-message-list.tsx",
+      "target": "file:src/components/ui/badge.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/copilot/copilot-message-list.tsx",
+      "target": "file:src/components/ui/scroll-area.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/copilot/copilot-message-list.tsx",
+      "target": "file:src/lib/ai/copilot-scenarios.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/copilot/copilot-message-list.tsx",
+      "target": "file:src/lib/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/copilot/copilot-message-list.tsx",
+      "target": "file:src/stores/copilot-store.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/copilot/copilot-message-list.tsx",
+      "target": "function:src/components/copilot/copilot-message-list.tsx:formatTime",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/copilot/copilot-message-list.tsx",
+      "target": "function:src/components/copilot/copilot-message-list.tsx:CopilotMessageList",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/copilot/copilot-message-list.tsx",
+      "target": "function:src/components/copilot/copilot-message-list.tsx:CopilotMessageList",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/checkbox.tsx",
+      "target": "file:src/lib/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/ui/checkbox.tsx",
+      "target": "function:src/components/ui/checkbox.tsx:Checkbox",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/checkbox.tsx",
+      "target": "function:src/components/ui/checkbox.tsx:Checkbox",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/hooks/use-app-meta.ts",
+      "target": "file:src/lib/db/repositories/app-meta-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/hooks/use-bom-nodes.ts",
+      "target": "file:src/lib/db/repositories/bom-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/ai/apd-import-commit.ts",
+      "target": "file:src/lib/ai/apd-import-parser.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/ai/apd-import-commit.ts",
+      "target": "file:src/lib/db/repositories/bop-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/ai/apd-import-commit.ts",
+      "target": "file:src/lib/db/repositories/collaboration-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/ai/apd-import-commit.ts",
+      "target": "file:src/lib/domain/services/bop-service.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/ai/apd-import-commit.ts",
+      "target": "file:src/lib/domain/services/resource-service.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/ai/apd-import-commit.ts",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/ai/apd-import-commit.ts",
+      "target": "function:src/lib/ai/apd-import-commit.ts:ensureBopRoot",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/ai/apd-import-commit.ts",
+      "target": "function:src/lib/ai/apd-import-commit.ts:commitApdImportRows",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/ai/apd-import-commit.ts",
+      "target": "function:src/lib/ai/apd-import-commit.ts:commitApdImportRows",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/ai/apd-import-parser.ts",
+      "target": "file:src/lib/ai/llm-client.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/ai/apd-import-parser.ts",
+      "target": "function:src/lib/ai/apd-import-parser.ts:cellValue",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/ai/apd-import-parser.ts",
+      "target": "function:src/lib/ai/apd-import-parser.ts:inferEntityFromRow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/ai/apd-import-parser.ts",
+      "target": "function:src/lib/ai/apd-import-parser.ts:parseApdExcel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/ai/apd-import-parser.ts",
+      "target": "function:src/lib/ai/apd-import-parser.ts:parseApdExcel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/ai/apd-import-parser.ts",
+      "target": "function:src/lib/ai/apd-import-parser.ts:mockEnrichWithLlm",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/ai/apd-import-parser.ts",
+      "target": "function:src/lib/ai/apd-import-parser.ts:mockEnrichWithLlm",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/ai/copilot-scenarios.ts",
+      "target": "file:src/lib/domain/rules/accountability-check.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/ai/copilot-scenarios.ts",
+      "target": "file:src/lib/domain/rules/mbom-constraints.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/ai/copilot-scenarios.ts",
+      "target": "file:src/lib/domain/services/operation-service.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/ai/copilot-scenarios.ts",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/ai/copilot-scenarios.ts",
+      "target": "function:src/lib/ai/copilot-scenarios.ts:handleComplianceReview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/ai/copilot-scenarios.ts",
+      "target": "function:src/lib/ai/copilot-scenarios.ts:handleBomConversion",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/ai/copilot-scenarios.ts",
+      "target": "function:src/lib/ai/copilot-scenarios.ts:handleStructuredEdit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/ai/copilot-scenarios.ts",
+      "target": "function:src/lib/ai/copilot-scenarios.ts:handleKnowledgeAssistant",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/ai/copilot-scenarios.ts",
+      "target": "function:src/lib/ai/copilot-scenarios.ts:buildCopilotContext",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/ai/copilot-scenarios.ts",
+      "target": "function:src/lib/ai/copilot-scenarios.ts:buildCopilotContext",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/ai/llm-client.ts",
+      "target": "function:src/lib/ai/llm-client.ts:resolveMockResponse",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/ai/llm-client.ts",
+      "target": "function:src/lib/ai/llm-client.ts:invoke",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/ai/llm-client.ts",
+      "target": "function:src/lib/ai/llm-client.ts:invoke",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/stores/copilot-store.ts",
+      "target": "file:src/lib/ai/copilot-scenarios.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

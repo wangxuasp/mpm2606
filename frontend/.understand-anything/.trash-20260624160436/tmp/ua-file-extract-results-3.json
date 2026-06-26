@@ -1,0 +1,3630 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 27,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "src/app/(workspace)/bop/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 539,
+      "nonEmptyLines": 509,
+      "functions": [
+        {
+          "name": "EnvelopeList",
+          "startLine": 57,
+          "endLine": 100,
+          "params": [
+            "{\n  envelopes,\n  subjectFilter,\n}"
+          ]
+        },
+        {
+          "name": "BopPage",
+          "startLine": 102,
+          "endLine": 539,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "BopPage",
+          "line": 102,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "EnvelopeList",
+          "callee": "useMemo",
+          "lineNumber": 64
+        },
+        {
+          "caller": "EnvelopeList",
+          "callee": "subjectFilter.trim().toLowerCase",
+          "lineNumber": 65
+        },
+        {
+          "caller": "EnvelopeList",
+          "callee": "subjectFilter.trim",
+          "lineNumber": 65
+        },
+        {
+          "caller": "EnvelopeList",
+          "callee": "envelopes.filter",
+          "lineNumber": 67
+        },
+        {
+          "caller": "EnvelopeList",
+          "callee": "e.subject.toLowerCase().includes",
+          "lineNumber": 67
+        },
+        {
+          "caller": "EnvelopeList",
+          "callee": "e.subject.toLowerCase",
+          "lineNumber": 67
+        },
+        {
+          "caller": "EnvelopeList",
+          "callee": "filtered.map",
+          "lineNumber": 87
+        },
+        {
+          "caller": "EnvelopeList",
+          "callee": "new Date(env.createdAt).toLocaleString",
+          "lineNumber": 93
+        },
+        {
+          "caller": "BopPage",
+          "callee": "useQueryClient",
+          "lineNumber": 103
+        },
+        {
+          "caller": "BopPage",
+          "callee": "useWorkspaceStore",
+          "lineNumber": 104
+        },
+        {
+          "caller": "BopPage",
+          "callee": "useCollaboration",
+          "lineNumber": 105
+        },
+        {
+          "caller": "BopPage",
+          "callee": "useBopNodes",
+          "lineNumber": 106
+        },
+        {
+          "caller": "BopPage",
+          "callee": "useEnvelopes",
+          "lineNumber": 107
+        },
+        {
+          "caller": "BopPage",
+          "callee": "useEnvelopes",
+          "lineNumber": 108
+        },
+        {
+          "caller": "BopPage",
+          "callee": "useState",
+          "lineNumber": 110
+        },
+        {
+          "caller": "BopPage",
+          "callee": "useState",
+          "lineNumber": 111
+        },
+        {
+          "caller": "BopPage",
+          "callee": "useState",
+          "lineNumber": 112
+        },
+        {
+          "caller": "BopPage",
+          "callee": "useState",
+          "lineNumber": 113
+        },
+        {
+          "caller": "BopPage",
+          "callee": "useState",
+          "lineNumber": 114
+        },
+        {
+          "caller": "BopPage",
+          "callee": "useState",
+          "lineNumber": 115
+        },
+        {
+          "caller": "BopPage",
+          "callee": "useState",
+          "lineNumber": 116
+        },
+        {
+          "caller": "BopPage",
+          "callee": "useMemo",
+          "lineNumber": 123
+        },
+        {
+          "caller": "BopPage",
+          "callee": "bopNodes.find",
+          "lineNumber": 124
+        },
+        {
+          "caller": "BopPage",
+          "callee": "useMemo",
+          "lineNumber": 128
+        },
+        {
+          "caller": "BopPage",
+          "callee": "parseBopMode",
+          "lineNumber": 129
+        },
+        {
+          "caller": "BopPage",
+          "callee": "useMemo",
+          "lineNumber": 133
+        },
+        {
+          "caller": "BopPage",
+          "callee": "bopNodes.filter",
+          "lineNumber": 134
+        },
+        {
+          "caller": "BopPage",
+          "callee": "bopNodes.find",
+          "lineNumber": 139
+        },
+        {
+          "caller": "BopPage",
+          "callee": "useCallback",
+          "lineNumber": 145
+        },
+        {
+          "caller": "BopPage",
+          "callee": "Promise.all",
+          "lineNumber": 146
+        },
+        {
+          "caller": "BopPage",
+          "callee": "queryClient.invalidateQueries",
+          "lineNumber": 147
+        },
+        {
+          "caller": "BopPage",
+          "callee": "queryClient.invalidateQueries",
+          "lineNumber": 148
+        },
+        {
+          "caller": "BopPage",
+          "callee": "queryClient.invalidateQueries",
+          "lineNumber": 149
+        },
+        {
+          "caller": "BopPage",
+          "callee": "useCallback",
+          "lineNumber": 153
+        },
+        {
+          "caller": "BopPage",
+          "callee": "Promise.all",
+          "lineNumber": 154
+        },
+        {
+          "caller": "BopPage",
+          "callee": "queryClient.invalidateQueries",
+          "lineNumber": 155
+        },
+        {
+          "caller": "BopPage",
+          "callee": "queryClient.invalidateQueries",
+          "lineNumber": 156
+        },
+        {
+          "caller": "handleInitBop",
+          "callee": "toast.info",
+          "lineNumber": 163
+        },
+        {
+          "caller": "handleInitBop",
+          "callee": "setBusy",
+          "lineNumber": 166
+        },
+        {
+          "caller": "handleInitBop",
+          "callee": "initializeBopRoot",
+          "lineNumber": 168
+        },
+        {
+          "caller": "handleInitBop",
+          "callee": "invalidateBopQueries",
+          "lineNumber": 169
+        },
+        {
+          "caller": "handleInitBop",
+          "callee": "setInitDialogOpen",
+          "lineNumber": 170
+        },
+        {
+          "caller": "handleInitBop",
+          "callee": "toast.success",
+          "lineNumber": 171
+        },
+        {
+          "caller": "handleInitBop",
+          "callee": "toast.error",
+          "lineNumber": 173
+        },
+        {
+          "caller": "handleInitBop",
+          "callee": "setBusy",
+          "lineNumber": 175
+        },
+        {
+          "caller": "handleCreateStage",
+          "callee": "toast.error",
+          "lineNumber": 182
+        },
+        {
+          "caller": "handleCreateStage",
+          "callee": "bopNodes.find",
+          "lineNumber": 185
+        },
+        {
+          "caller": "handleCreateStage",
+          "callee": "setBusy",
+          "lineNumber": 187
+        },
+        {
+          "caller": "handleCreateStage",
+          "callee": "createBopChild",
+          "lineNumber": 189
+        },
+        {
+          "caller": "handleCreateStage",
+          "callee": "invalidateBopQueries",
+          "lineNumber": 190
+        },
+        {
+          "caller": "handleCreateStage",
+          "callee": "toast.success",
+          "lineNumber": 191
+        },
+        {
+          "caller": "handleCreateStage",
+          "callee": "toast.error",
+          "lineNumber": 193
+        },
+        {
+          "caller": "handleCreateStage",
+          "callee": "setBusy",
+          "lineNumber": 195
+        },
+        {
+          "caller": "handleCreateOperation",
+          "callee": "toast.error",
+          "lineNumber": 202
+        },
+        {
+          "caller": "handleCreateOperation",
+          "callee": "setBusy",
+          "lineNumber": 205
+        },
+        {
+          "caller": "handleCreateOperation",
+          "callee": "createBopChild",
+          "lineNumber": 207
+        },
+        {
+          "caller": "handleCreateOperation",
+          "callee": "invalidateBopQueries",
+          "lineNumber": 208
+        },
+        {
+          "caller": "handleCreateOperation",
+          "callee": "toast.success",
+          "lineNumber": 209
+        },
+        {
+          "caller": "handleCreateOperation",
+          "callee": "toast.error",
+          "lineNumber": 211
+        },
+        {
+          "caller": "handleCreateOperation",
+          "callee": "setBusy",
+          "lineNumber": 213
+        },
+        {
+          "caller": "handleDeleteSelected",
+          "callee": "toast.error",
+          "lineNumber": 219
+        },
+        {
+          "caller": "handleDeleteSelected",
+          "callee": "toast.error",
+          "lineNumber": 223
+        },
+        {
+          "caller": "handleDeleteSelected",
+          "callee": "setBusy",
+          "lineNumber": 226
+        },
+        {
+          "caller": "handleDeleteSelected",
+          "callee": "deleteBopNode",
+          "lineNumber": 228
+        },
+        {
+          "caller": "handleDeleteSelected",
+          "callee": "setSelectedNode",
+          "lineNumber": 229
+        },
+        {
+          "caller": "handleDeleteSelected",
+          "callee": "invalidateBopQueries",
+          "lineNumber": 230
+        },
+        {
+          "caller": "handleDeleteSelected",
+          "callee": "toast.success",
+          "lineNumber": 231
+        },
+        {
+          "caller": "handleDeleteSelected",
+          "callee": "toast.error",
+          "lineNumber": 233
+        },
+        {
+          "caller": "handleDeleteSelected",
+          "callee": "setBusy",
+          "lineNumber": 235
+        },
+        {
+          "caller": "handleRowDragEnd",
+          "callee": "bopNodes.find",
+          "lineNumber": 241
+        },
+        {
+          "caller": "handleRowDragEnd",
+          "callee": "bopNodes.find",
+          "lineNumber": 242
+        },
+        {
+          "caller": "handleRowDragEnd",
+          "callee": "toast.error",
+          "lineNumber": 245
+        },
+        {
+          "caller": "handleRowDragEnd",
+          "callee": "canAddChild",
+          "lineNumber": 248
+        },
+        {
+          "caller": "handleRowDragEnd",
+          "callee": "toast.error",
+          "lineNumber": 249
+        },
+        {
+          "caller": "handleRowDragEnd",
+          "callee": "setBusy",
+          "lineNumber": 252
+        },
+        {
+          "caller": "handleRowDragEnd",
+          "callee": "updateBopNode",
+          "lineNumber": 254
+        },
+        {
+          "caller": "handleRowDragEnd",
+          "callee": "invalidateBopQueries",
+          "lineNumber": 255
+        },
+        {
+          "caller": "handleRowDragEnd",
+          "callee": "toast.success",
+          "lineNumber": 256
+        },
+        {
+          "caller": "handleRowDragEnd",
+          "callee": "toast.error",
+          "lineNumber": 258
+        },
+        {
+          "caller": "handleRowDragEnd",
+          "callee": "setBusy",
+          "lineNumber": 260
+        },
+        {
+          "caller": "handleSavePertDag",
+          "callee": "import",
+          "lineNumber": 264
+        },
+        {
+          "caller": "handleSavePertDag",
+          "callee": "updatePertDag",
+          "lineNumber": 266
+        },
+        {
+          "caller": "handleSavePertDag",
+          "callee": "invalidateBopQueries",
+          "lineNumber": 267
+        },
+        {
+          "caller": "handleSyncPertDag",
+          "callee": "syncPertDagFromChildren",
+          "lineNumber": 272
+        },
+        {
+          "caller": "handleSyncPertDag",
+          "callee": "invalidateBopQueries",
+          "lineNumber": 273
+        },
+        {
+          "caller": "handleSendEnvelope",
+          "callee": "compose.subject.trim",
+          "lineNumber": 277
+        },
+        {
+          "caller": "handleSendEnvelope",
+          "callee": "compose.to.trim",
+          "lineNumber": 277
+        },
+        {
+          "caller": "handleSendEnvelope",
+          "callee": "toast.error",
+          "lineNumber": 278
+        },
+        {
+          "caller": "handleSendEnvelope",
+          "callee": "setBusy",
+          "lineNumber": 281
+        },
+        {
+          "caller": "handleSendEnvelope",
+          "callee": "sendEnvelope",
+          "lineNumber": 283
+        },
+        {
+          "caller": "handleSendEnvelope",
+          "callee": "compose.subject.trim",
+          "lineNumber": 284
+        },
+        {
+          "caller": "handleSendEnvelope",
+          "callee": "compose.to.trim",
+          "lineNumber": 285
+        },
+        {
+          "caller": "handleSendEnvelope",
+          "callee": "compose.refObjectId.trim",
+          "lineNumber": 287
+        },
+        {
+          "caller": "handleSendEnvelope",
+          "callee": "setCompose",
+          "lineNumber": 289
+        },
+        {
+          "caller": "handleSendEnvelope",
+          "callee": "invalidateEnvelopes",
+          "lineNumber": 290
+        },
+        {
+          "caller": "handleSendEnvelope",
+          "callee": "toast.success",
+          "lineNumber": 291
+        },
+        {
+          "caller": "handleSendEnvelope",
+          "callee": "toast.error",
+          "lineNumber": 293
+        },
+        {
+          "caller": "handleSendEnvelope",
+          "callee": "setBusy",
+          "lineNumber": 295
+        },
+        {
+          "caller": "handleSubmitBopApproval",
+          "callee": "toast.error",
+          "lineNumber": 301
+        },
+        {
+          "caller": "handleSubmitBopApproval",
+          "callee": "getSession",
+          "lineNumber": 304
+        },
+        {
+          "caller": "handleSubmitBopApproval",
+          "callee": "setBusy",
+          "lineNumber": 306
+        },
+        {
+          "caller": "handleSubmitBopApproval",
+          "callee": "startApproval",
+          "lineNumber": 308
+        },
+        {
+          "caller": "handleSubmitBopApproval",
+          "callee": "invalidateBopQueries",
+          "lineNumber": 314
+        },
+        {
+          "caller": "handleSubmitBopApproval",
+          "callee": "toast.success",
+          "lineNumber": 315
+        },
+        {
+          "caller": "handleSubmitBopApproval",
+          "callee": "toast.error",
+          "lineNumber": 317
+        },
+        {
+          "caller": "handleSubmitBopApproval",
+          "callee": "setBusy",
+          "lineNumber": 319
+        },
+        {
+          "caller": "BopPage",
+          "callee": "setInitDialogOpen",
+          "lineNumber": 350
+        },
+        {
+          "caller": "BopPage",
+          "callee": "pertCandidates.map",
+          "lineNumber": 413
+        },
+        {
+          "caller": "BopPage",
+          "callee": "setSubjectFilter",
+          "lineNumber": 451
+        },
+        {
+          "caller": "BopPage",
+          "callee": "setCompose",
+          "lineNumber": 470
+        },
+        {
+          "caller": "BopPage",
+          "callee": "setCompose",
+          "lineNumber": 478
+        },
+        {
+          "caller": "BopPage",
+          "callee": "setCompose",
+          "lineNumber": 487
+        },
+        {
+          "caller": "BopPage",
+          "callee": "setCompose",
+          "lineNumber": 496
+        },
+        {
+          "caller": "BopPage",
+          "callee": "setInitMode",
+          "lineNumber": 517
+        },
+        {
+          "caller": "BopPage",
+          "callee": "setInitDialogOpen",
+          "lineNumber": 528
+        }
+      ],
+      "metrics": {
+        "importCount": 20,
+        "exportCount": 1,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/app/(workspace)/planner/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 355,
+      "nonEmptyLines": 335,
+      "functions": [
+        {
+          "name": "PlannerPage",
+          "startLine": 35,
+          "endLine": 355,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "PlannerPage",
+          "line": 35,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "PlannerPage",
+          "callee": "useQueryClient",
+          "lineNumber": 36
+        },
+        {
+          "caller": "PlannerPage",
+          "callee": "useState",
+          "lineNumber": 37
+        },
+        {
+          "caller": "PlannerPage",
+          "callee": "useState",
+          "lineNumber": 38
+        },
+        {
+          "caller": "PlannerPage",
+          "callee": "useState",
+          "lineNumber": 39
+        },
+        {
+          "caller": "PlannerPage",
+          "callee": "useWorkspaceStore",
+          "lineNumber": 41
+        },
+        {
+          "caller": "PlannerPage",
+          "callee": "useWorkspaceStore",
+          "lineNumber": 42
+        },
+        {
+          "caller": "PlannerPage",
+          "callee": "useCollaboration",
+          "lineNumber": 43
+        },
+        {
+          "caller": "PlannerPage",
+          "callee": "useEbomNodes",
+          "lineNumber": 44
+        },
+        {
+          "caller": "PlannerPage",
+          "callee": "useMbomNodes",
+          "lineNumber": 45
+        },
+        {
+          "caller": "PlannerPage",
+          "callee": "useBopNodes",
+          "lineNumber": 46
+        },
+        {
+          "caller": "PlannerPage",
+          "callee": "bopNodes.find",
+          "lineNumber": 48
+        },
+        {
+          "caller": "PlannerPage",
+          "callee": "parseBopMode",
+          "lineNumber": 49
+        },
+        {
+          "caller": "PlannerPage",
+          "callee": "useCallback",
+          "lineNumber": 51
+        },
+        {
+          "caller": "PlannerPage",
+          "callee": "Promise.all",
+          "lineNumber": 52
+        },
+        {
+          "caller": "PlannerPage",
+          "callee": "queryClient.invalidateQueries",
+          "lineNumber": 53
+        },
+        {
+          "caller": "PlannerPage",
+          "callee": "queryClient.invalidateQueries",
+          "lineNumber": 54
+        },
+        {
+          "caller": "PlannerPage",
+          "callee": "queryClient.invalidateQueries",
+          "lineNumber": 55
+        },
+        {
+          "caller": "PlannerPage",
+          "callee": "useCallback",
+          "lineNumber": 59
+        },
+        {
+          "caller": "PlannerPage",
+          "callee": "Promise.all",
+          "lineNumber": 60
+        },
+        {
+          "caller": "PlannerPage",
+          "callee": "queryClient.invalidateQueries",
+          "lineNumber": 61
+        },
+        {
+          "caller": "PlannerPage",
+          "callee": "queryClient.invalidateQueries",
+          "lineNumber": 62
+        },
+        {
+          "caller": "PlannerPage",
+          "callee": "queryClient.invalidateQueries",
+          "lineNumber": 63
+        },
+        {
+          "caller": "handleInitMbom",
+          "callee": "toast.info",
+          "lineNumber": 70
+        },
+        {
+          "caller": "handleInitMbom",
+          "callee": "setBusy",
+          "lineNumber": 73
+        },
+        {
+          "caller": "handleInitMbom",
+          "callee": "initializeMbomRoot",
+          "lineNumber": 75
+        },
+        {
+          "caller": "handleInitMbom",
+          "callee": "invalidateBomQueries",
+          "lineNumber": 76
+        },
+        {
+          "caller": "handleInitMbom",
+          "callee": "toast.success",
+          "lineNumber": 77
+        },
+        {
+          "caller": "handleInitMbom",
+          "callee": "toast.error",
+          "lineNumber": 79
+        },
+        {
+          "caller": "handleInitMbom",
+          "callee": "setBusy",
+          "lineNumber": 81
+        },
+        {
+          "caller": "handleInitBop",
+          "callee": "toast.info",
+          "lineNumber": 88
+        },
+        {
+          "caller": "handleInitBop",
+          "callee": "setBusy",
+          "lineNumber": 91
+        },
+        {
+          "caller": "handleInitBop",
+          "callee": "initializeBopRoot",
+          "lineNumber": 93
+        },
+        {
+          "caller": "handleInitBop",
+          "callee": "invalidateBopQueries",
+          "lineNumber": 94
+        },
+        {
+          "caller": "handleInitBop",
+          "callee": "toast.success",
+          "lineNumber": 95
+        },
+        {
+          "caller": "handleInitBop",
+          "callee": "toast.error",
+          "lineNumber": 97
+        },
+        {
+          "caller": "handleInitBop",
+          "callee": "setBusy",
+          "lineNumber": 99
+        },
+        {
+          "caller": "handleCreatePhantomSemifinished",
+          "callee": "toast.error",
+          "lineNumber": 106
+        },
+        {
+          "caller": "handleCreatePhantomSemifinished",
+          "callee": "setBusy",
+          "lineNumber": 109
+        },
+        {
+          "caller": "handleCreatePhantomSemifinished",
+          "callee": "createPhantomSemifinished",
+          "lineNumber": 111
+        },
+        {
+          "caller": "handleCreatePhantomSemifinished",
+          "callee": "invalidateBomQueries",
+          "lineNumber": 112
+        },
+        {
+          "caller": "handleCreatePhantomSemifinished",
+          "callee": "toast.success",
+          "lineNumber": 113
+        },
+        {
+          "caller": "handleCreatePhantomSemifinished",
+          "callee": "toast.error",
+          "lineNumber": 115
+        },
+        {
+          "caller": "handleCreatePhantomSemifinished",
+          "callee": "setBusy",
+          "lineNumber": 117
+        },
+        {
+          "caller": "handleCreatePhantomGroup",
+          "callee": "toast.error",
+          "lineNumber": 124
+        },
+        {
+          "caller": "handleCreatePhantomGroup",
+          "callee": "setBusy",
+          "lineNumber": 127
+        },
+        {
+          "caller": "handleCreatePhantomGroup",
+          "callee": "createPhantomGroup",
+          "lineNumber": 129
+        },
+        {
+          "caller": "handleCreatePhantomGroup",
+          "callee": "invalidateBomQueries",
+          "lineNumber": 130
+        },
+        {
+          "caller": "handleCreatePhantomGroup",
+          "callee": "toast.success",
+          "lineNumber": 131
+        },
+        {
+          "caller": "handleCreatePhantomGroup",
+          "callee": "toast.error",
+          "lineNumber": 133
+        },
+        {
+          "caller": "handleCreatePhantomGroup",
+          "callee": "setBusy",
+          "lineNumber": 135
+        },
+        {
+          "caller": "handleExternalDrop",
+          "callee": "toast.error",
+          "lineNumber": 144
+        },
+        {
+          "caller": "handleExternalDrop",
+          "callee": "setBusy",
+          "lineNumber": 147
+        },
+        {
+          "caller": "handleExternalDrop",
+          "callee": "addMbomFromEbomRef",
+          "lineNumber": 149
+        },
+        {
+          "caller": "handleExternalDrop",
+          "callee": "invalidateBomQueries",
+          "lineNumber": 150
+        },
+        {
+          "caller": "handleExternalDrop",
+          "callee": "toast.success",
+          "lineNumber": 151
+        },
+        {
+          "caller": "handleExternalDrop",
+          "callee": "toast.error",
+          "lineNumber": 153
+        },
+        {
+          "caller": "handleExternalDrop",
+          "callee": "setBusy",
+          "lineNumber": 155
+        },
+        {
+          "caller": "handleMbomRowDragEnd",
+          "callee": "setBusy",
+          "lineNumber": 161
+        },
+        {
+          "caller": "handleMbomRowDragEnd",
+          "callee": "moveMbomNode",
+          "lineNumber": 163
+        },
+        {
+          "caller": "handleMbomRowDragEnd",
+          "callee": "invalidateBomQueries",
+          "lineNumber": 164
+        },
+        {
+          "caller": "handleMbomRowDragEnd",
+          "callee": "toast.success",
+          "lineNumber": 165
+        },
+        {
+          "caller": "handleMbomRowDragEnd",
+          "callee": "toast.error",
+          "lineNumber": 167
+        },
+        {
+          "caller": "handleMbomRowDragEnd",
+          "callee": "setBusy",
+          "lineNumber": 169
+        },
+        {
+          "caller": "handleBopRowDragEnd",
+          "callee": "bopNodes.find",
+          "lineNumber": 175
+        },
+        {
+          "caller": "handleBopRowDragEnd",
+          "callee": "bopNodes.find",
+          "lineNumber": 176
+        },
+        {
+          "caller": "handleBopRowDragEnd",
+          "callee": "toast.error",
+          "lineNumber": 179
+        },
+        {
+          "caller": "handleBopRowDragEnd",
+          "callee": "canAddChild",
+          "lineNumber": 182
+        },
+        {
+          "caller": "handleBopRowDragEnd",
+          "callee": "toast.error",
+          "lineNumber": 183
+        },
+        {
+          "caller": "handleBopRowDragEnd",
+          "callee": "setBusy",
+          "lineNumber": 186
+        },
+        {
+          "caller": "handleBopRowDragEnd",
+          "callee": "updateBopNode",
+          "lineNumber": 188
+        },
+        {
+          "caller": "handleBopRowDragEnd",
+          "callee": "invalidateBopQueries",
+          "lineNumber": 189
+        },
+        {
+          "caller": "handleBopRowDragEnd",
+          "callee": "toast.success",
+          "lineNumber": 190
+        },
+        {
+          "caller": "handleBopRowDragEnd",
+          "callee": "toast.error",
+          "lineNumber": 192
+        },
+        {
+          "caller": "handleBopRowDragEnd",
+          "callee": "setBusy",
+          "lineNumber": 194
+        },
+        {
+          "caller": "handleEbomSelect",
+          "callee": "setSelectedNode",
+          "lineNumber": 199
+        },
+        {
+          "caller": "handleMbomSelect",
+          "callee": "setSelectedMbomId",
+          "lineNumber": 203
+        },
+        {
+          "caller": "handleMbomSelect",
+          "callee": "setSelectedNode",
+          "lineNumber": 204
+        }
+      ],
+      "metrics": {
+        "importCount": 17,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/app/admin/dictionaries/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 78,
+      "nonEmptyLines": 71,
+      "functions": [
+        {
+          "name": "AdminDictionariesPage",
+          "startLine": 23,
+          "endLine": 78,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "AdminDictionariesPage",
+          "line": 23,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "AdminDictionariesPage",
+          "callee": "useDictionaries",
+          "lineNumber": 24
+        },
+        {
+          "caller": "AdminDictionariesPage",
+          "callee": "useState",
+          "lineNumber": 25
+        },
+        {
+          "caller": "AdminDictionariesPage",
+          "callee": "useMemo",
+          "lineNumber": 27
+        },
+        {
+          "caller": "AdminDictionariesPage",
+          "callee": "dictionaries.filter",
+          "lineNumber": 29
+        },
+        {
+          "caller": "AdminDictionariesPage",
+          "callee": "setTab",
+          "lineNumber": 41
+        },
+        {
+          "caller": "AdminDictionariesPage",
+          "callee": "filtered.map",
+          "lineNumber": 62
+        }
+      ],
+      "metrics": {
+        "importCount": 4,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/components/bom-tree/bom-drag-store.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 29,
+      "nonEmptyLines": 24,
+      "functions": [
+        {
+          "name": "setPendingBomDrag",
+          "startLine": 6,
+          "endLine": 8,
+          "params": [
+            "nodeId"
+          ]
+        },
+        {
+          "name": "getPendingBomDrag",
+          "startLine": 10,
+          "endLine": 12,
+          "params": []
+        },
+        {
+          "name": "readBomNodeIdFromDataTransfer",
+          "startLine": 14,
+          "endLine": 22,
+          "params": [
+            "dt"
+          ]
+        },
+        {
+          "name": "writeBomNodeIdToDataTransfer",
+          "startLine": 24,
+          "endLine": 29,
+          "params": [
+            "dt",
+            "nodeId"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "BOM_NODE_DRAG_MIME",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "setPendingBomDrag",
+          "line": 6,
+          "isDefault": false
+        },
+        {
+          "name": "getPendingBomDrag",
+          "line": 10,
+          "isDefault": false
+        },
+        {
+          "name": "readBomNodeIdFromDataTransfer",
+          "line": 14,
+          "isDefault": false
+        },
+        {
+          "name": "writeBomNodeIdToDataTransfer",
+          "line": 24,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "readBomNodeIdFromDataTransfer",
+          "callee": "dt.getData",
+          "lineNumber": 16
+        },
+        {
+          "caller": "readBomNodeIdFromDataTransfer",
+          "callee": "dt.getData",
+          "lineNumber": 17
+        },
+        {
+          "caller": "readBomNodeIdFromDataTransfer",
+          "callee": "dt.getData",
+          "lineNumber": 18
+        },
+        {
+          "caller": "readBomNodeIdFromDataTransfer",
+          "callee": "getPendingBomDrag",
+          "lineNumber": 19
+        },
+        {
+          "caller": "writeBomNodeIdToDataTransfer",
+          "callee": "dt.setData",
+          "lineNumber": 25
+        },
+        {
+          "caller": "writeBomNodeIdToDataTransfer",
+          "callee": "dt.setData",
+          "lineNumber": 26
+        },
+        {
+          "caller": "writeBomNodeIdToDataTransfer",
+          "callee": "setPendingBomDrag",
+          "lineNumber": 28
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 5,
+        "functionCount": 4,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/components/bom-tree/bom-tree-grid-impl.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 267,
+      "nonEmptyLines": 249,
+      "functions": [
+        {
+          "name": "makeGroupCellRenderer",
+          "startLine": 32,
+          "endLine": 60,
+          "params": [
+            "enableNativeDrag"
+          ]
+        },
+        {
+          "name": "BomTreeGridImpl",
+          "startLine": 62,
+          "endLine": 267,
+          "params": [
+            "{\n  nodes,\n  rootId,\n  readOnly = false,\n  onNodeSelect,\n  onRowDragEnd,\n  dragSource = false,\n  dropTarget = false,\n  onExternalDrop,\n  multiSelect = false,\n  onSelectionChanged,\n  onCellValueChanged,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "BomTreeGridImpl",
+          "line": 62,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "makeGroupCellRenderer",
+          "callee": "e.stopPropagation",
+          "lineNumber": 47
+        },
+        {
+          "caller": "makeGroupCellRenderer",
+          "callee": "writeBomNodeIdToDataTransfer",
+          "lineNumber": 49
+        },
+        {
+          "caller": "makeGroupCellRenderer",
+          "callee": "setPendingBomDrag",
+          "lineNumber": 51
+        },
+        {
+          "caller": "makeGroupCellRenderer",
+          "callee": "setPendingBomDrag",
+          "lineNumber": 54
+        },
+        {
+          "caller": "BomTreeGridImpl",
+          "callee": "useRef",
+          "lineNumber": 75
+        },
+        {
+          "caller": "BomTreeGridImpl",
+          "callee": "useState",
+          "lineNumber": 76
+        },
+        {
+          "caller": "BomTreeGridImpl",
+          "callee": "useMemo",
+          "lineNumber": 78
+        },
+        {
+          "caller": "BomTreeGridImpl",
+          "callee": "buildTreeRows",
+          "lineNumber": 78
+        },
+        {
+          "caller": "BomTreeGridImpl",
+          "callee": "useMemo",
+          "lineNumber": 80
+        },
+        {
+          "caller": "BomTreeGridImpl",
+          "callee": "String",
+          "lineNumber": 129
+        },
+        {
+          "caller": "BomTreeGridImpl",
+          "callee": "useMemo",
+          "lineNumber": 135
+        },
+        {
+          "caller": "BomTreeGridImpl",
+          "callee": "makeGroupCellRenderer",
+          "lineNumber": 144
+        },
+        {
+          "caller": "BomTreeGridImpl",
+          "callee": "useMemo",
+          "lineNumber": 150
+        },
+        {
+          "caller": "BomTreeGridImpl",
+          "callee": "useCallback",
+          "lineNumber": 159
+        },
+        {
+          "caller": "BomTreeGridImpl",
+          "callee": "event.api.sizeColumnsToFit",
+          "lineNumber": 160
+        },
+        {
+          "caller": "BomTreeGridImpl",
+          "callee": "useCallback",
+          "lineNumber": 163
+        },
+        {
+          "caller": "BomTreeGridImpl",
+          "callee": "onNodeSelect",
+          "lineNumber": 165
+        },
+        {
+          "caller": "BomTreeGridImpl",
+          "callee": "useCallback",
+          "lineNumber": 170
+        },
+        {
+          "caller": "BomTreeGridImpl",
+          "callee": "onSelectionChanged",
+          "lineNumber": 173
+        },
+        {
+          "caller": "BomTreeGridImpl",
+          "callee": "event.api.getSelectedRows",
+          "lineNumber": 173
+        },
+        {
+          "caller": "BomTreeGridImpl",
+          "callee": "useCallback",
+          "lineNumber": 178
+        },
+        {
+          "caller": "BomTreeGridImpl",
+          "callee": "onCellValueChanged",
+          "lineNumber": 181
+        },
+        {
+          "caller": "BomTreeGridImpl",
+          "callee": "useCallback",
+          "lineNumber": 186
+        },
+        {
+          "caller": "BomTreeGridImpl",
+          "callee": "onRowDragEnd",
+          "lineNumber": 192
+        },
+        {
+          "caller": "BomTreeGridImpl",
+          "callee": "useCallback",
+          "lineNumber": 198
+        },
+        {
+          "caller": "BomTreeGridImpl",
+          "callee": "e.preventDefault",
+          "lineNumber": 201
+        },
+        {
+          "caller": "BomTreeGridImpl",
+          "callee": "setDropTargetId",
+          "lineNumber": 203
+        },
+        {
+          "caller": "BomTreeGridImpl",
+          "callee": "findRowIdFromDragEvent",
+          "lineNumber": 203
+        },
+        {
+          "caller": "BomTreeGridImpl",
+          "callee": "useCallback",
+          "lineNumber": 208
+        },
+        {
+          "caller": "BomTreeGridImpl",
+          "callee": "setDropTargetId",
+          "lineNumber": 209
+        },
+        {
+          "caller": "BomTreeGridImpl",
+          "callee": "useCallback",
+          "lineNumber": 212
+        },
+        {
+          "caller": "BomTreeGridImpl",
+          "callee": "e.preventDefault",
+          "lineNumber": 215
+        },
+        {
+          "caller": "BomTreeGridImpl",
+          "callee": "readBomNodeIdFromDataTransfer",
+          "lineNumber": 216
+        },
+        {
+          "caller": "BomTreeGridImpl",
+          "callee": "findRowIdFromDragEvent",
+          "lineNumber": 218
+        },
+        {
+          "caller": "BomTreeGridImpl",
+          "callee": "onExternalDrop",
+          "lineNumber": 219
+        },
+        {
+          "caller": "BomTreeGridImpl",
+          "callee": "setPendingBomDrag",
+          "lineNumber": 220
+        },
+        {
+          "caller": "BomTreeGridImpl",
+          "callee": "setDropTargetId",
+          "lineNumber": 221
+        }
+      ],
+      "metrics": {
+        "importCount": 5,
+        "exportCount": 1,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/components/bom-tree/bom-tree-utils.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 67,
+      "nonEmptyLines": 58,
+      "functions": [
+        {
+          "name": "buildTreeRows",
+          "startLine": 21,
+          "endLine": 45,
+          "params": [
+            "nodes",
+            "rootId"
+          ]
+        },
+        {
+          "name": "buildPath",
+          "startLine": 47,
+          "endLine": 56,
+          "params": [
+            "nodeId",
+            "nodeMap",
+            "rootId"
+          ]
+        },
+        {
+          "name": "findRowIdFromDragEvent",
+          "startLine": 58,
+          "endLine": 67,
+          "params": [
+            "e"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "KIND_LABELS",
+          "line": 7,
+          "isDefault": false
+        },
+        {
+          "name": "MAKE_TYPE_LABELS",
+          "line": 15,
+          "isDefault": false
+        },
+        {
+          "name": "buildTreeRows",
+          "line": 21,
+          "isDefault": false
+        },
+        {
+          "name": "findRowIdFromDragEvent",
+          "line": 58,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "buildTreeRows",
+          "callee": "nodes.map",
+          "lineNumber": 24
+        },
+        {
+          "caller": "buildTreeRows",
+          "callee": "nodeMap.get",
+          "lineNumber": 25
+        },
+        {
+          "caller": "buildTreeRows",
+          "callee": "childrenByParent.get",
+          "lineNumber": 31
+        },
+        {
+          "caller": "buildTreeRows",
+          "callee": "siblings.push",
+          "lineNumber": 32
+        },
+        {
+          "caller": "buildTreeRows",
+          "callee": "childrenByParent.set",
+          "lineNumber": 33
+        },
+        {
+          "caller": "buildTreeRows",
+          "callee": "queue.shift",
+          "lineNumber": 40
+        },
+        {
+          "caller": "buildTreeRows",
+          "callee": "result.push",
+          "lineNumber": 41
+        },
+        {
+          "caller": "buildTreeRows",
+          "callee": "buildPath",
+          "lineNumber": 41
+        },
+        {
+          "caller": "buildTreeRows",
+          "callee": "queue.push",
+          "lineNumber": 42
+        },
+        {
+          "caller": "buildTreeRows",
+          "callee": "childrenByParent.get",
+          "lineNumber": 42
+        },
+        {
+          "caller": "buildPath",
+          "callee": "nodeMap.get",
+          "lineNumber": 49
+        },
+        {
+          "caller": "buildPath",
+          "callee": "path.unshift",
+          "lineNumber": 51
+        },
+        {
+          "caller": "buildPath",
+          "callee": "nodeMap.get",
+          "lineNumber": 53
+        },
+        {
+          "caller": "findRowIdFromDragEvent",
+          "callee": "el.getAttribute",
+          "lineNumber": 61
+        },
+        {
+          "caller": "findRowIdFromDragEvent",
+          "callee": "el.getAttribute",
+          "lineNumber": 62
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 4,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/components/bop/bop-property-panel.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 94,
+      "nonEmptyLines": 88,
+      "functions": [
+        {
+          "name": "Field",
+          "startLine": 16,
+          "endLine": 23,
+          "params": [
+            "{ label, value }"
+          ]
+        },
+        {
+          "name": "BopPropertyPanel",
+          "startLine": 30,
+          "endLine": 94,
+          "params": [
+            "{ node, onReleased }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "BopPropertyPanel",
+          "line": 30,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "handleRelease",
+          "callee": "toast.info",
+          "lineNumber": 43
+        },
+        {
+          "caller": "handleRelease",
+          "callee": "releaseBopNode",
+          "lineNumber": 47
+        },
+        {
+          "caller": "handleRelease",
+          "callee": "onReleased",
+          "lineNumber": 48
+        },
+        {
+          "caller": "handleRelease",
+          "callee": "toast.success",
+          "lineNumber": 49
+        },
+        {
+          "caller": "handleRelease",
+          "callee": "toast.error",
+          "lineNumber": 51
+        },
+        {
+          "caller": "BopPropertyPanel",
+          "callee": "node.linkedMbomNodeIds.join",
+          "lineNumber": 73
+        },
+        {
+          "caller": "BopPropertyPanel",
+          "callee": "node.linkedEbomNodeIds.join",
+          "lineNumber": 81
+        }
+      ],
+      "metrics": {
+        "importCount": 5,
+        "exportCount": 1,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/components/bop/bop-tree-grid-impl.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 163,
+      "nonEmptyLines": 150,
+      "functions": [
+        {
+          "name": "GroupCellRenderer",
+          "startLine": 23,
+          "endLine": 30,
+          "params": [
+            "{ data }"
+          ]
+        },
+        {
+          "name": "BopTreeGridImpl",
+          "startLine": 32,
+          "endLine": 163,
+          "params": [
+            "{\n  nodes,\n  rootId,\n  readOnly = false,\n  onNodeSelect,\n  onRowDragEnd,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "BopTreeGridImpl",
+          "line": 32,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "BopTreeGridImpl",
+          "callee": "useRef",
+          "lineNumber": 39
+        },
+        {
+          "caller": "BopTreeGridImpl",
+          "callee": "useMemo",
+          "lineNumber": 41
+        },
+        {
+          "caller": "BopTreeGridImpl",
+          "callee": "buildBopTreeRows",
+          "lineNumber": 41
+        },
+        {
+          "caller": "BopTreeGridImpl",
+          "callee": "useMemo",
+          "lineNumber": 43
+        },
+        {
+          "caller": "BopTreeGridImpl",
+          "callee": "useMemo",
+          "lineNumber": 85
+        },
+        {
+          "caller": "BopTreeGridImpl",
+          "callee": "useMemo",
+          "lineNumber": 99
+        },
+        {
+          "caller": "BopTreeGridImpl",
+          "callee": "useCallback",
+          "lineNumber": 108
+        },
+        {
+          "caller": "BopTreeGridImpl",
+          "callee": "event.api.sizeColumnsToFit",
+          "lineNumber": 109
+        },
+        {
+          "caller": "BopTreeGridImpl",
+          "callee": "useCallback",
+          "lineNumber": 112
+        },
+        {
+          "caller": "BopTreeGridImpl",
+          "callee": "onNodeSelect",
+          "lineNumber": 114
+        },
+        {
+          "caller": "BopTreeGridImpl",
+          "callee": "useCallback",
+          "lineNumber": 119
+        },
+        {
+          "caller": "BopTreeGridImpl",
+          "callee": "onRowDragEnd",
+          "lineNumber": 128
+        }
+      ],
+      "metrics": {
+        "importCount": 4,
+        "exportCount": 1,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/components/bop/bop-tree-grid.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 27,
+      "nonEmptyLines": 23,
+      "functions": [
+        {
+          "name": "BopTreeGrid",
+          "startLine": 25,
+          "endLine": 27,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "BopTreeGrid",
+          "line": 25,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/components/bop/bop-tree-utils.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 60,
+      "nonEmptyLines": 51,
+      "functions": [
+        {
+          "name": "buildBopTreeRows",
+          "startLine": 19,
+          "endLine": 43,
+          "params": [
+            "nodes",
+            "rootId"
+          ]
+        },
+        {
+          "name": "buildPath",
+          "startLine": 45,
+          "endLine": 54,
+          "params": [
+            "nodeId",
+            "nodeMap",
+            "rootId"
+          ]
+        },
+        {
+          "name": "parseBopMode",
+          "startLine": 56,
+          "endLine": 60,
+          "params": [
+            "collaborators"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "LEVEL_LABELS",
+          "line": 7,
+          "isDefault": false
+        },
+        {
+          "name": "LIFECYCLE_LABELS",
+          "line": 13,
+          "isDefault": false
+        },
+        {
+          "name": "buildBopTreeRows",
+          "line": 19,
+          "isDefault": false
+        },
+        {
+          "name": "parseBopMode",
+          "line": 56,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "buildBopTreeRows",
+          "callee": "nodes.map",
+          "lineNumber": 22
+        },
+        {
+          "caller": "buildBopTreeRows",
+          "callee": "nodeMap.get",
+          "lineNumber": 23
+        },
+        {
+          "caller": "buildBopTreeRows",
+          "callee": "childrenByParent.get",
+          "lineNumber": 29
+        },
+        {
+          "caller": "buildBopTreeRows",
+          "callee": "siblings.push",
+          "lineNumber": 30
+        },
+        {
+          "caller": "buildBopTreeRows",
+          "callee": "childrenByParent.set",
+          "lineNumber": 31
+        },
+        {
+          "caller": "buildBopTreeRows",
+          "callee": "queue.shift",
+          "lineNumber": 38
+        },
+        {
+          "caller": "buildBopTreeRows",
+          "callee": "result.push",
+          "lineNumber": 39
+        },
+        {
+          "caller": "buildBopTreeRows",
+          "callee": "buildPath",
+          "lineNumber": 39
+        },
+        {
+          "caller": "buildBopTreeRows",
+          "callee": "queue.push",
+          "lineNumber": 40
+        },
+        {
+          "caller": "buildBopTreeRows",
+          "callee": "childrenByParent.get",
+          "lineNumber": 40
+        },
+        {
+          "caller": "buildPath",
+          "callee": "nodeMap.get",
+          "lineNumber": 47
+        },
+        {
+          "caller": "buildPath",
+          "callee": "path.unshift",
+          "lineNumber": 49
+        },
+        {
+          "caller": "buildPath",
+          "callee": "nodeMap.get",
+          "lineNumber": 51
+        },
+        {
+          "caller": "parseBopMode",
+          "callee": "collaborators.find",
+          "lineNumber": 57
+        },
+        {
+          "caller": "parseBopMode",
+          "callee": "c.startsWith",
+          "lineNumber": 57
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 4,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/components/bop/pert-dag-editor.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 161,
+      "nonEmptyLines": 150,
+      "functions": [
+        {
+          "name": "pertDagToFlow",
+          "startLine": 31,
+          "endLine": 43,
+          "params": [
+            "pertDag"
+          ]
+        },
+        {
+          "name": "flowToPertDag",
+          "startLine": 45,
+          "endLine": 57,
+          "params": [
+            "nodes",
+            "edges"
+          ]
+        },
+        {
+          "name": "PertDagEditor",
+          "startLine": 59,
+          "endLine": 161,
+          "params": [
+            "{\n  bopNodeId,\n  pertDag,\n  readOnly = false,\n  onSave,\n  onSyncFromChildren,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "PertDagEditor",
+          "line": 59,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "pertDagToFlow",
+          "callee": "pertDag.nodes.map",
+          "lineNumber": 32
+        },
+        {
+          "caller": "pertDagToFlow",
+          "callee": "Math.floor",
+          "lineNumber": 35
+        },
+        {
+          "caller": "pertDagToFlow",
+          "callee": "pertDag.edges.map",
+          "lineNumber": 37
+        },
+        {
+          "caller": "flowToPertDag",
+          "callee": "nodes.map",
+          "lineNumber": 47
+        },
+        {
+          "caller": "flowToPertDag",
+          "callee": "String",
+          "lineNumber": 49
+        },
+        {
+          "caller": "flowToPertDag",
+          "callee": "edges.map",
+          "lineNumber": 51
+        },
+        {
+          "caller": "PertDagEditor",
+          "callee": "useMemo",
+          "lineNumber": 66
+        },
+        {
+          "caller": "PertDagEditor",
+          "callee": "pertDagToFlow",
+          "lineNumber": 66
+        },
+        {
+          "caller": "PertDagEditor",
+          "callee": "useNodesState",
+          "lineNumber": 67
+        },
+        {
+          "caller": "PertDagEditor",
+          "callee": "useEdgesState",
+          "lineNumber": 68
+        },
+        {
+          "caller": "PertDagEditor",
+          "callee": "useState",
+          "lineNumber": 69
+        },
+        {
+          "caller": "PertDagEditor",
+          "callee": "useState",
+          "lineNumber": 70
+        },
+        {
+          "caller": "PertDagEditor",
+          "callee": "useEffect",
+          "lineNumber": 72
+        },
+        {
+          "caller": "PertDagEditor",
+          "callee": "pertDagToFlow",
+          "lineNumber": 73
+        },
+        {
+          "caller": "PertDagEditor",
+          "callee": "setNodes",
+          "lineNumber": 74
+        },
+        {
+          "caller": "PertDagEditor",
+          "callee": "setEdges",
+          "lineNumber": 75
+        },
+        {
+          "caller": "PertDagEditor",
+          "callee": "useCallback",
+          "lineNumber": 78
+        },
+        {
+          "caller": "PertDagEditor",
+          "callee": "setEdges",
+          "lineNumber": 81
+        },
+        {
+          "caller": "PertDagEditor",
+          "callee": "addEdge",
+          "lineNumber": 82
+        },
+        {
+          "caller": "PertDagEditor",
+          "callee": "uuidv4",
+          "lineNumber": 85
+        },
+        {
+          "caller": "handleSave",
+          "callee": "flowToPertDag",
+          "lineNumber": 95
+        },
+        {
+          "caller": "handleSave",
+          "callee": "validateDagAcyclic",
+          "lineNumber": 96
+        },
+        {
+          "caller": "handleSave",
+          "callee": "toast.error",
+          "lineNumber": 98
+        },
+        {
+          "caller": "handleSave",
+          "callee": "setSaving",
+          "lineNumber": 101
+        },
+        {
+          "caller": "handleSave",
+          "callee": "onSave",
+          "lineNumber": 103
+        },
+        {
+          "caller": "handleSave",
+          "callee": "toast.success",
+          "lineNumber": 104
+        },
+        {
+          "caller": "handleSave",
+          "callee": "toast.error",
+          "lineNumber": 106
+        },
+        {
+          "caller": "handleSave",
+          "callee": "setSaving",
+          "lineNumber": 108
+        },
+        {
+          "caller": "handleSync",
+          "callee": "setSyncing",
+          "lineNumber": 114
+        },
+        {
+          "caller": "handleSync",
+          "callee": "onSyncFromChildren",
+          "lineNumber": 116
+        },
+        {
+          "caller": "handleSync",
+          "callee": "toast.success",
+          "lineNumber": 117
+        },
+        {
+          "caller": "handleSync",
+          "callee": "toast.error",
+          "lineNumber": 119
+        },
+        {
+          "caller": "handleSync",
+          "callee": "setSyncing",
+          "lineNumber": 121
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 1,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/components/planner/node-property-panel.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 81,
+      "nonEmptyLines": 74,
+      "functions": [
+        {
+          "name": "Field",
+          "startLine": 32,
+          "endLine": 39,
+          "params": [
+            "{ label, value }"
+          ]
+        },
+        {
+          "name": "NodePropertyPanel",
+          "startLine": 41,
+          "endLine": 81,
+          "params": [
+            "{ node }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "NodePropertyPanel",
+          "line": 41,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/components/planner/planner-flow-bridge.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 22,
+      "nonEmptyLines": 20,
+      "functions": [
+        {
+          "name": "PlannerFlowBridge",
+          "startLine": 5,
+          "endLine": 22,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "PlannerFlowBridge",
+          "line": 5,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/components/ui/tabs.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 91,
+      "nonEmptyLines": 83,
+      "functions": [
+        {
+          "name": "Tabs",
+          "startLine": 9,
+          "endLine": 26,
+          "params": [
+            "{\n  className,\n  orientation = \"horizontal\",\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "TabsList",
+          "startLine": 43,
+          "endLine": 57,
+          "params": [
+            "{\n  className,\n  variant = \"default\",\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "TabsTrigger",
+          "startLine": 59,
+          "endLine": 76,
+          "params": [
+            "{\n  className,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "TabsContent",
+          "startLine": 78,
+          "endLine": 89,
+          "params": [
+            "{\n  className,\n  ...props\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "Tabs",
+          "line": 91,
+          "isDefault": false
+        },
+        {
+          "name": "TabsList",
+          "line": 91,
+          "isDefault": false
+        },
+        {
+          "name": "TabsTrigger",
+          "line": 91,
+          "isDefault": false
+        },
+        {
+          "name": "TabsContent",
+          "line": 91,
+          "isDefault": false
+        },
+        {
+          "name": "tabsListVariants",
+          "line": 91,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Tabs",
+          "callee": "cn",
+          "lineNumber": 19
+        },
+        {
+          "caller": "TabsList",
+          "callee": "cn",
+          "lineNumber": 53
+        },
+        {
+          "caller": "TabsList",
+          "callee": "tabsListVariants",
+          "lineNumber": 53
+        },
+        {
+          "caller": "TabsTrigger",
+          "callee": "cn",
+          "lineNumber": 66
+        },
+        {
+          "caller": "TabsContent",
+          "callee": "cn",
+          "lineNumber": 85
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 5,
+        "functionCount": 4,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/components/viewer3d/jt-download-panel.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 273,
+      "nonEmptyLines": 253,
+      "functions": [
+        {
+          "name": "getSubtree",
+          "startLine": 30,
+          "endLine": 51,
+          "params": [
+            "nodes",
+            "rootId"
+          ]
+        },
+        {
+          "name": "toJtEntry",
+          "startLine": 53,
+          "endLine": 61,
+          "params": [
+            "node"
+          ]
+        },
+        {
+          "name": "collectBomEntries",
+          "startLine": 63,
+          "endLine": 71,
+          "params": [
+            "bomNode",
+            "ebomNodes",
+            "mbomNodes"
+          ]
+        },
+        {
+          "name": "collectOperationEntries",
+          "startLine": 73,
+          "endLine": 100,
+          "params": [
+            "operation",
+            "mbomNodes"
+          ]
+        },
+        {
+          "name": "JtDownloadPanel",
+          "startLine": 122,
+          "endLine": 273,
+          "params": [
+            "{\n  mode,\n  bomNode,\n  operation,\n  ebomNodes = [],\n  mbomNodes,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "JtDownloadPanel",
+          "line": 122,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "getSubtree",
+          "callee": "childrenByParent.get",
+          "lineNumber": 34
+        },
+        {
+          "caller": "getSubtree",
+          "callee": "siblings.push",
+          "lineNumber": 35
+        },
+        {
+          "caller": "getSubtree",
+          "callee": "childrenByParent.set",
+          "lineNumber": 36
+        },
+        {
+          "caller": "getSubtree",
+          "callee": "nodes.find",
+          "lineNumber": 40
+        },
+        {
+          "caller": "getSubtree",
+          "callee": "queue.shift",
+          "lineNumber": 46
+        },
+        {
+          "caller": "getSubtree",
+          "callee": "result.push",
+          "lineNumber": 47
+        },
+        {
+          "caller": "getSubtree",
+          "callee": "queue.push",
+          "lineNumber": 48
+        },
+        {
+          "caller": "getSubtree",
+          "callee": "childrenByParent.get",
+          "lineNumber": 48
+        },
+        {
+          "caller": "collectBomEntries",
+          "callee": "getSubtree",
+          "lineNumber": 69
+        },
+        {
+          "caller": "collectBomEntries",
+          "callee": "subtree.map",
+          "lineNumber": 70
+        },
+        {
+          "caller": "collectOperationEntries",
+          "callee": "mbomNodes.map",
+          "lineNumber": 77
+        },
+        {
+          "caller": "collectOperationEntries",
+          "callee": "seen.has",
+          "lineNumber": 83
+        },
+        {
+          "caller": "collectOperationEntries",
+          "callee": "seen.add",
+          "lineNumber": 84
+        },
+        {
+          "caller": "collectOperationEntries",
+          "callee": "mbomById.get",
+          "lineNumber": 85
+        },
+        {
+          "caller": "collectOperationEntries",
+          "callee": "entries.push",
+          "lineNumber": 87
+        },
+        {
+          "caller": "collectOperationEntries",
+          "callee": "entries.push",
+          "lineNumber": 96
+        },
+        {
+          "caller": "collectOperationEntries",
+          "callee": "toJtEntry",
+          "lineNumber": 96
+        },
+        {
+          "caller": "JtDownloadPanel",
+          "callee": "useJtDownloadStore",
+          "lineNumber": 129
+        },
+        {
+          "caller": "JtDownloadPanel",
+          "callee": "useJtDownloadStore",
+          "lineNumber": 130
+        },
+        {
+          "caller": "JtDownloadPanel",
+          "callee": "useState",
+          "lineNumber": 131
+        },
+        {
+          "caller": "JtDownloadPanel",
+          "callee": "useMemo",
+          "lineNumber": 133
+        },
+        {
+          "caller": "JtDownloadPanel",
+          "callee": "collectBomEntries",
+          "lineNumber": 135
+        },
+        {
+          "caller": "JtDownloadPanel",
+          "callee": "collectOperationEntries",
+          "lineNumber": 138
+        },
+        {
+          "caller": "handleDownload",
+          "callee": "setDownloadingId",
+          "lineNumber": 144
+        },
+        {
+          "caller": "handleDownload",
+          "callee": "requestJtDownload",
+          "lineNumber": 146
+        },
+        {
+          "caller": "handleDownload",
+          "callee": "toast.success",
+          "lineNumber": 152
+        },
+        {
+          "caller": "handleDownload",
+          "callee": "toast.error",
+          "lineNumber": 154
+        },
+        {
+          "caller": "handleDownload",
+          "callee": "toast.error",
+          "lineNumber": 157
+        },
+        {
+          "caller": "handleDownload",
+          "callee": "setDownloadingId",
+          "lineNumber": 159
+        },
+        {
+          "caller": "JtDownloadPanel",
+          "callee": "entries.map",
+          "lineNumber": 200
+        },
+        {
+          "caller": "JtDownloadPanel",
+          "callee": "handleDownload",
+          "lineNumber": 212
+        },
+        {
+          "caller": "JtDownloadPanel",
+          "callee": "tasks.map",
+          "lineNumber": 248
+        },
+        {
+          "caller": "JtDownloadPanel",
+          "callee": "new Date(task.at).toLocaleTimeString",
+          "lineNumber": 262
+        }
+      ],
+      "metrics": {
+        "importCount": 6,
+        "exportCount": 1,
+        "functionCount": 5,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/hooks/use-bop.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 18,
+      "nonEmptyLines": 16,
+      "functions": [
+        {
+          "name": "useBopNodes",
+          "startLine": 5,
+          "endLine": 11,
+          "params": [
+            "rootId"
+          ]
+        },
+        {
+          "name": "useEnvelopes",
+          "startLine": 13,
+          "endLine": 18,
+          "params": [
+            "direction"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "useBopNodes",
+          "line": 5,
+          "isDefault": false
+        },
+        {
+          "name": "useEnvelopes",
+          "line": 13,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "useBopNodes",
+          "callee": "useQuery",
+          "lineNumber": 6
+        },
+        {
+          "caller": "useBopNodes",
+          "callee": "getBopSubtree",
+          "lineNumber": 8
+        },
+        {
+          "caller": "useBopNodes",
+          "callee": "Promise.resolve",
+          "lineNumber": 8
+        },
+        {
+          "caller": "useEnvelopes",
+          "callee": "useQuery",
+          "lineNumber": 14
+        },
+        {
+          "caller": "useEnvelopes",
+          "callee": "getByDirection",
+          "lineNumber": 16
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 2,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/hooks/use-dictionaries.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 20,
+      "nonEmptyLines": 18,
+      "functions": [
+        {
+          "name": "useDictionaries",
+          "startLine": 8,
+          "endLine": 13,
+          "params": []
+        },
+        {
+          "name": "useDictionariesByCategory",
+          "startLine": 15,
+          "endLine": 20,
+          "params": [
+            "category"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "useDictionaries",
+          "line": 8,
+          "isDefault": false
+        },
+        {
+          "name": "useDictionariesByCategory",
+          "line": 15,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "useDictionaries",
+          "callee": "useQuery",
+          "lineNumber": 9
+        },
+        {
+          "caller": "useDictionaries",
+          "callee": "dictionaryRepository.getAll",
+          "lineNumber": 11
+        },
+        {
+          "caller": "useDictionariesByCategory",
+          "callee": "useQuery",
+          "lineNumber": 16
+        },
+        {
+          "caller": "useDictionariesByCategory",
+          "callee": "getByCategory",
+          "lineNumber": 18
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 2,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/ag-grid/setup.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 11,
+      "nonEmptyLines": 8,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/db/repositories/envelope-repository.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 29,
+      "nonEmptyLines": 27,
+      "functions": [
+        {
+          "name": "getByDirection",
+          "startLine": 27,
+          "endLine": 29,
+          "params": [
+            "direction"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "envelopeRepository",
+          "line": 5,
+          "isDefault": false
+        },
+        {
+          "name": "getByDirection",
+          "line": 27,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "getAll",
+          "callee": "db.envelopes.toArray",
+          "lineNumber": 7
+        },
+        {
+          "caller": "getById",
+          "callee": "db.envelopes.get",
+          "lineNumber": 10
+        },
+        {
+          "caller": "create",
+          "callee": "db.envelopes.add",
+          "lineNumber": 13
+        },
+        {
+          "caller": "update",
+          "callee": "db.envelopes.update",
+          "lineNumber": 17
+        },
+        {
+          "caller": "update",
+          "callee": "db.envelopes.get",
+          "lineNumber": 18
+        },
+        {
+          "caller": "delete",
+          "callee": "db.envelopes.delete",
+          "lineNumber": 23
+        },
+        {
+          "caller": "getByDirection",
+          "callee": "db.envelopes.where('direction').equals(direction).toArray",
+          "lineNumber": 28
+        },
+        {
+          "caller": "getByDirection",
+          "callee": "db.envelopes.where('direction').equals",
+          "lineNumber": 28
+        },
+        {
+          "caller": "getByDirection",
+          "callee": "db.envelopes.where",
+          "lineNumber": 28
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/domain/rules/bop-hierarchy.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 21,
+      "nonEmptyLines": 18,
+      "functions": [
+        {
+          "name": "canAddChild",
+          "startLine": 3,
+          "endLine": 21,
+          "params": [
+            "parentLevel",
+            "childLevel",
+            "mode"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "canAddChild",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/domain/rules/dag-validation.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 45,
+      "nonEmptyLines": 38,
+      "functions": [
+        {
+          "name": "hasCycle",
+          "startLine": 3,
+          "endLine": 38,
+          "params": [
+            "nodes",
+            "edges"
+          ]
+        },
+        {
+          "name": "validateDagAcyclic",
+          "startLine": 40,
+          "endLine": 45,
+          "params": [
+            "pertDag"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "hasCycle",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "validateDagAcyclic",
+          "line": 40,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "hasCycle",
+          "callee": "nodes.map",
+          "lineNumber": 7
+        },
+        {
+          "caller": "hasCycle",
+          "callee": "adjacency.set",
+          "lineNumber": 11
+        },
+        {
+          "caller": "hasCycle",
+          "callee": "nodeIds.has",
+          "lineNumber": 14
+        },
+        {
+          "caller": "hasCycle",
+          "callee": "nodeIds.has",
+          "lineNumber": 14
+        },
+        {
+          "caller": "hasCycle",
+          "callee": "adjacency.get(edge.source)!.push",
+          "lineNumber": 15
+        },
+        {
+          "caller": "hasCycle",
+          "callee": "adjacency.get",
+          "lineNumber": 15
+        },
+        {
+          "caller": "dfs",
+          "callee": "visiting.has",
+          "lineNumber": 22
+        },
+        {
+          "caller": "dfs",
+          "callee": "visited.has",
+          "lineNumber": 23
+        },
+        {
+          "caller": "dfs",
+          "callee": "visiting.add",
+          "lineNumber": 25
+        },
+        {
+          "caller": "dfs",
+          "callee": "adjacency.get",
+          "lineNumber": 26
+        },
+        {
+          "caller": "dfs",
+          "callee": "dfs",
+          "lineNumber": 27
+        },
+        {
+          "caller": "dfs",
+          "callee": "visiting.delete",
+          "lineNumber": 29
+        },
+        {
+          "caller": "dfs",
+          "callee": "visited.add",
+          "lineNumber": 30
+        },
+        {
+          "caller": "hasCycle",
+          "callee": "dfs",
+          "lineNumber": 35
+        },
+        {
+          "caller": "validateDagAcyclic",
+          "callee": "hasCycle",
+          "lineNumber": 41
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 2,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/domain/services/bop-service.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 251,
+      "nonEmptyLines": 218,
+      "functions": [
+        {
+          "name": "emptyPertDag",
+          "startLine": 17,
+          "endLine": 19,
+          "params": []
+        },
+        {
+          "name": "parseBopMode",
+          "startLine": 21,
+          "endLine": 25,
+          "params": [
+            "collaborators"
+          ]
+        },
+        {
+          "name": "getRootNode",
+          "startLine": 27,
+          "endLine": 37,
+          "params": [
+            "nodeId"
+          ]
+        },
+        {
+          "name": "getBopModeForNode",
+          "startLine": 39,
+          "endLine": 42,
+          "params": [
+            "nodeId"
+          ]
+        },
+        {
+          "name": "defaultNameForLevel",
+          "startLine": 44,
+          "endLine": 53,
+          "params": [
+            "level"
+          ]
+        },
+        {
+          "name": "initializeBopRoot",
+          "startLine": 55,
+          "endLine": 83,
+          "params": [
+            "collaborationId",
+            "mode"
+          ]
+        },
+        {
+          "name": "createBopChild",
+          "startLine": 85,
+          "endLine": 124,
+          "params": [
+            "parentId",
+            "level",
+            "name"
+          ]
+        },
+        {
+          "name": "updateBopNode",
+          "startLine": 126,
+          "endLine": 139,
+          "params": [
+            "id",
+            "partial"
+          ]
+        },
+        {
+          "name": "deleteBopNode",
+          "startLine": 141,
+          "endLine": 156,
+          "params": [
+            "id"
+          ]
+        },
+        {
+          "name": "updatePertDag",
+          "startLine": 158,
+          "endLine": 176,
+          "params": [
+            "bopNodeId",
+            "pertDag"
+          ]
+        },
+        {
+          "name": "syncPertDagFromChildren",
+          "startLine": 178,
+          "endLine": 197,
+          "params": [
+            "bopNodeId"
+          ]
+        },
+        {
+          "name": "releaseBopNode",
+          "startLine": 199,
+          "endLine": 206,
+          "params": [
+            "id"
+          ]
+        },
+        {
+          "name": "sendEnvelope",
+          "startLine": 215,
+          "endLine": 247,
+          "params": [
+            "input"
+          ]
+        },
+        {
+          "name": "getBopTree",
+          "startLine": 249,
+          "endLine": 251,
+          "params": [
+            "rootId"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "initializeBopRoot",
+          "line": 55,
+          "isDefault": false
+        },
+        {
+          "name": "createBopChild",
+          "line": 85,
+          "isDefault": false
+        },
+        {
+          "name": "updateBopNode",
+          "line": 126,
+          "isDefault": false
+        },
+        {
+          "name": "deleteBopNode",
+          "line": 141,
+          "isDefault": false
+        },
+        {
+          "name": "updatePertDag",
+          "line": 158,
+          "isDefault": false
+        },
+        {
+          "name": "syncPertDagFromChildren",
+          "line": 178,
+          "isDefault": false
+        },
+        {
+          "name": "releaseBopNode",
+          "line": 199,
+          "isDefault": false
+        },
+        {
+          "name": "sendEnvelope",
+          "line": 215,
+          "isDefault": false
+        },
+        {
+          "name": "getBopTree",
+          "line": 249,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "parseBopMode",
+          "callee": "collaborators.find",
+          "lineNumber": 22
+        },
+        {
+          "caller": "parseBopMode",
+          "callee": "c.startsWith",
+          "lineNumber": 22
+        },
+        {
+          "caller": "getRootNode",
+          "callee": "bopRepository.getById",
+          "lineNumber": 28
+        },
+        {
+          "caller": "getRootNode",
+          "callee": "bopRepository.getById",
+          "lineNumber": 32
+        },
+        {
+          "caller": "getBopModeForNode",
+          "callee": "getRootNode",
+          "lineNumber": 40
+        },
+        {
+          "caller": "getBopModeForNode",
+          "callee": "parseBopMode",
+          "lineNumber": 41
+        },
+        {
+          "caller": "initializeBopRoot",
+          "callee": "collaborationRepository.getById",
+          "lineNumber": 59
+        },
+        {
+          "caller": "initializeBopRoot",
+          "callee": "nextBopCode",
+          "lineNumber": 64
+        },
+        {
+          "caller": "initializeBopRoot",
+          "callee": "uuidv4",
+          "lineNumber": 66
+        },
+        {
+          "caller": "initializeBopRoot",
+          "callee": "emptyPertDag",
+          "lineNumber": 77
+        },
+        {
+          "caller": "initializeBopRoot",
+          "callee": "bopRepository.create",
+          "lineNumber": 80
+        },
+        {
+          "caller": "initializeBopRoot",
+          "callee": "collaborationRepository.update",
+          "lineNumber": 81
+        },
+        {
+          "caller": "createBopChild",
+          "callee": "bopRepository.getById",
+          "lineNumber": 90
+        },
+        {
+          "caller": "createBopChild",
+          "callee": "getBopModeForNode",
+          "lineNumber": 98
+        },
+        {
+          "caller": "createBopChild",
+          "callee": "canAddChild",
+          "lineNumber": 99
+        },
+        {
+          "caller": "createBopChild",
+          "callee": "nextOperationCode",
+          "lineNumber": 103
+        },
+        {
+          "caller": "createBopChild",
+          "callee": "nextBopCode",
+          "lineNumber": 103
+        },
+        {
+          "caller": "createBopChild",
+          "callee": "uuidv4",
+          "lineNumber": 105
+        },
+        {
+          "caller": "createBopChild",
+          "callee": "defaultNameForLevel",
+          "lineNumber": 107
+        },
+        {
+          "caller": "createBopChild",
+          "callee": "emptyPertDag",
+          "lineNumber": 116
+        },
+        {
+          "caller": "createBopChild",
+          "callee": "bopRepository.create",
+          "lineNumber": 119
+        },
+        {
+          "caller": "createBopChild",
+          "callee": "ensureOperationForBopNode",
+          "lineNumber": 121
+        },
+        {
+          "caller": "updateBopNode",
+          "callee": "bopRepository.getById",
+          "lineNumber": 130
+        },
+        {
+          "caller": "updateBopNode",
+          "callee": "bopRepository.update",
+          "lineNumber": 138
+        },
+        {
+          "caller": "deleteBopNode",
+          "callee": "bopRepository.getById",
+          "lineNumber": 142
+        },
+        {
+          "caller": "deleteBopNode",
+          "callee": "getChildren",
+          "lineNumber": 150
+        },
+        {
+          "caller": "deleteBopNode",
+          "callee": "bopRepository.delete",
+          "lineNumber": 155
+        },
+        {
+          "caller": "updatePertDag",
+          "callee": "bopRepository.getById",
+          "lineNumber": 162
+        },
+        {
+          "caller": "updatePertDag",
+          "callee": "validateDagAcyclic",
+          "lineNumber": 170
+        },
+        {
+          "caller": "updatePertDag",
+          "callee": "bopRepository.update",
+          "lineNumber": 175
+        },
+        {
+          "caller": "syncPertDagFromChildren",
+          "callee": "bopRepository.getById",
+          "lineNumber": 179
+        },
+        {
+          "caller": "syncPertDagFromChildren",
+          "callee": "getChildren",
+          "lineNumber": 187
+        },
+        {
+          "caller": "syncPertDagFromChildren",
+          "callee": "children.map",
+          "lineNumber": 188
+        },
+        {
+          "caller": "syncPertDagFromChildren",
+          "callee": "children.map",
+          "lineNumber": 189
+        },
+        {
+          "caller": "syncPertDagFromChildren",
+          "callee": "node.pertDag.edges.filter",
+          "lineNumber": 190
+        },
+        {
+          "caller": "syncPertDagFromChildren",
+          "callee": "childIds.has",
+          "lineNumber": 191
+        },
+        {
+          "caller": "syncPertDagFromChildren",
+          "callee": "childIds.has",
+          "lineNumber": 191
+        },
+        {
+          "caller": "syncPertDagFromChildren",
+          "callee": "bopRepository.update",
+          "lineNumber": 194
+        },
+        {
+          "caller": "releaseBopNode",
+          "callee": "bopRepository.getById",
+          "lineNumber": 200
+        },
+        {
+          "caller": "releaseBopNode",
+          "callee": "bopRepository.update",
+          "lineNumber": 205
+        },
+        {
+          "caller": "sendEnvelope",
+          "callee": "new Date().toISOString",
+          "lineNumber": 219
+        },
+        {
+          "caller": "sendEnvelope",
+          "callee": "uuidv4",
+          "lineNumber": 223
+        },
+        {
+          "caller": "sendEnvelope",
+          "callee": "uuidv4",
+          "lineNumber": 234
+        },
+        {
+          "caller": "sendEnvelope",
+          "callee": "envelopeRepository.create",
+          "lineNumber": 244
+        },
+        {
+          "caller": "sendEnvelope",
+          "callee": "envelopeRepository.create",
+          "lineNumber": 245
+        },
+        {
+          "caller": "getBopTree",
+          "callee": "getBopSubtree",
+          "lineNumber": 250
+        }
+      ],
+      "metrics": {
+        "importCount": 8,
+        "exportCount": 9,
+        "functionCount": 14,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/domain/services/change-summary-export.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 63,
+      "nonEmptyLines": 55,
+      "functions": [
+        {
+          "name": "exportChangeOrdersToExcel",
+          "startLine": 22,
+          "endLine": 54,
+          "params": [
+            "orders"
+          ]
+        },
+        {
+          "name": "downloadChangeOrdersExcel",
+          "startLine": 56,
+          "endLine": 63,
+          "params": [
+            "blob",
+            "filename"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "exportChangeOrdersToExcel",
+          "line": 22,
+          "isDefault": false
+        },
+        {
+          "name": "downloadChangeOrdersExcel",
+          "line": 56,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "exportChangeOrdersToExcel",
+          "callee": "workbook.addWorksheet",
+          "lineNumber": 24
+        },
+        {
+          "caller": "exportChangeOrdersToExcel",
+          "callee": "COLUMNS.map",
+          "lineNumber": 26
+        },
+        {
+          "caller": "exportChangeOrdersToExcel",
+          "callee": "sheet.getRow",
+          "lineNumber": 32
+        },
+        {
+          "caller": "exportChangeOrdersToExcel",
+          "callee": "sheet.addRow",
+          "lineNumber": 35
+        },
+        {
+          "caller": "exportChangeOrdersToExcel",
+          "callee": "new Date(order.createdAt).toLocaleString",
+          "lineNumber": 45
+        },
+        {
+          "caller": "exportChangeOrdersToExcel",
+          "callee": "workbook.xlsx.writeBuffer",
+          "lineNumber": 50
+        },
+        {
+          "caller": "downloadChangeOrdersExcel",
+          "callee": "URL.createObjectURL",
+          "lineNumber": 57
+        },
+        {
+          "caller": "downloadChangeOrdersExcel",
+          "callee": "document.createElement",
+          "lineNumber": 58
+        },
+        {
+          "caller": "downloadChangeOrdersExcel",
+          "callee": "a.click",
+          "lineNumber": 61
+        },
+        {
+          "caller": "downloadChangeOrdersExcel",
+          "callee": "URL.revokeObjectURL",
+          "lineNumber": 62
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 2,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/domain/services/jt-download-service.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 48,
+      "nonEmptyLines": 44,
+      "functions": [
+        {
+          "name": "fetchJtMetadata",
+          "startLine": 12,
+          "endLine": 20,
+          "params": [
+            "nodeId",
+            "rev"
+          ]
+        },
+        {
+          "name": "requestJtDownload",
+          "startLine": 22,
+          "endLine": 48,
+          "params": [
+            "nodeId",
+            "rev",
+            "label"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "fetchJtMetadata",
+          "line": 12,
+          "isDefault": false
+        },
+        {
+          "name": "requestJtDownload",
+          "line": 22,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "fetchJtMetadata",
+          "callee": "fetch",
+          "lineNumber": 14
+        },
+        {
+          "caller": "fetchJtMetadata",
+          "callee": "params.toString",
+          "lineNumber": 14
+        },
+        {
+          "caller": "fetchJtMetadata",
+          "callee": "res.json().catch",
+          "lineNumber": 16
+        },
+        {
+          "caller": "fetchJtMetadata",
+          "callee": "res.json",
+          "lineNumber": 16
+        },
+        {
+          "caller": "fetchJtMetadata",
+          "callee": "res.json",
+          "lineNumber": 19
+        },
+        {
+          "caller": "requestJtDownload",
+          "callee": "useJtDownloadStore.getState",
+          "lineNumber": 27
+        },
+        {
+          "caller": "requestJtDownload",
+          "callee": "uuidv4",
+          "lineNumber": 29
+        },
+        {
+          "caller": "requestJtDownload",
+          "callee": "new Date().toISOString",
+          "lineNumber": 34
+        },
+        {
+          "caller": "requestJtDownload",
+          "callee": "store.addTask",
+          "lineNumber": 36
+        },
+        {
+          "caller": "requestJtDownload",
+          "callee": "fetchJtMetadata",
+          "lineNumber": 39
+        },
+        {
+          "caller": "requestJtDownload",
+          "callee": "store.updateTask",
+          "lineNumber": 41
+        },
+        {
+          "caller": "requestJtDownload",
+          "callee": "store.updateTask",
+          "lineNumber": 45
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 2,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/domain/services/process-card-export.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 51,
+      "nonEmptyLines": 44,
+      "functions": [
+        {
+          "name": "exportOperationToExcel",
+          "startLine": 15,
+          "endLine": 51,
+          "params": [
+            "operation"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "exportOperationToExcel",
+          "line": 15,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "exportOperationToExcel",
+          "callee": "workbook.addWorksheet",
+          "lineNumber": 17
+        },
+        {
+          "caller": "exportOperationToExcel",
+          "callee": "sheet.addRow",
+          "lineNumber": 29
+        },
+        {
+          "caller": "exportOperationToExcel",
+          "callee": "sheet.addRow",
+          "lineNumber": 32
+        },
+        {
+          "caller": "exportOperationToExcel",
+          "callee": "sheet.addRow",
+          "lineNumber": 33
+        },
+        {
+          "caller": "exportOperationToExcel",
+          "callee": "sheet.addRow",
+          "lineNumber": 37
+        },
+        {
+          "caller": "exportOperationToExcel",
+          "callee": "steps.entries",
+          "lineNumber": 39
+        },
+        {
+          "caller": "exportOperationToExcel",
+          "callee": "sheet.addRow",
+          "lineNumber": 40
+        },
+        {
+          "caller": "exportOperationToExcel",
+          "callee": "workbook.xlsx.writeBuffer",
+          "lineNumber": 47
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/domain/types/index.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 11,
+      "nonEmptyLines": 11,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/stores/jt-download-store.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 32,
+      "nonEmptyLines": 28,
+      "exports": [
+        {
+          "name": "useJtDownloadStore",
+          "line": 21,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    }
+  ]
+}

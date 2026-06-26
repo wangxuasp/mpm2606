@@ -1,0 +1,1310 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/app/(workspace)/integration/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "src/app/(workspace)/integration/page.tsx",
+      "summary": "Next.js 页面组件，渲染工作台或管理模块的 UI 与交互。",
+      "tags": [
+        "entry-point",
+        "component",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/app/(workspace)/integration/page.tsx:IntegrationPage",
+      "type": "function",
+      "name": "IntegrationPage",
+      "filePath": "src/app/(workspace)/integration/page.tsx",
+      "summary": "函数 IntegrationPage，位于 page.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/app/(workspace)/settings/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "src/app/(workspace)/settings/page.tsx",
+      "summary": "Next.js 页面组件，渲染工作台或管理模块的 UI 与交互。",
+      "tags": [
+        "entry-point",
+        "component",
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/app/(workspace)/settings/page.tsx:SettingsPage",
+      "type": "function",
+      "name": "SettingsPage",
+      "filePath": "src/app/(workspace)/settings/page.tsx",
+      "summary": "函数 SettingsPage，位于 page.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/app/api/integration/erp/push/route.ts",
+      "type": "file",
+      "name": "route.ts",
+      "filePath": "src/app/api/integration/erp/push/route.ts",
+      "summary": "Next.js API 路由 route.ts，处理 HTTP 请求与集成逻辑。",
+      "tags": [
+        "api-handler",
+        "entry-point",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/app/api/integration/erp/push/route.ts:POST",
+      "type": "function",
+      "name": "POST",
+      "filePath": "src/app/api/integration/erp/push/route.ts",
+      "summary": "函数 POST，位于 route.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/app/api/integration/mes/push/route.ts",
+      "type": "file",
+      "name": "route.ts",
+      "filePath": "src/app/api/integration/mes/push/route.ts",
+      "summary": "Next.js API 路由 route.ts，处理 HTTP 请求与集成逻辑。",
+      "tags": [
+        "api-handler",
+        "entry-point",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/app/api/integration/mes/push/route.ts:POST",
+      "type": "function",
+      "name": "POST",
+      "filePath": "src/app/api/integration/mes/push/route.ts",
+      "summary": "函数 POST，位于 route.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/app/api/integration/teamcenter/ebom/route.ts",
+      "type": "file",
+      "name": "route.ts",
+      "filePath": "src/app/api/integration/teamcenter/ebom/route.ts",
+      "summary": "Next.js API 路由 route.ts，处理 HTTP 请求与集成逻辑。",
+      "tags": [
+        "api-handler",
+        "entry-point",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/app/api/integration/teamcenter/ebom/route.ts:GET",
+      "type": "function",
+      "name": "GET",
+      "filePath": "src/app/api/integration/teamcenter/ebom/route.ts",
+      "summary": "函数 GET，位于 route.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/integration/integration-push-panel.tsx",
+      "type": "file",
+      "name": "integration-push-panel.tsx",
+      "filePath": "src/components/integration/integration-push-panel.tsx",
+      "summary": "React 组件 integration-push-panel.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/integration/integration-push-panel.tsx:IntegrationPushPanel",
+      "type": "function",
+      "name": "IntegrationPushPanel",
+      "filePath": "src/components/integration/integration-push-panel.tsx",
+      "summary": "函数 IntegrationPushPanel，位于 integration-push-panel.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/components/integration/integration-status-card.tsx",
+      "type": "file",
+      "name": "integration-status-card.tsx",
+      "filePath": "src/components/integration/integration-status-card.tsx",
+      "summary": "React 组件 integration-status-card.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/integration/integration-status-card.tsx:IntegrationStatusCard",
+      "type": "function",
+      "name": "IntegrationStatusCard",
+      "filePath": "src/components/integration/integration-status-card.tsx",
+      "summary": "函数 IntegrationStatusCard，位于 integration-status-card.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/ui/alert-dialog.tsx",
+      "type": "file",
+      "name": "alert-dialog.tsx",
+      "filePath": "src/components/ui/alert-dialog.tsx",
+      "summary": "React 组件 alert-dialog.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/ui/alert-dialog.tsx:AlertDialogOverlay",
+      "type": "function",
+      "name": "AlertDialogOverlay",
+      "filePath": "src/components/ui/alert-dialog.tsx",
+      "summary": "函数 AlertDialogOverlay，位于 alert-dialog.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ui/alert-dialog.tsx:AlertDialogContent",
+      "type": "function",
+      "name": "AlertDialogContent",
+      "filePath": "src/components/ui/alert-dialog.tsx",
+      "summary": "函数 AlertDialogContent，位于 alert-dialog.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ui/alert-dialog.tsx:AlertDialogTitle",
+      "type": "function",
+      "name": "AlertDialogTitle",
+      "filePath": "src/components/ui/alert-dialog.tsx",
+      "summary": "函数 AlertDialogTitle，位于 alert-dialog.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ui/alert-dialog.tsx:AlertDialogDescription",
+      "type": "function",
+      "name": "AlertDialogDescription",
+      "filePath": "src/components/ui/alert-dialog.tsx",
+      "summary": "函数 AlertDialogDescription，位于 alert-dialog.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ui/alert-dialog.tsx:AlertDialogAction",
+      "type": "function",
+      "name": "AlertDialogAction",
+      "filePath": "src/components/ui/alert-dialog.tsx",
+      "summary": "函数 AlertDialogAction，位于 alert-dialog.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ui/alert-dialog.tsx:AlertDialogCancel",
+      "type": "function",
+      "name": "AlertDialogCancel",
+      "filePath": "src/components/ui/alert-dialog.tsx",
+      "summary": "函数 AlertDialogCancel，位于 alert-dialog.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/ui/alert.tsx",
+      "type": "file",
+      "name": "alert.tsx",
+      "filePath": "src/components/ui/alert.tsx",
+      "summary": "React 组件 alert.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/ui/alert.tsx:Alert",
+      "type": "function",
+      "name": "Alert",
+      "filePath": "src/components/ui/alert.tsx",
+      "summary": "函数 Alert，位于 alert.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ui/alert.tsx:AlertDescription",
+      "type": "function",
+      "name": "AlertDescription",
+      "filePath": "src/components/ui/alert.tsx",
+      "summary": "函数 AlertDescription，位于 alert.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/ui/card.tsx",
+      "type": "file",
+      "name": "card.tsx",
+      "filePath": "src/components/ui/card.tsx",
+      "summary": "React 组件 card.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/ui/card.tsx:Card",
+      "type": "function",
+      "name": "Card",
+      "filePath": "src/components/ui/card.tsx",
+      "summary": "函数 Card，位于 card.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ui/card.tsx:CardHeader",
+      "type": "function",
+      "name": "CardHeader",
+      "filePath": "src/components/ui/card.tsx",
+      "summary": "函数 CardHeader，位于 card.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ui/card.tsx:CardTitle",
+      "type": "function",
+      "name": "CardTitle",
+      "filePath": "src/components/ui/card.tsx",
+      "summary": "函数 CardTitle，位于 card.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ui/card.tsx:CardAction",
+      "type": "function",
+      "name": "CardAction",
+      "filePath": "src/components/ui/card.tsx",
+      "summary": "函数 CardAction，位于 card.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ui/card.tsx:CardFooter",
+      "type": "function",
+      "name": "CardFooter",
+      "filePath": "src/components/ui/card.tsx",
+      "summary": "函数 CardFooter，位于 card.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/integration/config.ts",
+      "type": "file",
+      "name": "config.ts",
+      "filePath": "src/lib/integration/config.ts",
+      "summary": "库模块 config.ts，提供认证、导航或工具能力。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/integration/erp-client.ts",
+      "type": "file",
+      "name": "erp-client.ts",
+      "filePath": "src/lib/integration/erp-client.ts",
+      "summary": "库模块 erp-client.ts，提供认证、导航或工具能力。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:src/lib/integration/erp-client.ts:MockErpClient",
+      "type": "class",
+      "name": "MockErpClient",
+      "filePath": "src/lib/integration/erp-client.ts",
+      "summary": "类 MockErpClient，封装 erp-client.ts 中的对象行为。",
+      "tags": [
+        "data-model"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:src/lib/integration/erp-client.ts:LiveErpClient",
+      "type": "class",
+      "name": "LiveErpClient",
+      "filePath": "src/lib/integration/erp-client.ts",
+      "summary": "类 LiveErpClient，封装 erp-client.ts 中的对象行为。",
+      "tags": [
+        "data-model"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/integration/integration-service.ts",
+      "type": "file",
+      "name": "integration-service.ts",
+      "filePath": "src/lib/integration/integration-service.ts",
+      "summary": "库模块 integration-service.ts，提供认证、导航或工具能力。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/lib/integration/integration-service.ts:validateProductionPush",
+      "type": "function",
+      "name": "validateProductionPush",
+      "filePath": "src/lib/integration/integration-service.ts",
+      "summary": "函数 validateProductionPush，位于 integration-service.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/integration/integration-service.ts:makeLog",
+      "type": "function",
+      "name": "makeLog",
+      "filePath": "src/lib/integration/integration-service.ts",
+      "summary": "函数 makeLog，位于 integration-service.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/integration/integration-service.ts:pushToErp",
+      "type": "function",
+      "name": "pushToErp",
+      "filePath": "src/lib/integration/integration-service.ts",
+      "summary": "函数 pushToErp，位于 integration-service.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/integration/integration-service.ts:pushToMes",
+      "type": "function",
+      "name": "pushToMes",
+      "filePath": "src/lib/integration/integration-service.ts",
+      "summary": "函数 pushToMes，位于 integration-service.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/integration/integration-service.ts:syncEbomFromTeamcenter",
+      "type": "function",
+      "name": "syncEbomFromTeamcenter",
+      "filePath": "src/lib/integration/integration-service.ts",
+      "summary": "函数 syncEbomFromTeamcenter，位于 integration-service.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/integration/mes-client.ts",
+      "type": "file",
+      "name": "mes-client.ts",
+      "filePath": "src/lib/integration/mes-client.ts",
+      "summary": "库模块 mes-client.ts，提供认证、导航或工具能力。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:src/lib/integration/mes-client.ts:MockMesClient",
+      "type": "class",
+      "name": "MockMesClient",
+      "filePath": "src/lib/integration/mes-client.ts",
+      "summary": "类 MockMesClient，封装 mes-client.ts 中的对象行为。",
+      "tags": [
+        "data-model"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:src/lib/integration/mes-client.ts:LiveMesClient",
+      "type": "class",
+      "name": "LiveMesClient",
+      "filePath": "src/lib/integration/mes-client.ts",
+      "summary": "类 LiveMesClient，封装 mes-client.ts 中的对象行为。",
+      "tags": [
+        "data-model"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/integration/teamcenter-client.ts",
+      "type": "file",
+      "name": "teamcenter-client.ts",
+      "filePath": "src/lib/integration/teamcenter-client.ts",
+      "summary": "库模块 teamcenter-client.ts，提供认证、导航或工具能力。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/integration/teamcenter-client.ts:teamcenterSyncAsPushResult",
+      "type": "function",
+      "name": "teamcenterSyncAsPushResult",
+      "filePath": "src/lib/integration/teamcenter-client.ts",
+      "summary": "函数 teamcenterSyncAsPushResult，位于 teamcenter-client.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:src/lib/integration/teamcenter-client.ts:MockTeamcenterClient",
+      "type": "class",
+      "name": "MockTeamcenterClient",
+      "filePath": "src/lib/integration/teamcenter-client.ts",
+      "summary": "类 MockTeamcenterClient，封装 teamcenter-client.ts 中的对象行为。",
+      "tags": [
+        "data-model"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:src/lib/integration/teamcenter-client.ts:LiveTeamcenterClient",
+      "type": "class",
+      "name": "LiveTeamcenterClient",
+      "filePath": "src/lib/integration/teamcenter-client.ts",
+      "summary": "类 LiveTeamcenterClient，封装 teamcenter-client.ts 中的对象行为。",
+      "tags": [
+        "data-model"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/integration/types.ts",
+      "type": "file",
+      "name": "types.ts",
+      "filePath": "src/lib/integration/types.ts",
+      "summary": "库模块 types.ts，提供认证、导航或工具能力。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/stores/integration-store.ts",
+      "type": "file",
+      "name": "integration-store.ts",
+      "filePath": "src/stores/integration-store.ts",
+      "summary": "Zustand 状态仓库 integration-store.ts，管理客户端全局状态。",
+      "tags": [
+        "service",
+        "utility"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/app/(workspace)/integration/page.tsx",
+      "target": "file:src/components/integration/integration-log-table.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/integration/page.tsx",
+      "target": "file:src/components/integration/integration-push-panel.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/integration/page.tsx",
+      "target": "file:src/components/integration/integration-status-card.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/integration/page.tsx",
+      "target": "file:src/components/ui/badge.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/integration/page.tsx",
+      "target": "file:src/components/ui/button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/integration/page.tsx",
+      "target": "file:src/components/ui/card.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/integration/page.tsx",
+      "target": "file:src/lib/db/export-import.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/integration/page.tsx",
+      "target": "file:src/lib/integration/config.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/integration/page.tsx",
+      "target": "file:src/lib/integration/integration-service.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/integration/page.tsx",
+      "target": "file:src/stores/integration-store.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/integration/page.tsx",
+      "target": "file:src/stores/workspace-store.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/integration/page.tsx",
+      "target": "function:src/app/(workspace)/integration/page.tsx:IntegrationPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/app/(workspace)/integration/page.tsx",
+      "target": "function:src/app/(workspace)/integration/page.tsx:IntegrationPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/app/(workspace)/settings/page.tsx",
+      "target": "file:src/components/ui/alert-dialog.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/settings/page.tsx",
+      "target": "file:src/components/ui/alert.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/settings/page.tsx",
+      "target": "file:src/components/ui/button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/settings/page.tsx",
+      "target": "file:src/components/ui/card.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/settings/page.tsx",
+      "target": "file:src/lib/db/export-import.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/settings/page.tsx",
+      "target": "file:src/lib/db/seed.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/settings/page.tsx",
+      "target": "file:src/stores/workspace-store.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/settings/page.tsx",
+      "target": "function:src/app/(workspace)/settings/page.tsx:SettingsPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/app/(workspace)/settings/page.tsx",
+      "target": "function:src/app/(workspace)/settings/page.tsx:SettingsPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/app/api/integration/erp/push/route.ts",
+      "target": "file:src/lib/integration/integration-service.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/api/integration/erp/push/route.ts",
+      "target": "function:src/app/api/integration/erp/push/route.ts:POST",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/app/api/integration/erp/push/route.ts",
+      "target": "function:src/app/api/integration/erp/push/route.ts:POST",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/app/api/integration/mes/push/route.ts",
+      "target": "file:src/lib/integration/integration-service.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/api/integration/mes/push/route.ts",
+      "target": "function:src/app/api/integration/mes/push/route.ts:POST",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/app/api/integration/mes/push/route.ts",
+      "target": "function:src/app/api/integration/mes/push/route.ts:POST",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/app/api/integration/teamcenter/ebom/route.ts",
+      "target": "file:src/lib/integration/integration-service.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/api/integration/teamcenter/ebom/route.ts",
+      "target": "function:src/app/api/integration/teamcenter/ebom/route.ts:GET",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/app/api/integration/teamcenter/ebom/route.ts",
+      "target": "function:src/app/api/integration/teamcenter/ebom/route.ts:GET",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/integration/integration-push-panel.tsx",
+      "target": "file:src/components/ui/alert.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/integration/integration-push-panel.tsx",
+      "target": "file:src/components/ui/button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/integration/integration-push-panel.tsx",
+      "target": "file:src/components/ui/card.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/integration/integration-push-panel.tsx",
+      "target": "file:src/lib/integration/integration-service.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/integration/integration-push-panel.tsx",
+      "target": "file:src/stores/integration-store.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/integration/integration-push-panel.tsx",
+      "target": "function:src/components/integration/integration-push-panel.tsx:IntegrationPushPanel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/integration/integration-push-panel.tsx",
+      "target": "function:src/components/integration/integration-push-panel.tsx:IntegrationPushPanel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/integration/integration-status-card.tsx",
+      "target": "file:src/components/ui/badge.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/integration/integration-status-card.tsx",
+      "target": "file:src/components/ui/card.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/integration/integration-status-card.tsx",
+      "target": "file:src/lib/integration/config.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/integration/integration-status-card.tsx",
+      "target": "file:src/lib/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/integration/integration-status-card.tsx",
+      "target": "function:src/components/integration/integration-status-card.tsx:IntegrationStatusCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/integration/integration-status-card.tsx",
+      "target": "function:src/components/integration/integration-status-card.tsx:IntegrationStatusCard",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/alert-dialog.tsx",
+      "target": "file:src/components/ui/button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/ui/alert-dialog.tsx",
+      "target": "file:src/lib/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/ui/alert-dialog.tsx",
+      "target": "function:src/components/ui/alert-dialog.tsx:AlertDialogOverlay",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/alert-dialog.tsx",
+      "target": "function:src/components/ui/alert-dialog.tsx:AlertDialogOverlay",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/alert-dialog.tsx",
+      "target": "function:src/components/ui/alert-dialog.tsx:AlertDialogContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/alert-dialog.tsx",
+      "target": "function:src/components/ui/alert-dialog.tsx:AlertDialogContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/alert-dialog.tsx",
+      "target": "function:src/components/ui/alert-dialog.tsx:AlertDialogTitle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/alert-dialog.tsx",
+      "target": "function:src/components/ui/alert-dialog.tsx:AlertDialogTitle",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/alert-dialog.tsx",
+      "target": "function:src/components/ui/alert-dialog.tsx:AlertDialogDescription",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/alert-dialog.tsx",
+      "target": "function:src/components/ui/alert-dialog.tsx:AlertDialogDescription",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/alert-dialog.tsx",
+      "target": "function:src/components/ui/alert-dialog.tsx:AlertDialogAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/alert-dialog.tsx",
+      "target": "function:src/components/ui/alert-dialog.tsx:AlertDialogAction",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/alert-dialog.tsx",
+      "target": "function:src/components/ui/alert-dialog.tsx:AlertDialogCancel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/alert-dialog.tsx",
+      "target": "function:src/components/ui/alert-dialog.tsx:AlertDialogCancel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/alert.tsx",
+      "target": "file:src/lib/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/ui/alert.tsx",
+      "target": "function:src/components/ui/alert.tsx:Alert",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/alert.tsx",
+      "target": "function:src/components/ui/alert.tsx:Alert",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/alert.tsx",
+      "target": "function:src/components/ui/alert.tsx:AlertDescription",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/alert.tsx",
+      "target": "function:src/components/ui/alert.tsx:AlertDescription",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/card.tsx",
+      "target": "file:src/lib/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/ui/card.tsx",
+      "target": "function:src/components/ui/card.tsx:Card",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/card.tsx",
+      "target": "function:src/components/ui/card.tsx:Card",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/card.tsx",
+      "target": "function:src/components/ui/card.tsx:CardHeader",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/card.tsx",
+      "target": "function:src/components/ui/card.tsx:CardHeader",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/card.tsx",
+      "target": "function:src/components/ui/card.tsx:CardTitle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/card.tsx",
+      "target": "function:src/components/ui/card.tsx:CardTitle",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/card.tsx",
+      "target": "function:src/components/ui/card.tsx:CardAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/card.tsx",
+      "target": "function:src/components/ui/card.tsx:CardAction",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/card.tsx",
+      "target": "function:src/components/ui/card.tsx:CardFooter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/card.tsx",
+      "target": "function:src/components/ui/card.tsx:CardFooter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/integration/erp-client.ts",
+      "target": "file:src/lib/integration/config.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/integration/erp-client.ts",
+      "target": "file:src/lib/integration/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/integration/erp-client.ts",
+      "target": "class:src/lib/integration/erp-client.ts:MockErpClient",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/integration/erp-client.ts",
+      "target": "class:src/lib/integration/erp-client.ts:LiveErpClient",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/integration/integration-service.ts",
+      "target": "file:src/lib/db/repositories/bom-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/integration/integration-service.ts",
+      "target": "file:src/lib/db/repositories/bop-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/integration/integration-service.ts",
+      "target": "file:src/lib/db/repositories/collaboration-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/integration/integration-service.ts",
+      "target": "file:src/lib/db/repositories/operation-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/integration/integration-service.ts",
+      "target": "file:src/lib/domain/services/process-summary-service.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/integration/integration-service.ts",
+      "target": "file:src/lib/integration/erp-client.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/integration/integration-service.ts",
+      "target": "file:src/lib/integration/mes-client.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/integration/integration-service.ts",
+      "target": "file:src/lib/integration/teamcenter-client.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/integration/integration-service.ts",
+      "target": "file:src/lib/integration/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/integration/integration-service.ts",
+      "target": "function:src/lib/integration/integration-service.ts:validateProductionPush",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/integration/integration-service.ts",
+      "target": "function:src/lib/integration/integration-service.ts:validateProductionPush",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/integration/integration-service.ts",
+      "target": "function:src/lib/integration/integration-service.ts:makeLog",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/integration/integration-service.ts",
+      "target": "function:src/lib/integration/integration-service.ts:pushToErp",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/integration/integration-service.ts",
+      "target": "function:src/lib/integration/integration-service.ts:pushToErp",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/integration/integration-service.ts",
+      "target": "function:src/lib/integration/integration-service.ts:pushToMes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/integration/integration-service.ts",
+      "target": "function:src/lib/integration/integration-service.ts:pushToMes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/integration/integration-service.ts",
+      "target": "function:src/lib/integration/integration-service.ts:syncEbomFromTeamcenter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/integration/integration-service.ts",
+      "target": "function:src/lib/integration/integration-service.ts:syncEbomFromTeamcenter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/integration/mes-client.ts",
+      "target": "file:src/lib/integration/config.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/integration/mes-client.ts",
+      "target": "file:src/lib/integration/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/integration/mes-client.ts",
+      "target": "class:src/lib/integration/mes-client.ts:MockMesClient",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/integration/mes-client.ts",
+      "target": "class:src/lib/integration/mes-client.ts:LiveMesClient",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/integration/teamcenter-client.ts",
+      "target": "file:src/lib/integration/config.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/integration/teamcenter-client.ts",
+      "target": "file:src/lib/integration/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/integration/teamcenter-client.ts",
+      "target": "function:src/lib/integration/teamcenter-client.ts:teamcenterSyncAsPushResult",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/integration/teamcenter-client.ts",
+      "target": "function:src/lib/integration/teamcenter-client.ts:teamcenterSyncAsPushResult",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/integration/teamcenter-client.ts",
+      "target": "class:src/lib/integration/teamcenter-client.ts:MockTeamcenterClient",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/integration/teamcenter-client.ts",
+      "target": "class:src/lib/integration/teamcenter-client.ts:LiveTeamcenterClient",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/stores/integration-store.ts",
+      "target": "file:src/lib/integration/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

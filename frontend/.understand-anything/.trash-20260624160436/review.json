@@ -1,0 +1,63 @@
+{
+  "issues": [],
+  "warnings": [
+    "Node 'document:README.md' has no edges (orphan)",
+    "Node 'config:components.json' has no edges (orphan)",
+    "Node 'config:package.json' has no edges (orphan)",
+    "Node 'config:pnpm-workspace.yaml' has no edges (orphan)",
+    "Node 'config:tsconfig.json' has no edges (orphan)",
+    "Node 'document:自研工艺管理系统开发设计方案.md' has no edges (orphan)",
+    "Node 'document:docs/superpowers/specs/2026-06-23-mpms-p0-foundation-design.md' has no edges (orphan)",
+    "Node 'document:docs/superpowers/specs/2026-06-23-mpms-p1-planner-mbom-design.md' has no edges (orphan)",
+    "Node 'document:docs/superpowers/specs/2026-06-23-mpms-p2-bop-design.md' has no edges (orphan)",
+    "Node 'document:docs/superpowers/specs/2026-06-23-mpms-p3-operation-design.md' has no edges (orphan)",
+    "Node 'document:docs/superpowers/specs/2026-06-23-mpms-p4-resource-document-design.md' has no edges (orphan)",
+    "Node 'document:docs/superpowers/specs/2026-06-23-mpms-p5-approval-change-design.md' has no edges (orphan)",
+    "Node 'document:docs/superpowers/specs/2026-06-23-mpms-p6-summary-3d-design.md' has no edges (orphan)",
+    "Node 'document:docs/superpowers/specs/2026-06-23-mpms-p7-copilot-design.md' has no edges (orphan)",
+    "Node 'document:docs/superpowers/specs/2026-06-23-mpms-p8-integration-design.md' has no edges (orphan)",
+    "Node 'document:docs/superpowers/specs/2026-06-24-ui-beautification-design.md' has no edges (orphan)",
+    "Node 'config:src/lib/mock/collaboration.json' has no edges (orphan)",
+    "Node 'config:src/lib/mock/dictionaries.json' has no edges (orphan)",
+    "Node 'config:src/lib/mock/seed-ebom.json' has no edges (orphan)",
+    "Node 'config:src/lib/mock/seed-resources.json' has no edges (orphan)",
+    "Node 'file:.cursor/rules/codegraph.mdc' has no edges (orphan)",
+    "Node 'file:.cursor/rules/karpathy-guidelines.mdc' has no edges (orphan)",
+    "Node 'file:.understand-anything/.understandignore' has no edges (orphan)",
+    "Node 'config:.understand-anything/config.json' has no edges (orphan)",
+    "Node 'document:docs/superpowers/plans/2026-06-23-mpms-p0-foundation.md' has no edges (orphan)",
+    "Node 'document:docs/superpowers/plans/2026-06-24-ui-beautification.md' has no edges (orphan)",
+    "Node 'file:eslint.config.mjs' has no edges (orphan)",
+    "Node 'file:next.config.ts' has no edges (orphan)",
+    "Node 'file:postcss.config.mjs' has no edges (orphan)",
+    "Node 'file:src/app/api/health/route.ts' has no edges (orphan)",
+    "Node 'file:src/lib/db/repositories/index.ts' has no edges (orphan)",
+    "Node 'file:src/lib/domain/schemas/app-meta.ts' has no edges (orphan)",
+    "Node 'file:src/lib/domain/schemas/bop.ts' has no edges (orphan)",
+    "Node 'file:src/lib/domain/schemas/dictionary.ts' has no edges (orphan)",
+    "Node 'file:src/lib/domain/schemas/index.ts' has no edges (orphan)",
+    "Node 'file:src/lib/domain/schemas/operation.ts' has no edges (orphan)",
+    "Node 'file:src/lib/domain/types/app-meta.ts' has no edges (orphan)",
+    "Node 'file:src/lib/domain/types/collaboration.ts' has no edges (orphan)",
+    "Node 'file:src/lib/domain/types/dictionary.ts' has no edges (orphan)",
+    "Node 'file:src/lib/domain/types/envelope.ts' has no edges (orphan)"
+  ],
+  "stats": {
+    "totalNodes": 450,
+    "totalEdges": 968,
+    "totalLayers": 9,
+    "tourSteps": 6,
+    "nodeTypes": {
+      "file": 187,
+      "function": 233,
+      "class": 7,
+      "document": 14,
+      "config": 9
+    },
+    "edgeTypes": {
+      "imports": 532,
+      "contains": 240,
+      "exports": 196
+    }
+  }
+}

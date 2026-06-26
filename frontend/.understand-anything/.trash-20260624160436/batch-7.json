@@ -1,0 +1,587 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/app/(workspace)/approval/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "src/app/(workspace)/approval/page.tsx",
+      "summary": "Next.js 页面组件，渲染工作台或管理模块的 UI 与交互。",
+      "tags": [
+        "entry-point",
+        "component",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/app/(workspace)/approval/page.tsx:ApprovalTable",
+      "type": "function",
+      "name": "ApprovalTable",
+      "filePath": "src/app/(workspace)/approval/page.tsx",
+      "summary": "函数 ApprovalTable，位于 page.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/app/(workspace)/approval/page.tsx:ApprovalPage",
+      "type": "function",
+      "name": "ApprovalPage",
+      "filePath": "src/app/(workspace)/approval/page.tsx",
+      "summary": "函数 ApprovalPage，位于 page.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/components/workflow/approval-actions.tsx",
+      "type": "file",
+      "name": "approval-actions.tsx",
+      "filePath": "src/components/workflow/approval-actions.tsx",
+      "summary": "React 组件 approval-actions.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/workflow/approval-actions.tsx:ApprovalActions",
+      "type": "function",
+      "name": "ApprovalActions",
+      "filePath": "src/components/workflow/approval-actions.tsx",
+      "summary": "函数 ApprovalActions，位于 approval-actions.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/components/workflow/approval-timeline.tsx",
+      "type": "file",
+      "name": "approval-timeline.tsx",
+      "filePath": "src/components/workflow/approval-timeline.tsx",
+      "summary": "React 组件 approval-timeline.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/workflow/approval-timeline.tsx:ApprovalTimeline",
+      "type": "function",
+      "name": "ApprovalTimeline",
+      "filePath": "src/components/workflow/approval-timeline.tsx",
+      "summary": "函数 ApprovalTimeline，位于 approval-timeline.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/hooks/use-approvals.ts",
+      "type": "file",
+      "name": "use-approvals.ts",
+      "filePath": "src/hooks/use-approvals.ts",
+      "summary": "React Hook use-approvals.ts，封装数据获取或状态订阅逻辑。",
+      "tags": [
+        "hook",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/hooks/use-approvals.ts:useTransitionApproval",
+      "type": "function",
+      "name": "useTransitionApproval",
+      "filePath": "src/hooks/use-approvals.ts",
+      "summary": "函数 useTransitionApproval，位于 use-approvals.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/db/repositories/approval-repository.ts",
+      "type": "file",
+      "name": "approval-repository.ts",
+      "filePath": "src/lib/db/repositories/approval-repository.ts",
+      "summary": "库模块 approval-repository.ts，提供认证、导航或工具能力。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/workflow/machines.ts",
+      "type": "file",
+      "name": "machines.ts",
+      "filePath": "src/lib/workflow/machines.ts",
+      "summary": "库模块 machines.ts，提供认证、导航或工具能力。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/workflow/machines.ts:buildLinearMachine",
+      "type": "function",
+      "name": "buildLinearMachine",
+      "filePath": "src/lib/workflow/machines.ts",
+      "summary": "函数 buildLinearMachine，位于 machines.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/workflow/templates.ts",
+      "type": "file",
+      "name": "templates.ts",
+      "filePath": "src/lib/workflow/templates.ts",
+      "summary": "库模块 templates.ts，提供认证、导航或工具能力。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/workflow/templates.ts:getNextNode",
+      "type": "function",
+      "name": "getNextNode",
+      "filePath": "src/lib/workflow/templates.ts",
+      "summary": "函数 getNextNode，位于 templates.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/workflow/workflow-service.ts",
+      "type": "file",
+      "name": "workflow-service.ts",
+      "filePath": "src/lib/workflow/workflow-service.ts",
+      "summary": "库模块 workflow-service.ts，提供认证、导航或工具能力。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/workflow/workflow-service.ts:setTargetLifecycle",
+      "type": "function",
+      "name": "setTargetLifecycle",
+      "filePath": "src/lib/workflow/workflow-service.ts",
+      "summary": "函数 setTargetLifecycle，位于 workflow-service.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/workflow/workflow-service.ts:startApproval",
+      "type": "function",
+      "name": "startApproval",
+      "filePath": "src/lib/workflow/workflow-service.ts",
+      "summary": "函数 startApproval，位于 workflow-service.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/workflow/workflow-service.ts:transitionApproval",
+      "type": "function",
+      "name": "transitionApproval",
+      "filePath": "src/lib/workflow/workflow-service.ts",
+      "summary": "函数 transitionApproval，位于 workflow-service.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/app/(workspace)/approval/page.tsx",
+      "target": "file:src/components/ui/badge.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/approval/page.tsx",
+      "target": "file:src/components/ui/button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/approval/page.tsx",
+      "target": "file:src/components/ui/sheet.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/approval/page.tsx",
+      "target": "file:src/components/ui/table.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/approval/page.tsx",
+      "target": "file:src/components/ui/tabs.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/approval/page.tsx",
+      "target": "file:src/components/workflow/approval-actions.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/approval/page.tsx",
+      "target": "file:src/components/workflow/approval-timeline.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/approval/page.tsx",
+      "target": "file:src/hooks/use-approvals.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/approval/page.tsx",
+      "target": "file:src/lib/auth/session.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/approval/page.tsx",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/approval/page.tsx",
+      "target": "file:src/lib/workflow/templates.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/approval/page.tsx",
+      "target": "function:src/app/(workspace)/approval/page.tsx:ApprovalTable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/app/(workspace)/approval/page.tsx",
+      "target": "function:src/app/(workspace)/approval/page.tsx:ApprovalPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/app/(workspace)/approval/page.tsx",
+      "target": "function:src/app/(workspace)/approval/page.tsx:ApprovalPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/workflow/approval-actions.tsx",
+      "target": "file:src/components/ui/alert.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/workflow/approval-actions.tsx",
+      "target": "file:src/components/ui/button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/workflow/approval-actions.tsx",
+      "target": "file:src/components/ui/label.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/workflow/approval-actions.tsx",
+      "target": "file:src/components/ui/textarea.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/workflow/approval-actions.tsx",
+      "target": "file:src/hooks/use-approvals.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/workflow/approval-actions.tsx",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/workflow/approval-actions.tsx",
+      "target": "file:src/lib/workflow/templates.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/workflow/approval-actions.tsx",
+      "target": "file:src/lib/workflow/workflow-service.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/workflow/approval-actions.tsx",
+      "target": "function:src/components/workflow/approval-actions.tsx:ApprovalActions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/workflow/approval-actions.tsx",
+      "target": "function:src/components/workflow/approval-actions.tsx:ApprovalActions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/workflow/approval-timeline.tsx",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/workflow/approval-timeline.tsx",
+      "target": "file:src/lib/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/workflow/approval-timeline.tsx",
+      "target": "file:src/lib/workflow/templates.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/workflow/approval-timeline.tsx",
+      "target": "function:src/components/workflow/approval-timeline.tsx:ApprovalTimeline",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/workflow/approval-timeline.tsx",
+      "target": "function:src/components/workflow/approval-timeline.tsx:ApprovalTimeline",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/hooks/use-approvals.ts",
+      "target": "file:src/lib/db/repositories/approval-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/hooks/use-approvals.ts",
+      "target": "file:src/lib/workflow/workflow-service.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/hooks/use-approvals.ts",
+      "target": "function:src/hooks/use-approvals.ts:useTransitionApproval",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/hooks/use-approvals.ts",
+      "target": "function:src/hooks/use-approvals.ts:useTransitionApproval",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/db/repositories/approval-repository.ts",
+      "target": "file:src/lib/db/repositories/base.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/db/repositories/approval-repository.ts",
+      "target": "file:src/lib/db/schema.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/db/repositories/approval-repository.ts",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/machines.ts",
+      "target": "file:src/lib/workflow/templates.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/machines.ts",
+      "target": "function:src/lib/workflow/machines.ts:buildLinearMachine",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/workflow/templates.ts",
+      "target": "function:src/lib/workflow/templates.ts:getNextNode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/workflow/templates.ts",
+      "target": "function:src/lib/workflow/templates.ts:getNextNode",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/workflow/workflow-service.ts",
+      "target": "file:src/lib/db/repositories/approval-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/workflow-service.ts",
+      "target": "file:src/lib/db/repositories/bom-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/workflow-service.ts",
+      "target": "file:src/lib/db/repositories/bop-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/workflow-service.ts",
+      "target": "file:src/lib/db/repositories/change-order-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/workflow-service.ts",
+      "target": "file:src/lib/db/repositories/process-document-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/workflow-service.ts",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/workflow-service.ts",
+      "target": "file:src/lib/workflow/guards.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/workflow-service.ts",
+      "target": "file:src/lib/workflow/machines.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/workflow-service.ts",
+      "target": "file:src/lib/workflow/templates.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/workflow-service.ts",
+      "target": "function:src/lib/workflow/workflow-service.ts:setTargetLifecycle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/workflow/workflow-service.ts",
+      "target": "function:src/lib/workflow/workflow-service.ts:startApproval",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/workflow/workflow-service.ts",
+      "target": "function:src/lib/workflow/workflow-service.ts:startApproval",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/workflow/workflow-service.ts",
+      "target": "function:src/lib/workflow/workflow-service.ts:transitionApproval",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/workflow/workflow-service.ts",
+      "target": "function:src/lib/workflow/workflow-service.ts:transitionApproval",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

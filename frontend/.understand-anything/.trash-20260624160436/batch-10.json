@@ -1,0 +1,117 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/app/admin/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "src/app/admin/page.tsx",
+      "summary": "Next.js 页面组件，渲染工作台或管理模块的 UI 与交互。",
+      "tags": [
+        "entry-point",
+        "component",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/app/admin/permissions/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "src/app/admin/permissions/page.tsx",
+      "summary": "Next.js 页面组件，渲染工作台或管理模块的 UI 与交互。",
+      "tags": [
+        "entry-point",
+        "component",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/app/admin/users/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "src/app/admin/users/page.tsx",
+      "summary": "Next.js 页面组件，渲染工作台或管理模块的 UI 与交互。",
+      "tags": [
+        "entry-point",
+        "component",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/placeholders/module-placeholder.tsx",
+      "type": "file",
+      "name": "module-placeholder.tsx",
+      "filePath": "src/components/placeholders/module-placeholder.tsx",
+      "summary": "React 组件 module-placeholder.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/placeholders/module-placeholder.tsx:ModulePlaceholder",
+      "type": "function",
+      "name": "ModulePlaceholder",
+      "filePath": "src/components/placeholders/module-placeholder.tsx",
+      "summary": "函数 ModulePlaceholder，位于 module-placeholder.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/app/admin/page.tsx",
+      "target": "file:src/components/placeholders/module-placeholder.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/admin/permissions/page.tsx",
+      "target": "file:src/components/placeholders/module-placeholder.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/admin/users/page.tsx",
+      "target": "file:src/components/placeholders/module-placeholder.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/placeholders/module-placeholder.tsx",
+      "target": "file:src/components/ui/badge.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/placeholders/module-placeholder.tsx",
+      "target": "file:src/components/ui/button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/placeholders/module-placeholder.tsx",
+      "target": "function:src/components/placeholders/module-placeholder.tsx:ModulePlaceholder",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/placeholders/module-placeholder.tsx",
+      "target": "function:src/components/placeholders/module-placeholder.tsx:ModulePlaceholder",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

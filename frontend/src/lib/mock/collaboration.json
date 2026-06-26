@@ -1,0 +1,11 @@
+[
+  {
+    "id": "collab-demo-001",
+    "name": "DEMO-ML-001 设计工艺协同",
+    "ebomRootId": "ebom-root-demo",
+    "mbomRootId": null,
+    "bopRootId": null,
+    "owner": "admin",
+    "createdAt": "2026-06-23T00:00:00.000Z"
+  }
+]

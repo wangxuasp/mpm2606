@@ -1,0 +1,591 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 22,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": ".cursor/rules/codegraph.mdc",
+      "language": "mdc",
+      "fileCategory": "code",
+      "totalLines": 39,
+      "nonEmptyLines": 31,
+      "metrics": {}
+    },
+    {
+      "path": ".cursor/rules/karpathy-guidelines.mdc",
+      "language": "mdc",
+      "fileCategory": "code",
+      "totalLines": 70,
+      "nonEmptyLines": 48,
+      "metrics": {}
+    },
+    {
+      "path": ".understand-anything/.understandignore",
+      "language": "unknown",
+      "fileCategory": "code",
+      "totalLines": 56,
+      "nonEmptyLines": 50,
+      "metrics": {}
+    },
+    {
+      "path": ".understand-anything/config.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 3,
+      "nonEmptyLines": 3,
+      "sections": [
+        {
+          "heading": "outputLanguage",
+          "level": 1,
+          "line": 2
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "docs/superpowers/plans/2026-06-23-mpms-p0-foundation.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 1603,
+      "nonEmptyLines": 1271,
+      "sections": [
+        {
+          "heading": "Extech MPMS P0 基座 Implementation Plan",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "File Map（P0 新建/改造一览）",
+          "level": 2,
+          "line": 17
+        },
+        {
+          "heading": "Task 1: 脚手架 — Clone shadcn-admin 并验证可运行",
+          "level": 3,
+          "line": 45
+        },
+        {
+          "heading": "Task 2: 安装 P0 业务依赖",
+          "level": 3,
+          "line": 94
+        },
+        {
+          "heading": "Task 3: 领域类型定义",
+          "level": 3,
+          "line": 123
+        },
+        {
+          "heading": "Task 4: Zod Schemas",
+          "level": 3,
+          "line": 290
+        },
+        {
+          "heading": "Task 5: Dexie 数据库 Schema",
+          "level": 3,
+          "line": 367
+        },
+        {
+          "heading": "Task 6: Repository 层",
+          "level": 3,
+          "line": 433
+        },
+        {
+          "heading": "Task 7: 种子数据 JSON",
+          "level": 3,
+          "line": 514
+        },
+        {
+          "heading": "Task 8: 种子初始化逻辑",
+          "level": 3,
+          "line": 594
+        },
+        {
+          "heading": "Task 9: JSON 导入/导出",
+          "level": 3,
+          "line": 687
+        },
+        {
+          "heading": "Task 10: Mock 认证",
+          "level": 3,
+          "line": 756
+        },
+        {
+          "heading": "Task 11: App Providers（Query + DB 初始化）",
+          "level": 3,
+          "line": 823
+        },
+        {
+          "heading": "Task 12: 品牌改造与路由重组",
+          "level": 3,
+          "line": 889
+        },
+        {
+          "heading": "Task 13: 侧栏导航（12 项）",
+          "level": 3,
+          "line": 927
+        },
+        {
+          "heading": "Task 14: 登录页与路由守卫",
+          "level": 3,
+          "line": 976
+        },
+        {
+          "heading": "Task 15: 模块占位组件与占位页",
+          "level": 3,
+          "line": 1081
+        },
+        {
+          "heading": "Task 16: TanStack Query Hooks",
+          "level": 3,
+          "line": 1158
+        },
+        {
+          "heading": "Task 17: 工作台首页",
+          "level": 3,
+          "line": 1209
+        },
+        {
+          "heading": "Task 18: 制造工艺规划器（只读 EBOM 树）",
+          "level": 3,
+          "line": 1278
+        },
+        {
+          "heading": "Task 19: 设置页（导入/导出/重置）",
+          "level": 3,
+          "line": 1418
+        },
+        {
+          "heading": "Task 20: 字典管理只读页",
+          "level": 3,
+          "line": 1447
+        },
+        {
+          "heading": "Task 21: API Routes",
+          "level": 3,
+          "line": 1466
+        },
+        {
+          "heading": "Task 22: README 与最终冒烟",
+          "level": 3,
+          "line": 1527
+        },
+        {
+          "heading": "Spec Coverage Checklist",
+          "level": 2,
+          "line": 1566
+        },
+        {
+          "heading": "Risk: shadcn-admin 技术栈",
+          "level": 2,
+          "line": 1592
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 26
+      }
+    },
+    {
+      "path": "docs/superpowers/plans/2026-06-24-ui-beautification.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 648,
+      "nonEmptyLines": 506,
+      "sections": [
+        {
+          "heading": "Extech MPMS 界面美化 Implementation Plan",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "File Map",
+          "level": 2,
+          "line": 17
+        },
+        {
+          "heading": "Task 1: 全局设计令牌",
+          "level": 3,
+          "line": 33
+        },
+        {
+          "heading": "Task 2: 主题基础设施",
+          "level": 3,
+          "line": 131
+        },
+        {
+          "heading": "Task 3: ThemeToggle + AppHeader",
+          "level": 3,
+          "line": 247
+        },
+        {
+          "heading": "Task 4: Shell 侧栏轻度统一",
+          "level": 3,
+          "line": 345
+        },
+        {
+          "heading": "Task 5: 登录背景图",
+          "level": 3,
+          "line": 416
+        },
+        {
+          "heading": "Task 6: 登录页重构",
+          "level": 3,
+          "line": 448
+        },
+        {
+          "heading": "Task 7: 最终验收",
+          "level": 3,
+          "line": 603
+        },
+        {
+          "heading": "Spec Coverage（自检）",
+          "level": 2,
+          "line": 639
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 10
+      }
+    },
+    {
+      "path": "eslint.config.mjs",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 18,
+      "nonEmptyLines": 16,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "next.config.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 8,
+      "nonEmptyLines": 6,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "postcss.config.mjs",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 7,
+      "nonEmptyLines": 6,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/app/api/3d/jt/route.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 16,
+      "nonEmptyLines": 15,
+      "functions": [
+        {
+          "name": "GET",
+          "startLine": 3,
+          "endLine": 16,
+          "params": [
+            "request"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "GET",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "GET",
+          "callee": "request.nextUrl.searchParams.get",
+          "lineNumber": 4
+        },
+        {
+          "caller": "GET",
+          "callee": "NextResponse.json",
+          "lineNumber": 6
+        },
+        {
+          "caller": "GET",
+          "callee": "request.nextUrl.searchParams.get",
+          "lineNumber": 8
+        },
+        {
+          "caller": "GET",
+          "callee": "NextResponse.json",
+          "lineNumber": 9
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/app/api/health/route.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 9,
+      "nonEmptyLines": 8,
+      "functions": [
+        {
+          "name": "GET",
+          "startLine": 3,
+          "endLine": 9,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "GET",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "GET",
+          "callee": "NextResponse.json",
+          "lineNumber": 4
+        },
+        {
+          "caller": "GET",
+          "callee": "new Date().toISOString",
+          "lineNumber": 7
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/app/globals.css",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 130,
+      "nonEmptyLines": 125,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/db/repositories/index.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 11,
+      "nonEmptyLines": 11,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/domain/schemas/app-meta.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 12,
+      "nonEmptyLines": 11,
+      "exports": [
+        {
+          "name": "appMetaSchema",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/domain/schemas/bop.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 27,
+      "nonEmptyLines": 25,
+      "exports": [
+        {
+          "name": "pertDagSchema",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "bopNodeSchema",
+          "line": 14,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/domain/schemas/dictionary.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 9,
+      "nonEmptyLines": 8,
+      "exports": [
+        {
+          "name": "dictionaryEntrySchema",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/domain/schemas/index.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 8,
+      "nonEmptyLines": 8,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/domain/schemas/operation.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 55,
+      "nonEmptyLines": 49,
+      "exports": [
+        {
+          "name": "bomNodeRefSchema",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "resourceRefSchema",
+          "line": 9,
+          "isDefault": false
+        },
+        {
+          "name": "processCardStepSchema",
+          "line": 14,
+          "isDefault": false
+        },
+        {
+          "name": "processCardSchema",
+          "line": 20,
+          "isDefault": false
+        },
+        {
+          "name": "qualityControlSheetSchema",
+          "line": 32,
+          "isDefault": false
+        },
+        {
+          "name": "operationSchema",
+          "line": 37,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 6,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/domain/types/app-meta.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 6,
+      "nonEmptyLines": 6,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/domain/types/collaboration.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 9,
+      "nonEmptyLines": 9,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/domain/types/dictionary.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 8,
+      "nonEmptyLines": 8,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/domain/types/envelope.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 10,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    }
+  ]
+}

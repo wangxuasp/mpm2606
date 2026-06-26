@@ -1,0 +1,1967 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/app/(workspace)/summary/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "src/app/(workspace)/summary/page.tsx",
+      "summary": "Next.js 页面组件，渲染工作台或管理模块的 UI 与交互。",
+      "tags": [
+        "entry-point",
+        "component",
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/app/(workspace)/summary/page.tsx:SummaryTables",
+      "type": "function",
+      "name": "SummaryTables",
+      "filePath": "src/app/(workspace)/summary/page.tsx",
+      "summary": "函数 SummaryTables，位于 page.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/app/(workspace)/summary/page.tsx:SummaryPage",
+      "type": "function",
+      "name": "SummaryPage",
+      "filePath": "src/app/(workspace)/summary/page.tsx",
+      "summary": "函数 SummaryPage，位于 page.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/hooks/use-operations.ts",
+      "type": "file",
+      "name": "use-operations.ts",
+      "filePath": "src/hooks/use-operations.ts",
+      "summary": "React Hook use-operations.ts，封装数据获取或状态订阅逻辑。",
+      "tags": [
+        "hook",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/hooks/use-process-documents.ts",
+      "type": "file",
+      "name": "use-process-documents.ts",
+      "filePath": "src/hooks/use-process-documents.ts",
+      "summary": "React Hook use-process-documents.ts，封装数据获取或状态订阅逻辑。",
+      "tags": [
+        "hook",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/hooks/use-process-summary.ts",
+      "type": "file",
+      "name": "use-process-summary.ts",
+      "filePath": "src/hooks/use-process-summary.ts",
+      "summary": "React Hook use-process-summary.ts，封装数据获取或状态订阅逻辑。",
+      "tags": [
+        "hook",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/hooks/use-process-summary.ts:useProcessSummary",
+      "type": "function",
+      "name": "useProcessSummary",
+      "filePath": "src/hooks/use-process-summary.ts",
+      "summary": "函数 useProcessSummary，位于 use-process-summary.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/db/export-import.ts",
+      "type": "file",
+      "name": "export-import.ts",
+      "filePath": "src/lib/db/export-import.ts",
+      "summary": "库模块 export-import.ts，提供认证、导航或工具能力。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/db/export-import.ts:exportDatabase",
+      "type": "function",
+      "name": "exportDatabase",
+      "filePath": "src/lib/db/export-import.ts",
+      "summary": "函数 exportDatabase，位于 export-import.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/db/export-import.ts:importDatabase",
+      "type": "function",
+      "name": "importDatabase",
+      "filePath": "src/lib/db/export-import.ts",
+      "summary": "函数 importDatabase，位于 export-import.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/db/repositories/app-meta-repository.ts",
+      "type": "file",
+      "name": "app-meta-repository.ts",
+      "filePath": "src/lib/db/repositories/app-meta-repository.ts",
+      "summary": "库模块 app-meta-repository.ts，提供认证、导航或工具能力。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/db/repositories/base.ts",
+      "type": "file",
+      "name": "base.ts",
+      "filePath": "src/lib/db/repositories/base.ts",
+      "summary": "库模块 base.ts，提供认证、导航或工具能力。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/db/repositories/bom-repository.ts",
+      "type": "file",
+      "name": "bom-repository.ts",
+      "filePath": "src/lib/db/repositories/bom-repository.ts",
+      "summary": "库模块 bom-repository.ts，提供认证、导航或工具能力。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/db/repositories/bom-repository.ts:getMbomSubtree",
+      "type": "function",
+      "name": "getMbomSubtree",
+      "filePath": "src/lib/db/repositories/bom-repository.ts",
+      "summary": "函数 getMbomSubtree，位于 bom-repository.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/db/repositories/bop-repository.ts",
+      "type": "file",
+      "name": "bop-repository.ts",
+      "filePath": "src/lib/db/repositories/bop-repository.ts",
+      "summary": "库模块 bop-repository.ts，提供认证、导航或工具能力。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/db/repositories/bop-repository.ts:getBopSubtree",
+      "type": "function",
+      "name": "getBopSubtree",
+      "filePath": "src/lib/db/repositories/bop-repository.ts",
+      "summary": "函数 getBopSubtree，位于 bop-repository.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/db/repositories/change-order-repository.ts",
+      "type": "file",
+      "name": "change-order-repository.ts",
+      "filePath": "src/lib/db/repositories/change-order-repository.ts",
+      "summary": "库模块 change-order-repository.ts，提供认证、导航或工具能力。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/db/repositories/collaboration-repository.ts",
+      "type": "file",
+      "name": "collaboration-repository.ts",
+      "filePath": "src/lib/db/repositories/collaboration-repository.ts",
+      "summary": "库模块 collaboration-repository.ts，提供认证、导航或工具能力。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/db/repositories/dictionary-repository.ts",
+      "type": "file",
+      "name": "dictionary-repository.ts",
+      "filePath": "src/lib/db/repositories/dictionary-repository.ts",
+      "summary": "库模块 dictionary-repository.ts，提供认证、导航或工具能力。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/db/repositories/document-file-repository.ts",
+      "type": "file",
+      "name": "document-file-repository.ts",
+      "filePath": "src/lib/db/repositories/document-file-repository.ts",
+      "summary": "库模块 document-file-repository.ts，提供认证、导航或工具能力。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/db/repositories/operation-repository.ts",
+      "type": "file",
+      "name": "operation-repository.ts",
+      "filePath": "src/lib/db/repositories/operation-repository.ts",
+      "summary": "库模块 operation-repository.ts，提供认证、导航或工具能力。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/db/repositories/operation-repository.ts:getAllForBopRoot",
+      "type": "function",
+      "name": "getAllForBopRoot",
+      "filePath": "src/lib/db/repositories/operation-repository.ts",
+      "summary": "函数 getAllForBopRoot，位于 operation-repository.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/db/repositories/process-document-repository.ts",
+      "type": "file",
+      "name": "process-document-repository.ts",
+      "filePath": "src/lib/db/repositories/process-document-repository.ts",
+      "summary": "库模块 process-document-repository.ts，提供认证、导航或工具能力。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/db/repositories/resource-repository.ts",
+      "type": "file",
+      "name": "resource-repository.ts",
+      "filePath": "src/lib/db/repositories/resource-repository.ts",
+      "summary": "库模块 resource-repository.ts，提供认证、导航或工具能力。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/db/schema.ts",
+      "type": "file",
+      "name": "schema.ts",
+      "filePath": "src/lib/db/schema.ts",
+      "summary": "库模块 schema.ts，提供认证、导航或工具能力。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:src/lib/db/schema.ts:MpmsDatabase",
+      "type": "class",
+      "name": "MpmsDatabase",
+      "filePath": "src/lib/db/schema.ts",
+      "summary": "类 MpmsDatabase，封装 schema.ts 中的对象行为。",
+      "tags": [
+        "data-model"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/lib/domain/id-generator.ts",
+      "type": "file",
+      "name": "id-generator.ts",
+      "filePath": "src/lib/domain/id-generator.ts",
+      "summary": "库模块 id-generator.ts，提供认证、导航或工具能力。",
+      "tags": [
+        "data-model",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/domain/rules/mbom-constraints.ts",
+      "type": "file",
+      "name": "mbom-constraints.ts",
+      "filePath": "src/lib/domain/rules/mbom-constraints.ts",
+      "summary": "库模块 mbom-constraints.ts，提供认证、导航或工具能力。",
+      "tags": [
+        "data-model",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/domain/rules/mbom-constraints.ts:validateNodeAgainstParent",
+      "type": "function",
+      "name": "validateNodeAgainstParent",
+      "filePath": "src/lib/domain/rules/mbom-constraints.ts",
+      "summary": "函数 validateNodeAgainstParent，位于 mbom-constraints.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/domain/rules/mbom-constraints.ts:validatePurchasedChildrenConstraint",
+      "type": "function",
+      "name": "validatePurchasedChildrenConstraint",
+      "filePath": "src/lib/domain/rules/mbom-constraints.ts",
+      "summary": "函数 validatePurchasedChildrenConstraint，位于 mbom-constraints.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/domain/schemas/bom.ts",
+      "type": "file",
+      "name": "bom.ts",
+      "filePath": "src/lib/domain/schemas/bom.ts",
+      "summary": "库模块 bom.ts，提供认证、导航或工具能力。",
+      "tags": [
+        "data-model",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/domain/schemas/export-bundle.ts",
+      "type": "file",
+      "name": "export-bundle.ts",
+      "filePath": "src/lib/domain/schemas/export-bundle.ts",
+      "summary": "库模块 export-bundle.ts，提供认证、导航或工具能力。",
+      "tags": [
+        "data-model",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/domain/schemas/handoff-package.ts",
+      "type": "file",
+      "name": "handoff-package.ts",
+      "filePath": "src/lib/domain/schemas/handoff-package.ts",
+      "summary": "库模块 handoff-package.ts，提供认证、导航或工具能力。",
+      "tags": [
+        "data-model",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/domain/schemas/process-document.ts",
+      "type": "file",
+      "name": "process-document.ts",
+      "filePath": "src/lib/domain/schemas/process-document.ts",
+      "summary": "库模块 process-document.ts，提供认证、导航或工具能力。",
+      "tags": [
+        "data-model",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/domain/services/apd-export-service.ts",
+      "type": "file",
+      "name": "apd-export-service.ts",
+      "filePath": "src/lib/domain/services/apd-export-service.ts",
+      "summary": "领域服务 apd-export-service.ts，实现 MPMS 业务规则与数据操作。",
+      "tags": [
+        "data-model",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/domain/services/apd-export-service.ts:exportApdExcel",
+      "type": "function",
+      "name": "exportApdExcel",
+      "filePath": "src/lib/domain/services/apd-export-service.ts",
+      "summary": "函数 exportApdExcel，位于 apd-export-service.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/lib/domain/services/change-order-service.ts",
+      "type": "file",
+      "name": "change-order-service.ts",
+      "filePath": "src/lib/domain/services/change-order-service.ts",
+      "summary": "领域服务 change-order-service.ts，实现 MPMS 业务规则与数据操作。",
+      "tags": [
+        "data-model",
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/lib/domain/services/change-order-service.ts:buildSnapshot",
+      "type": "function",
+      "name": "buildSnapshot",
+      "filePath": "src/lib/domain/services/change-order-service.ts",
+      "summary": "函数 buildSnapshot，位于 change-order-service.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/domain/services/change-order-service.ts:formatDiff",
+      "type": "function",
+      "name": "formatDiff",
+      "filePath": "src/lib/domain/services/change-order-service.ts",
+      "summary": "函数 formatDiff，位于 change-order-service.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/domain/services/change-order-service.ts:createChangeOrderDraft",
+      "type": "function",
+      "name": "createChangeOrderDraft",
+      "filePath": "src/lib/domain/services/change-order-service.ts",
+      "summary": "函数 createChangeOrderDraft，位于 change-order-service.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/domain/services/change-order-service.ts:computeChangeDiff",
+      "type": "function",
+      "name": "computeChangeDiff",
+      "filePath": "src/lib/domain/services/change-order-service.ts",
+      "summary": "函数 computeChangeDiff，位于 change-order-service.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/domain/services/change-order-service.ts:finalizeChangeOrder",
+      "type": "function",
+      "name": "finalizeChangeOrder",
+      "filePath": "src/lib/domain/services/change-order-service.ts",
+      "summary": "函数 finalizeChangeOrder，位于 change-order-service.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/domain/services/change-order-service.ts:submitChangeOrderApproval",
+      "type": "function",
+      "name": "submitChangeOrderApproval",
+      "filePath": "src/lib/domain/services/change-order-service.ts",
+      "summary": "函数 submitChangeOrderApproval，位于 change-order-service.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/domain/services/change-order-service.ts:getChangeOrders",
+      "type": "function",
+      "name": "getChangeOrders",
+      "filePath": "src/lib/domain/services/change-order-service.ts",
+      "summary": "函数 getChangeOrders，位于 change-order-service.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/domain/services/mbom-service.ts",
+      "type": "file",
+      "name": "mbom-service.ts",
+      "filePath": "src/lib/domain/services/mbom-service.ts",
+      "summary": "领域服务 mbom-service.ts，实现 MPMS 业务规则与数据操作。",
+      "tags": [
+        "data-model",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/domain/services/mbom-service.ts:countSiblingsByKind",
+      "type": "function",
+      "name": "countSiblingsByKind",
+      "filePath": "src/lib/domain/services/mbom-service.ts",
+      "summary": "函数 countSiblingsByKind，位于 mbom-service.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/domain/services/mbom-service.ts:initializeMbomRoot",
+      "type": "function",
+      "name": "initializeMbomRoot",
+      "filePath": "src/lib/domain/services/mbom-service.ts",
+      "summary": "函数 initializeMbomRoot，位于 mbom-service.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/domain/services/mbom-service.ts:addMbomFromEbomRef",
+      "type": "function",
+      "name": "addMbomFromEbomRef",
+      "filePath": "src/lib/domain/services/mbom-service.ts",
+      "summary": "函数 addMbomFromEbomRef，位于 mbom-service.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/domain/services/mbom-service.ts:createPhantomSemifinished",
+      "type": "function",
+      "name": "createPhantomSemifinished",
+      "filePath": "src/lib/domain/services/mbom-service.ts",
+      "summary": "函数 createPhantomSemifinished，位于 mbom-service.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/domain/services/mbom-service.ts:createPhantomGroup",
+      "type": "function",
+      "name": "createPhantomGroup",
+      "filePath": "src/lib/domain/services/mbom-service.ts",
+      "summary": "函数 createPhantomGroup，位于 mbom-service.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/domain/services/mbom-service.ts:moveMbomNode",
+      "type": "function",
+      "name": "moveMbomNode",
+      "filePath": "src/lib/domain/services/mbom-service.ts",
+      "summary": "函数 moveMbomNode，位于 mbom-service.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/domain/services/operation-service.ts",
+      "type": "file",
+      "name": "operation-service.ts",
+      "filePath": "src/lib/domain/services/operation-service.ts",
+      "summary": "领域服务 operation-service.ts，实现 MPMS 业务规则与数据操作。",
+      "tags": [
+        "data-model",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/domain/services/operation-service.ts:defaultOperation",
+      "type": "function",
+      "name": "defaultOperation",
+      "filePath": "src/lib/domain/services/operation-service.ts",
+      "summary": "函数 defaultOperation，位于 operation-service.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/domain/services/operation-service.ts:ensureOperationForBopNode",
+      "type": "function",
+      "name": "ensureOperationForBopNode",
+      "filePath": "src/lib/domain/services/operation-service.ts",
+      "summary": "函数 ensureOperationForBopNode，位于 operation-service.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/domain/services/operation-service.ts:updateOperation",
+      "type": "function",
+      "name": "updateOperation",
+      "filePath": "src/lib/domain/services/operation-service.ts",
+      "summary": "函数 updateOperation，位于 operation-service.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/domain/services/operation-service.ts:assignMbomItem",
+      "type": "function",
+      "name": "assignMbomItem",
+      "filePath": "src/lib/domain/services/operation-service.ts",
+      "summary": "函数 assignMbomItem，位于 operation-service.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/domain/services/operation-service.ts:assignResource",
+      "type": "function",
+      "name": "assignResource",
+      "filePath": "src/lib/domain/services/operation-service.ts",
+      "summary": "函数 assignResource，位于 operation-service.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/domain/services/operation-service.ts:removeConsumedItem",
+      "type": "function",
+      "name": "removeConsumedItem",
+      "filePath": "src/lib/domain/services/operation-service.ts",
+      "summary": "函数 removeConsumedItem，位于 operation-service.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/domain/services/operation-service.ts:checkOperationAccountability",
+      "type": "function",
+      "name": "checkOperationAccountability",
+      "filePath": "src/lib/domain/services/operation-service.ts",
+      "summary": "函数 checkOperationAccountability，位于 operation-service.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/domain/services/process-document-service.ts",
+      "type": "file",
+      "name": "process-document-service.ts",
+      "filePath": "src/lib/domain/services/process-document-service.ts",
+      "summary": "领域服务 process-document-service.ts，实现 MPMS 业务规则与数据操作。",
+      "tags": [
+        "data-model",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/domain/services/process-document-service.ts:createProcessDocument",
+      "type": "function",
+      "name": "createProcessDocument",
+      "filePath": "src/lib/domain/services/process-document-service.ts",
+      "summary": "函数 createProcessDocument，位于 process-document-service.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/domain/services/process-document-service.ts:attachFile",
+      "type": "function",
+      "name": "attachFile",
+      "filePath": "src/lib/domain/services/process-document-service.ts",
+      "summary": "函数 attachFile，位于 process-document-service.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/domain/services/process-document-service.ts:getDocumentsGroupedByProduct",
+      "type": "function",
+      "name": "getDocumentsGroupedByProduct",
+      "filePath": "src/lib/domain/services/process-document-service.ts",
+      "summary": "函数 getDocumentsGroupedByProduct，位于 process-document-service.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/domain/services/process-summary-service.ts",
+      "type": "file",
+      "name": "process-summary-service.ts",
+      "filePath": "src/lib/domain/services/process-summary-service.ts",
+      "summary": "领域服务 process-summary-service.ts，实现 MPMS 业务规则与数据操作。",
+      "tags": [
+        "data-model",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/domain/services/process-summary-service.ts:buildProcessSummary",
+      "type": "function",
+      "name": "buildProcessSummary",
+      "filePath": "src/lib/domain/services/process-summary-service.ts",
+      "summary": "函数 buildProcessSummary，位于 process-summary-service.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/lib/domain/services/summary-export-service.ts",
+      "type": "file",
+      "name": "summary-export-service.ts",
+      "filePath": "src/lib/domain/services/summary-export-service.ts",
+      "summary": "领域服务 summary-export-service.ts，实现 MPMS 业务规则与数据操作。",
+      "tags": [
+        "data-model",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/domain/services/summary-export-service.ts:exportProcessSummaryExcel",
+      "type": "function",
+      "name": "exportProcessSummaryExcel",
+      "filePath": "src/lib/domain/services/summary-export-service.ts",
+      "summary": "函数 exportProcessSummaryExcel，位于 summary-export-service.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/lib/integration/handoff-package.ts",
+      "type": "file",
+      "name": "handoff-package.ts",
+      "filePath": "src/lib/integration/handoff-package.ts",
+      "summary": "库模块 handoff-package.ts，提供认证、导航或工具能力。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/integration/handoff-package.ts:buildCollaborationHandoffPackage",
+      "type": "function",
+      "name": "buildCollaborationHandoffPackage",
+      "filePath": "src/lib/integration/handoff-package.ts",
+      "summary": "函数 buildCollaborationHandoffPackage，位于 handoff-package.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/lib/workflow/guards.ts",
+      "type": "file",
+      "name": "guards.ts",
+      "filePath": "src/lib/workflow/guards.ts",
+      "summary": "库模块 guards.ts，提供认证、导航或工具能力。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/workflow/guards.ts:validateMbomBopApproval",
+      "type": "function",
+      "name": "validateMbomBopApproval",
+      "filePath": "src/lib/workflow/guards.ts",
+      "summary": "函数 validateMbomBopApproval，位于 guards.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/app/(workspace)/summary/page.tsx",
+      "target": "file:src/components/ui/button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/summary/page.tsx",
+      "target": "file:src/components/ui/table.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/summary/page.tsx",
+      "target": "file:src/components/ui/tabs.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/summary/page.tsx",
+      "target": "file:src/hooks/use-process-summary.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/summary/page.tsx",
+      "target": "file:src/lib/domain/services/process-summary-service.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/summary/page.tsx",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/summary/page.tsx",
+      "target": "function:src/app/(workspace)/summary/page.tsx:SummaryTables",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/app/(workspace)/summary/page.tsx",
+      "target": "function:src/app/(workspace)/summary/page.tsx:SummaryPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/app/(workspace)/summary/page.tsx",
+      "target": "function:src/app/(workspace)/summary/page.tsx:SummaryPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/hooks/use-operations.ts",
+      "target": "file:src/lib/db/repositories/operation-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/hooks/use-operations.ts",
+      "target": "file:src/lib/db/repositories/resource-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/hooks/use-process-documents.ts",
+      "target": "file:src/lib/db/repositories/document-file-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/hooks/use-process-documents.ts",
+      "target": "file:src/lib/db/repositories/process-document-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/hooks/use-process-documents.ts",
+      "target": "file:src/lib/domain/services/process-document-service.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/hooks/use-process-summary.ts",
+      "target": "file:src/lib/domain/services/process-summary-service.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/hooks/use-process-summary.ts",
+      "target": "file:src/lib/domain/services/summary-export-service.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/hooks/use-process-summary.ts",
+      "target": "file:src/stores/workspace-store.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/hooks/use-process-summary.ts",
+      "target": "function:src/hooks/use-process-summary.ts:useProcessSummary",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/hooks/use-process-summary.ts",
+      "target": "function:src/hooks/use-process-summary.ts:useProcessSummary",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/db/export-import.ts",
+      "target": "file:src/lib/db/schema.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/db/export-import.ts",
+      "target": "file:src/lib/domain/schemas/export-bundle.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/db/export-import.ts",
+      "target": "file:src/lib/integration/handoff-package.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/db/export-import.ts",
+      "target": "function:src/lib/db/export-import.ts:exportDatabase",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/db/export-import.ts",
+      "target": "function:src/lib/db/export-import.ts:exportDatabase",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/db/export-import.ts",
+      "target": "function:src/lib/db/export-import.ts:importDatabase",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/db/export-import.ts",
+      "target": "function:src/lib/db/export-import.ts:importDatabase",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/db/repositories/app-meta-repository.ts",
+      "target": "file:src/lib/db/repositories/base.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/db/repositories/app-meta-repository.ts",
+      "target": "file:src/lib/db/schema.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/db/repositories/app-meta-repository.ts",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/db/repositories/bom-repository.ts",
+      "target": "file:src/lib/db/repositories/base.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/db/repositories/bom-repository.ts",
+      "target": "file:src/lib/db/schema.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/db/repositories/bom-repository.ts",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/db/repositories/bom-repository.ts",
+      "target": "function:src/lib/db/repositories/bom-repository.ts:getMbomSubtree",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/db/repositories/bom-repository.ts",
+      "target": "function:src/lib/db/repositories/bom-repository.ts:getMbomSubtree",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/db/repositories/bop-repository.ts",
+      "target": "file:src/lib/db/repositories/base.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/db/repositories/bop-repository.ts",
+      "target": "file:src/lib/db/schema.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/db/repositories/bop-repository.ts",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/db/repositories/bop-repository.ts",
+      "target": "function:src/lib/db/repositories/bop-repository.ts:getBopSubtree",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/db/repositories/bop-repository.ts",
+      "target": "function:src/lib/db/repositories/bop-repository.ts:getBopSubtree",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/db/repositories/change-order-repository.ts",
+      "target": "file:src/lib/db/repositories/base.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/db/repositories/change-order-repository.ts",
+      "target": "file:src/lib/db/schema.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/db/repositories/change-order-repository.ts",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/db/repositories/collaboration-repository.ts",
+      "target": "file:src/lib/db/repositories/base.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/db/repositories/collaboration-repository.ts",
+      "target": "file:src/lib/db/schema.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/db/repositories/collaboration-repository.ts",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/db/repositories/dictionary-repository.ts",
+      "target": "file:src/lib/db/repositories/base.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/db/repositories/dictionary-repository.ts",
+      "target": "file:src/lib/db/schema.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/db/repositories/dictionary-repository.ts",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/db/repositories/document-file-repository.ts",
+      "target": "file:src/lib/db/repositories/base.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/db/repositories/document-file-repository.ts",
+      "target": "file:src/lib/db/schema.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/db/repositories/document-file-repository.ts",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/db/repositories/operation-repository.ts",
+      "target": "file:src/lib/db/repositories/base.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/db/repositories/operation-repository.ts",
+      "target": "file:src/lib/db/repositories/bop-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/db/repositories/operation-repository.ts",
+      "target": "file:src/lib/db/schema.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/db/repositories/operation-repository.ts",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/db/repositories/operation-repository.ts",
+      "target": "function:src/lib/db/repositories/operation-repository.ts:getAllForBopRoot",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/db/repositories/operation-repository.ts",
+      "target": "function:src/lib/db/repositories/operation-repository.ts:getAllForBopRoot",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/db/repositories/process-document-repository.ts",
+      "target": "file:src/lib/db/repositories/base.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/db/repositories/process-document-repository.ts",
+      "target": "file:src/lib/db/schema.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/db/repositories/process-document-repository.ts",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/db/repositories/resource-repository.ts",
+      "target": "file:src/lib/db/repositories/base.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/db/repositories/resource-repository.ts",
+      "target": "file:src/lib/db/schema.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/db/repositories/resource-repository.ts",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/db/schema.ts",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/db/schema.ts",
+      "target": "class:src/lib/db/schema.ts:MpmsDatabase",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/db/schema.ts",
+      "target": "class:src/lib/db/schema.ts:MpmsDatabase",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/domain/id-generator.ts",
+      "target": "file:src/lib/db/schema.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/rules/mbom-constraints.ts",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/rules/mbom-constraints.ts",
+      "target": "function:src/lib/domain/rules/mbom-constraints.ts:validateNodeAgainstParent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/domain/rules/mbom-constraints.ts",
+      "target": "function:src/lib/domain/rules/mbom-constraints.ts:validatePurchasedChildrenConstraint",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/domain/rules/mbom-constraints.ts",
+      "target": "function:src/lib/domain/rules/mbom-constraints.ts:validatePurchasedChildrenConstraint",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/domain/schemas/export-bundle.ts",
+      "target": "file:src/lib/domain/schemas/bom.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/schemas/export-bundle.ts",
+      "target": "file:src/lib/domain/schemas/process-document.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/schemas/handoff-package.ts",
+      "target": "file:src/lib/domain/schemas/bom.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/schemas/handoff-package.ts",
+      "target": "file:src/lib/domain/schemas/process-document.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/services/apd-export-service.ts",
+      "target": "file:src/lib/db/repositories/bom-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/services/apd-export-service.ts",
+      "target": "file:src/lib/db/repositories/bop-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/services/apd-export-service.ts",
+      "target": "file:src/lib/db/repositories/collaboration-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/services/apd-export-service.ts",
+      "target": "file:src/lib/db/repositories/operation-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/services/apd-export-service.ts",
+      "target": "function:src/lib/domain/services/apd-export-service.ts:exportApdExcel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/domain/services/apd-export-service.ts",
+      "target": "function:src/lib/domain/services/apd-export-service.ts:exportApdExcel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/domain/services/change-order-service.ts",
+      "target": "file:src/lib/db/repositories/bom-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/services/change-order-service.ts",
+      "target": "file:src/lib/db/repositories/bop-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/services/change-order-service.ts",
+      "target": "file:src/lib/db/repositories/change-order-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/services/change-order-service.ts",
+      "target": "file:src/lib/db/repositories/collaboration-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/services/change-order-service.ts",
+      "target": "file:src/lib/db/repositories/operation-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/services/change-order-service.ts",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/services/change-order-service.ts",
+      "target": "file:src/lib/workflow/workflow-service.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/services/change-order-service.ts",
+      "target": "function:src/lib/domain/services/change-order-service.ts:buildSnapshot",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/domain/services/change-order-service.ts",
+      "target": "function:src/lib/domain/services/change-order-service.ts:formatDiff",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/domain/services/change-order-service.ts",
+      "target": "function:src/lib/domain/services/change-order-service.ts:createChangeOrderDraft",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/domain/services/change-order-service.ts",
+      "target": "function:src/lib/domain/services/change-order-service.ts:createChangeOrderDraft",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/domain/services/change-order-service.ts",
+      "target": "function:src/lib/domain/services/change-order-service.ts:computeChangeDiff",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/domain/services/change-order-service.ts",
+      "target": "function:src/lib/domain/services/change-order-service.ts:computeChangeDiff",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/domain/services/change-order-service.ts",
+      "target": "function:src/lib/domain/services/change-order-service.ts:finalizeChangeOrder",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/domain/services/change-order-service.ts",
+      "target": "function:src/lib/domain/services/change-order-service.ts:finalizeChangeOrder",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/domain/services/change-order-service.ts",
+      "target": "function:src/lib/domain/services/change-order-service.ts:submitChangeOrderApproval",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/domain/services/change-order-service.ts",
+      "target": "function:src/lib/domain/services/change-order-service.ts:submitChangeOrderApproval",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/domain/services/change-order-service.ts",
+      "target": "function:src/lib/domain/services/change-order-service.ts:getChangeOrders",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/domain/services/change-order-service.ts",
+      "target": "function:src/lib/domain/services/change-order-service.ts:getChangeOrders",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/domain/services/mbom-service.ts",
+      "target": "file:src/lib/db/repositories/bom-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/services/mbom-service.ts",
+      "target": "file:src/lib/db/repositories/collaboration-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/services/mbom-service.ts",
+      "target": "file:src/lib/domain/rules/mbom-constraints.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/services/mbom-service.ts",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/services/mbom-service.ts",
+      "target": "function:src/lib/domain/services/mbom-service.ts:countSiblingsByKind",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/domain/services/mbom-service.ts",
+      "target": "function:src/lib/domain/services/mbom-service.ts:initializeMbomRoot",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/domain/services/mbom-service.ts",
+      "target": "function:src/lib/domain/services/mbom-service.ts:initializeMbomRoot",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/domain/services/mbom-service.ts",
+      "target": "function:src/lib/domain/services/mbom-service.ts:addMbomFromEbomRef",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/domain/services/mbom-service.ts",
+      "target": "function:src/lib/domain/services/mbom-service.ts:addMbomFromEbomRef",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/domain/services/mbom-service.ts",
+      "target": "function:src/lib/domain/services/mbom-service.ts:createPhantomSemifinished",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/domain/services/mbom-service.ts",
+      "target": "function:src/lib/domain/services/mbom-service.ts:createPhantomSemifinished",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/domain/services/mbom-service.ts",
+      "target": "function:src/lib/domain/services/mbom-service.ts:createPhantomGroup",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/domain/services/mbom-service.ts",
+      "target": "function:src/lib/domain/services/mbom-service.ts:createPhantomGroup",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/domain/services/mbom-service.ts",
+      "target": "function:src/lib/domain/services/mbom-service.ts:moveMbomNode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/domain/services/mbom-service.ts",
+      "target": "function:src/lib/domain/services/mbom-service.ts:moveMbomNode",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/domain/services/operation-service.ts",
+      "target": "file:src/lib/db/repositories/bop-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/services/operation-service.ts",
+      "target": "file:src/lib/db/repositories/collaboration-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/services/operation-service.ts",
+      "target": "file:src/lib/db/repositories/operation-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/services/operation-service.ts",
+      "target": "file:src/lib/db/repositories/resource-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/services/operation-service.ts",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/services/operation-service.ts",
+      "target": "function:src/lib/domain/services/operation-service.ts:defaultOperation",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/domain/services/operation-service.ts",
+      "target": "function:src/lib/domain/services/operation-service.ts:ensureOperationForBopNode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/domain/services/operation-service.ts",
+      "target": "function:src/lib/domain/services/operation-service.ts:ensureOperationForBopNode",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/domain/services/operation-service.ts",
+      "target": "function:src/lib/domain/services/operation-service.ts:updateOperation",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/domain/services/operation-service.ts",
+      "target": "function:src/lib/domain/services/operation-service.ts:updateOperation",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/domain/services/operation-service.ts",
+      "target": "function:src/lib/domain/services/operation-service.ts:assignMbomItem",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/domain/services/operation-service.ts",
+      "target": "function:src/lib/domain/services/operation-service.ts:assignMbomItem",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/domain/services/operation-service.ts",
+      "target": "function:src/lib/domain/services/operation-service.ts:assignResource",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/domain/services/operation-service.ts",
+      "target": "function:src/lib/domain/services/operation-service.ts:assignResource",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/domain/services/operation-service.ts",
+      "target": "function:src/lib/domain/services/operation-service.ts:removeConsumedItem",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/domain/services/operation-service.ts",
+      "target": "function:src/lib/domain/services/operation-service.ts:removeConsumedItem",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/domain/services/operation-service.ts",
+      "target": "function:src/lib/domain/services/operation-service.ts:checkOperationAccountability",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/domain/services/operation-service.ts",
+      "target": "function:src/lib/domain/services/operation-service.ts:checkOperationAccountability",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/domain/services/process-document-service.ts",
+      "target": "file:src/lib/db/repositories/document-file-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/services/process-document-service.ts",
+      "target": "file:src/lib/db/repositories/process-document-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/services/process-document-service.ts",
+      "target": "file:src/lib/domain/id-generator.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/services/process-document-service.ts",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/services/process-document-service.ts",
+      "target": "function:src/lib/domain/services/process-document-service.ts:createProcessDocument",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/domain/services/process-document-service.ts",
+      "target": "function:src/lib/domain/services/process-document-service.ts:createProcessDocument",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/domain/services/process-document-service.ts",
+      "target": "function:src/lib/domain/services/process-document-service.ts:attachFile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/domain/services/process-document-service.ts",
+      "target": "function:src/lib/domain/services/process-document-service.ts:attachFile",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/domain/services/process-document-service.ts",
+      "target": "function:src/lib/domain/services/process-document-service.ts:getDocumentsGroupedByProduct",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/domain/services/process-document-service.ts",
+      "target": "function:src/lib/domain/services/process-document-service.ts:getDocumentsGroupedByProduct",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/domain/services/process-summary-service.ts",
+      "target": "file:src/lib/db/repositories/bom-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/services/process-summary-service.ts",
+      "target": "file:src/lib/db/repositories/collaboration-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/services/process-summary-service.ts",
+      "target": "file:src/lib/db/repositories/operation-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/services/process-summary-service.ts",
+      "target": "file:src/lib/db/repositories/resource-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/services/process-summary-service.ts",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/services/process-summary-service.ts",
+      "target": "function:src/lib/domain/services/process-summary-service.ts:buildProcessSummary",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/domain/services/process-summary-service.ts",
+      "target": "function:src/lib/domain/services/process-summary-service.ts:buildProcessSummary",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/domain/services/summary-export-service.ts",
+      "target": "file:src/lib/domain/services/process-summary-service.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/services/summary-export-service.ts",
+      "target": "function:src/lib/domain/services/summary-export-service.ts:exportProcessSummaryExcel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/domain/services/summary-export-service.ts",
+      "target": "function:src/lib/domain/services/summary-export-service.ts:exportProcessSummaryExcel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/integration/handoff-package.ts",
+      "target": "file:src/lib/db/repositories/bom-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/integration/handoff-package.ts",
+      "target": "file:src/lib/db/repositories/bop-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/integration/handoff-package.ts",
+      "target": "file:src/lib/db/repositories/collaboration-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/integration/handoff-package.ts",
+      "target": "file:src/lib/db/repositories/operation-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/integration/handoff-package.ts",
+      "target": "file:src/lib/db/repositories/process-document-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/integration/handoff-package.ts",
+      "target": "file:src/lib/domain/schemas/handoff-package.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/integration/handoff-package.ts",
+      "target": "file:src/lib/domain/services/process-summary-service.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/integration/handoff-package.ts",
+      "target": "function:src/lib/integration/handoff-package.ts:buildCollaborationHandoffPackage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/integration/handoff-package.ts",
+      "target": "function:src/lib/integration/handoff-package.ts:buildCollaborationHandoffPackage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/workflow/guards.ts",
+      "target": "file:src/lib/db/repositories/bom-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/guards.ts",
+      "target": "file:src/lib/domain/rules/mbom-constraints.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/guards.ts",
+      "target": "function:src/lib/workflow/guards.ts:validateMbomBopApproval",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/workflow/guards.ts",
+      "target": "function:src/lib/workflow/guards.ts:validateMbomBopApproval",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

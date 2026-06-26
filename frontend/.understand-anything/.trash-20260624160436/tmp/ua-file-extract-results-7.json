@@ -1,0 +1,1084 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 8,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "src/app/(workspace)/approval/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 178,
+      "nonEmptyLines": 164,
+      "functions": [
+        {
+          "name": "ApprovalTable",
+          "startLine": 37,
+          "endLine": 101,
+          "params": [
+            "{\n  records,\n  onSelect,\n}"
+          ]
+        },
+        {
+          "name": "ApprovalPage",
+          "startLine": 103,
+          "endLine": 178,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "ApprovalPage",
+          "line": 103,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "ApprovalTable",
+          "callee": "records.map",
+          "lineNumber": 64
+        },
+        {
+          "caller": "ApprovalTable",
+          "callee": "getTemplate",
+          "lineNumber": 65
+        },
+        {
+          "caller": "ApprovalTable",
+          "callee": "onSelect",
+          "lineNumber": 90
+        },
+        {
+          "caller": "ApprovalPage",
+          "callee": "useApprovalInbox",
+          "lineNumber": 104
+        },
+        {
+          "caller": "ApprovalPage",
+          "callee": "useApprovalHistory",
+          "lineNumber": 105
+        },
+        {
+          "caller": "ApprovalPage",
+          "callee": "useState",
+          "lineNumber": 106
+        },
+        {
+          "caller": "ApprovalPage",
+          "callee": "getSession",
+          "lineNumber": 108
+        },
+        {
+          "caller": "ApprovalPage",
+          "callee": "getTemplate",
+          "lineNumber": 111
+        },
+        {
+          "caller": "ApprovalPage",
+          "callee": "setSelected",
+          "lineNumber": 145
+        },
+        {
+          "caller": "ApprovalPage",
+          "callee": "setSelected",
+          "lineNumber": 168
+        }
+      ],
+      "metrics": {
+        "importCount": 11,
+        "exportCount": 1,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/components/workflow/approval-actions.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 94,
+      "nonEmptyLines": 87,
+      "functions": [
+        {
+          "name": "ApprovalActions",
+          "startLine": 20,
+          "endLine": 94,
+          "params": [
+            "{ record, actor, onComplete }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "ApprovalActions",
+          "line": 20,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "ApprovalActions",
+          "callee": "useState",
+          "lineNumber": 21
+        },
+        {
+          "caller": "ApprovalActions",
+          "callee": "useState",
+          "lineNumber": 22
+        },
+        {
+          "caller": "ApprovalActions",
+          "callee": "useTransitionApproval",
+          "lineNumber": 23
+        },
+        {
+          "caller": "ApprovalActions",
+          "callee": "isTerminalNode",
+          "lineNumber": 27
+        },
+        {
+          "caller": "handleAction",
+          "callee": "setGuardError",
+          "lineNumber": 30
+        },
+        {
+          "caller": "handleAction",
+          "callee": "transition.mutateAsync",
+          "lineNumber": 32
+        },
+        {
+          "caller": "handleAction",
+          "callee": "comment.trim",
+          "lineNumber": 36
+        },
+        {
+          "caller": "handleAction",
+          "callee": "toast.success",
+          "lineNumber": 38
+        },
+        {
+          "caller": "handleAction",
+          "callee": "setComment",
+          "lineNumber": 39
+        },
+        {
+          "caller": "handleAction",
+          "callee": "onComplete",
+          "lineNumber": 40
+        },
+        {
+          "caller": "handleAction",
+          "callee": "setGuardError",
+          "lineNumber": 43
+        },
+        {
+          "caller": "handleAction",
+          "callee": "toast.error",
+          "lineNumber": 45
+        },
+        {
+          "caller": "ApprovalActions",
+          "callee": "setComment",
+          "lineNumber": 71
+        },
+        {
+          "caller": "ApprovalActions",
+          "callee": "handleAction",
+          "lineNumber": 79
+        },
+        {
+          "caller": "ApprovalActions",
+          "callee": "handleAction",
+          "lineNumber": 87
+        }
+      ],
+      "metrics": {
+        "importCount": 8,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/components/workflow/approval-timeline.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 89,
+      "nonEmptyLines": 81,
+      "functions": [
+        {
+          "name": "ApprovalTimeline",
+          "startLine": 13,
+          "endLine": 89,
+          "params": [
+            "{ record, className }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "ApprovalTimeline",
+          "line": 13,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "ApprovalTimeline",
+          "callee": "getTemplate",
+          "lineNumber": 14
+        },
+        {
+          "caller": "ApprovalTimeline",
+          "callee": "record.transitions.filter((t) => t.action === 'approve' || t.action === 'start').map",
+          "lineNumber": 18
+        },
+        {
+          "caller": "ApprovalTimeline",
+          "callee": "record.transitions.filter",
+          "lineNumber": 18
+        },
+        {
+          "caller": "ApprovalTimeline",
+          "callee": "record.transitions.some",
+          "lineNumber": 20
+        },
+        {
+          "caller": "ApprovalTimeline",
+          "callee": "template.nodes.findIndex",
+          "lineNumber": 21
+        },
+        {
+          "caller": "ApprovalTimeline",
+          "callee": "cn",
+          "lineNumber": 24
+        },
+        {
+          "caller": "ApprovalTimeline",
+          "callee": "template.nodes.map",
+          "lineNumber": 25
+        },
+        {
+          "caller": "ApprovalTimeline",
+          "callee": "completedNodes.has",
+          "lineNumber": 28
+        },
+        {
+          "caller": "ApprovalTimeline",
+          "callee": "record.transitions.find",
+          "lineNumber": 49
+        },
+        {
+          "caller": "ApprovalTimeline",
+          "callee": "cn",
+          "lineNumber": 56
+        },
+        {
+          "caller": "ApprovalTimeline",
+          "callee": "cn",
+          "lineNumber": 59
+        },
+        {
+          "caller": "ApprovalTimeline",
+          "callee": "cn",
+          "lineNumber": 68
+        },
+        {
+          "caller": "ApprovalTimeline",
+          "callee": "new Date(transition.at).toLocaleString",
+          "lineNumber": 80
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/hooks/use-approvals.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 61,
+      "nonEmptyLines": 56,
+      "functions": [
+        {
+          "name": "useApprovalInbox",
+          "startLine": 11,
+          "endLine": 16,
+          "params": []
+        },
+        {
+          "name": "useApprovalHistory",
+          "startLine": 18,
+          "endLine": 23,
+          "params": []
+        },
+        {
+          "name": "useApprovalRecord",
+          "startLine": 25,
+          "endLine": 31,
+          "params": [
+            "id"
+          ]
+        },
+        {
+          "name": "useStartApproval",
+          "startLine": 33,
+          "endLine": 41,
+          "params": []
+        },
+        {
+          "name": "useTransitionApproval",
+          "startLine": 43,
+          "endLine": 61,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "useApprovalInbox",
+          "line": 11,
+          "isDefault": false
+        },
+        {
+          "name": "useApprovalHistory",
+          "line": 18,
+          "isDefault": false
+        },
+        {
+          "name": "useApprovalRecord",
+          "line": 25,
+          "isDefault": false
+        },
+        {
+          "name": "useStartApproval",
+          "line": 33,
+          "isDefault": false
+        },
+        {
+          "name": "useTransitionApproval",
+          "line": 43,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "useApprovalInbox",
+          "callee": "useQuery",
+          "lineNumber": 12
+        },
+        {
+          "caller": "useApprovalInbox",
+          "callee": "getInboxRecords",
+          "lineNumber": 14
+        },
+        {
+          "caller": "useApprovalHistory",
+          "callee": "useQuery",
+          "lineNumber": 19
+        },
+        {
+          "caller": "useApprovalHistory",
+          "callee": "getHistoryRecords",
+          "lineNumber": 21
+        },
+        {
+          "caller": "useApprovalRecord",
+          "callee": "useQuery",
+          "lineNumber": 26
+        },
+        {
+          "caller": "useApprovalRecord",
+          "callee": "approvalRepository.getById",
+          "lineNumber": 28
+        },
+        {
+          "caller": "useApprovalRecord",
+          "callee": "Promise.resolve",
+          "lineNumber": 28
+        },
+        {
+          "caller": "useStartApproval",
+          "callee": "useQueryClient",
+          "lineNumber": 34
+        },
+        {
+          "caller": "useStartApproval",
+          "callee": "useMutation",
+          "lineNumber": 35
+        },
+        {
+          "caller": "useStartApproval",
+          "callee": "startApproval",
+          "lineNumber": 36
+        },
+        {
+          "caller": "useStartApproval",
+          "callee": "queryClient.invalidateQueries",
+          "lineNumber": 38
+        },
+        {
+          "caller": "useTransitionApproval",
+          "callee": "useQueryClient",
+          "lineNumber": 44
+        },
+        {
+          "caller": "useTransitionApproval",
+          "callee": "useMutation",
+          "lineNumber": 45
+        },
+        {
+          "caller": "useTransitionApproval",
+          "callee": "transitionApproval",
+          "lineNumber": 52
+        },
+        {
+          "caller": "useTransitionApproval",
+          "callee": "queryClient.invalidateQueries",
+          "lineNumber": 54
+        },
+        {
+          "caller": "useTransitionApproval",
+          "callee": "queryClient.invalidateQueries",
+          "lineNumber": 55
+        },
+        {
+          "caller": "useTransitionApproval",
+          "callee": "queryClient.invalidateQueries",
+          "lineNumber": 56
+        },
+        {
+          "caller": "useTransitionApproval",
+          "callee": "queryClient.invalidateQueries",
+          "lineNumber": 57
+        },
+        {
+          "caller": "useTransitionApproval",
+          "callee": "queryClient.invalidateQueries",
+          "lineNumber": 58
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 5,
+        "functionCount": 5,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/db/repositories/approval-repository.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 34,
+      "nonEmptyLines": 31,
+      "functions": [
+        {
+          "name": "getByTargetId",
+          "startLine": 27,
+          "endLine": 29,
+          "params": [
+            "targetId"
+          ]
+        },
+        {
+          "name": "getActiveByTargetId",
+          "startLine": 31,
+          "endLine": 34,
+          "params": [
+            "targetId"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "approvalRepository",
+          "line": 5,
+          "isDefault": false
+        },
+        {
+          "name": "getByTargetId",
+          "line": 27,
+          "isDefault": false
+        },
+        {
+          "name": "getActiveByTargetId",
+          "line": 31,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "getAll",
+          "callee": "db.approvalRecords.toArray",
+          "lineNumber": 7
+        },
+        {
+          "caller": "getById",
+          "callee": "db.approvalRecords.get",
+          "lineNumber": 10
+        },
+        {
+          "caller": "create",
+          "callee": "db.approvalRecords.add",
+          "lineNumber": 13
+        },
+        {
+          "caller": "update",
+          "callee": "db.approvalRecords.update",
+          "lineNumber": 17
+        },
+        {
+          "caller": "update",
+          "callee": "db.approvalRecords.get",
+          "lineNumber": 18
+        },
+        {
+          "caller": "delete",
+          "callee": "db.approvalRecords.delete",
+          "lineNumber": 23
+        },
+        {
+          "caller": "getByTargetId",
+          "callee": "db.approvalRecords.where('targetId').equals(targetId).toArray",
+          "lineNumber": 28
+        },
+        {
+          "caller": "getByTargetId",
+          "callee": "db.approvalRecords.where('targetId').equals",
+          "lineNumber": 28
+        },
+        {
+          "caller": "getByTargetId",
+          "callee": "db.approvalRecords.where",
+          "lineNumber": 28
+        },
+        {
+          "caller": "getActiveByTargetId",
+          "callee": "getByTargetId",
+          "lineNumber": 32
+        },
+        {
+          "caller": "getActiveByTargetId",
+          "callee": "records.find",
+          "lineNumber": 33
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 3,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/workflow/machines.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 59,
+      "nonEmptyLines": 51,
+      "functions": [
+        {
+          "name": "buildLinearMachine",
+          "startLine": 4,
+          "endLine": 30,
+          "params": [
+            "template"
+          ]
+        },
+        {
+          "name": "getWorkflowMachine",
+          "startLine": 34,
+          "endLine": 41,
+          "params": [
+            "templateId"
+          ]
+        },
+        {
+          "name": "resolveNextNode",
+          "startLine": 43,
+          "endLine": 49,
+          "params": [
+            "templateId",
+            "currentNodeId",
+            "action"
+          ]
+        },
+        {
+          "name": "isWorkflowComplete",
+          "startLine": 51,
+          "endLine": 59,
+          "params": [
+            "templateId",
+            "currentNodeId"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "getWorkflowMachine",
+          "line": 34,
+          "isDefault": false
+        },
+        {
+          "name": "resolveNextNode",
+          "line": 43,
+          "isDefault": false
+        },
+        {
+          "name": "isWorkflowComplete",
+          "line": 51,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "buildLinearMachine",
+          "callee": "createMachine",
+          "lineNumber": 25
+        },
+        {
+          "caller": "getWorkflowMachine",
+          "callee": "machineCache.has",
+          "lineNumber": 35
+        },
+        {
+          "caller": "getWorkflowMachine",
+          "callee": "getTemplate",
+          "lineNumber": 36
+        },
+        {
+          "caller": "getWorkflowMachine",
+          "callee": "machineCache.set",
+          "lineNumber": 38
+        },
+        {
+          "caller": "getWorkflowMachine",
+          "callee": "buildLinearMachine",
+          "lineNumber": 38
+        },
+        {
+          "caller": "getWorkflowMachine",
+          "callee": "machineCache.get",
+          "lineNumber": 40
+        },
+        {
+          "caller": "resolveNextNode",
+          "callee": "getNextNode",
+          "lineNumber": 48
+        },
+        {
+          "caller": "isWorkflowComplete",
+          "callee": "getTemplate",
+          "lineNumber": 55
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 3,
+        "functionCount": 4,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/workflow/templates.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 125,
+      "nonEmptyLines": 115,
+      "functions": [
+        {
+          "name": "getTemplate",
+          "startLine": 87,
+          "endLine": 89,
+          "params": [
+            "id"
+          ]
+        },
+        {
+          "name": "listTemplates",
+          "startLine": 91,
+          "endLine": 93,
+          "params": []
+        },
+        {
+          "name": "getFirstNode",
+          "startLine": 95,
+          "endLine": 97,
+          "params": [
+            "templateId"
+          ]
+        },
+        {
+          "name": "isTerminalNode",
+          "startLine": 99,
+          "endLine": 104,
+          "params": [
+            "templateId",
+            "nodeId"
+          ]
+        },
+        {
+          "name": "getNextNode",
+          "startLine": 106,
+          "endLine": 119,
+          "params": [
+            "templateId",
+            "currentNodeId",
+            "action"
+          ]
+        },
+        {
+          "name": "isFirstNode",
+          "startLine": 121,
+          "endLine": 125,
+          "params": [
+            "templateId",
+            "nodeId"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "getTemplate",
+          "line": 87,
+          "isDefault": false
+        },
+        {
+          "name": "listTemplates",
+          "line": 91,
+          "isDefault": false
+        },
+        {
+          "name": "getFirstNode",
+          "line": 95,
+          "isDefault": false
+        },
+        {
+          "name": "isTerminalNode",
+          "line": 99,
+          "isDefault": false
+        },
+        {
+          "name": "getNextNode",
+          "line": 106,
+          "isDefault": false
+        },
+        {
+          "name": "isFirstNode",
+          "line": 121,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "getTemplate",
+          "callee": "templateMap.get",
+          "lineNumber": 88
+        },
+        {
+          "caller": "getFirstNode",
+          "callee": "getTemplate",
+          "lineNumber": 96
+        },
+        {
+          "caller": "isTerminalNode",
+          "callee": "getTemplate",
+          "lineNumber": 100
+        },
+        {
+          "caller": "isTerminalNode",
+          "callee": "template.nodes.find",
+          "lineNumber": 102
+        },
+        {
+          "caller": "getNextNode",
+          "callee": "getTemplate",
+          "lineNumber": 111
+        },
+        {
+          "caller": "getNextNode",
+          "callee": "template.nodes.findIndex",
+          "lineNumber": 115
+        },
+        {
+          "caller": "isFirstNode",
+          "callee": "getTemplate",
+          "lineNumber": 122
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 6,
+        "functionCount": 6,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/workflow/workflow-service.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 183,
+      "nonEmptyLines": 163,
+      "functions": [
+        {
+          "name": "setTargetLifecycle",
+          "startLine": 31,
+          "endLine": 50,
+          "params": [
+            "targetId",
+            "targetType",
+            "state"
+          ]
+        },
+        {
+          "name": "startApproval",
+          "startLine": 59,
+          "endLine": 99,
+          "params": [
+            "params"
+          ]
+        },
+        {
+          "name": "transitionApproval",
+          "startLine": 101,
+          "endLine": 163,
+          "params": [
+            "recordId",
+            "action",
+            "actor",
+            "comment"
+          ]
+        },
+        {
+          "name": "getInboxRecords",
+          "startLine": 165,
+          "endLine": 172,
+          "params": []
+        },
+        {
+          "name": "getHistoryRecords",
+          "startLine": 174,
+          "endLine": 181,
+          "params": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "WorkflowGuardError",
+          "startLine": 24,
+          "endLine": 29,
+          "methods": [
+            "constructor"
+          ],
+          "properties": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "WorkflowGuardError",
+          "line": 24,
+          "isDefault": false
+        },
+        {
+          "name": "startApproval",
+          "line": 59,
+          "isDefault": false
+        },
+        {
+          "name": "transitionApproval",
+          "line": 101,
+          "isDefault": false
+        },
+        {
+          "name": "getInboxRecords",
+          "line": 165,
+          "isDefault": false
+        },
+        {
+          "name": "getHistoryRecords",
+          "line": 174,
+          "isDefault": false
+        },
+        {
+          "name": "getTemplate",
+          "line": 183,
+          "isDefault": false
+        },
+        {
+          "name": "listTemplates",
+          "line": 183,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "constructor",
+          "callee": "super",
+          "lineNumber": 26
+        },
+        {
+          "caller": "setTargetLifecycle",
+          "callee": "bomRepository.update",
+          "lineNumber": 38
+        },
+        {
+          "caller": "setTargetLifecycle",
+          "callee": "bopRepository.update",
+          "lineNumber": 41
+        },
+        {
+          "caller": "setTargetLifecycle",
+          "callee": "processDocumentRepository.update",
+          "lineNumber": 44
+        },
+        {
+          "caller": "setTargetLifecycle",
+          "callee": "changeOrderRepository.update",
+          "lineNumber": 47
+        },
+        {
+          "caller": "startApproval",
+          "callee": "getTemplate",
+          "lineNumber": 61
+        },
+        {
+          "caller": "startApproval",
+          "callee": "getFirstNode",
+          "lineNumber": 66
+        },
+        {
+          "caller": "startApproval",
+          "callee": "approvalRepository.getAll",
+          "lineNumber": 71
+        },
+        {
+          "caller": "startApproval",
+          "callee": "existing.find",
+          "lineNumber": 72
+        },
+        {
+          "caller": "startApproval",
+          "callee": "uuidv4",
+          "lineNumber": 80
+        },
+        {
+          "caller": "startApproval",
+          "callee": "new Date().toISOString",
+          "lineNumber": 90
+        },
+        {
+          "caller": "startApproval",
+          "callee": "approvalRepository.create",
+          "lineNumber": 96
+        },
+        {
+          "caller": "startApproval",
+          "callee": "setTargetLifecycle",
+          "lineNumber": 97
+        },
+        {
+          "caller": "transitionApproval",
+          "callee": "approvalRepository.getById",
+          "lineNumber": 107
+        },
+        {
+          "caller": "transitionApproval",
+          "callee": "new Date().toISOString",
+          "lineNumber": 119
+        },
+        {
+          "caller": "transitionApproval",
+          "callee": "approvalRepository.update",
+          "lineNumber": 124
+        },
+        {
+          "caller": "transitionApproval",
+          "callee": "setTargetLifecycle",
+          "lineNumber": 128
+        },
+        {
+          "caller": "transitionApproval",
+          "callee": "isFirstNode",
+          "lineNumber": 132
+        },
+        {
+          "caller": "transitionApproval",
+          "callee": "validateMbomBopApproval",
+          "lineNumber": 133
+        },
+        {
+          "caller": "transitionApproval",
+          "callee": "resolveNextNode",
+          "lineNumber": 139
+        },
+        {
+          "caller": "transitionApproval",
+          "callee": "isTerminalNode",
+          "lineNumber": 145
+        },
+        {
+          "caller": "transitionApproval",
+          "callee": "isWorkflowComplete",
+          "lineNumber": 147
+        },
+        {
+          "caller": "transitionApproval",
+          "callee": "approvalRepository.update",
+          "lineNumber": 148
+        },
+        {
+          "caller": "transitionApproval",
+          "callee": "RELEASE_TARGET_TYPES.has",
+          "lineNumber": 153
+        },
+        {
+          "caller": "transitionApproval",
+          "callee": "setTargetLifecycle",
+          "lineNumber": 154
+        },
+        {
+          "caller": "transitionApproval",
+          "callee": "approvalRepository.update",
+          "lineNumber": 159
+        },
+        {
+          "caller": "getInboxRecords",
+          "callee": "approvalRepository.getAll",
+          "lineNumber": 166
+        },
+        {
+          "caller": "getInboxRecords",
+          "callee": "all.filter",
+          "lineNumber": 167
+        },
+        {
+          "caller": "getInboxRecords",
+          "callee": "isTerminalNode",
+          "lineNumber": 170
+        },
+        {
+          "caller": "getHistoryRecords",
+          "callee": "approvalRepository.getAll",
+          "lineNumber": 175
+        },
+        {
+          "caller": "getHistoryRecords",
+          "callee": "all.filter",
+          "lineNumber": 176
+        },
+        {
+          "caller": "getHistoryRecords",
+          "callee": "r.transitions.some",
+          "lineNumber": 179
+        }
+      ],
+      "metrics": {
+        "importCount": 9,
+        "exportCount": 7,
+        "functionCount": 5,
+        "classCount": 1
+      }
+    }
+  ]
+}

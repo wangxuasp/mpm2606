@@ -1,0 +1,520 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 6,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "src/app/layout.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 44,
+      "nonEmptyLines": 40,
+      "functions": [
+        {
+          "name": "RootLayout",
+          "startLine": 21,
+          "endLine": 44,
+          "params": [
+            "{\n  children,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "metadata",
+          "line": 16,
+          "isDefault": false
+        },
+        {
+          "name": "RootLayout",
+          "line": 21,
+          "isDefault": true
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/components/providers/app-providers.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 39,
+      "nonEmptyLines": 34,
+      "functions": [
+        {
+          "name": "AppProviders",
+          "startLine": 11,
+          "endLine": 39,
+          "params": [
+            "{ children }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "AppProviders",
+          "line": 11,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "AppProviders",
+          "callee": "useState",
+          "lineNumber": 12
+        },
+        {
+          "caller": "AppProviders",
+          "callee": "useState",
+          "lineNumber": 13
+        },
+        {
+          "caller": "AppProviders",
+          "callee": "useEffect",
+          "lineNumber": 15
+        },
+        {
+          "caller": "AppProviders",
+          "callee": "ensureSeeded()\n      .then(() => setReady(true))\n      .catch",
+          "lineNumber": 16
+        },
+        {
+          "caller": "AppProviders",
+          "callee": "ensureSeeded()\n      .then",
+          "lineNumber": 16
+        },
+        {
+          "caller": "AppProviders",
+          "callee": "ensureSeeded",
+          "lineNumber": 16
+        },
+        {
+          "caller": "AppProviders",
+          "callee": "setReady",
+          "lineNumber": 17
+        },
+        {
+          "caller": "AppProviders",
+          "callee": "setError",
+          "lineNumber": 18
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/components/theme/theme-provider.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 85,
+      "nonEmptyLines": 71,
+      "functions": [
+        {
+          "name": "applyTheme",
+          "startLine": 24,
+          "endLine": 26,
+          "params": [
+            "theme"
+          ]
+        },
+        {
+          "name": "ThemeProvider",
+          "startLine": 34,
+          "endLine": 77,
+          "params": [
+            "{\n  children,\n  defaultTheme = 'dark',\n  storageKey = STORAGE_KEY,\n}"
+          ]
+        },
+        {
+          "name": "useTheme",
+          "startLine": 79,
+          "endLine": 85,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "ThemeProvider",
+          "line": 34,
+          "isDefault": false
+        },
+        {
+          "name": "useTheme",
+          "line": 79,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "applyTheme",
+          "callee": "document.documentElement.classList.toggle",
+          "lineNumber": 25
+        },
+        {
+          "caller": "ThemeProvider",
+          "callee": "useState",
+          "lineNumber": 39
+        },
+        {
+          "caller": "ThemeProvider",
+          "callee": "useState",
+          "lineNumber": 40
+        },
+        {
+          "caller": "ThemeProvider",
+          "callee": "useEffect",
+          "lineNumber": 42
+        },
+        {
+          "caller": "ThemeProvider",
+          "callee": "localStorage.getItem",
+          "lineNumber": 44
+        },
+        {
+          "caller": "ThemeProvider",
+          "callee": "setThemeState",
+          "lineNumber": 46
+        },
+        {
+          "caller": "ThemeProvider",
+          "callee": "applyTheme",
+          "lineNumber": 47
+        },
+        {
+          "caller": "ThemeProvider",
+          "callee": "applyTheme",
+          "lineNumber": 49
+        },
+        {
+          "caller": "ThemeProvider",
+          "callee": "applyTheme",
+          "lineNumber": 52
+        },
+        {
+          "caller": "ThemeProvider",
+          "callee": "setMounted",
+          "lineNumber": 54
+        },
+        {
+          "caller": "ThemeProvider",
+          "callee": "useCallback",
+          "lineNumber": 57
+        },
+        {
+          "caller": "ThemeProvider",
+          "callee": "setThemeState",
+          "lineNumber": 59
+        },
+        {
+          "caller": "ThemeProvider",
+          "callee": "applyTheme",
+          "lineNumber": 60
+        },
+        {
+          "caller": "ThemeProvider",
+          "callee": "localStorage.setItem",
+          "lineNumber": 62
+        },
+        {
+          "caller": "ThemeProvider",
+          "callee": "useMemo",
+          "lineNumber": 70
+        },
+        {
+          "caller": "useTheme",
+          "callee": "useContext",
+          "lineNumber": 80
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/components/theme/theme-toggle.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 30,
+      "nonEmptyLines": 25,
+      "functions": [
+        {
+          "name": "ThemeToggle",
+          "startLine": 8,
+          "endLine": 30,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "ThemeToggle",
+          "line": 8,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "ThemeToggle",
+          "callee": "useTheme",
+          "lineNumber": 9
+        },
+        {
+          "caller": "ThemeToggle",
+          "callee": "useState",
+          "lineNumber": 10
+        },
+        {
+          "caller": "ThemeToggle",
+          "callee": "useEffect",
+          "lineNumber": 12
+        },
+        {
+          "caller": "ThemeToggle",
+          "callee": "setMounted",
+          "lineNumber": 12
+        },
+        {
+          "caller": "ThemeToggle",
+          "callee": "setTheme",
+          "lineNumber": 23
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/components/ui/sonner.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 40,
+      "nonEmptyLines": 36,
+      "functions": [
+        {
+          "name": "Toaster",
+          "startLine": 13,
+          "endLine": 38,
+          "params": [
+            "{ ...props }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "Toaster",
+          "line": 40,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Toaster",
+          "callee": "useTheme",
+          "lineNumber": 14
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/db/seed.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 77,
+      "nonEmptyLines": 70,
+      "functions": [
+        {
+          "name": "isSeeded",
+          "startLine": 8,
+          "endLine": 11,
+          "params": []
+        },
+        {
+          "name": "seedDatabase",
+          "startLine": 13,
+          "endLine": 57,
+          "params": []
+        },
+        {
+          "name": "ensureSeeded",
+          "startLine": 61,
+          "endLine": 73,
+          "params": []
+        },
+        {
+          "name": "resetToSeed",
+          "startLine": 75,
+          "endLine": 77,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "isSeeded",
+          "line": 8,
+          "isDefault": false
+        },
+        {
+          "name": "seedDatabase",
+          "line": 13,
+          "isDefault": false
+        },
+        {
+          "name": "ensureSeeded",
+          "line": 61,
+          "isDefault": false
+        },
+        {
+          "name": "resetToSeed",
+          "line": 75,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "isSeeded",
+          "callee": "db.appMeta.get",
+          "lineNumber": 9
+        },
+        {
+          "caller": "seedDatabase",
+          "callee": "db.transaction",
+          "lineNumber": 14
+        },
+        {
+          "caller": "seedDatabase",
+          "callee": "db.collaborationLinks.clear",
+          "lineNumber": 31
+        },
+        {
+          "caller": "seedDatabase",
+          "callee": "db.bomNodes.clear",
+          "lineNumber": 32
+        },
+        {
+          "caller": "seedDatabase",
+          "callee": "db.dictionaries.clear",
+          "lineNumber": 33
+        },
+        {
+          "caller": "seedDatabase",
+          "callee": "db.bopNodes.clear",
+          "lineNumber": 34
+        },
+        {
+          "caller": "seedDatabase",
+          "callee": "db.operations.clear",
+          "lineNumber": 35
+        },
+        {
+          "caller": "seedDatabase",
+          "callee": "db.resources.clear",
+          "lineNumber": 36
+        },
+        {
+          "caller": "seedDatabase",
+          "callee": "db.processDocuments.clear",
+          "lineNumber": 37
+        },
+        {
+          "caller": "seedDatabase",
+          "callee": "db.documentFiles.clear",
+          "lineNumber": 38
+        },
+        {
+          "caller": "seedDatabase",
+          "callee": "db.changeOrders.clear",
+          "lineNumber": 39
+        },
+        {
+          "caller": "seedDatabase",
+          "callee": "db.approvalRecords.clear",
+          "lineNumber": 40
+        },
+        {
+          "caller": "seedDatabase",
+          "callee": "db.envelopes.clear",
+          "lineNumber": 41
+        },
+        {
+          "caller": "seedDatabase",
+          "callee": "db.dictionaries.bulkAdd",
+          "lineNumber": 43
+        },
+        {
+          "caller": "seedDatabase",
+          "callee": "db.bomNodes.bulkAdd",
+          "lineNumber": 44
+        },
+        {
+          "caller": "seedDatabase",
+          "callee": "db.collaborationLinks.bulkAdd",
+          "lineNumber": 45
+        },
+        {
+          "caller": "seedDatabase",
+          "callee": "db.resources.bulkAdd",
+          "lineNumber": 46
+        },
+        {
+          "caller": "seedDatabase",
+          "callee": "new Date().toISOString",
+          "lineNumber": 51
+        },
+        {
+          "caller": "seedDatabase",
+          "callee": "db.appMeta.put",
+          "lineNumber": 54
+        },
+        {
+          "caller": "ensureSeeded",
+          "callee": "(async () => {\n      if (!(await isSeeded())) {\n        await seedDatabase()\n      }\n    })().catch",
+          "lineNumber": 63
+        },
+        {
+          "caller": "ensureSeeded",
+          "callee": "(async () => {\n      if (!(await isSeeded())) {\n        await seedDatabase()\n      }\n    })",
+          "lineNumber": 63
+        },
+        {
+          "caller": "ensureSeeded",
+          "callee": "isSeeded",
+          "lineNumber": 64
+        },
+        {
+          "caller": "ensureSeeded",
+          "callee": "seedDatabase",
+          "lineNumber": 65
+        },
+        {
+          "caller": "resetToSeed",
+          "callee": "seedDatabase",
+          "lineNumber": 76
+        }
+      ],
+      "metrics": {
+        "importCount": 6,
+        "exportCount": 4,
+        "functionCount": 4,
+        "classCount": 0
+      }
+    }
+  ]
+}

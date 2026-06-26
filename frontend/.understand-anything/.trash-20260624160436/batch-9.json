@@ -1,0 +1,351 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/app/layout.tsx",
+      "type": "file",
+      "name": "layout.tsx",
+      "filePath": "src/app/layout.tsx",
+      "summary": "Next.js 布局组件，定义路由段的共享外壳与 Provider。",
+      "tags": [
+        "entry-point",
+        "component",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/app/layout.tsx:RootLayout",
+      "type": "function",
+      "name": "RootLayout",
+      "filePath": "src/app/layout.tsx",
+      "summary": "函数 RootLayout，位于 layout.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/providers/app-providers.tsx",
+      "type": "file",
+      "name": "app-providers.tsx",
+      "filePath": "src/components/providers/app-providers.tsx",
+      "summary": "React 组件 app-providers.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/providers/app-providers.tsx:AppProviders",
+      "type": "function",
+      "name": "AppProviders",
+      "filePath": "src/components/providers/app-providers.tsx",
+      "summary": "函数 AppProviders，位于 app-providers.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/theme/theme-provider.tsx",
+      "type": "file",
+      "name": "theme-provider.tsx",
+      "filePath": "src/components/theme/theme-provider.tsx",
+      "summary": "React 组件 theme-provider.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/theme/theme-provider.tsx:ThemeProvider",
+      "type": "function",
+      "name": "ThemeProvider",
+      "filePath": "src/components/theme/theme-provider.tsx",
+      "summary": "函数 ThemeProvider，位于 theme-provider.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/theme/theme-toggle.tsx",
+      "type": "file",
+      "name": "theme-toggle.tsx",
+      "filePath": "src/components/theme/theme-toggle.tsx",
+      "summary": "React 组件 theme-toggle.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/theme/theme-toggle.tsx:ThemeToggle",
+      "type": "function",
+      "name": "ThemeToggle",
+      "filePath": "src/components/theme/theme-toggle.tsx",
+      "summary": "函数 ThemeToggle，位于 theme-toggle.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/ui/sonner.tsx",
+      "type": "file",
+      "name": "sonner.tsx",
+      "filePath": "src/components/ui/sonner.tsx",
+      "summary": "React 组件 sonner.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ui/sonner.tsx:Toaster",
+      "type": "function",
+      "name": "Toaster",
+      "filePath": "src/components/ui/sonner.tsx",
+      "summary": "函数 Toaster，位于 sonner.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/db/seed.ts",
+      "type": "file",
+      "name": "seed.ts",
+      "filePath": "src/lib/db/seed.ts",
+      "summary": "库模块 seed.ts，提供认证、导航或工具能力。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/db/seed.ts:seedDatabase",
+      "type": "function",
+      "name": "seedDatabase",
+      "filePath": "src/lib/db/seed.ts",
+      "summary": "函数 seedDatabase，位于 seed.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/db/seed.ts:ensureSeeded",
+      "type": "function",
+      "name": "ensureSeeded",
+      "filePath": "src/lib/db/seed.ts",
+      "summary": "函数 ensureSeeded，位于 seed.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/app/layout.tsx",
+      "target": "file:src/app/globals.css",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/layout.tsx",
+      "target": "file:src/components/providers/app-providers.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/layout.tsx",
+      "target": "function:src/app/layout.tsx:RootLayout",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/app/layout.tsx",
+      "target": "function:src/app/layout.tsx:RootLayout",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/providers/app-providers.tsx",
+      "target": "file:src/components/theme/theme-provider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/providers/app-providers.tsx",
+      "target": "file:src/components/ui/sonner.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/providers/app-providers.tsx",
+      "target": "file:src/lib/db/seed.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/providers/app-providers.tsx",
+      "target": "function:src/components/providers/app-providers.tsx:AppProviders",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/providers/app-providers.tsx",
+      "target": "function:src/components/providers/app-providers.tsx:AppProviders",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/theme/theme-provider.tsx",
+      "target": "function:src/components/theme/theme-provider.tsx:ThemeProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/theme/theme-provider.tsx",
+      "target": "function:src/components/theme/theme-provider.tsx:ThemeProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/theme/theme-toggle.tsx",
+      "target": "file:src/components/theme/theme-provider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/theme/theme-toggle.tsx",
+      "target": "file:src/components/ui/button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/theme/theme-toggle.tsx",
+      "target": "function:src/components/theme/theme-toggle.tsx:ThemeToggle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/theme/theme-toggle.tsx",
+      "target": "function:src/components/theme/theme-toggle.tsx:ThemeToggle",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/sonner.tsx",
+      "target": "file:src/components/theme/theme-provider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/ui/sonner.tsx",
+      "target": "function:src/components/ui/sonner.tsx:Toaster",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/sonner.tsx",
+      "target": "function:src/components/ui/sonner.tsx:Toaster",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/db/seed.ts",
+      "target": "file:src/lib/db/schema.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/db/seed.ts",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/db/seed.ts",
+      "target": "file:src/lib/mock/collaboration.json",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/db/seed.ts",
+      "target": "file:src/lib/mock/dictionaries.json",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/db/seed.ts",
+      "target": "file:src/lib/mock/seed-ebom.json",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/db/seed.ts",
+      "target": "file:src/lib/mock/seed-resources.json",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/db/seed.ts",
+      "target": "function:src/lib/db/seed.ts:seedDatabase",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/db/seed.ts",
+      "target": "function:src/lib/db/seed.ts:seedDatabase",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/db/seed.ts",
+      "target": "function:src/lib/db/seed.ts:ensureSeeded",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/db/seed.ts",
+      "target": "function:src/lib/db/seed.ts:ensureSeeded",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+# Archive backup
+frontend.zip
+
+# OS
+.DS_Store
+Thumbs.db

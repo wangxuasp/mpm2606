@@ -1,0 +1,77 @@
+{
+  "nodes": [
+    {
+      "id": "document:README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "README.md",
+      "summary": "项目文档 README.md，说明系统设计与使用方式。",
+      "tags": [
+        "documentation",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:components.json",
+      "type": "config",
+      "name": "components.json",
+      "filePath": "components.json",
+      "summary": "配置文件 components.json，控制构建、编译或运行时行为。",
+      "tags": [
+        "configuration",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:package.json",
+      "type": "config",
+      "name": "package.json",
+      "filePath": "package.json",
+      "summary": "配置文件 package.json，控制构建、编译或运行时行为。",
+      "tags": [
+        "configuration",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "config:pnpm-workspace.yaml",
+      "type": "config",
+      "name": "pnpm-workspace.yaml",
+      "filePath": "pnpm-workspace.yaml",
+      "summary": "配置文件 pnpm-workspace.yaml，控制构建、编译或运行时行为。",
+      "tags": [
+        "configuration",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:tsconfig.json",
+      "type": "config",
+      "name": "tsconfig.json",
+      "filePath": "tsconfig.json",
+      "summary": "配置文件 tsconfig.json，控制构建、编译或运行时行为。",
+      "tags": [
+        "configuration",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:自研工艺管理系统开发设计方案.md",
+      "type": "document",
+      "name": "自研工艺管理系统开发设计方案.md",
+      "filePath": "自研工艺管理系统开发设计方案.md",
+      "summary": "项目文档 自研工艺管理系统开发设计方案.md，说明系统设计与使用方式。",
+      "tags": [
+        "documentation",
+        "utility"
+      ],
+      "complexity": "complex"
+    }
+  ],
+  "edges": []
+}

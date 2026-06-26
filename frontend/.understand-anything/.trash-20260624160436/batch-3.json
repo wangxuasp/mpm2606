@@ -1,0 +1,1859 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/app/(workspace)/bop/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "src/app/(workspace)/bop/page.tsx",
+      "summary": "Next.js 页面组件，渲染工作台或管理模块的 UI 与交互。",
+      "tags": [
+        "entry-point",
+        "component",
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/app/(workspace)/bop/page.tsx:EnvelopeList",
+      "type": "function",
+      "name": "EnvelopeList",
+      "filePath": "src/app/(workspace)/bop/page.tsx",
+      "summary": "函数 EnvelopeList，位于 page.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/app/(workspace)/bop/page.tsx:BopPage",
+      "type": "function",
+      "name": "BopPage",
+      "filePath": "src/app/(workspace)/bop/page.tsx",
+      "summary": "函数 BopPage，位于 page.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/app/(workspace)/planner/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "src/app/(workspace)/planner/page.tsx",
+      "summary": "Next.js 页面组件，渲染工作台或管理模块的 UI 与交互。",
+      "tags": [
+        "entry-point",
+        "component",
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/app/(workspace)/planner/page.tsx:PlannerPage",
+      "type": "function",
+      "name": "PlannerPage",
+      "filePath": "src/app/(workspace)/planner/page.tsx",
+      "summary": "函数 PlannerPage，位于 page.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/app/admin/dictionaries/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "src/app/admin/dictionaries/page.tsx",
+      "summary": "Next.js 页面组件，渲染工作台或管理模块的 UI 与交互。",
+      "tags": [
+        "entry-point",
+        "component",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/app/admin/dictionaries/page.tsx:AdminDictionariesPage",
+      "type": "function",
+      "name": "AdminDictionariesPage",
+      "filePath": "src/app/admin/dictionaries/page.tsx",
+      "summary": "函数 AdminDictionariesPage，位于 page.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/components/bom-tree/bom-drag-store.ts",
+      "type": "file",
+      "name": "bom-drag-store.ts",
+      "filePath": "src/components/bom-tree/bom-drag-store.ts",
+      "summary": "React 组件 bom-drag-store.ts，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/bom-tree/bom-tree-grid-impl.tsx",
+      "type": "file",
+      "name": "bom-tree-grid-impl.tsx",
+      "filePath": "src/components/bom-tree/bom-tree-grid-impl.tsx",
+      "summary": "React 组件 bom-tree-grid-impl.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/components/bom-tree/bom-tree-grid-impl.tsx:makeGroupCellRenderer",
+      "type": "function",
+      "name": "makeGroupCellRenderer",
+      "filePath": "src/components/bom-tree/bom-tree-grid-impl.tsx",
+      "summary": "函数 makeGroupCellRenderer，位于 bom-tree-grid-impl.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/bom-tree/bom-tree-grid-impl.tsx:BomTreeGridImpl",
+      "type": "function",
+      "name": "BomTreeGridImpl",
+      "filePath": "src/components/bom-tree/bom-tree-grid-impl.tsx",
+      "summary": "函数 BomTreeGridImpl，位于 bom-tree-grid-impl.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/components/bom-tree/bom-tree-utils.ts",
+      "type": "file",
+      "name": "bom-tree-utils.ts",
+      "filePath": "src/components/bom-tree/bom-tree-utils.ts",
+      "summary": "React 组件 bom-tree-utils.ts，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/bom-tree/bom-tree-utils.ts:buildTreeRows",
+      "type": "function",
+      "name": "buildTreeRows",
+      "filePath": "src/components/bom-tree/bom-tree-utils.ts",
+      "summary": "函数 buildTreeRows，位于 bom-tree-utils.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/bom-tree/bom-tree-utils.ts:buildPath",
+      "type": "function",
+      "name": "buildPath",
+      "filePath": "src/components/bom-tree/bom-tree-utils.ts",
+      "summary": "函数 buildPath，位于 bom-tree-utils.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/bom-tree/bom-tree-utils.ts:findRowIdFromDragEvent",
+      "type": "function",
+      "name": "findRowIdFromDragEvent",
+      "filePath": "src/components/bom-tree/bom-tree-utils.ts",
+      "summary": "函数 findRowIdFromDragEvent，位于 bom-tree-utils.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/bop/bop-property-panel.tsx",
+      "type": "file",
+      "name": "bop-property-panel.tsx",
+      "filePath": "src/components/bop/bop-property-panel.tsx",
+      "summary": "React 组件 bop-property-panel.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/bop/bop-property-panel.tsx:BopPropertyPanel",
+      "type": "function",
+      "name": "BopPropertyPanel",
+      "filePath": "src/components/bop/bop-property-panel.tsx",
+      "summary": "函数 BopPropertyPanel，位于 bop-property-panel.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/components/bop/bop-tree-grid-impl.tsx",
+      "type": "file",
+      "name": "bop-tree-grid-impl.tsx",
+      "filePath": "src/components/bop/bop-tree-grid-impl.tsx",
+      "summary": "React 组件 bop-tree-grid-impl.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/bop/bop-tree-grid-impl.tsx:BopTreeGridImpl",
+      "type": "function",
+      "name": "BopTreeGridImpl",
+      "filePath": "src/components/bop/bop-tree-grid-impl.tsx",
+      "summary": "函数 BopTreeGridImpl，位于 bop-tree-grid-impl.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/components/bop/bop-tree-grid.tsx",
+      "type": "file",
+      "name": "bop-tree-grid.tsx",
+      "filePath": "src/components/bop/bop-tree-grid.tsx",
+      "summary": "React 组件 bop-tree-grid.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/bop/bop-tree-utils.ts",
+      "type": "file",
+      "name": "bop-tree-utils.ts",
+      "filePath": "src/components/bop/bop-tree-utils.ts",
+      "summary": "React 组件 bop-tree-utils.ts，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/bop/bop-tree-utils.ts:buildBopTreeRows",
+      "type": "function",
+      "name": "buildBopTreeRows",
+      "filePath": "src/components/bop/bop-tree-utils.ts",
+      "summary": "函数 buildBopTreeRows，位于 bop-tree-utils.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/bop/bop-tree-utils.ts:buildPath",
+      "type": "function",
+      "name": "buildPath",
+      "filePath": "src/components/bop/bop-tree-utils.ts",
+      "summary": "函数 buildPath，位于 bop-tree-utils.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/bop/pert-dag-editor.tsx",
+      "type": "file",
+      "name": "pert-dag-editor.tsx",
+      "filePath": "src/components/bop/pert-dag-editor.tsx",
+      "summary": "React 组件 pert-dag-editor.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/bop/pert-dag-editor.tsx:pertDagToFlow",
+      "type": "function",
+      "name": "pertDagToFlow",
+      "filePath": "src/components/bop/pert-dag-editor.tsx",
+      "summary": "函数 pertDagToFlow，位于 pert-dag-editor.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/bop/pert-dag-editor.tsx:flowToPertDag",
+      "type": "function",
+      "name": "flowToPertDag",
+      "filePath": "src/components/bop/pert-dag-editor.tsx",
+      "summary": "函数 flowToPertDag，位于 pert-dag-editor.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/bop/pert-dag-editor.tsx:PertDagEditor",
+      "type": "function",
+      "name": "PertDagEditor",
+      "filePath": "src/components/bop/pert-dag-editor.tsx",
+      "summary": "函数 PertDagEditor，位于 pert-dag-editor.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/components/planner/node-property-panel.tsx",
+      "type": "file",
+      "name": "node-property-panel.tsx",
+      "filePath": "src/components/planner/node-property-panel.tsx",
+      "summary": "React 组件 node-property-panel.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/planner/node-property-panel.tsx:NodePropertyPanel",
+      "type": "function",
+      "name": "NodePropertyPanel",
+      "filePath": "src/components/planner/node-property-panel.tsx",
+      "summary": "函数 NodePropertyPanel，位于 node-property-panel.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/planner/planner-flow-bridge.tsx",
+      "type": "file",
+      "name": "planner-flow-bridge.tsx",
+      "filePath": "src/components/planner/planner-flow-bridge.tsx",
+      "summary": "React 组件 planner-flow-bridge.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/planner/planner-flow-bridge.tsx:PlannerFlowBridge",
+      "type": "function",
+      "name": "PlannerFlowBridge",
+      "filePath": "src/components/planner/planner-flow-bridge.tsx",
+      "summary": "函数 PlannerFlowBridge，位于 planner-flow-bridge.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/ui/tabs.tsx",
+      "type": "file",
+      "name": "tabs.tsx",
+      "filePath": "src/components/ui/tabs.tsx",
+      "summary": "React 组件 tabs.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/ui/tabs.tsx:Tabs",
+      "type": "function",
+      "name": "Tabs",
+      "filePath": "src/components/ui/tabs.tsx",
+      "summary": "函数 Tabs，位于 tabs.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ui/tabs.tsx:TabsList",
+      "type": "function",
+      "name": "TabsList",
+      "filePath": "src/components/ui/tabs.tsx",
+      "summary": "函数 TabsList，位于 tabs.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ui/tabs.tsx:TabsTrigger",
+      "type": "function",
+      "name": "TabsTrigger",
+      "filePath": "src/components/ui/tabs.tsx",
+      "summary": "函数 TabsTrigger，位于 tabs.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ui/tabs.tsx:TabsContent",
+      "type": "function",
+      "name": "TabsContent",
+      "filePath": "src/components/ui/tabs.tsx",
+      "summary": "函数 TabsContent，位于 tabs.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/viewer3d/jt-download-panel.tsx",
+      "type": "file",
+      "name": "jt-download-panel.tsx",
+      "filePath": "src/components/viewer3d/jt-download-panel.tsx",
+      "summary": "React 组件 jt-download-panel.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/components/viewer3d/jt-download-panel.tsx:getSubtree",
+      "type": "function",
+      "name": "getSubtree",
+      "filePath": "src/components/viewer3d/jt-download-panel.tsx",
+      "summary": "函数 getSubtree，位于 jt-download-panel.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/viewer3d/jt-download-panel.tsx:collectOperationEntries",
+      "type": "function",
+      "name": "collectOperationEntries",
+      "filePath": "src/components/viewer3d/jt-download-panel.tsx",
+      "summary": "函数 collectOperationEntries，位于 jt-download-panel.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/viewer3d/jt-download-panel.tsx:JtDownloadPanel",
+      "type": "function",
+      "name": "JtDownloadPanel",
+      "filePath": "src/components/viewer3d/jt-download-panel.tsx",
+      "summary": "函数 JtDownloadPanel，位于 jt-download-panel.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/hooks/use-bop.ts",
+      "type": "file",
+      "name": "use-bop.ts",
+      "filePath": "src/hooks/use-bop.ts",
+      "summary": "React Hook use-bop.ts，封装数据获取或状态订阅逻辑。",
+      "tags": [
+        "hook",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/hooks/use-dictionaries.ts",
+      "type": "file",
+      "name": "use-dictionaries.ts",
+      "filePath": "src/hooks/use-dictionaries.ts",
+      "summary": "React Hook use-dictionaries.ts，封装数据获取或状态订阅逻辑。",
+      "tags": [
+        "hook",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/ag-grid/setup.ts",
+      "type": "file",
+      "name": "setup.ts",
+      "filePath": "src/lib/ag-grid/setup.ts",
+      "summary": "库模块 setup.ts，提供认证、导航或工具能力。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/db/repositories/envelope-repository.ts",
+      "type": "file",
+      "name": "envelope-repository.ts",
+      "filePath": "src/lib/db/repositories/envelope-repository.ts",
+      "summary": "库模块 envelope-repository.ts，提供认证、导航或工具能力。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/domain/rules/bop-hierarchy.ts",
+      "type": "file",
+      "name": "bop-hierarchy.ts",
+      "filePath": "src/lib/domain/rules/bop-hierarchy.ts",
+      "summary": "库模块 bop-hierarchy.ts，提供认证、导航或工具能力。",
+      "tags": [
+        "data-model",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/domain/rules/bop-hierarchy.ts:canAddChild",
+      "type": "function",
+      "name": "canAddChild",
+      "filePath": "src/lib/domain/rules/bop-hierarchy.ts",
+      "summary": "函数 canAddChild，位于 bop-hierarchy.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/domain/rules/dag-validation.ts",
+      "type": "file",
+      "name": "dag-validation.ts",
+      "filePath": "src/lib/domain/rules/dag-validation.ts",
+      "summary": "库模块 dag-validation.ts，提供认证、导航或工具能力。",
+      "tags": [
+        "data-model",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/domain/rules/dag-validation.ts:hasCycle",
+      "type": "function",
+      "name": "hasCycle",
+      "filePath": "src/lib/domain/rules/dag-validation.ts",
+      "summary": "函数 hasCycle，位于 dag-validation.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/domain/services/bop-service.ts",
+      "type": "file",
+      "name": "bop-service.ts",
+      "filePath": "src/lib/domain/services/bop-service.ts",
+      "summary": "领域服务 bop-service.ts，实现 MPMS 业务规则与数据操作。",
+      "tags": [
+        "data-model",
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/lib/domain/services/bop-service.ts:getRootNode",
+      "type": "function",
+      "name": "getRootNode",
+      "filePath": "src/lib/domain/services/bop-service.ts",
+      "summary": "函数 getRootNode，位于 bop-service.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/domain/services/bop-service.ts:defaultNameForLevel",
+      "type": "function",
+      "name": "defaultNameForLevel",
+      "filePath": "src/lib/domain/services/bop-service.ts",
+      "summary": "函数 defaultNameForLevel，位于 bop-service.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/domain/services/bop-service.ts:initializeBopRoot",
+      "type": "function",
+      "name": "initializeBopRoot",
+      "filePath": "src/lib/domain/services/bop-service.ts",
+      "summary": "函数 initializeBopRoot，位于 bop-service.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/domain/services/bop-service.ts:createBopChild",
+      "type": "function",
+      "name": "createBopChild",
+      "filePath": "src/lib/domain/services/bop-service.ts",
+      "summary": "函数 createBopChild，位于 bop-service.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/domain/services/bop-service.ts:updateBopNode",
+      "type": "function",
+      "name": "updateBopNode",
+      "filePath": "src/lib/domain/services/bop-service.ts",
+      "summary": "函数 updateBopNode，位于 bop-service.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/domain/services/bop-service.ts:deleteBopNode",
+      "type": "function",
+      "name": "deleteBopNode",
+      "filePath": "src/lib/domain/services/bop-service.ts",
+      "summary": "函数 deleteBopNode，位于 bop-service.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/domain/services/bop-service.ts:updatePertDag",
+      "type": "function",
+      "name": "updatePertDag",
+      "filePath": "src/lib/domain/services/bop-service.ts",
+      "summary": "函数 updatePertDag，位于 bop-service.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/domain/services/bop-service.ts:syncPertDagFromChildren",
+      "type": "function",
+      "name": "syncPertDagFromChildren",
+      "filePath": "src/lib/domain/services/bop-service.ts",
+      "summary": "函数 syncPertDagFromChildren，位于 bop-service.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/domain/services/bop-service.ts:sendEnvelope",
+      "type": "function",
+      "name": "sendEnvelope",
+      "filePath": "src/lib/domain/services/bop-service.ts",
+      "summary": "函数 sendEnvelope，位于 bop-service.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/domain/services/change-summary-export.ts",
+      "type": "file",
+      "name": "change-summary-export.ts",
+      "filePath": "src/lib/domain/services/change-summary-export.ts",
+      "summary": "领域服务 change-summary-export.ts，实现 MPMS 业务规则与数据操作。",
+      "tags": [
+        "data-model",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/domain/services/change-summary-export.ts:exportChangeOrdersToExcel",
+      "type": "function",
+      "name": "exportChangeOrdersToExcel",
+      "filePath": "src/lib/domain/services/change-summary-export.ts",
+      "summary": "函数 exportChangeOrdersToExcel，位于 change-summary-export.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/domain/services/jt-download-service.ts",
+      "type": "file",
+      "name": "jt-download-service.ts",
+      "filePath": "src/lib/domain/services/jt-download-service.ts",
+      "summary": "领域服务 jt-download-service.ts，实现 MPMS 业务规则与数据操作。",
+      "tags": [
+        "data-model",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/domain/services/jt-download-service.ts:requestJtDownload",
+      "type": "function",
+      "name": "requestJtDownload",
+      "filePath": "src/lib/domain/services/jt-download-service.ts",
+      "summary": "函数 requestJtDownload，位于 jt-download-service.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/domain/services/process-card-export.ts",
+      "type": "file",
+      "name": "process-card-export.ts",
+      "filePath": "src/lib/domain/services/process-card-export.ts",
+      "summary": "领域服务 process-card-export.ts，实现 MPMS 业务规则与数据操作。",
+      "tags": [
+        "data-model",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/domain/services/process-card-export.ts:exportOperationToExcel",
+      "type": "function",
+      "name": "exportOperationToExcel",
+      "filePath": "src/lib/domain/services/process-card-export.ts",
+      "summary": "函数 exportOperationToExcel，位于 process-card-export.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/domain/types/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "src/lib/domain/types/index.ts",
+      "summary": "领域类型定义 index.ts，描述核心业务实体与枚举。",
+      "tags": [
+        "data-model",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/stores/jt-download-store.ts",
+      "type": "file",
+      "name": "jt-download-store.ts",
+      "filePath": "src/stores/jt-download-store.ts",
+      "summary": "Zustand 状态仓库 jt-download-store.ts，管理客户端全局状态。",
+      "tags": [
+        "service",
+        "utility"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/app/(workspace)/bop/page.tsx",
+      "target": "file:src/components/bop/bop-property-panel.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/bop/page.tsx",
+      "target": "file:src/components/bop/bop-tree-grid.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/bop/page.tsx",
+      "target": "file:src/components/bop/bop-tree-utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/bop/page.tsx",
+      "target": "file:src/components/bop/pert-dag-editor.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/bop/page.tsx",
+      "target": "file:src/components/ui/button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/bop/page.tsx",
+      "target": "file:src/components/ui/dialog.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/bop/page.tsx",
+      "target": "file:src/components/ui/input.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/bop/page.tsx",
+      "target": "file:src/components/ui/label.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/bop/page.tsx",
+      "target": "file:src/components/ui/select.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/bop/page.tsx",
+      "target": "file:src/components/ui/table.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/bop/page.tsx",
+      "target": "file:src/components/ui/tabs.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/bop/page.tsx",
+      "target": "file:src/components/ui/textarea.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/bop/page.tsx",
+      "target": "file:src/hooks/use-bop.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/bop/page.tsx",
+      "target": "file:src/hooks/use-collaboration.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/bop/page.tsx",
+      "target": "file:src/lib/auth/session.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/bop/page.tsx",
+      "target": "file:src/lib/domain/rules/bop-hierarchy.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/bop/page.tsx",
+      "target": "file:src/lib/domain/services/bop-service.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/bop/page.tsx",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/bop/page.tsx",
+      "target": "file:src/lib/workflow/workflow-service.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/bop/page.tsx",
+      "target": "file:src/stores/workspace-store.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/bop/page.tsx",
+      "target": "function:src/app/(workspace)/bop/page.tsx:EnvelopeList",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/app/(workspace)/bop/page.tsx",
+      "target": "function:src/app/(workspace)/bop/page.tsx:BopPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/app/(workspace)/bop/page.tsx",
+      "target": "function:src/app/(workspace)/bop/page.tsx:BopPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/app/(workspace)/planner/page.tsx",
+      "target": "file:src/components/bom-tree/bom-tree-grid.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/planner/page.tsx",
+      "target": "file:src/components/bop/bop-tree-grid.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/planner/page.tsx",
+      "target": "file:src/components/bop/bop-tree-utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/planner/page.tsx",
+      "target": "file:src/components/planner/node-property-panel.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/planner/page.tsx",
+      "target": "file:src/components/planner/planner-flow-bridge.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/planner/page.tsx",
+      "target": "file:src/components/planner/planner-panel.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/planner/page.tsx",
+      "target": "file:src/components/ui/button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/planner/page.tsx",
+      "target": "file:src/components/ui/tabs.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/planner/page.tsx",
+      "target": "file:src/components/viewer3d/jt-download-panel.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/planner/page.tsx",
+      "target": "file:src/hooks/use-bom-nodes.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/planner/page.tsx",
+      "target": "file:src/hooks/use-bop.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/planner/page.tsx",
+      "target": "file:src/hooks/use-collaboration.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/planner/page.tsx",
+      "target": "file:src/lib/domain/rules/bop-hierarchy.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/planner/page.tsx",
+      "target": "file:src/lib/domain/services/bop-service.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/planner/page.tsx",
+      "target": "file:src/lib/domain/services/mbom-service.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/planner/page.tsx",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/planner/page.tsx",
+      "target": "file:src/stores/workspace-store.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/planner/page.tsx",
+      "target": "function:src/app/(workspace)/planner/page.tsx:PlannerPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/app/(workspace)/planner/page.tsx",
+      "target": "function:src/app/(workspace)/planner/page.tsx:PlannerPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/app/admin/dictionaries/page.tsx",
+      "target": "file:src/components/ui/table.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/admin/dictionaries/page.tsx",
+      "target": "file:src/components/ui/tabs.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/admin/dictionaries/page.tsx",
+      "target": "file:src/hooks/use-dictionaries.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/admin/dictionaries/page.tsx",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/admin/dictionaries/page.tsx",
+      "target": "function:src/app/admin/dictionaries/page.tsx:AdminDictionariesPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/app/admin/dictionaries/page.tsx",
+      "target": "function:src/app/admin/dictionaries/page.tsx:AdminDictionariesPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/bom-tree/bom-tree-grid-impl.tsx",
+      "target": "file:src/components/bom-tree/bom-drag-store.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/bom-tree/bom-tree-grid-impl.tsx",
+      "target": "file:src/components/bom-tree/bom-tree-grid.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/bom-tree/bom-tree-grid-impl.tsx",
+      "target": "file:src/components/bom-tree/bom-tree-utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/bom-tree/bom-tree-grid-impl.tsx",
+      "target": "file:src/lib/ag-grid/setup.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/bom-tree/bom-tree-grid-impl.tsx",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/bom-tree/bom-tree-grid-impl.tsx",
+      "target": "function:src/components/bom-tree/bom-tree-grid-impl.tsx:makeGroupCellRenderer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/bom-tree/bom-tree-grid-impl.tsx",
+      "target": "function:src/components/bom-tree/bom-tree-grid-impl.tsx:BomTreeGridImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/bom-tree/bom-tree-grid-impl.tsx",
+      "target": "function:src/components/bom-tree/bom-tree-grid-impl.tsx:BomTreeGridImpl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/bom-tree/bom-tree-utils.ts",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/bom-tree/bom-tree-utils.ts",
+      "target": "function:src/components/bom-tree/bom-tree-utils.ts:buildTreeRows",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/bom-tree/bom-tree-utils.ts",
+      "target": "function:src/components/bom-tree/bom-tree-utils.ts:buildTreeRows",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/bom-tree/bom-tree-utils.ts",
+      "target": "function:src/components/bom-tree/bom-tree-utils.ts:buildPath",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/bom-tree/bom-tree-utils.ts",
+      "target": "function:src/components/bom-tree/bom-tree-utils.ts:findRowIdFromDragEvent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/bom-tree/bom-tree-utils.ts",
+      "target": "function:src/components/bom-tree/bom-tree-utils.ts:findRowIdFromDragEvent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/bop/bop-property-panel.tsx",
+      "target": "file:src/components/bop/bop-tree-utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/bop/bop-property-panel.tsx",
+      "target": "file:src/components/ui/button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/bop/bop-property-panel.tsx",
+      "target": "file:src/components/ui/card.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/bop/bop-property-panel.tsx",
+      "target": "file:src/lib/domain/services/bop-service.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/bop/bop-property-panel.tsx",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/bop/bop-property-panel.tsx",
+      "target": "function:src/components/bop/bop-property-panel.tsx:BopPropertyPanel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/bop/bop-property-panel.tsx",
+      "target": "function:src/components/bop/bop-property-panel.tsx:BopPropertyPanel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/bop/bop-tree-grid-impl.tsx",
+      "target": "file:src/components/bop/bop-tree-grid.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/bop/bop-tree-grid-impl.tsx",
+      "target": "file:src/components/bop/bop-tree-utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/bop/bop-tree-grid-impl.tsx",
+      "target": "file:src/lib/ag-grid/setup.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/bop/bop-tree-grid-impl.tsx",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/bop/bop-tree-grid-impl.tsx",
+      "target": "function:src/components/bop/bop-tree-grid-impl.tsx:BopTreeGridImpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/bop/bop-tree-grid-impl.tsx",
+      "target": "function:src/components/bop/bop-tree-grid-impl.tsx:BopTreeGridImpl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/bop/bop-tree-utils.ts",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/bop/bop-tree-utils.ts",
+      "target": "function:src/components/bop/bop-tree-utils.ts:buildBopTreeRows",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/bop/bop-tree-utils.ts",
+      "target": "function:src/components/bop/bop-tree-utils.ts:buildBopTreeRows",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/bop/bop-tree-utils.ts",
+      "target": "function:src/components/bop/bop-tree-utils.ts:buildPath",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/bop/pert-dag-editor.tsx",
+      "target": "file:src/components/ui/button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/bop/pert-dag-editor.tsx",
+      "target": "file:src/lib/domain/rules/dag-validation.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/bop/pert-dag-editor.tsx",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/bop/pert-dag-editor.tsx",
+      "target": "function:src/components/bop/pert-dag-editor.tsx:pertDagToFlow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/bop/pert-dag-editor.tsx",
+      "target": "function:src/components/bop/pert-dag-editor.tsx:flowToPertDag",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/bop/pert-dag-editor.tsx",
+      "target": "function:src/components/bop/pert-dag-editor.tsx:PertDagEditor",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/bop/pert-dag-editor.tsx",
+      "target": "function:src/components/bop/pert-dag-editor.tsx:PertDagEditor",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/planner/node-property-panel.tsx",
+      "target": "file:src/components/ui/card.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/planner/node-property-panel.tsx",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/planner/node-property-panel.tsx",
+      "target": "function:src/components/planner/node-property-panel.tsx:NodePropertyPanel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/planner/node-property-panel.tsx",
+      "target": "function:src/components/planner/node-property-panel.tsx:NodePropertyPanel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/planner/planner-flow-bridge.tsx",
+      "target": "function:src/components/planner/planner-flow-bridge.tsx:PlannerFlowBridge",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/planner/planner-flow-bridge.tsx",
+      "target": "function:src/components/planner/planner-flow-bridge.tsx:PlannerFlowBridge",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/tabs.tsx",
+      "target": "file:src/lib/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/ui/tabs.tsx",
+      "target": "function:src/components/ui/tabs.tsx:Tabs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/tabs.tsx",
+      "target": "function:src/components/ui/tabs.tsx:Tabs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/tabs.tsx",
+      "target": "function:src/components/ui/tabs.tsx:TabsList",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/tabs.tsx",
+      "target": "function:src/components/ui/tabs.tsx:TabsList",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/tabs.tsx",
+      "target": "function:src/components/ui/tabs.tsx:TabsTrigger",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/tabs.tsx",
+      "target": "function:src/components/ui/tabs.tsx:TabsTrigger",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/tabs.tsx",
+      "target": "function:src/components/ui/tabs.tsx:TabsContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/tabs.tsx",
+      "target": "function:src/components/ui/tabs.tsx:TabsContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/viewer3d/jt-download-panel.tsx",
+      "target": "file:src/components/ui/badge.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/viewer3d/jt-download-panel.tsx",
+      "target": "file:src/components/ui/button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/viewer3d/jt-download-panel.tsx",
+      "target": "file:src/components/ui/table.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/viewer3d/jt-download-panel.tsx",
+      "target": "file:src/lib/domain/services/jt-download-service.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/viewer3d/jt-download-panel.tsx",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/viewer3d/jt-download-panel.tsx",
+      "target": "file:src/stores/jt-download-store.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/viewer3d/jt-download-panel.tsx",
+      "target": "function:src/components/viewer3d/jt-download-panel.tsx:getSubtree",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/viewer3d/jt-download-panel.tsx",
+      "target": "function:src/components/viewer3d/jt-download-panel.tsx:collectOperationEntries",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/viewer3d/jt-download-panel.tsx",
+      "target": "function:src/components/viewer3d/jt-download-panel.tsx:JtDownloadPanel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/viewer3d/jt-download-panel.tsx",
+      "target": "function:src/components/viewer3d/jt-download-panel.tsx:JtDownloadPanel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/hooks/use-bop.ts",
+      "target": "file:src/lib/db/repositories/bop-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/hooks/use-bop.ts",
+      "target": "file:src/lib/db/repositories/envelope-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/hooks/use-dictionaries.ts",
+      "target": "file:src/lib/db/repositories/dictionary-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/hooks/use-dictionaries.ts",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/db/repositories/envelope-repository.ts",
+      "target": "file:src/lib/db/repositories/base.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/db/repositories/envelope-repository.ts",
+      "target": "file:src/lib/db/schema.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/db/repositories/envelope-repository.ts",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/rules/bop-hierarchy.ts",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/rules/bop-hierarchy.ts",
+      "target": "function:src/lib/domain/rules/bop-hierarchy.ts:canAddChild",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/domain/rules/bop-hierarchy.ts",
+      "target": "function:src/lib/domain/rules/bop-hierarchy.ts:canAddChild",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/domain/rules/dag-validation.ts",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/rules/dag-validation.ts",
+      "target": "function:src/lib/domain/rules/dag-validation.ts:hasCycle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/domain/rules/dag-validation.ts",
+      "target": "function:src/lib/domain/rules/dag-validation.ts:hasCycle",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/domain/services/bop-service.ts",
+      "target": "file:src/lib/db/repositories/bop-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/services/bop-service.ts",
+      "target": "file:src/lib/db/repositories/collaboration-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/services/bop-service.ts",
+      "target": "file:src/lib/db/repositories/envelope-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/services/bop-service.ts",
+      "target": "file:src/lib/domain/id-generator.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/services/bop-service.ts",
+      "target": "file:src/lib/domain/rules/bop-hierarchy.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/services/bop-service.ts",
+      "target": "file:src/lib/domain/rules/dag-validation.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/services/bop-service.ts",
+      "target": "file:src/lib/domain/services/operation-service.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/services/bop-service.ts",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/services/bop-service.ts",
+      "target": "function:src/lib/domain/services/bop-service.ts:getRootNode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/domain/services/bop-service.ts",
+      "target": "function:src/lib/domain/services/bop-service.ts:defaultNameForLevel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/domain/services/bop-service.ts",
+      "target": "function:src/lib/domain/services/bop-service.ts:initializeBopRoot",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/domain/services/bop-service.ts",
+      "target": "function:src/lib/domain/services/bop-service.ts:initializeBopRoot",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/domain/services/bop-service.ts",
+      "target": "function:src/lib/domain/services/bop-service.ts:createBopChild",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/domain/services/bop-service.ts",
+      "target": "function:src/lib/domain/services/bop-service.ts:createBopChild",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/domain/services/bop-service.ts",
+      "target": "function:src/lib/domain/services/bop-service.ts:updateBopNode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/domain/services/bop-service.ts",
+      "target": "function:src/lib/domain/services/bop-service.ts:updateBopNode",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/domain/services/bop-service.ts",
+      "target": "function:src/lib/domain/services/bop-service.ts:deleteBopNode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/domain/services/bop-service.ts",
+      "target": "function:src/lib/domain/services/bop-service.ts:deleteBopNode",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/domain/services/bop-service.ts",
+      "target": "function:src/lib/domain/services/bop-service.ts:updatePertDag",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/domain/services/bop-service.ts",
+      "target": "function:src/lib/domain/services/bop-service.ts:updatePertDag",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/domain/services/bop-service.ts",
+      "target": "function:src/lib/domain/services/bop-service.ts:syncPertDagFromChildren",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/domain/services/bop-service.ts",
+      "target": "function:src/lib/domain/services/bop-service.ts:syncPertDagFromChildren",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/domain/services/bop-service.ts",
+      "target": "function:src/lib/domain/services/bop-service.ts:sendEnvelope",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/domain/services/bop-service.ts",
+      "target": "function:src/lib/domain/services/bop-service.ts:sendEnvelope",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/domain/services/change-summary-export.ts",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/services/change-summary-export.ts",
+      "target": "function:src/lib/domain/services/change-summary-export.ts:exportChangeOrdersToExcel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/domain/services/change-summary-export.ts",
+      "target": "function:src/lib/domain/services/change-summary-export.ts:exportChangeOrdersToExcel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/domain/services/jt-download-service.ts",
+      "target": "file:src/stores/jt-download-store.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/services/jt-download-service.ts",
+      "target": "function:src/lib/domain/services/jt-download-service.ts:requestJtDownload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/domain/services/jt-download-service.ts",
+      "target": "function:src/lib/domain/services/jt-download-service.ts:requestJtDownload",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/domain/services/process-card-export.ts",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/services/process-card-export.ts",
+      "target": "function:src/lib/domain/services/process-card-export.ts:exportOperationToExcel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/domain/services/process-card-export.ts",
+      "target": "function:src/lib/domain/services/process-card-export.ts:exportOperationToExcel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

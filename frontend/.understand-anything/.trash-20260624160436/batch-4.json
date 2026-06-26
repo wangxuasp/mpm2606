@@ -1,0 +1,1484 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/app/(workspace)/layout.tsx",
+      "type": "file",
+      "name": "layout.tsx",
+      "filePath": "src/app/(workspace)/layout.tsx",
+      "summary": "Next.js 布局组件，定义路由段的共享外壳与 Provider。",
+      "tags": [
+        "entry-point",
+        "component",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/app/(workspace)/layout.tsx:WorkspaceLayout",
+      "type": "function",
+      "name": "WorkspaceLayout",
+      "filePath": "src/app/(workspace)/layout.tsx",
+      "summary": "函数 WorkspaceLayout，位于 layout.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/app/admin/layout.tsx",
+      "type": "file",
+      "name": "layout.tsx",
+      "filePath": "src/app/admin/layout.tsx",
+      "summary": "Next.js 布局组件，定义路由段的共享外壳与 Provider。",
+      "tags": [
+        "entry-point",
+        "component",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/app/admin/layout.tsx:AdminLayout",
+      "type": "function",
+      "name": "AdminLayout",
+      "filePath": "src/app/admin/layout.tsx",
+      "summary": "函数 AdminLayout，位于 layout.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/admin-shell.tsx",
+      "type": "file",
+      "name": "admin-shell.tsx",
+      "filePath": "src/components/admin-shell.tsx",
+      "summary": "React 组件 admin-shell.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/admin-shell.tsx:AdminShell",
+      "type": "function",
+      "name": "AdminShell",
+      "filePath": "src/components/admin-shell.tsx",
+      "summary": "函数 AdminShell，位于 admin-shell.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/layout/app-header.tsx",
+      "type": "file",
+      "name": "app-header.tsx",
+      "filePath": "src/components/layout/app-header.tsx",
+      "summary": "React 组件 app-header.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/layout/app-header.tsx:AppHeader",
+      "type": "function",
+      "name": "AppHeader",
+      "filePath": "src/components/layout/app-header.tsx",
+      "summary": "函数 AppHeader，位于 app-header.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/components/layout/app-shell.tsx",
+      "type": "file",
+      "name": "app-shell.tsx",
+      "filePath": "src/components/layout/app-shell.tsx",
+      "summary": "React 组件 app-shell.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/layout/app-shell.tsx:AppShell",
+      "type": "function",
+      "name": "AppShell",
+      "filePath": "src/components/layout/app-shell.tsx",
+      "summary": "函数 AppShell，位于 app-shell.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/layout/app-sidebar.tsx",
+      "type": "file",
+      "name": "app-sidebar.tsx",
+      "filePath": "src/components/layout/app-sidebar.tsx",
+      "summary": "React 组件 app-sidebar.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/layout/app-sidebar.tsx:SidebarBrand",
+      "type": "function",
+      "name": "SidebarBrand",
+      "filePath": "src/components/layout/app-sidebar.tsx",
+      "summary": "函数 SidebarBrand，位于 app-sidebar.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/layout/app-sidebar.tsx:SidebarNav",
+      "type": "function",
+      "name": "SidebarNav",
+      "filePath": "src/components/layout/app-sidebar.tsx",
+      "summary": "函数 SidebarNav，位于 app-sidebar.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/layout/app-sidebar.tsx:AppSidebar",
+      "type": "function",
+      "name": "AppSidebar",
+      "filePath": "src/components/layout/app-sidebar.tsx",
+      "summary": "函数 AppSidebar，位于 app-sidebar.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/layout/app-sidebar.tsx:MobileSidebar",
+      "type": "function",
+      "name": "MobileSidebar",
+      "filePath": "src/components/layout/app-sidebar.tsx",
+      "summary": "函数 MobileSidebar，位于 app-sidebar.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/layout/auth-guard.tsx",
+      "type": "file",
+      "name": "auth-guard.tsx",
+      "filePath": "src/components/layout/auth-guard.tsx",
+      "summary": "React 组件 auth-guard.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/layout/auth-guard.tsx:AuthGuard",
+      "type": "function",
+      "name": "AuthGuard",
+      "filePath": "src/components/layout/auth-guard.tsx",
+      "summary": "函数 AuthGuard，位于 auth-guard.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/layout/sidebar-reveal-rail.tsx",
+      "type": "file",
+      "name": "sidebar-reveal-rail.tsx",
+      "filePath": "src/components/layout/sidebar-reveal-rail.tsx",
+      "summary": "React 组件 sidebar-reveal-rail.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/layout/sidebar-reveal-rail.tsx:SidebarRevealRail",
+      "type": "function",
+      "name": "SidebarRevealRail",
+      "filePath": "src/components/layout/sidebar-reveal-rail.tsx",
+      "summary": "函数 SidebarRevealRail，位于 sidebar-reveal-rail.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/layout/sidebar-toggle.tsx",
+      "type": "file",
+      "name": "sidebar-toggle.tsx",
+      "filePath": "src/components/layout/sidebar-toggle.tsx",
+      "summary": "React 组件 sidebar-toggle.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/layout/sidebar-toggle.tsx:SidebarToggle",
+      "type": "function",
+      "name": "SidebarToggle",
+      "filePath": "src/components/layout/sidebar-toggle.tsx",
+      "summary": "函数 SidebarToggle，位于 sidebar-toggle.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/planner/ebom-readonly-tree.tsx",
+      "type": "file",
+      "name": "ebom-readonly-tree.tsx",
+      "filePath": "src/components/planner/ebom-readonly-tree.tsx",
+      "summary": "React 组件 ebom-readonly-tree.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/planner/ebom-readonly-tree.tsx:TreeNode",
+      "type": "function",
+      "name": "TreeNode",
+      "filePath": "src/components/planner/ebom-readonly-tree.tsx",
+      "summary": "函数 TreeNode，位于 ebom-readonly-tree.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/planner/ebom-readonly-tree.tsx:EbomReadonlyTree",
+      "type": "function",
+      "name": "EbomReadonlyTree",
+      "filePath": "src/components/planner/ebom-readonly-tree.tsx",
+      "summary": "函数 EbomReadonlyTree，位于 ebom-readonly-tree.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/planner/planner-panel.tsx",
+      "type": "file",
+      "name": "planner-panel.tsx",
+      "filePath": "src/components/planner/planner-panel.tsx",
+      "summary": "React 组件 planner-panel.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/planner/planner-panel.tsx:PlannerPanel",
+      "type": "function",
+      "name": "PlannerPanel",
+      "filePath": "src/components/planner/planner-panel.tsx",
+      "summary": "函数 PlannerPanel，位于 planner-panel.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/ui/avatar.tsx",
+      "type": "file",
+      "name": "avatar.tsx",
+      "filePath": "src/components/ui/avatar.tsx",
+      "summary": "React 组件 avatar.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/ui/avatar.tsx:Avatar",
+      "type": "function",
+      "name": "Avatar",
+      "filePath": "src/components/ui/avatar.tsx",
+      "summary": "函数 Avatar，位于 avatar.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ui/avatar.tsx:AvatarImage",
+      "type": "function",
+      "name": "AvatarImage",
+      "filePath": "src/components/ui/avatar.tsx",
+      "summary": "函数 AvatarImage，位于 avatar.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ui/avatar.tsx:AvatarFallback",
+      "type": "function",
+      "name": "AvatarFallback",
+      "filePath": "src/components/ui/avatar.tsx",
+      "summary": "函数 AvatarFallback，位于 avatar.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ui/avatar.tsx:AvatarBadge",
+      "type": "function",
+      "name": "AvatarBadge",
+      "filePath": "src/components/ui/avatar.tsx",
+      "summary": "函数 AvatarBadge，位于 avatar.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ui/avatar.tsx:AvatarGroup",
+      "type": "function",
+      "name": "AvatarGroup",
+      "filePath": "src/components/ui/avatar.tsx",
+      "summary": "函数 AvatarGroup，位于 avatar.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ui/avatar.tsx:AvatarGroupCount",
+      "type": "function",
+      "name": "AvatarGroupCount",
+      "filePath": "src/components/ui/avatar.tsx",
+      "summary": "函数 AvatarGroupCount，位于 avatar.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/ui/dropdown-menu.tsx",
+      "type": "file",
+      "name": "dropdown-menu.tsx",
+      "filePath": "src/components/ui/dropdown-menu.tsx",
+      "summary": "React 组件 dropdown-menu.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/components/ui/dropdown-menu.tsx:DropdownMenuTrigger",
+      "type": "function",
+      "name": "DropdownMenuTrigger",
+      "filePath": "src/components/ui/dropdown-menu.tsx",
+      "summary": "函数 DropdownMenuTrigger，位于 dropdown-menu.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ui/dropdown-menu.tsx:DropdownMenuContent",
+      "type": "function",
+      "name": "DropdownMenuContent",
+      "filePath": "src/components/ui/dropdown-menu.tsx",
+      "summary": "函数 DropdownMenuContent，位于 dropdown-menu.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ui/dropdown-menu.tsx:DropdownMenuItem",
+      "type": "function",
+      "name": "DropdownMenuItem",
+      "filePath": "src/components/ui/dropdown-menu.tsx",
+      "summary": "函数 DropdownMenuItem，位于 dropdown-menu.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ui/dropdown-menu.tsx:DropdownMenuCheckboxItem",
+      "type": "function",
+      "name": "DropdownMenuCheckboxItem",
+      "filePath": "src/components/ui/dropdown-menu.tsx",
+      "summary": "函数 DropdownMenuCheckboxItem，位于 dropdown-menu.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ui/dropdown-menu.tsx:DropdownMenuRadioGroup",
+      "type": "function",
+      "name": "DropdownMenuRadioGroup",
+      "filePath": "src/components/ui/dropdown-menu.tsx",
+      "summary": "函数 DropdownMenuRadioGroup，位于 dropdown-menu.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ui/dropdown-menu.tsx:DropdownMenuRadioItem",
+      "type": "function",
+      "name": "DropdownMenuRadioItem",
+      "filePath": "src/components/ui/dropdown-menu.tsx",
+      "summary": "函数 DropdownMenuRadioItem，位于 dropdown-menu.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ui/dropdown-menu.tsx:DropdownMenuLabel",
+      "type": "function",
+      "name": "DropdownMenuLabel",
+      "filePath": "src/components/ui/dropdown-menu.tsx",
+      "summary": "函数 DropdownMenuLabel，位于 dropdown-menu.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ui/dropdown-menu.tsx:DropdownMenuSeparator",
+      "type": "function",
+      "name": "DropdownMenuSeparator",
+      "filePath": "src/components/ui/dropdown-menu.tsx",
+      "summary": "函数 DropdownMenuSeparator，位于 dropdown-menu.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ui/dropdown-menu.tsx:DropdownMenuShortcut",
+      "type": "function",
+      "name": "DropdownMenuShortcut",
+      "filePath": "src/components/ui/dropdown-menu.tsx",
+      "summary": "函数 DropdownMenuShortcut，位于 dropdown-menu.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ui/dropdown-menu.tsx:DropdownMenuSubTrigger",
+      "type": "function",
+      "name": "DropdownMenuSubTrigger",
+      "filePath": "src/components/ui/dropdown-menu.tsx",
+      "summary": "函数 DropdownMenuSubTrigger，位于 dropdown-menu.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ui/dropdown-menu.tsx:DropdownMenuSubContent",
+      "type": "function",
+      "name": "DropdownMenuSubContent",
+      "filePath": "src/components/ui/dropdown-menu.tsx",
+      "summary": "函数 DropdownMenuSubContent，位于 dropdown-menu.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/ui/scroll-area.tsx",
+      "type": "file",
+      "name": "scroll-area.tsx",
+      "filePath": "src/components/ui/scroll-area.tsx",
+      "summary": "React 组件 scroll-area.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/ui/scroll-area.tsx:ScrollArea",
+      "type": "function",
+      "name": "ScrollArea",
+      "filePath": "src/components/ui/scroll-area.tsx",
+      "summary": "函数 ScrollArea，位于 scroll-area.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ui/scroll-area.tsx:ScrollBar",
+      "type": "function",
+      "name": "ScrollBar",
+      "filePath": "src/components/ui/scroll-area.tsx",
+      "summary": "函数 ScrollBar，位于 scroll-area.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/ui/separator.tsx",
+      "type": "file",
+      "name": "separator.tsx",
+      "filePath": "src/components/ui/separator.tsx",
+      "summary": "React 组件 separator.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ui/separator.tsx:Separator",
+      "type": "function",
+      "name": "Separator",
+      "filePath": "src/components/ui/separator.tsx",
+      "summary": "函数 Separator，位于 separator.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/ui/sheet.tsx",
+      "type": "file",
+      "name": "sheet.tsx",
+      "filePath": "src/components/ui/sheet.tsx",
+      "summary": "React 组件 sheet.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/ui/sheet.tsx:SheetOverlay",
+      "type": "function",
+      "name": "SheetOverlay",
+      "filePath": "src/components/ui/sheet.tsx",
+      "summary": "函数 SheetOverlay，位于 sheet.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ui/sheet.tsx:SheetContent",
+      "type": "function",
+      "name": "SheetContent",
+      "filePath": "src/components/ui/sheet.tsx",
+      "summary": "函数 SheetContent，位于 sheet.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ui/sheet.tsx:SheetTitle",
+      "type": "function",
+      "name": "SheetTitle",
+      "filePath": "src/components/ui/sheet.tsx",
+      "summary": "函数 SheetTitle，位于 sheet.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ui/sheet.tsx:SheetDescription",
+      "type": "function",
+      "name": "SheetDescription",
+      "filePath": "src/components/ui/sheet.tsx",
+      "summary": "函数 SheetDescription，位于 sheet.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/ui/switch.tsx",
+      "type": "file",
+      "name": "switch.tsx",
+      "filePath": "src/components/ui/switch.tsx",
+      "summary": "React 组件 switch.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ui/switch.tsx:Switch",
+      "type": "function",
+      "name": "Switch",
+      "filePath": "src/components/ui/switch.tsx",
+      "summary": "函数 Switch，位于 switch.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/navigation.ts",
+      "type": "file",
+      "name": "navigation.ts",
+      "filePath": "src/lib/navigation.ts",
+      "summary": "库模块 navigation.ts，提供认证、导航或工具能力。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/utils.ts",
+      "type": "file",
+      "name": "utils.ts",
+      "filePath": "src/lib/utils.ts",
+      "summary": "库模块 utils.ts，提供认证、导航或工具能力。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/stores/sidebar-store.ts",
+      "type": "file",
+      "name": "sidebar-store.ts",
+      "filePath": "src/stores/sidebar-store.ts",
+      "summary": "Zustand 状态仓库 sidebar-store.ts，管理客户端全局状态。",
+      "tags": [
+        "service",
+        "utility"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/app/(workspace)/layout.tsx",
+      "target": "file:src/components/layout/app-shell.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/layout.tsx",
+      "target": "file:src/components/layout/auth-guard.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/layout.tsx",
+      "target": "function:src/app/(workspace)/layout.tsx:WorkspaceLayout",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/app/(workspace)/layout.tsx",
+      "target": "function:src/app/(workspace)/layout.tsx:WorkspaceLayout",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/app/admin/layout.tsx",
+      "target": "file:src/components/layout/app-shell.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/admin/layout.tsx",
+      "target": "file:src/components/layout/auth-guard.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/admin/layout.tsx",
+      "target": "function:src/app/admin/layout.tsx:AdminLayout",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/app/admin/layout.tsx",
+      "target": "function:src/app/admin/layout.tsx:AdminLayout",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/admin-shell.tsx",
+      "target": "file:src/components/ui/scroll-area.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/admin-shell.tsx",
+      "target": "function:src/components/admin-shell.tsx:AdminShell",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/admin-shell.tsx",
+      "target": "function:src/components/admin-shell.tsx:AdminShell",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/layout/app-header.tsx",
+      "target": "file:src/components/layout/app-sidebar.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/layout/app-header.tsx",
+      "target": "file:src/components/layout/sidebar-toggle.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/layout/app-header.tsx",
+      "target": "file:src/components/theme/theme-toggle.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/layout/app-header.tsx",
+      "target": "file:src/components/ui/avatar.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/layout/app-header.tsx",
+      "target": "file:src/components/ui/button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/layout/app-header.tsx",
+      "target": "file:src/components/ui/dropdown-menu.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/layout/app-header.tsx",
+      "target": "file:src/lib/auth/session.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/layout/app-header.tsx",
+      "target": "file:src/stores/workspace-store.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/layout/app-header.tsx",
+      "target": "function:src/components/layout/app-header.tsx:AppHeader",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/layout/app-header.tsx",
+      "target": "function:src/components/layout/app-header.tsx:AppHeader",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/layout/app-shell.tsx",
+      "target": "file:src/components/layout/app-header.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/layout/app-shell.tsx",
+      "target": "file:src/components/layout/app-sidebar.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/layout/app-shell.tsx",
+      "target": "file:src/components/layout/sidebar-reveal-rail.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/layout/app-shell.tsx",
+      "target": "function:src/components/layout/app-shell.tsx:AppShell",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/layout/app-shell.tsx",
+      "target": "function:src/components/layout/app-shell.tsx:AppShell",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/layout/app-sidebar.tsx",
+      "target": "file:src/components/ui/button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/layout/app-sidebar.tsx",
+      "target": "file:src/components/ui/scroll-area.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/layout/app-sidebar.tsx",
+      "target": "file:src/components/ui/separator.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/layout/app-sidebar.tsx",
+      "target": "file:src/components/ui/sheet.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/layout/app-sidebar.tsx",
+      "target": "file:src/lib/navigation.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/layout/app-sidebar.tsx",
+      "target": "file:src/lib/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/layout/app-sidebar.tsx",
+      "target": "file:src/stores/sidebar-store.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/layout/app-sidebar.tsx",
+      "target": "function:src/components/layout/app-sidebar.tsx:SidebarBrand",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/layout/app-sidebar.tsx",
+      "target": "function:src/components/layout/app-sidebar.tsx:SidebarNav",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/layout/app-sidebar.tsx",
+      "target": "function:src/components/layout/app-sidebar.tsx:AppSidebar",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/layout/app-sidebar.tsx",
+      "target": "function:src/components/layout/app-sidebar.tsx:AppSidebar",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/layout/app-sidebar.tsx",
+      "target": "function:src/components/layout/app-sidebar.tsx:MobileSidebar",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/layout/app-sidebar.tsx",
+      "target": "function:src/components/layout/app-sidebar.tsx:MobileSidebar",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/layout/auth-guard.tsx",
+      "target": "file:src/lib/auth/session.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/layout/auth-guard.tsx",
+      "target": "function:src/components/layout/auth-guard.tsx:AuthGuard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/layout/auth-guard.tsx",
+      "target": "function:src/components/layout/auth-guard.tsx:AuthGuard",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/layout/sidebar-reveal-rail.tsx",
+      "target": "file:src/lib/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/layout/sidebar-reveal-rail.tsx",
+      "target": "file:src/stores/sidebar-store.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/layout/sidebar-reveal-rail.tsx",
+      "target": "function:src/components/layout/sidebar-reveal-rail.tsx:SidebarRevealRail",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/layout/sidebar-reveal-rail.tsx",
+      "target": "function:src/components/layout/sidebar-reveal-rail.tsx:SidebarRevealRail",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/layout/sidebar-toggle.tsx",
+      "target": "file:src/components/ui/button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/layout/sidebar-toggle.tsx",
+      "target": "file:src/stores/sidebar-store.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/layout/sidebar-toggle.tsx",
+      "target": "function:src/components/layout/sidebar-toggle.tsx:SidebarToggle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/layout/sidebar-toggle.tsx",
+      "target": "function:src/components/layout/sidebar-toggle.tsx:SidebarToggle",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/planner/ebom-readonly-tree.tsx",
+      "target": "file:src/components/ui/scroll-area.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/planner/ebom-readonly-tree.tsx",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/planner/ebom-readonly-tree.tsx",
+      "target": "file:src/lib/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/planner/ebom-readonly-tree.tsx",
+      "target": "function:src/components/planner/ebom-readonly-tree.tsx:TreeNode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/planner/ebom-readonly-tree.tsx",
+      "target": "function:src/components/planner/ebom-readonly-tree.tsx:EbomReadonlyTree",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/planner/ebom-readonly-tree.tsx",
+      "target": "function:src/components/planner/ebom-readonly-tree.tsx:EbomReadonlyTree",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/planner/planner-panel.tsx",
+      "target": "file:src/lib/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/planner/planner-panel.tsx",
+      "target": "function:src/components/planner/planner-panel.tsx:PlannerPanel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/planner/planner-panel.tsx",
+      "target": "function:src/components/planner/planner-panel.tsx:PlannerPanel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/avatar.tsx",
+      "target": "file:src/lib/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/ui/avatar.tsx",
+      "target": "function:src/components/ui/avatar.tsx:Avatar",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/avatar.tsx",
+      "target": "function:src/components/ui/avatar.tsx:Avatar",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/avatar.tsx",
+      "target": "function:src/components/ui/avatar.tsx:AvatarImage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/avatar.tsx",
+      "target": "function:src/components/ui/avatar.tsx:AvatarImage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/avatar.tsx",
+      "target": "function:src/components/ui/avatar.tsx:AvatarFallback",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/avatar.tsx",
+      "target": "function:src/components/ui/avatar.tsx:AvatarFallback",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/avatar.tsx",
+      "target": "function:src/components/ui/avatar.tsx:AvatarBadge",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/avatar.tsx",
+      "target": "function:src/components/ui/avatar.tsx:AvatarBadge",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/avatar.tsx",
+      "target": "function:src/components/ui/avatar.tsx:AvatarGroup",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/avatar.tsx",
+      "target": "function:src/components/ui/avatar.tsx:AvatarGroup",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/avatar.tsx",
+      "target": "function:src/components/ui/avatar.tsx:AvatarGroupCount",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/avatar.tsx",
+      "target": "function:src/components/ui/avatar.tsx:AvatarGroupCount",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/dropdown-menu.tsx",
+      "target": "file:src/lib/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/ui/dropdown-menu.tsx",
+      "target": "function:src/components/ui/dropdown-menu.tsx:DropdownMenuTrigger",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/dropdown-menu.tsx",
+      "target": "function:src/components/ui/dropdown-menu.tsx:DropdownMenuTrigger",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/dropdown-menu.tsx",
+      "target": "function:src/components/ui/dropdown-menu.tsx:DropdownMenuContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/dropdown-menu.tsx",
+      "target": "function:src/components/ui/dropdown-menu.tsx:DropdownMenuContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/dropdown-menu.tsx",
+      "target": "function:src/components/ui/dropdown-menu.tsx:DropdownMenuItem",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/dropdown-menu.tsx",
+      "target": "function:src/components/ui/dropdown-menu.tsx:DropdownMenuItem",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/dropdown-menu.tsx",
+      "target": "function:src/components/ui/dropdown-menu.tsx:DropdownMenuCheckboxItem",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/dropdown-menu.tsx",
+      "target": "function:src/components/ui/dropdown-menu.tsx:DropdownMenuCheckboxItem",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/dropdown-menu.tsx",
+      "target": "function:src/components/ui/dropdown-menu.tsx:DropdownMenuRadioGroup",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/dropdown-menu.tsx",
+      "target": "function:src/components/ui/dropdown-menu.tsx:DropdownMenuRadioGroup",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/dropdown-menu.tsx",
+      "target": "function:src/components/ui/dropdown-menu.tsx:DropdownMenuRadioItem",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/dropdown-menu.tsx",
+      "target": "function:src/components/ui/dropdown-menu.tsx:DropdownMenuRadioItem",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/dropdown-menu.tsx",
+      "target": "function:src/components/ui/dropdown-menu.tsx:DropdownMenuLabel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/dropdown-menu.tsx",
+      "target": "function:src/components/ui/dropdown-menu.tsx:DropdownMenuLabel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/dropdown-menu.tsx",
+      "target": "function:src/components/ui/dropdown-menu.tsx:DropdownMenuSeparator",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/dropdown-menu.tsx",
+      "target": "function:src/components/ui/dropdown-menu.tsx:DropdownMenuSeparator",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/dropdown-menu.tsx",
+      "target": "function:src/components/ui/dropdown-menu.tsx:DropdownMenuShortcut",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/dropdown-menu.tsx",
+      "target": "function:src/components/ui/dropdown-menu.tsx:DropdownMenuShortcut",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/dropdown-menu.tsx",
+      "target": "function:src/components/ui/dropdown-menu.tsx:DropdownMenuSubTrigger",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/dropdown-menu.tsx",
+      "target": "function:src/components/ui/dropdown-menu.tsx:DropdownMenuSubTrigger",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/dropdown-menu.tsx",
+      "target": "function:src/components/ui/dropdown-menu.tsx:DropdownMenuSubContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/dropdown-menu.tsx",
+      "target": "function:src/components/ui/dropdown-menu.tsx:DropdownMenuSubContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/scroll-area.tsx",
+      "target": "file:src/lib/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/ui/scroll-area.tsx",
+      "target": "function:src/components/ui/scroll-area.tsx:ScrollArea",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/scroll-area.tsx",
+      "target": "function:src/components/ui/scroll-area.tsx:ScrollArea",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/scroll-area.tsx",
+      "target": "function:src/components/ui/scroll-area.tsx:ScrollBar",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/scroll-area.tsx",
+      "target": "function:src/components/ui/scroll-area.tsx:ScrollBar",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/separator.tsx",
+      "target": "file:src/lib/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/ui/separator.tsx",
+      "target": "function:src/components/ui/separator.tsx:Separator",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/separator.tsx",
+      "target": "function:src/components/ui/separator.tsx:Separator",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/sheet.tsx",
+      "target": "file:src/lib/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/ui/sheet.tsx",
+      "target": "function:src/components/ui/sheet.tsx:SheetOverlay",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/sheet.tsx",
+      "target": "function:src/components/ui/sheet.tsx:SheetContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/sheet.tsx",
+      "target": "function:src/components/ui/sheet.tsx:SheetContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/sheet.tsx",
+      "target": "function:src/components/ui/sheet.tsx:SheetTitle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/sheet.tsx",
+      "target": "function:src/components/ui/sheet.tsx:SheetTitle",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/sheet.tsx",
+      "target": "function:src/components/ui/sheet.tsx:SheetDescription",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/sheet.tsx",
+      "target": "function:src/components/ui/sheet.tsx:SheetDescription",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/switch.tsx",
+      "target": "file:src/lib/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/ui/switch.tsx",
+      "target": "function:src/components/ui/switch.tsx:Switch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/switch.tsx",
+      "target": "function:src/components/ui/switch.tsx:Switch",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

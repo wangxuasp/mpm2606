@@ -1,0 +1,135 @@
+{
+  "nodes": [
+    {
+      "id": "document:docs/superpowers/specs/2026-06-23-mpms-p0-foundation-design.md",
+      "type": "document",
+      "name": "2026-06-23-mpms-p0-foundation-design.md",
+      "filePath": "docs/superpowers/specs/2026-06-23-mpms-p0-foundation-design.md",
+      "summary": "项目文档 2026-06-23-mpms-p0-foundation-design.md，说明系统设计与使用方式。",
+      "tags": [
+        "documentation",
+        "test",
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "document:docs/superpowers/specs/2026-06-23-mpms-p1-planner-mbom-design.md",
+      "type": "document",
+      "name": "2026-06-23-mpms-p1-planner-mbom-design.md",
+      "filePath": "docs/superpowers/specs/2026-06-23-mpms-p1-planner-mbom-design.md",
+      "summary": "项目文档 2026-06-23-mpms-p1-planner-mbom-design.md，说明系统设计与使用方式。",
+      "tags": [
+        "documentation",
+        "test",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:docs/superpowers/specs/2026-06-23-mpms-p2-bop-design.md",
+      "type": "document",
+      "name": "2026-06-23-mpms-p2-bop-design.md",
+      "filePath": "docs/superpowers/specs/2026-06-23-mpms-p2-bop-design.md",
+      "summary": "项目文档 2026-06-23-mpms-p2-bop-design.md，说明系统设计与使用方式。",
+      "tags": [
+        "documentation",
+        "test",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:docs/superpowers/specs/2026-06-23-mpms-p3-operation-design.md",
+      "type": "document",
+      "name": "2026-06-23-mpms-p3-operation-design.md",
+      "filePath": "docs/superpowers/specs/2026-06-23-mpms-p3-operation-design.md",
+      "summary": "项目文档 2026-06-23-mpms-p3-operation-design.md，说明系统设计与使用方式。",
+      "tags": [
+        "documentation",
+        "test",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:docs/superpowers/specs/2026-06-23-mpms-p4-resource-document-design.md",
+      "type": "document",
+      "name": "2026-06-23-mpms-p4-resource-document-design.md",
+      "filePath": "docs/superpowers/specs/2026-06-23-mpms-p4-resource-document-design.md",
+      "summary": "项目文档 2026-06-23-mpms-p4-resource-document-design.md，说明系统设计与使用方式。",
+      "tags": [
+        "documentation",
+        "test",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:docs/superpowers/specs/2026-06-23-mpms-p5-approval-change-design.md",
+      "type": "document",
+      "name": "2026-06-23-mpms-p5-approval-change-design.md",
+      "filePath": "docs/superpowers/specs/2026-06-23-mpms-p5-approval-change-design.md",
+      "summary": "项目文档 2026-06-23-mpms-p5-approval-change-design.md，说明系统设计与使用方式。",
+      "tags": [
+        "documentation",
+        "test",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:docs/superpowers/specs/2026-06-23-mpms-p6-summary-3d-design.md",
+      "type": "document",
+      "name": "2026-06-23-mpms-p6-summary-3d-design.md",
+      "filePath": "docs/superpowers/specs/2026-06-23-mpms-p6-summary-3d-design.md",
+      "summary": "项目文档 2026-06-23-mpms-p6-summary-3d-design.md，说明系统设计与使用方式。",
+      "tags": [
+        "documentation",
+        "test",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:docs/superpowers/specs/2026-06-23-mpms-p7-copilot-design.md",
+      "type": "document",
+      "name": "2026-06-23-mpms-p7-copilot-design.md",
+      "filePath": "docs/superpowers/specs/2026-06-23-mpms-p7-copilot-design.md",
+      "summary": "项目文档 2026-06-23-mpms-p7-copilot-design.md，说明系统设计与使用方式。",
+      "tags": [
+        "documentation",
+        "test",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:docs/superpowers/specs/2026-06-23-mpms-p8-integration-design.md",
+      "type": "document",
+      "name": "2026-06-23-mpms-p8-integration-design.md",
+      "filePath": "docs/superpowers/specs/2026-06-23-mpms-p8-integration-design.md",
+      "summary": "项目文档 2026-06-23-mpms-p8-integration-design.md，说明系统设计与使用方式。",
+      "tags": [
+        "documentation",
+        "test",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:docs/superpowers/specs/2026-06-24-ui-beautification-design.md",
+      "type": "document",
+      "name": "2026-06-24-ui-beautification-design.md",
+      "filePath": "docs/superpowers/specs/2026-06-24-ui-beautification-design.md",
+      "summary": "项目文档 2026-06-24-ui-beautification-design.md，说明系统设计与使用方式。",
+      "tags": [
+        "documentation",
+        "test",
+        "utility"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": []
+}

@@ -1,0 +1,132 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/lib/domain/types/approval.ts",
+      "type": "file",
+      "name": "approval.ts",
+      "filePath": "src/lib/domain/types/approval.ts",
+      "summary": "领域类型定义 approval.ts，描述核心业务实体与枚举。",
+      "tags": [
+        "data-model",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/domain/types/bom.ts",
+      "type": "file",
+      "name": "bom.ts",
+      "filePath": "src/lib/domain/types/bom.ts",
+      "summary": "领域类型定义 bom.ts，描述核心业务实体与枚举。",
+      "tags": [
+        "data-model",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/domain/types/bop.ts",
+      "type": "file",
+      "name": "bop.ts",
+      "filePath": "src/lib/domain/types/bop.ts",
+      "summary": "领域类型定义 bop.ts，描述核心业务实体与枚举。",
+      "tags": [
+        "data-model",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/domain/types/change-order.ts",
+      "type": "file",
+      "name": "change-order.ts",
+      "filePath": "src/lib/domain/types/change-order.ts",
+      "summary": "领域类型定义 change-order.ts，描述核心业务实体与枚举。",
+      "tags": [
+        "data-model",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/domain/types/operation.ts",
+      "type": "file",
+      "name": "operation.ts",
+      "filePath": "src/lib/domain/types/operation.ts",
+      "summary": "领域类型定义 operation.ts，描述核心业务实体与枚举。",
+      "tags": [
+        "data-model",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/domain/types/process-document.ts",
+      "type": "file",
+      "name": "process-document.ts",
+      "filePath": "src/lib/domain/types/process-document.ts",
+      "summary": "领域类型定义 process-document.ts，描述核心业务实体与枚举。",
+      "tags": [
+        "data-model",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/domain/types/resource.ts",
+      "type": "file",
+      "name": "resource.ts",
+      "filePath": "src/lib/domain/types/resource.ts",
+      "summary": "领域类型定义 resource.ts，描述核心业务实体与枚举。",
+      "tags": [
+        "data-model",
+        "utility"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/lib/domain/types/approval.ts",
+      "target": "file:src/lib/domain/types/bom.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/types/bop.ts",
+      "target": "file:src/lib/domain/types/bom.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/types/change-order.ts",
+      "target": "file:src/lib/domain/types/bom.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/types/operation.ts",
+      "target": "file:src/lib/domain/types/bom.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/types/process-document.ts",
+      "target": "file:src/lib/domain/types/bom.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/types/resource.ts",
+      "target": "file:src/lib/domain/types/bom.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

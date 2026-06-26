@@ -1,0 +1,291 @@
+{
+  "nodes": [
+    {
+      "id": "file:.cursor/rules/codegraph.mdc",
+      "type": "file",
+      "name": "codegraph.mdc",
+      "filePath": ".cursor/rules/codegraph.mdc",
+      "summary": "Cursor 规则文件 codegraph.mdc，约束 AI 编码行为。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:.cursor/rules/karpathy-guidelines.mdc",
+      "type": "file",
+      "name": "karpathy-guidelines.mdc",
+      "filePath": ".cursor/rules/karpathy-guidelines.mdc",
+      "summary": "Cursor 规则文件 karpathy-guidelines.mdc，约束 AI 编码行为。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:.understand-anything/.understandignore",
+      "type": "file",
+      "name": ".understandignore",
+      "filePath": ".understand-anything/.understandignore",
+      "summary": "源文件 .understandignore，参与 Extech MPMS 前端应用结构。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "config:.understand-anything/config.json",
+      "type": "config",
+      "name": "config.json",
+      "filePath": ".understand-anything/config.json",
+      "summary": "配置文件 config.json，控制构建、编译或运行时行为。",
+      "tags": [
+        "configuration",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:docs/superpowers/plans/2026-06-23-mpms-p0-foundation.md",
+      "type": "document",
+      "name": "2026-06-23-mpms-p0-foundation.md",
+      "filePath": "docs/superpowers/plans/2026-06-23-mpms-p0-foundation.md",
+      "summary": "项目文档 2026-06-23-mpms-p0-foundation.md，说明系统设计与使用方式。",
+      "tags": [
+        "documentation",
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "document:docs/superpowers/plans/2026-06-24-ui-beautification.md",
+      "type": "document",
+      "name": "2026-06-24-ui-beautification.md",
+      "filePath": "docs/superpowers/plans/2026-06-24-ui-beautification.md",
+      "summary": "项目文档 2026-06-24-ui-beautification.md，说明系统设计与使用方式。",
+      "tags": [
+        "documentation",
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:eslint.config.mjs",
+      "type": "file",
+      "name": "eslint.config.mjs",
+      "filePath": "eslint.config.mjs",
+      "summary": "源文件 eslint.config.mjs，参与 Extech MPMS 前端应用结构。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:next.config.ts",
+      "type": "file",
+      "name": "next.config.ts",
+      "filePath": "next.config.ts",
+      "summary": "源文件 next.config.ts，参与 Extech MPMS 前端应用结构。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:postcss.config.mjs",
+      "type": "file",
+      "name": "postcss.config.mjs",
+      "filePath": "postcss.config.mjs",
+      "summary": "源文件 postcss.config.mjs，参与 Extech MPMS 前端应用结构。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/app/api/3d/jt/route.ts",
+      "type": "file",
+      "name": "route.ts",
+      "filePath": "src/app/api/3d/jt/route.ts",
+      "summary": "Next.js API 路由 route.ts，处理 HTTP 请求与集成逻辑。",
+      "tags": [
+        "api-handler",
+        "entry-point",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/app/api/3d/jt/route.ts:GET",
+      "type": "function",
+      "name": "GET",
+      "filePath": "src/app/api/3d/jt/route.ts",
+      "summary": "函数 GET，位于 route.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/app/api/health/route.ts",
+      "type": "file",
+      "name": "route.ts",
+      "filePath": "src/app/api/health/route.ts",
+      "summary": "Next.js API 路由 route.ts，处理 HTTP 请求与集成逻辑。",
+      "tags": [
+        "api-handler",
+        "entry-point",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/app/globals.css",
+      "type": "file",
+      "name": "globals.css",
+      "filePath": "src/app/globals.css",
+      "summary": "源文件 globals.css，参与 Extech MPMS 前端应用结构。",
+      "tags": [
+        "entry-point",
+        "component",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/lib/db/repositories/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "src/lib/db/repositories/index.ts",
+      "summary": "库模块 index.ts，提供认证、导航或工具能力。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/domain/schemas/app-meta.ts",
+      "type": "file",
+      "name": "app-meta.ts",
+      "filePath": "src/lib/domain/schemas/app-meta.ts",
+      "summary": "库模块 app-meta.ts，提供认证、导航或工具能力。",
+      "tags": [
+        "data-model",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/domain/schemas/bop.ts",
+      "type": "file",
+      "name": "bop.ts",
+      "filePath": "src/lib/domain/schemas/bop.ts",
+      "summary": "库模块 bop.ts，提供认证、导航或工具能力。",
+      "tags": [
+        "data-model",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/domain/schemas/dictionary.ts",
+      "type": "file",
+      "name": "dictionary.ts",
+      "filePath": "src/lib/domain/schemas/dictionary.ts",
+      "summary": "库模块 dictionary.ts，提供认证、导航或工具能力。",
+      "tags": [
+        "data-model",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/domain/schemas/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "src/lib/domain/schemas/index.ts",
+      "summary": "库模块 index.ts，提供认证、导航或工具能力。",
+      "tags": [
+        "data-model",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/domain/schemas/operation.ts",
+      "type": "file",
+      "name": "operation.ts",
+      "filePath": "src/lib/domain/schemas/operation.ts",
+      "summary": "库模块 operation.ts，提供认证、导航或工具能力。",
+      "tags": [
+        "data-model",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/domain/types/app-meta.ts",
+      "type": "file",
+      "name": "app-meta.ts",
+      "filePath": "src/lib/domain/types/app-meta.ts",
+      "summary": "领域类型定义 app-meta.ts，描述核心业务实体与枚举。",
+      "tags": [
+        "data-model",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/domain/types/collaboration.ts",
+      "type": "file",
+      "name": "collaboration.ts",
+      "filePath": "src/lib/domain/types/collaboration.ts",
+      "summary": "领域类型定义 collaboration.ts，描述核心业务实体与枚举。",
+      "tags": [
+        "data-model",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/domain/types/dictionary.ts",
+      "type": "file",
+      "name": "dictionary.ts",
+      "filePath": "src/lib/domain/types/dictionary.ts",
+      "summary": "领域类型定义 dictionary.ts，描述核心业务实体与枚举。",
+      "tags": [
+        "data-model",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/domain/types/envelope.ts",
+      "type": "file",
+      "name": "envelope.ts",
+      "filePath": "src/lib/domain/types/envelope.ts",
+      "summary": "领域类型定义 envelope.ts，描述核心业务实体与枚举。",
+      "tags": [
+        "data-model",
+        "utility"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/app/api/3d/jt/route.ts",
+      "target": "function:src/app/api/3d/jt/route.ts:GET",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/app/api/3d/jt/route.ts",
+      "target": "function:src/app/api/3d/jt/route.ts:GET",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

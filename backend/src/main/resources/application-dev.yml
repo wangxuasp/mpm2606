@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:kingbase8://127.0.0.1:54321/kingbase?currentSchema=public
+    username: system
+    password: "1234"
+
+logging:
+  level:
+    com.extech.mpms: DEBUG
+    com.zaxxer.hikari: INFO

@@ -1,0 +1,2186 @@
+{
+  "name": "extech-mpms",
+  "description": "Extech MPMS（制造工艺管理系统）V11.0 P0 基座 — 基于 Next.js App Router 的可运行空壳，包含 IndexedDB 演示数据、Mock 认证、工作台概览、只读 EBOM 规划器与 JSON 数据管理。 Note: this project has over 100 source files; consider scoping analysis to a subdirectory for faster results.",
+  "languages": [
+    "css",
+    "javascript",
+    "json",
+    "markdown",
+    "mdc",
+    "typescript",
+    "unknown",
+    "yaml"
+  ],
+  "frameworks": [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Tailwind CSS",
+    "shadcn/ui",
+    "TanStack Query",
+    "Zustand",
+    "Dexie.js",
+    "XState",
+    "AG Grid",
+    "React Flow"
+  ],
+  "files": [
+    {
+      "path": ".cursor/rules/codegraph.mdc",
+      "language": "mdc",
+      "sizeLines": 39,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".cursor/rules/karpathy-guidelines.mdc",
+      "language": "mdc",
+      "sizeLines": 70,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".understand-anything/.understandignore",
+      "language": "unknown",
+      "sizeLines": 56,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".understand-anything/config.json",
+      "language": "json",
+      "sizeLines": 3,
+      "fileCategory": "config"
+    },
+    {
+      "path": "自研工艺管理系统开发设计方案.md",
+      "language": "markdown",
+      "sizeLines": 526,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "components.json",
+      "language": "json",
+      "sizeLines": 24,
+      "fileCategory": "config"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-06-23-mpms-p0-foundation.md",
+      "language": "markdown",
+      "sizeLines": 1603,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-06-24-ui-beautification.md",
+      "language": "markdown",
+      "sizeLines": 648,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-06-23-mpms-p0-foundation-design.md",
+      "language": "markdown",
+      "sizeLines": 521,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-06-23-mpms-p1-planner-mbom-design.md",
+      "language": "markdown",
+      "sizeLines": 50,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-06-23-mpms-p2-bop-design.md",
+      "language": "markdown",
+      "sizeLines": 32,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-06-23-mpms-p3-operation-design.md",
+      "language": "markdown",
+      "sizeLines": 36,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-06-23-mpms-p4-resource-document-design.md",
+      "language": "markdown",
+      "sizeLines": 29,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-06-23-mpms-p5-approval-change-design.md",
+      "language": "markdown",
+      "sizeLines": 33,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-06-23-mpms-p6-summary-3d-design.md",
+      "language": "markdown",
+      "sizeLines": 29,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-06-23-mpms-p7-copilot-design.md",
+      "language": "markdown",
+      "sizeLines": 28,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-06-23-mpms-p8-integration-design.md",
+      "language": "markdown",
+      "sizeLines": 28,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-06-24-ui-beautification-design.md",
+      "language": "markdown",
+      "sizeLines": 223,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "eslint.config.mjs",
+      "language": "javascript",
+      "sizeLines": 18,
+      "fileCategory": "code"
+    },
+    {
+      "path": "next.config.ts",
+      "language": "typescript",
+      "sizeLines": 8,
+      "fileCategory": "code"
+    },
+    {
+      "path": "package.json",
+      "language": "json",
+      "sizeLines": 53,
+      "fileCategory": "config"
+    },
+    {
+      "path": "pnpm-workspace.yaml",
+      "language": "yaml",
+      "sizeLines": 6,
+      "fileCategory": "config"
+    },
+    {
+      "path": "postcss.config.mjs",
+      "language": "javascript",
+      "sizeLines": 7,
+      "fileCategory": "code"
+    },
+    {
+      "path": "README.md",
+      "language": "markdown",
+      "sizeLines": 51,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "src/app/(auth)/login/page.tsx",
+      "language": "typescript",
+      "sizeLines": 120,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/app/(workspace)/approval/page.tsx",
+      "language": "typescript",
+      "sizeLines": 178,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/app/(workspace)/bop/page.tsx",
+      "language": "typescript",
+      "sizeLines": 539,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/app/(workspace)/change/page.tsx",
+      "language": "typescript",
+      "sizeLines": 33,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/app/(workspace)/copilot/page.tsx",
+      "language": "typescript",
+      "sizeLines": 205,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/app/(workspace)/document/page.tsx",
+      "language": "typescript",
+      "sizeLines": 355,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/app/(workspace)/integration/page.tsx",
+      "language": "typescript",
+      "sizeLines": 132,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/app/(workspace)/layout.tsx",
+      "language": "typescript",
+      "sizeLines": 16,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/app/(workspace)/mbom/page.tsx",
+      "language": "typescript",
+      "sizeLines": 320,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/app/(workspace)/operation/page.tsx",
+      "language": "typescript",
+      "sizeLines": 306,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/app/(workspace)/page.tsx",
+      "language": "typescript",
+      "sizeLines": 49,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/app/(workspace)/planner/page.tsx",
+      "language": "typescript",
+      "sizeLines": 355,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/app/(workspace)/resource/page.tsx",
+      "language": "typescript",
+      "sizeLines": 304,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/app/(workspace)/settings/page.tsx",
+      "language": "typescript",
+      "sizeLines": 228,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/app/(workspace)/summary/page.tsx",
+      "language": "typescript",
+      "sizeLines": 274,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/app/(workspace)/tooling/page.tsx",
+      "language": "typescript",
+      "sizeLines": 149,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/app/admin/dictionaries/page.tsx",
+      "language": "typescript",
+      "sizeLines": 78,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/app/admin/layout.tsx",
+      "language": "typescript",
+      "sizeLines": 16,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/app/admin/page.tsx",
+      "language": "typescript",
+      "sizeLines": 11,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/app/admin/permissions/page.tsx",
+      "language": "typescript",
+      "sizeLines": 11,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/app/admin/users/page.tsx",
+      "language": "typescript",
+      "sizeLines": 11,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/app/admin/workflow-templates/page.tsx",
+      "language": "typescript",
+      "sizeLines": 61,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/app/api/3d/jt/route.ts",
+      "language": "typescript",
+      "sizeLines": 16,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/app/api/health/route.ts",
+      "language": "typescript",
+      "sizeLines": 9,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/app/api/integration/erp/push/route.ts",
+      "language": "typescript",
+      "sizeLines": 25,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/app/api/integration/mes/push/route.ts",
+      "language": "typescript",
+      "sizeLines": 22,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/app/api/integration/teamcenter/ebom/route.ts",
+      "language": "typescript",
+      "sizeLines": 21,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/app/globals.css",
+      "language": "css",
+      "sizeLines": 129,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/app/layout.tsx",
+      "language": "typescript",
+      "sizeLines": 44,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/admin-shell.tsx",
+      "language": "typescript",
+      "sizeLines": 30,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/bom-tree/bom-drag-store.ts",
+      "language": "typescript",
+      "sizeLines": 29,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/bom-tree/bom-tree-grid-impl.tsx",
+      "language": "typescript",
+      "sizeLines": 267,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/bom-tree/bom-tree-grid.tsx",
+      "language": "typescript",
+      "sizeLines": 33,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/bom-tree/bom-tree-utils.ts",
+      "language": "typescript",
+      "sizeLines": 67,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/bop/bop-property-panel.tsx",
+      "language": "typescript",
+      "sizeLines": 94,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/bop/bop-tree-grid-impl.tsx",
+      "language": "typescript",
+      "sizeLines": 163,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/bop/bop-tree-grid.tsx",
+      "language": "typescript",
+      "sizeLines": 27,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/bop/bop-tree-utils.ts",
+      "language": "typescript",
+      "sizeLines": 60,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/bop/pert-dag-editor.tsx",
+      "language": "typescript",
+      "sizeLines": 161,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/change/change-order-wizard.tsx",
+      "language": "typescript",
+      "sizeLines": 326,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/change/change-summary-panel.tsx",
+      "language": "typescript",
+      "sizeLines": 156,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/copilot/apd-import-wizard.tsx",
+      "language": "typescript",
+      "sizeLines": 208,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/copilot/copilot-command-input.tsx",
+      "language": "typescript",
+      "sizeLines": 82,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/copilot/copilot-message-list.tsx",
+      "language": "typescript",
+      "sizeLines": 83,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/integration/integration-log-table.tsx",
+      "language": "typescript",
+      "sizeLines": 64,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/integration/integration-push-panel.tsx",
+      "language": "typescript",
+      "sizeLines": 116,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/integration/integration-status-card.tsx",
+      "language": "typescript",
+      "sizeLines": 44,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/layout/app-header.tsx",
+      "language": "typescript",
+      "sizeLines": 80,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/layout/app-shell.tsx",
+      "language": "typescript",
+      "sizeLines": 18,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/layout/app-sidebar.tsx",
+      "language": "typescript",
+      "sizeLines": 181,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/layout/auth-guard.tsx",
+      "language": "typescript",
+      "sizeLines": 28,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/layout/sidebar-reveal-rail.tsx",
+      "language": "typescript",
+      "sizeLines": 41,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/layout/sidebar-toggle.tsx",
+      "language": "typescript",
+      "sizeLines": 40,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/mbom/accountability-results.tsx",
+      "language": "typescript",
+      "sizeLines": 66,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/onlyoffice/onlyoffice-editor.tsx",
+      "language": "typescript",
+      "sizeLines": 36,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/operation/operation-accountability.tsx",
+      "language": "typescript",
+      "sizeLines": 102,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/operation/operation-resource-panel.tsx",
+      "language": "typescript",
+      "sizeLines": 267,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/placeholders/module-placeholder.tsx",
+      "language": "typescript",
+      "sizeLines": 26,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/planner/ebom-readonly-tree.tsx",
+      "language": "typescript",
+      "sizeLines": 99,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/planner/node-property-panel.tsx",
+      "language": "typescript",
+      "sizeLines": 81,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/planner/planner-flow-bridge.tsx",
+      "language": "typescript",
+      "sizeLines": 22,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/planner/planner-panel.tsx",
+      "language": "typescript",
+      "sizeLines": 42,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/process-card/process-card-form.tsx",
+      "language": "typescript",
+      "sizeLines": 323,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/providers/app-providers.tsx",
+      "language": "typescript",
+      "sizeLines": 39,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/resource/resource-table.tsx",
+      "language": "typescript",
+      "sizeLines": 189,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/theme/theme-provider.tsx",
+      "language": "typescript",
+      "sizeLines": 85,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/theme/theme-toggle.tsx",
+      "language": "typescript",
+      "sizeLines": 30,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/tools/screenshot-capture.tsx",
+      "language": "typescript",
+      "sizeLines": 199,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/ui/alert-dialog.tsx",
+      "language": "typescript",
+      "sizeLines": 148,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/ui/alert.tsx",
+      "language": "typescript",
+      "sizeLines": 60,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/ui/avatar.tsx",
+      "language": "typescript",
+      "sizeLines": 109,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/ui/badge.tsx",
+      "language": "typescript",
+      "sizeLines": 48,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/ui/button.tsx",
+      "language": "typescript",
+      "sizeLines": 58,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/ui/card.tsx",
+      "language": "typescript",
+      "sizeLines": 103,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/ui/checkbox.tsx",
+      "language": "typescript",
+      "sizeLines": 32,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/ui/dialog.tsx",
+      "language": "typescript",
+      "sizeLines": 158,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/ui/dropdown-menu.tsx",
+      "language": "typescript",
+      "sizeLines": 257,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/ui/input.tsx",
+      "language": "typescript",
+      "sizeLines": 20,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/ui/label.tsx",
+      "language": "typescript",
+      "sizeLines": 20,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/ui/scroll-area.tsx",
+      "language": "typescript",
+      "sizeLines": 55,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/ui/select.tsx",
+      "language": "typescript",
+      "sizeLines": 190,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/ui/separator.tsx",
+      "language": "typescript",
+      "sizeLines": 28,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/ui/sheet.tsx",
+      "language": "typescript",
+      "sizeLines": 143,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/ui/sonner.tsx",
+      "language": "typescript",
+      "sizeLines": 40,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/ui/switch.tsx",
+      "language": "typescript",
+      "sizeLines": 35,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/ui/table.tsx",
+      "language": "typescript",
+      "sizeLines": 76,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/ui/tabs.tsx",
+      "language": "typescript",
+      "sizeLines": 91,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/ui/textarea.tsx",
+      "language": "typescript",
+      "sizeLines": 18,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/viewer3d/jt-download-panel.tsx",
+      "language": "typescript",
+      "sizeLines": 273,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/workflow/approval-actions.tsx",
+      "language": "typescript",
+      "sizeLines": 94,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/workflow/approval-timeline.tsx",
+      "language": "typescript",
+      "sizeLines": 89,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/hooks/use-app-meta.ts",
+      "language": "typescript",
+      "sizeLines": 9,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/hooks/use-approvals.ts",
+      "language": "typescript",
+      "sizeLines": 61,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/hooks/use-bom-nodes.ts",
+      "language": "typescript",
+      "sizeLines": 22,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/hooks/use-bop.ts",
+      "language": "typescript",
+      "sizeLines": 18,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/hooks/use-change-orders.ts",
+      "language": "typescript",
+      "sizeLines": 59,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/hooks/use-collaboration.ts",
+      "language": "typescript",
+      "sizeLines": 17,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/hooks/use-dictionaries.ts",
+      "language": "typescript",
+      "sizeLines": 20,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/hooks/use-operations.ts",
+      "language": "typescript",
+      "sizeLines": 29,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/hooks/use-process-documents.ts",
+      "language": "typescript",
+      "sizeLines": 26,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/hooks/use-process-summary.ts",
+      "language": "typescript",
+      "sizeLines": 56,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/ag-grid/setup.ts",
+      "language": "typescript",
+      "sizeLines": 11,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/ai/apd-import-commit.ts",
+      "language": "typescript",
+      "sizeLines": 120,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/ai/apd-import-parser.ts",
+      "language": "typescript",
+      "sizeLines": 149,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/ai/copilot-scenarios.ts",
+      "language": "typescript",
+      "sizeLines": 236,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/ai/llm-client.ts",
+      "language": "typescript",
+      "sizeLines": 57,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/auth/mock-auth.ts",
+      "language": "typescript",
+      "sizeLines": 6,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/auth/session.ts",
+      "language": "typescript",
+      "sizeLines": 36,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/db/export-import.ts",
+      "language": "typescript",
+      "sizeLines": 66,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/db/repositories/app-meta-repository.ts",
+      "language": "typescript",
+      "sizeLines": 25,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/db/repositories/approval-repository.ts",
+      "language": "typescript",
+      "sizeLines": 34,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/db/repositories/base.ts",
+      "language": "typescript",
+      "sizeLines": 7,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/db/repositories/bom-repository.ts",
+      "language": "typescript",
+      "sizeLines": 61,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/db/repositories/bop-repository.ts",
+      "language": "typescript",
+      "sizeLines": 57,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/db/repositories/change-order-repository.ts",
+      "language": "typescript",
+      "sizeLines": 30,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/db/repositories/collaboration-repository.ts",
+      "language": "typescript",
+      "sizeLines": 25,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/db/repositories/dictionary-repository.ts",
+      "language": "typescript",
+      "sizeLines": 29,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/db/repositories/document-file-repository.ts",
+      "language": "typescript",
+      "sizeLines": 25,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/db/repositories/envelope-repository.ts",
+      "language": "typescript",
+      "sizeLines": 29,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/db/repositories/index.ts",
+      "language": "typescript",
+      "sizeLines": 11,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/db/repositories/operation-repository.ts",
+      "language": "typescript",
+      "sizeLines": 47,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/db/repositories/process-document-repository.ts",
+      "language": "typescript",
+      "sizeLines": 33,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/db/repositories/resource-repository.ts",
+      "language": "typescript",
+      "sizeLines": 25,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/db/schema.ts",
+      "language": "typescript",
+      "sizeLines": 76,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/db/seed.ts",
+      "language": "typescript",
+      "sizeLines": 77,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/domain/id-generator.ts",
+      "language": "typescript",
+      "sizeLines": 15,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/domain/rules/accountability-check.ts",
+      "language": "typescript",
+      "sizeLines": 81,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/domain/rules/bop-hierarchy.ts",
+      "language": "typescript",
+      "sizeLines": 21,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/domain/rules/dag-validation.ts",
+      "language": "typescript",
+      "sizeLines": 45,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/domain/rules/mbom-constraints.ts",
+      "language": "typescript",
+      "sizeLines": 52,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/domain/schemas/app-meta.ts",
+      "language": "typescript",
+      "sizeLines": 12,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/domain/schemas/bom.ts",
+      "language": "typescript",
+      "sizeLines": 31,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/domain/schemas/bop.ts",
+      "language": "typescript",
+      "sizeLines": 27,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/domain/schemas/dictionary.ts",
+      "language": "typescript",
+      "sizeLines": 9,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/domain/schemas/export-bundle.ts",
+      "language": "typescript",
+      "sizeLines": 31,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/domain/schemas/handoff-package.ts",
+      "language": "typescript",
+      "sizeLines": 51,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/domain/schemas/index.ts",
+      "language": "typescript",
+      "sizeLines": 8,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/domain/schemas/operation.ts",
+      "language": "typescript",
+      "sizeLines": 55,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/domain/schemas/process-document.ts",
+      "language": "typescript",
+      "sizeLines": 35,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/domain/services/apd-export-service.ts",
+      "language": "typescript",
+      "sizeLines": 117,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/domain/services/bop-service.ts",
+      "language": "typescript",
+      "sizeLines": 251,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/domain/services/change-order-service.ts",
+      "language": "typescript",
+      "sizeLines": 269,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/domain/services/change-summary-export.ts",
+      "language": "typescript",
+      "sizeLines": 63,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/domain/services/jt-download-service.ts",
+      "language": "typescript",
+      "sizeLines": 48,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/domain/services/mbom-service.ts",
+      "language": "typescript",
+      "sizeLines": 192,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/domain/services/operation-service.ts",
+      "language": "typescript",
+      "sizeLines": 179,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/domain/services/process-card-export.ts",
+      "language": "typescript",
+      "sizeLines": 51,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/domain/services/process-document-service.ts",
+      "language": "typescript",
+      "sizeLines": 74,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/domain/services/process-summary-service.ts",
+      "language": "typescript",
+      "sizeLines": 149,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/domain/services/resource-service.ts",
+      "language": "typescript",
+      "sizeLines": 109,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/domain/services/summary-export-service.ts",
+      "language": "typescript",
+      "sizeLines": 110,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/domain/types/app-meta.ts",
+      "language": "typescript",
+      "sizeLines": 6,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/domain/types/approval.ts",
+      "language": "typescript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/domain/types/bom.ts",
+      "language": "typescript",
+      "sizeLines": 35,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/domain/types/bop.ts",
+      "language": "typescript",
+      "sizeLines": 20,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/domain/types/change-order.ts",
+      "language": "typescript",
+      "sizeLines": 31,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/domain/types/collaboration.ts",
+      "language": "typescript",
+      "sizeLines": 9,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/domain/types/dictionary.ts",
+      "language": "typescript",
+      "sizeLines": 8,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/domain/types/envelope.ts",
+      "language": "typescript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/domain/types/index.ts",
+      "language": "typescript",
+      "sizeLines": 11,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/domain/types/operation.ts",
+      "language": "typescript",
+      "sizeLines": 42,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/domain/types/process-document.ts",
+      "language": "typescript",
+      "sizeLines": 26,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/domain/types/resource.ts",
+      "language": "typescript",
+      "sizeLines": 17,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/integration/config.ts",
+      "language": "typescript",
+      "sizeLines": 14,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/integration/erp-client.ts",
+      "language": "typescript",
+      "sizeLines": 58,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/integration/handoff-package.ts",
+      "language": "typescript",
+      "sizeLines": 88,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/integration/integration-service.ts",
+      "language": "typescript",
+      "sizeLines": 234,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/integration/mes-client.ts",
+      "language": "typescript",
+      "sizeLines": 58,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/integration/teamcenter-client.ts",
+      "language": "typescript",
+      "sizeLines": 71,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/integration/types.ts",
+      "language": "typescript",
+      "sizeLines": 67,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/mock/collaboration.json",
+      "language": "json",
+      "sizeLines": 11,
+      "fileCategory": "config"
+    },
+    {
+      "path": "src/lib/mock/dictionaries.json",
+      "language": "json",
+      "sizeLines": 52,
+      "fileCategory": "config"
+    },
+    {
+      "path": "src/lib/mock/seed-ebom.json",
+      "language": "json",
+      "sizeLines": 247,
+      "fileCategory": "config"
+    },
+    {
+      "path": "src/lib/mock/seed-resources.json",
+      "language": "json",
+      "sizeLines": 114,
+      "fileCategory": "config"
+    },
+    {
+      "path": "src/lib/navigation.ts",
+      "language": "typescript",
+      "sizeLines": 52,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/utils.ts",
+      "language": "typescript",
+      "sizeLines": 6,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/workflow/guards.ts",
+      "language": "typescript",
+      "sizeLines": 30,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/workflow/machines.ts",
+      "language": "typescript",
+      "sizeLines": 59,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/workflow/templates.ts",
+      "language": "typescript",
+      "sizeLines": 125,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/workflow/workflow-service.ts",
+      "language": "typescript",
+      "sizeLines": 183,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/stores/copilot-store.ts",
+      "language": "typescript",
+      "sizeLines": 37,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/stores/integration-store.ts",
+      "language": "typescript",
+      "sizeLines": 23,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/stores/jt-download-store.ts",
+      "language": "typescript",
+      "sizeLines": 32,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/stores/sidebar-store.ts",
+      "language": "typescript",
+      "sizeLines": 24,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/stores/workspace-store.ts",
+      "language": "typescript",
+      "sizeLines": 13,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tsconfig.json",
+      "language": "json",
+      "sizeLines": 34,
+      "fileCategory": "config"
+    }
+  ],
+  "totalFiles": 210,
+  "filteredByIgnore": 0,
+  "estimatedComplexity": "large",
+  "importMap": {
+    ".cursor/rules/codegraph.mdc": [],
+    ".cursor/rules/karpathy-guidelines.mdc": [],
+    ".understand-anything/.understandignore": [],
+    ".understand-anything/config.json": [],
+    "自研工艺管理系统开发设计方�?md": [],
+    "components.json": [],
+    "docs/superpowers/plans/2026-06-23-mpms-p0-foundation.md": [],
+    "docs/superpowers/plans/2026-06-24-ui-beautification.md": [],
+    "docs/superpowers/specs/2026-06-23-mpms-p0-foundation-design.md": [],
+    "docs/superpowers/specs/2026-06-23-mpms-p1-planner-mbom-design.md": [],
+    "docs/superpowers/specs/2026-06-23-mpms-p2-bop-design.md": [],
+    "docs/superpowers/specs/2026-06-23-mpms-p3-operation-design.md": [],
+    "docs/superpowers/specs/2026-06-23-mpms-p4-resource-document-design.md": [],
+    "docs/superpowers/specs/2026-06-23-mpms-p5-approval-change-design.md": [],
+    "docs/superpowers/specs/2026-06-23-mpms-p6-summary-3d-design.md": [],
+    "docs/superpowers/specs/2026-06-23-mpms-p7-copilot-design.md": [],
+    "docs/superpowers/specs/2026-06-23-mpms-p8-integration-design.md": [],
+    "docs/superpowers/specs/2026-06-24-ui-beautification-design.md": [],
+    "eslint.config.mjs": [],
+    "next.config.ts": [],
+    "package.json": [],
+    "pnpm-workspace.yaml": [],
+    "postcss.config.mjs": [],
+    "README.md": [],
+    "src/app/(auth)/login/page.tsx": [
+      "src/components/ui/button.tsx",
+      "src/components/ui/input.tsx",
+      "src/components/ui/label.tsx",
+      "src/lib/auth/mock-auth.ts",
+      "src/lib/auth/session.ts"
+    ],
+    "src/app/(workspace)/approval/page.tsx": [
+      "src/components/ui/badge.tsx",
+      "src/components/ui/button.tsx",
+      "src/components/ui/sheet.tsx",
+      "src/components/ui/table.tsx",
+      "src/components/ui/tabs.tsx",
+      "src/components/workflow/approval-actions.tsx",
+      "src/components/workflow/approval-timeline.tsx",
+      "src/hooks/use-approvals.ts",
+      "src/lib/auth/session.ts",
+      "src/lib/domain/types/index.ts",
+      "src/lib/workflow/templates.ts"
+    ],
+    "src/app/(workspace)/bop/page.tsx": [
+      "src/components/bop/bop-property-panel.tsx",
+      "src/components/bop/bop-tree-grid.tsx",
+      "src/components/bop/bop-tree-utils.ts",
+      "src/components/bop/pert-dag-editor.tsx",
+      "src/components/ui/button.tsx",
+      "src/components/ui/dialog.tsx",
+      "src/components/ui/input.tsx",
+      "src/components/ui/label.tsx",
+      "src/components/ui/select.tsx",
+      "src/components/ui/table.tsx",
+      "src/components/ui/tabs.tsx",
+      "src/components/ui/textarea.tsx",
+      "src/hooks/use-bop.ts",
+      "src/hooks/use-collaboration.ts",
+      "src/lib/auth/session.ts",
+      "src/lib/domain/rules/bop-hierarchy.ts",
+      "src/lib/domain/services/bop-service.ts",
+      "src/lib/domain/types/index.ts",
+      "src/lib/workflow/workflow-service.ts",
+      "src/stores/workspace-store.ts"
+    ],
+    "src/app/(workspace)/change/page.tsx": [
+      "src/components/change/change-order-wizard.tsx",
+      "src/components/change/change-summary-panel.tsx",
+      "src/components/ui/tabs.tsx"
+    ],
+    "src/app/(workspace)/copilot/page.tsx": [
+      "src/components/copilot/apd-import-wizard.tsx",
+      "src/components/copilot/copilot-command-input.tsx",
+      "src/components/copilot/copilot-message-list.tsx",
+      "src/components/ui/badge.tsx",
+      "src/components/ui/button.tsx",
+      "src/components/ui/tabs.tsx",
+      "src/hooks/use-bom-nodes.ts",
+      "src/hooks/use-collaboration.ts",
+      "src/lib/ai/copilot-scenarios.ts",
+      "src/lib/ai/llm-client.ts",
+      "src/stores/copilot-store.ts",
+      "src/stores/workspace-store.ts"
+    ],
+    "src/app/(workspace)/document/page.tsx": [
+      "src/components/onlyoffice/onlyoffice-editor.tsx",
+      "src/components/ui/badge.tsx",
+      "src/components/ui/button.tsx",
+      "src/components/ui/dialog.tsx",
+      "src/components/ui/input.tsx",
+      "src/components/ui/label.tsx",
+      "src/components/ui/scroll-area.tsx",
+      "src/components/ui/select.tsx",
+      "src/components/ui/textarea.tsx",
+      "src/hooks/use-collaboration.ts",
+      "src/hooks/use-operations.ts",
+      "src/hooks/use-process-documents.ts",
+      "src/lib/domain/services/apd-export-service.ts",
+      "src/lib/domain/services/process-document-service.ts",
+      "src/lib/domain/types/index.ts",
+      "src/stores/workspace-store.ts"
+    ],
+    "src/app/(workspace)/integration/page.tsx": [
+      "src/components/integration/integration-log-table.tsx",
+      "src/components/integration/integration-push-panel.tsx",
+      "src/components/integration/integration-status-card.tsx",
+      "src/components/ui/badge.tsx",
+      "src/components/ui/button.tsx",
+      "src/components/ui/card.tsx",
+      "src/lib/db/export-import.ts",
+      "src/lib/integration/config.ts",
+      "src/lib/integration/integration-service.ts",
+      "src/stores/integration-store.ts",
+      "src/stores/workspace-store.ts"
+    ],
+    "src/app/(workspace)/layout.tsx": [
+      "src/components/layout/app-shell.tsx",
+      "src/components/layout/auth-guard.tsx"
+    ],
+    "src/app/(workspace)/mbom/page.tsx": [
+      "src/components/bom-tree/bom-tree-grid.tsx",
+      "src/components/mbom/accountability-results.tsx",
+      "src/components/ui/button.tsx",
+      "src/components/ui/card.tsx",
+      "src/components/ui/input.tsx",
+      "src/components/ui/label.tsx",
+      "src/hooks/use-bom-nodes.ts",
+      "src/hooks/use-collaboration.ts",
+      "src/lib/auth/session.ts",
+      "src/lib/db/repositories/bom-repository.ts",
+      "src/lib/domain/rules/accountability-check.ts",
+      "src/lib/domain/types/index.ts",
+      "src/lib/workflow/workflow-service.ts",
+      "src/stores/workspace-store.ts"
+    ],
+    "src/app/(workspace)/operation/page.tsx": [
+      "src/components/onlyoffice/onlyoffice-editor.tsx",
+      "src/components/operation/operation-accountability.tsx",
+      "src/components/operation/operation-resource-panel.tsx",
+      "src/components/process-card/process-card-form.tsx",
+      "src/components/tools/screenshot-capture.tsx",
+      "src/components/ui/badge.tsx",
+      "src/components/ui/button.tsx",
+      "src/components/ui/input.tsx",
+      "src/components/ui/label.tsx",
+      "src/components/ui/scroll-area.tsx",
+      "src/components/ui/table.tsx",
+      "src/components/ui/tabs.tsx",
+      "src/hooks/use-bom-nodes.ts",
+      "src/hooks/use-collaboration.ts",
+      "src/hooks/use-operations.ts",
+      "src/lib/domain/services/operation-service.ts",
+      "src/lib/domain/services/process-card-export.ts",
+      "src/lib/domain/types/index.ts",
+      "src/stores/workspace-store.ts"
+    ],
+    "src/app/(workspace)/page.tsx": [
+      "src/components/ui/button.tsx",
+      "src/components/ui/card.tsx",
+      "src/hooks/use-app-meta.ts",
+      "src/hooks/use-bom-nodes.ts",
+      "src/hooks/use-collaboration.ts",
+      "src/hooks/use-dictionaries.ts"
+    ],
+    "src/app/(workspace)/planner/page.tsx": [
+      "src/components/bom-tree/bom-tree-grid.tsx",
+      "src/components/bop/bop-tree-grid.tsx",
+      "src/components/bop/bop-tree-utils.ts",
+      "src/components/planner/node-property-panel.tsx",
+      "src/components/planner/planner-flow-bridge.tsx",
+      "src/components/planner/planner-panel.tsx",
+      "src/components/ui/button.tsx",
+      "src/components/ui/tabs.tsx",
+      "src/components/viewer3d/jt-download-panel.tsx",
+      "src/hooks/use-bom-nodes.ts",
+      "src/hooks/use-bop.ts",
+      "src/hooks/use-collaboration.ts",
+      "src/lib/domain/rules/bop-hierarchy.ts",
+      "src/lib/domain/services/bop-service.ts",
+      "src/lib/domain/services/mbom-service.ts",
+      "src/lib/domain/types/index.ts",
+      "src/stores/workspace-store.ts"
+    ],
+    "src/app/(workspace)/resource/page.tsx": [
+      "src/components/resource/resource-table.tsx",
+      "src/components/ui/button.tsx",
+      "src/components/ui/dialog.tsx",
+      "src/components/ui/input.tsx",
+      "src/components/ui/label.tsx",
+      "src/components/ui/select.tsx",
+      "src/components/ui/tabs.tsx",
+      "src/hooks/use-operations.ts",
+      "src/lib/domain/services/resource-service.ts",
+      "src/lib/domain/types/index.ts"
+    ],
+    "src/app/(workspace)/settings/page.tsx": [
+      "src/components/ui/alert-dialog.tsx",
+      "src/components/ui/alert.tsx",
+      "src/components/ui/button.tsx",
+      "src/components/ui/card.tsx",
+      "src/lib/db/export-import.ts",
+      "src/lib/db/seed.ts",
+      "src/stores/workspace-store.ts"
+    ],
+    "src/app/(workspace)/summary/page.tsx": [
+      "src/components/ui/button.tsx",
+      "src/components/ui/table.tsx",
+      "src/components/ui/tabs.tsx",
+      "src/hooks/use-process-summary.ts",
+      "src/lib/domain/services/process-summary-service.ts",
+      "src/lib/domain/types/index.ts"
+    ],
+    "src/app/(workspace)/tooling/page.tsx": [
+      "src/components/resource/resource-table.tsx",
+      "src/components/ui/button.tsx",
+      "src/components/ui/dialog.tsx",
+      "src/components/ui/input.tsx",
+      "src/components/ui/label.tsx",
+      "src/hooks/use-operations.ts",
+      "src/lib/domain/services/resource-service.ts"
+    ],
+    "src/app/admin/dictionaries/page.tsx": [
+      "src/components/ui/table.tsx",
+      "src/components/ui/tabs.tsx",
+      "src/hooks/use-dictionaries.ts",
+      "src/lib/domain/types/index.ts"
+    ],
+    "src/app/admin/layout.tsx": [
+      "src/components/layout/app-shell.tsx",
+      "src/components/layout/auth-guard.tsx"
+    ],
+    "src/app/admin/page.tsx": [
+      "src/components/placeholders/module-placeholder.tsx"
+    ],
+    "src/app/admin/permissions/page.tsx": [
+      "src/components/placeholders/module-placeholder.tsx"
+    ],
+    "src/app/admin/users/page.tsx": [
+      "src/components/placeholders/module-placeholder.tsx"
+    ],
+    "src/app/admin/workflow-templates/page.tsx": [
+      "src/components/ui/badge.tsx",
+      "src/components/ui/table.tsx",
+      "src/lib/workflow/templates.ts"
+    ],
+    "src/app/api/3d/jt/route.ts": [],
+    "src/app/api/health/route.ts": [],
+    "src/app/api/integration/erp/push/route.ts": [
+      "src/lib/integration/integration-service.ts"
+    ],
+    "src/app/api/integration/mes/push/route.ts": [
+      "src/lib/integration/integration-service.ts"
+    ],
+    "src/app/api/integration/teamcenter/ebom/route.ts": [
+      "src/lib/integration/integration-service.ts"
+    ],
+    "src/app/globals.css": [],
+    "src/app/layout.tsx": [
+      "src/app/globals.css",
+      "src/components/providers/app-providers.tsx"
+    ],
+    "src/components/admin-shell.tsx": [
+      "src/components/ui/scroll-area.tsx"
+    ],
+    "src/components/bom-tree/bom-drag-store.ts": [],
+    "src/components/bom-tree/bom-tree-grid-impl.tsx": [
+      "src/components/bom-tree/bom-drag-store.ts",
+      "src/components/bom-tree/bom-tree-grid.tsx",
+      "src/components/bom-tree/bom-tree-utils.ts",
+      "src/lib/ag-grid/setup.ts",
+      "src/lib/domain/types/index.ts"
+    ],
+    "src/components/bom-tree/bom-tree-grid.tsx": [],
+    "src/components/bom-tree/bom-tree-utils.ts": [
+      "src/lib/domain/types/index.ts"
+    ],
+    "src/components/bop/bop-property-panel.tsx": [
+      "src/components/bop/bop-tree-utils.ts",
+      "src/components/ui/button.tsx",
+      "src/components/ui/card.tsx",
+      "src/lib/domain/services/bop-service.ts",
+      "src/lib/domain/types/index.ts"
+    ],
+    "src/components/bop/bop-tree-grid-impl.tsx": [
+      "src/components/bop/bop-tree-grid.tsx",
+      "src/components/bop/bop-tree-utils.ts",
+      "src/lib/ag-grid/setup.ts",
+      "src/lib/domain/types/index.ts"
+    ],
+    "src/components/bop/bop-tree-grid.tsx": [],
+    "src/components/bop/bop-tree-utils.ts": [
+      "src/lib/domain/types/index.ts"
+    ],
+    "src/components/bop/pert-dag-editor.tsx": [
+      "src/components/ui/button.tsx",
+      "src/lib/domain/rules/dag-validation.ts",
+      "src/lib/domain/types/index.ts"
+    ],
+    "src/components/change/change-order-wizard.tsx": [
+      "src/components/ui/button.tsx",
+      "src/components/ui/card.tsx",
+      "src/components/ui/input.tsx",
+      "src/components/ui/label.tsx",
+      "src/components/ui/select.tsx",
+      "src/components/ui/textarea.tsx",
+      "src/hooks/use-change-orders.ts",
+      "src/hooks/use-collaboration.ts",
+      "src/lib/auth/session.ts",
+      "src/lib/domain/types/index.ts",
+      "src/stores/workspace-store.ts"
+    ],
+    "src/components/change/change-summary-panel.tsx": [
+      "src/components/ui/badge.tsx",
+      "src/components/ui/button.tsx",
+      "src/components/ui/input.tsx",
+      "src/components/ui/label.tsx",
+      "src/components/ui/table.tsx",
+      "src/hooks/use-change-orders.ts",
+      "src/lib/domain/services/change-summary-export.ts",
+      "src/lib/domain/types/index.ts"
+    ],
+    "src/components/copilot/apd-import-wizard.tsx": [
+      "src/components/ui/alert.tsx",
+      "src/components/ui/badge.tsx",
+      "src/components/ui/button.tsx",
+      "src/components/ui/checkbox.tsx",
+      "src/components/ui/table.tsx",
+      "src/lib/ai/apd-import-commit.ts",
+      "src/lib/ai/apd-import-parser.ts"
+    ],
+    "src/components/copilot/copilot-command-input.tsx": [
+      "src/components/ui/button.tsx",
+      "src/components/ui/textarea.tsx",
+      "src/lib/ai/copilot-scenarios.ts",
+      "src/lib/utils.ts"
+    ],
+    "src/components/copilot/copilot-message-list.tsx": [
+      "src/components/ui/badge.tsx",
+      "src/components/ui/scroll-area.tsx",
+      "src/lib/ai/copilot-scenarios.ts",
+      "src/lib/utils.ts",
+      "src/stores/copilot-store.ts"
+    ],
+    "src/components/integration/integration-log-table.tsx": [
+      "src/components/ui/badge.tsx",
+      "src/components/ui/table.tsx",
+      "src/lib/integration/types.ts"
+    ],
+    "src/components/integration/integration-push-panel.tsx": [
+      "src/components/ui/alert.tsx",
+      "src/components/ui/button.tsx",
+      "src/components/ui/card.tsx",
+      "src/lib/integration/integration-service.ts",
+      "src/stores/integration-store.ts"
+    ],
+    "src/components/integration/integration-status-card.tsx": [
+      "src/components/ui/badge.tsx",
+      "src/components/ui/card.tsx",
+      "src/lib/integration/config.ts",
+      "src/lib/utils.ts"
+    ],
+    "src/components/layout/app-header.tsx": [
+      "src/components/layout/app-sidebar.tsx",
+      "src/components/layout/sidebar-toggle.tsx",
+      "src/components/theme/theme-toggle.tsx",
+      "src/components/ui/avatar.tsx",
+      "src/components/ui/button.tsx",
+      "src/components/ui/dropdown-menu.tsx",
+      "src/lib/auth/session.ts",
+      "src/stores/workspace-store.ts"
+    ],
+    "src/components/layout/app-shell.tsx": [
+      "src/components/layout/app-header.tsx",
+      "src/components/layout/app-sidebar.tsx",
+      "src/components/layout/sidebar-reveal-rail.tsx"
+    ],
+    "src/components/layout/app-sidebar.tsx": [
+      "src/components/ui/button.tsx",
+      "src/components/ui/scroll-area.tsx",
+      "src/components/ui/separator.tsx",
+      "src/components/ui/sheet.tsx",
+      "src/lib/navigation.ts",
+      "src/lib/utils.ts",
+      "src/stores/sidebar-store.ts"
+    ],
+    "src/components/layout/auth-guard.tsx": [
+      "src/lib/auth/session.ts"
+    ],
+    "src/components/layout/sidebar-reveal-rail.tsx": [
+      "src/lib/utils.ts",
+      "src/stores/sidebar-store.ts"
+    ],
+    "src/components/layout/sidebar-toggle.tsx": [
+      "src/components/ui/button.tsx",
+      "src/stores/sidebar-store.ts"
+    ],
+    "src/components/mbom/accountability-results.tsx": [
+      "src/components/ui/badge.tsx",
+      "src/components/ui/table.tsx",
+      "src/lib/domain/rules/accountability-check.ts"
+    ],
+    "src/components/onlyoffice/onlyoffice-editor.tsx": [
+      "src/components/ui/button.tsx",
+      "src/components/ui/card.tsx"
+    ],
+    "src/components/operation/operation-accountability.tsx": [
+      "src/components/ui/badge.tsx",
+      "src/components/ui/button.tsx",
+      "src/components/ui/table.tsx",
+      "src/lib/domain/services/operation-service.ts",
+      "src/lib/domain/types/index.ts"
+    ],
+    "src/components/operation/operation-resource-panel.tsx": [
+      "src/components/bom-tree/bom-drag-store.ts",
+      "src/components/bom-tree/bom-tree-grid.tsx",
+      "src/components/ui/badge.tsx",
+      "src/components/ui/button.tsx",
+      "src/components/ui/input.tsx",
+      "src/components/ui/label.tsx",
+      "src/components/ui/table.tsx",
+      "src/lib/domain/services/operation-service.ts",
+      "src/lib/domain/types/index.ts"
+    ],
+    "src/components/placeholders/module-placeholder.tsx": [
+      "src/components/ui/badge.tsx",
+      "src/components/ui/button.tsx"
+    ],
+    "src/components/planner/ebom-readonly-tree.tsx": [
+      "src/components/ui/scroll-area.tsx",
+      "src/lib/domain/types/index.ts",
+      "src/lib/utils.ts"
+    ],
+    "src/components/planner/node-property-panel.tsx": [
+      "src/components/ui/card.tsx",
+      "src/lib/domain/types/index.ts"
+    ],
+    "src/components/planner/planner-flow-bridge.tsx": [],
+    "src/components/planner/planner-panel.tsx": [
+      "src/lib/utils.ts"
+    ],
+    "src/components/process-card/process-card-form.tsx": [
+      "src/components/ui/badge.tsx",
+      "src/components/ui/button.tsx",
+      "src/components/ui/card.tsx",
+      "src/components/ui/checkbox.tsx",
+      "src/components/ui/input.tsx",
+      "src/components/ui/label.tsx",
+      "src/components/ui/select.tsx",
+      "src/components/ui/switch.tsx",
+      "src/components/ui/textarea.tsx",
+      "src/hooks/use-dictionaries.ts",
+      "src/lib/domain/services/operation-service.ts",
+      "src/lib/domain/types/index.ts"
+    ],
+    "src/components/providers/app-providers.tsx": [
+      "src/components/theme/theme-provider.tsx",
+      "src/components/ui/sonner.tsx",
+      "src/lib/db/seed.ts"
+    ],
+    "src/components/resource/resource-table.tsx": [
+      "src/components/ui/badge.tsx",
+      "src/components/ui/button.tsx",
+      "src/components/ui/checkbox.tsx",
+      "src/components/ui/input.tsx",
+      "src/components/ui/select.tsx",
+      "src/components/ui/table.tsx",
+      "src/lib/domain/types/index.ts"
+    ],
+    "src/components/theme/theme-provider.tsx": [],
+    "src/components/theme/theme-toggle.tsx": [
+      "src/components/theme/theme-provider.tsx",
+      "src/components/ui/button.tsx"
+    ],
+    "src/components/tools/screenshot-capture.tsx": [
+      "src/components/ui/button.tsx",
+      "src/components/ui/input.tsx",
+      "src/components/ui/label.tsx"
+    ],
+    "src/components/ui/alert-dialog.tsx": [
+      "src/components/ui/button.tsx",
+      "src/lib/utils.ts"
+    ],
+    "src/components/ui/alert.tsx": [
+      "src/lib/utils.ts"
+    ],
+    "src/components/ui/avatar.tsx": [
+      "src/lib/utils.ts"
+    ],
+    "src/components/ui/badge.tsx": [
+      "src/lib/utils.ts"
+    ],
+    "src/components/ui/button.tsx": [
+      "src/lib/utils.ts"
+    ],
+    "src/components/ui/card.tsx": [
+      "src/lib/utils.ts"
+    ],
+    "src/components/ui/checkbox.tsx": [
+      "src/lib/utils.ts"
+    ],
+    "src/components/ui/dialog.tsx": [
+      "src/components/ui/button.tsx",
+      "src/lib/utils.ts"
+    ],
+    "src/components/ui/dropdown-menu.tsx": [
+      "src/lib/utils.ts"
+    ],
+    "src/components/ui/input.tsx": [
+      "src/lib/utils.ts"
+    ],
+    "src/components/ui/label.tsx": [
+      "src/lib/utils.ts"
+    ],
+    "src/components/ui/scroll-area.tsx": [
+      "src/lib/utils.ts"
+    ],
+    "src/components/ui/select.tsx": [
+      "src/lib/utils.ts"
+    ],
+    "src/components/ui/separator.tsx": [
+      "src/lib/utils.ts"
+    ],
+    "src/components/ui/sheet.tsx": [
+      "src/lib/utils.ts"
+    ],
+    "src/components/ui/sonner.tsx": [
+      "src/components/theme/theme-provider.tsx"
+    ],
+    "src/components/ui/switch.tsx": [
+      "src/lib/utils.ts"
+    ],
+    "src/components/ui/table.tsx": [
+      "src/lib/utils.ts"
+    ],
+    "src/components/ui/tabs.tsx": [
+      "src/lib/utils.ts"
+    ],
+    "src/components/ui/textarea.tsx": [
+      "src/lib/utils.ts"
+    ],
+    "src/components/viewer3d/jt-download-panel.tsx": [
+      "src/components/ui/badge.tsx",
+      "src/components/ui/button.tsx",
+      "src/components/ui/table.tsx",
+      "src/lib/domain/services/jt-download-service.ts",
+      "src/lib/domain/types/index.ts",
+      "src/stores/jt-download-store.ts"
+    ],
+    "src/components/workflow/approval-actions.tsx": [
+      "src/components/ui/alert.tsx",
+      "src/components/ui/button.tsx",
+      "src/components/ui/label.tsx",
+      "src/components/ui/textarea.tsx",
+      "src/hooks/use-approvals.ts",
+      "src/lib/domain/types/index.ts",
+      "src/lib/workflow/templates.ts",
+      "src/lib/workflow/workflow-service.ts"
+    ],
+    "src/components/workflow/approval-timeline.tsx": [
+      "src/lib/domain/types/index.ts",
+      "src/lib/utils.ts",
+      "src/lib/workflow/templates.ts"
+    ],
+    "src/hooks/use-app-meta.ts": [
+      "src/lib/db/repositories/app-meta-repository.ts"
+    ],
+    "src/hooks/use-approvals.ts": [
+      "src/lib/db/repositories/approval-repository.ts",
+      "src/lib/workflow/workflow-service.ts"
+    ],
+    "src/hooks/use-bom-nodes.ts": [
+      "src/lib/db/repositories/bom-repository.ts"
+    ],
+    "src/hooks/use-bop.ts": [
+      "src/lib/db/repositories/bop-repository.ts",
+      "src/lib/db/repositories/envelope-repository.ts"
+    ],
+    "src/hooks/use-change-orders.ts": [
+      "src/lib/domain/services/change-order-service.ts"
+    ],
+    "src/hooks/use-collaboration.ts": [
+      "src/lib/db/repositories/collaboration-repository.ts"
+    ],
+    "src/hooks/use-dictionaries.ts": [
+      "src/lib/db/repositories/dictionary-repository.ts",
+      "src/lib/domain/types/index.ts"
+    ],
+    "src/hooks/use-operations.ts": [
+      "src/lib/db/repositories/operation-repository.ts",
+      "src/lib/db/repositories/resource-repository.ts"
+    ],
+    "src/hooks/use-process-documents.ts": [
+      "src/lib/db/repositories/document-file-repository.ts",
+      "src/lib/db/repositories/process-document-repository.ts",
+      "src/lib/domain/services/process-document-service.ts"
+    ],
+    "src/hooks/use-process-summary.ts": [
+      "src/lib/domain/services/process-summary-service.ts",
+      "src/lib/domain/services/summary-export-service.ts",
+      "src/stores/workspace-store.ts"
+    ],
+    "src/lib/ag-grid/setup.ts": [],
+    "src/lib/ai/apd-import-commit.ts": [
+      "src/lib/ai/apd-import-parser.ts",
+      "src/lib/db/repositories/bop-repository.ts",
+      "src/lib/db/repositories/collaboration-repository.ts",
+      "src/lib/domain/services/bop-service.ts",
+      "src/lib/domain/services/resource-service.ts",
+      "src/lib/domain/types/index.ts"
+    ],
+    "src/lib/ai/apd-import-parser.ts": [
+      "src/lib/ai/llm-client.ts"
+    ],
+    "src/lib/ai/copilot-scenarios.ts": [
+      "src/lib/domain/rules/accountability-check.ts",
+      "src/lib/domain/rules/mbom-constraints.ts",
+      "src/lib/domain/services/operation-service.ts",
+      "src/lib/domain/types/index.ts"
+    ],
+    "src/lib/ai/llm-client.ts": [],
+    "src/lib/auth/mock-auth.ts": [],
+    "src/lib/auth/session.ts": [],
+    "src/lib/db/export-import.ts": [
+      "src/lib/db/schema.ts",
+      "src/lib/domain/schemas/export-bundle.ts",
+      "src/lib/integration/handoff-package.ts"
+    ],
+    "src/lib/db/repositories/app-meta-repository.ts": [
+      "src/lib/db/repositories/base.ts",
+      "src/lib/db/schema.ts",
+      "src/lib/domain/types/index.ts"
+    ],
+    "src/lib/db/repositories/approval-repository.ts": [
+      "src/lib/db/repositories/base.ts",
+      "src/lib/db/schema.ts",
+      "src/lib/domain/types/index.ts"
+    ],
+    "src/lib/db/repositories/base.ts": [],
+    "src/lib/db/repositories/bom-repository.ts": [
+      "src/lib/db/repositories/base.ts",
+      "src/lib/db/schema.ts",
+      "src/lib/domain/types/index.ts"
+    ],
+    "src/lib/db/repositories/bop-repository.ts": [
+      "src/lib/db/repositories/base.ts",
+      "src/lib/db/schema.ts",
+      "src/lib/domain/types/index.ts"
+    ],
+    "src/lib/db/repositories/change-order-repository.ts": [
+      "src/lib/db/repositories/base.ts",
+      "src/lib/db/schema.ts",
+      "src/lib/domain/types/index.ts"
+    ],
+    "src/lib/db/repositories/collaboration-repository.ts": [
+      "src/lib/db/repositories/base.ts",
+      "src/lib/db/schema.ts",
+      "src/lib/domain/types/index.ts"
+    ],
+    "src/lib/db/repositories/dictionary-repository.ts": [
+      "src/lib/db/repositories/base.ts",
+      "src/lib/db/schema.ts",
+      "src/lib/domain/types/index.ts"
+    ],
+    "src/lib/db/repositories/document-file-repository.ts": [
+      "src/lib/db/repositories/base.ts",
+      "src/lib/db/schema.ts",
+      "src/lib/domain/types/index.ts"
+    ],
+    "src/lib/db/repositories/envelope-repository.ts": [
+      "src/lib/db/repositories/base.ts",
+      "src/lib/db/schema.ts",
+      "src/lib/domain/types/index.ts"
+    ],
+    "src/lib/db/repositories/index.ts": [],
+    "src/lib/db/repositories/operation-repository.ts": [
+      "src/lib/db/repositories/base.ts",
+      "src/lib/db/repositories/bop-repository.ts",
+      "src/lib/db/schema.ts",
+      "src/lib/domain/types/index.ts"
+    ],
+    "src/lib/db/repositories/process-document-repository.ts": [
+      "src/lib/db/repositories/base.ts",
+      "src/lib/db/schema.ts",
+      "src/lib/domain/types/index.ts"
+    ],
+    "src/lib/db/repositories/resource-repository.ts": [
+      "src/lib/db/repositories/base.ts",
+      "src/lib/db/schema.ts",
+      "src/lib/domain/types/index.ts"
+    ],
+    "src/lib/db/schema.ts": [
+      "src/lib/domain/types/index.ts"
+    ],
+    "src/lib/db/seed.ts": [
+      "src/lib/db/schema.ts",
+      "src/lib/domain/types/index.ts",
+      "src/lib/mock/collaboration.json",
+      "src/lib/mock/dictionaries.json",
+      "src/lib/mock/seed-ebom.json",
+      "src/lib/mock/seed-resources.json"
+    ],
+    "src/lib/domain/id-generator.ts": [
+      "src/lib/db/schema.ts"
+    ],
+    "src/lib/domain/rules/accountability-check.ts": [
+      "src/lib/domain/types/index.ts"
+    ],
+    "src/lib/domain/rules/bop-hierarchy.ts": [
+      "src/lib/domain/types/index.ts"
+    ],
+    "src/lib/domain/rules/dag-validation.ts": [
+      "src/lib/domain/types/index.ts"
+    ],
+    "src/lib/domain/rules/mbom-constraints.ts": [
+      "src/lib/domain/types/index.ts"
+    ],
+    "src/lib/domain/schemas/app-meta.ts": [],
+    "src/lib/domain/schemas/bom.ts": [],
+    "src/lib/domain/schemas/bop.ts": [],
+    "src/lib/domain/schemas/dictionary.ts": [],
+    "src/lib/domain/schemas/export-bundle.ts": [
+      "src/lib/domain/schemas/bom.ts",
+      "src/lib/domain/schemas/process-document.ts"
+    ],
+    "src/lib/domain/schemas/handoff-package.ts": [
+      "src/lib/domain/schemas/bom.ts",
+      "src/lib/domain/schemas/process-document.ts"
+    ],
+    "src/lib/domain/schemas/index.ts": [],
+    "src/lib/domain/schemas/operation.ts": [],
+    "src/lib/domain/schemas/process-document.ts": [],
+    "src/lib/domain/services/apd-export-service.ts": [
+      "src/lib/db/repositories/bom-repository.ts",
+      "src/lib/db/repositories/bop-repository.ts",
+      "src/lib/db/repositories/collaboration-repository.ts",
+      "src/lib/db/repositories/operation-repository.ts"
+    ],
+    "src/lib/domain/services/bop-service.ts": [
+      "src/lib/db/repositories/bop-repository.ts",
+      "src/lib/db/repositories/collaboration-repository.ts",
+      "src/lib/db/repositories/envelope-repository.ts",
+      "src/lib/domain/id-generator.ts",
+      "src/lib/domain/rules/bop-hierarchy.ts",
+      "src/lib/domain/rules/dag-validation.ts",
+      "src/lib/domain/services/operation-service.ts",
+      "src/lib/domain/types/index.ts"
+    ],
+    "src/lib/domain/services/change-order-service.ts": [
+      "src/lib/db/repositories/bom-repository.ts",
+      "src/lib/db/repositories/bop-repository.ts",
+      "src/lib/db/repositories/change-order-repository.ts",
+      "src/lib/db/repositories/collaboration-repository.ts",
+      "src/lib/db/repositories/operation-repository.ts",
+      "src/lib/domain/types/index.ts",
+      "src/lib/workflow/workflow-service.ts"
+    ],
+    "src/lib/domain/services/change-summary-export.ts": [
+      "src/lib/domain/types/index.ts"
+    ],
+    "src/lib/domain/services/jt-download-service.ts": [
+      "src/stores/jt-download-store.ts"
+    ],
+    "src/lib/domain/services/mbom-service.ts": [
+      "src/lib/db/repositories/bom-repository.ts",
+      "src/lib/db/repositories/collaboration-repository.ts",
+      "src/lib/domain/rules/mbom-constraints.ts",
+      "src/lib/domain/types/index.ts"
+    ],
+    "src/lib/domain/services/operation-service.ts": [
+      "src/lib/db/repositories/bop-repository.ts",
+      "src/lib/db/repositories/collaboration-repository.ts",
+      "src/lib/db/repositories/operation-repository.ts",
+      "src/lib/db/repositories/resource-repository.ts",
+      "src/lib/domain/types/index.ts"
+    ],
+    "src/lib/domain/services/process-card-export.ts": [
+      "src/lib/domain/types/index.ts"
+    ],
+    "src/lib/domain/services/process-document-service.ts": [
+      "src/lib/db/repositories/document-file-repository.ts",
+      "src/lib/db/repositories/process-document-repository.ts",
+      "src/lib/domain/id-generator.ts",
+      "src/lib/domain/types/index.ts"
+    ],
+    "src/lib/domain/services/process-summary-service.ts": [
+      "src/lib/db/repositories/bom-repository.ts",
+      "src/lib/db/repositories/collaboration-repository.ts",
+      "src/lib/db/repositories/operation-repository.ts",
+      "src/lib/db/repositories/resource-repository.ts",
+      "src/lib/domain/types/index.ts"
+    ],
+    "src/lib/domain/services/resource-service.ts": [
+      "src/lib/db/repositories/resource-repository.ts",
+      "src/lib/domain/types/index.ts"
+    ],
+    "src/lib/domain/services/summary-export-service.ts": [
+      "src/lib/domain/services/process-summary-service.ts"
+    ],
+    "src/lib/domain/types/app-meta.ts": [],
+    "src/lib/domain/types/approval.ts": [
+      "src/lib/domain/types/bom.ts"
+    ],
+    "src/lib/domain/types/bom.ts": [],
+    "src/lib/domain/types/bop.ts": [
+      "src/lib/domain/types/bom.ts"
+    ],
+    "src/lib/domain/types/change-order.ts": [
+      "src/lib/domain/types/bom.ts"
+    ],
+    "src/lib/domain/types/collaboration.ts": [],
+    "src/lib/domain/types/dictionary.ts": [],
+    "src/lib/domain/types/envelope.ts": [],
+    "src/lib/domain/types/index.ts": [],
+    "src/lib/domain/types/operation.ts": [
+      "src/lib/domain/types/bom.ts"
+    ],
+    "src/lib/domain/types/process-document.ts": [
+      "src/lib/domain/types/bom.ts"
+    ],
+    "src/lib/domain/types/resource.ts": [
+      "src/lib/domain/types/bom.ts"
+    ],
+    "src/lib/integration/config.ts": [],
+    "src/lib/integration/erp-client.ts": [
+      "src/lib/integration/config.ts",
+      "src/lib/integration/types.ts"
+    ],
+    "src/lib/integration/handoff-package.ts": [
+      "src/lib/db/repositories/bom-repository.ts",
+      "src/lib/db/repositories/bop-repository.ts",
+      "src/lib/db/repositories/collaboration-repository.ts",
+      "src/lib/db/repositories/operation-repository.ts",
+      "src/lib/db/repositories/process-document-repository.ts",
+      "src/lib/domain/schemas/handoff-package.ts",
+      "src/lib/domain/services/process-summary-service.ts"
+    ],
+    "src/lib/integration/integration-service.ts": [
+      "src/lib/db/repositories/bom-repository.ts",
+      "src/lib/db/repositories/bop-repository.ts",
+      "src/lib/db/repositories/collaboration-repository.ts",
+      "src/lib/db/repositories/operation-repository.ts",
+      "src/lib/domain/services/process-summary-service.ts",
+      "src/lib/integration/erp-client.ts",
+      "src/lib/integration/mes-client.ts",
+      "src/lib/integration/teamcenter-client.ts",
+      "src/lib/integration/types.ts"
+    ],
+    "src/lib/integration/mes-client.ts": [
+      "src/lib/integration/config.ts",
+      "src/lib/integration/types.ts"
+    ],
+    "src/lib/integration/teamcenter-client.ts": [
+      "src/lib/integration/config.ts",
+      "src/lib/integration/types.ts"
+    ],
+    "src/lib/integration/types.ts": [],
+    "src/lib/mock/collaboration.json": [],
+    "src/lib/mock/dictionaries.json": [],
+    "src/lib/mock/seed-ebom.json": [],
+    "src/lib/mock/seed-resources.json": [],
+    "src/lib/navigation.ts": [],
+    "src/lib/utils.ts": [],
+    "src/lib/workflow/guards.ts": [
+      "src/lib/db/repositories/bom-repository.ts",
+      "src/lib/domain/rules/mbom-constraints.ts"
+    ],
+    "src/lib/workflow/machines.ts": [
+      "src/lib/workflow/templates.ts"
+    ],
+    "src/lib/workflow/templates.ts": [],
+    "src/lib/workflow/workflow-service.ts": [
+      "src/lib/db/repositories/approval-repository.ts",
+      "src/lib/db/repositories/bom-repository.ts",
+      "src/lib/db/repositories/bop-repository.ts",
+      "src/lib/db/repositories/change-order-repository.ts",
+      "src/lib/db/repositories/process-document-repository.ts",
+      "src/lib/domain/types/index.ts",
+      "src/lib/workflow/guards.ts",
+      "src/lib/workflow/machines.ts",
+      "src/lib/workflow/templates.ts"
+    ],
+    "src/stores/copilot-store.ts": [
+      "src/lib/ai/copilot-scenarios.ts"
+    ],
+    "src/stores/integration-store.ts": [
+      "src/lib/integration/types.ts"
+    ],
+    "src/stores/jt-download-store.ts": [],
+    "src/stores/sidebar-store.ts": [],
+    "src/stores/workspace-store.ts": [],
+    "tsconfig.json": []
+  }
+}

@@ -1,0 +1,458 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 6,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "README.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 51,
+      "nonEmptyLines": 35,
+      "sections": [
+        {
+          "heading": "Extech MPMS P0",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "技术栈",
+          "level": 2,
+          "line": 5
+        },
+        {
+          "heading": "快速开始",
+          "level": 2,
+          "line": 12
+        },
+        {
+          "heading": "登录",
+          "level": 2,
+          "line": 28
+        },
+        {
+          "heading": "P0 功能清单",
+          "level": 2,
+          "line": 33
+        },
+        {
+          "heading": "规格文档",
+          "level": 2,
+          "line": 44
+        },
+        {
+          "heading": "版权",
+          "level": 2,
+          "line": 49
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    },
+    {
+      "path": "components.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 25,
+      "nonEmptyLines": 25,
+      "sections": [
+        {
+          "heading": "$schema",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "style",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "rsc",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "tsx",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "tailwind",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "iconLibrary",
+          "level": 1,
+          "line": 13
+        },
+        {
+          "heading": "rtl",
+          "level": 1,
+          "line": 14
+        },
+        {
+          "heading": "aliases",
+          "level": 1,
+          "line": 15
+        },
+        {
+          "heading": "menuColor",
+          "level": 1,
+          "line": 22
+        },
+        {
+          "heading": "menuAccent",
+          "level": 1,
+          "line": 23
+        },
+        {
+          "heading": "registries",
+          "level": 1,
+          "line": 24
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 11
+      }
+    },
+    {
+      "path": "package.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 53,
+      "nonEmptyLines": 53,
+      "sections": [
+        {
+          "heading": "name",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "version",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "private",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "scripts",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "dependencies",
+          "level": 1,
+          "line": 11
+        },
+        {
+          "heading": "devDependencies",
+          "level": 1,
+          "line": 41
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 6
+      }
+    },
+    {
+      "path": "pnpm-workspace.yaml",
+      "language": "yaml",
+      "fileCategory": "config",
+      "totalLines": 6,
+      "nonEmptyLines": 6,
+      "sections": [
+        {
+          "heading": "allowBuilds",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "ignoredBuiltDependencies",
+          "level": 1,
+          "line": 4
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "tsconfig.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 34,
+      "nonEmptyLines": 34,
+      "sections": [
+        {
+          "heading": "compilerOptions",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "include",
+          "level": 1,
+          "line": 25
+        },
+        {
+          "heading": "exclude",
+          "level": 1,
+          "line": 33
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "自研工艺管理系统开发设计方案.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 527,
+      "nonEmptyLines": 406,
+      "sections": [
+        {
+          "heading": "Extech MPMS 制造工艺管理系统 开发设计方案",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "1. 概述",
+          "level": 2,
+          "line": 14
+        },
+        {
+          "heading": "1.1 背景与目标",
+          "level": 3,
+          "line": 16
+        },
+        {
+          "heading": "1.2 核心价值（提炼自 sol.md 概述）",
+          "level": 3,
+          "line": 22
+        },
+        {
+          "heading": "1.3 本期范围边界",
+          "level": 3,
+          "line": 29
+        },
+        {
+          "heading": "2. 技术栈与架构",
+          "level": 2,
+          "line": 45
+        },
+        {
+          "heading": "2.1 技术栈选型（最新稳定版）",
+          "level": 3,
+          "line": 47
+        },
+        {
+          "heading": "2.2 应用架构（自研版，对照 sol.md 五层架构）",
+          "level": 3,
+          "line": 71
+        },
+        {
+          "heading": "2.3 目录结构（建议）",
+          "level": 3,
+          "line": 92
+        },
+        {
+          "heading": "3. 核心业务模块设计",
+          "level": 2,
+          "line": 128
+        },
+        {
+          "heading": "3.1 制造工艺规划器（主工作台）",
+          "level": 3,
+          "line": 132
+        },
+        {
+          "heading": "3.2 设计工艺协同（EBOM-MBOM 关联）",
+          "level": 3,
+          "line": 141
+        },
+        {
+          "heading": "3.3 MBOM 重构",
+          "level": 3,
+          "line": 153
+        },
+        {
+          "heading": "3.4 工艺路线（BOP）规划",
+          "level": 3,
+          "line": 173
+        },
+        {
+          "heading": "3.5 工序编制",
+          "level": 3,
+          "line": 190
+        },
+        {
+          "heading": "3.6 定额管理",
+          "level": 3,
+          "line": 209
+        },
+        {
+          "heading": "3.7 关键工序及关重件",
+          "level": 3,
+          "line": 218
+        },
+        {
+          "heading": "3.8 工艺文件管理",
+          "level": 3,
+          "line": 229
+        },
+        {
+          "heading": "3.9 工艺资源管理",
+          "level": 3,
+          "line": 241
+        },
+        {
+          "heading": "3.10 工艺文件（APD）输出",
+          "level": 3,
+          "line": 258
+        },
+        {
+          "heading": "3.11 工艺审批",
+          "level": 3,
+          "line": 264
+        },
+        {
+          "heading": "3.12 工装设计管理",
+          "level": 3,
+          "line": 277
+        },
+        {
+          "heading": "3.13 工艺技术状态（更改管理）",
+          "level": 3,
+          "line": 283
+        },
+        {
+          "heading": "3.14 工艺汇总",
+          "level": 3,
+          "line": 302
+        },
+        {
+          "heading": "3.15 工艺三维可视化",
+          "level": 3,
+          "line": 308
+        },
+        {
+          "heading": "3.16 工艺 AI Copilot",
+          "level": 3,
+          "line": 323
+        },
+        {
+          "heading": "4. 数据架构与领域模型",
+          "level": 2,
+          "line": 339
+        },
+        {
+          "heading": "4.1 数据分类（对照 sol.md 数据架构）",
+          "level": 3,
+          "line": 341
+        },
+        {
+          "heading": "4.2 核心领域实体（TypeScript 摘要）",
+          "level": 3,
+          "line": 348
+        },
+        {
+          "heading": "4.3 持久化策略",
+          "level": 3,
+          "line": 403
+        },
+        {
+          "heading": "5. 关键交互与页面设计",
+          "level": 2,
+          "line": 412
+        },
+        {
+          "heading": "5.1 主工作台：制造工艺规划器",
+          "level": 3,
+          "line": 414
+        },
+        {
+          "heading": "5.2 工艺路线 PERT/DAG 视图",
+          "level": 3,
+          "line": 418
+        },
+        {
+          "heading": "5.3 工艺卡编辑器",
+          "level": 3,
+          "line": 422
+        },
+        {
+          "heading": "5.4 三维可视化入口",
+          "level": 3,
+          "line": 426
+        },
+        {
+          "heading": "5.5 工艺审批中心",
+          "level": 3,
+          "line": 430
+        },
+        {
+          "heading": "5.6 工艺 AI Copilot 侧栏",
+          "level": 3,
+          "line": 434
+        },
+        {
+          "heading": "6. 字典与基础数据（来自 sol.md 附件）",
+          "level": 2,
+          "line": 440
+        },
+        {
+          "heading": "7. 编号规则汇总",
+          "level": 2,
+          "line": 452
+        },
+        {
+          "heading": "8. 开发计划（建议分期）",
+          "level": 2,
+          "line": 465
+        },
+        {
+          "heading": "9. 风险与约束",
+          "level": 2,
+          "line": 481
+        },
+        {
+          "heading": "10. 与 sol.md 的映射对照表",
+          "level": 2,
+          "line": 492
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 42
+      }
+    }
+  ]
+}

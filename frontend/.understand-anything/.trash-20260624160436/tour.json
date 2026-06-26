@@ -1,0 +1,54 @@
+[
+  {
+    "order": 1,
+    "title": "项目概览",
+    "description": "从 README 了解 Extech MPMS P0 基座的目标、技术栈与快速开始方式。",
+    "nodeIds": [
+      "document:README.md"
+    ]
+  },
+  {
+    "order": 2,
+    "title": "应用入口",
+    "description": "根布局与 Provider 装配主题、查询客户端与全局外壳。",
+    "nodeIds": [
+      "file:src/app/layout.tsx",
+      "file:src/components/providers/app-providers.tsx"
+    ]
+  },
+  {
+    "order": 3,
+    "title": "工作台路由",
+    "description": "工作台布局将认证守卫、侧栏与顶栏组合，承载 12 个业务模块入口。",
+    "nodeIds": [
+      "file:src/app/(workspace)/layout.tsx",
+      "file:src/app/(workspace)/page.tsx"
+    ]
+  },
+  {
+    "order": 4,
+    "title": "制造工艺规划",
+    "description": "规划器页面与流程桥接组件，支持 EBOM 树与工序编辑。",
+    "nodeIds": [
+      "file:src/app/(workspace)/planner/page.tsx",
+      "file:src/components/planner/planner-flow-bridge.tsx"
+    ]
+  },
+  {
+    "order": 5,
+    "title": "领域服务",
+    "description": "领域服务层封装资源、文档、更改与导出等业务操作。",
+    "nodeIds": [
+      "file:src/lib/domain/services/resource-service.ts",
+      "file:src/lib/domain/services/process-document-service.ts"
+    ]
+  },
+  {
+    "order": 7,
+    "title": "设计规格",
+    "description": "P0 设计规格文档记录模块边界与实施范围。",
+    "nodeIds": [
+      "document:docs/superpowers/specs/2026-06-23-mpms-p0-foundation-design.md"
+    ]
+  }
+]

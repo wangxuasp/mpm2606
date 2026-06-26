@@ -1,0 +1,35 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: mpms-backend
+  profiles:
+    active: dev
+  datasource:
+    driver-class-name: com.kingbase8.Driver
+    url: jdbc:kingbase8://${DB_HOST:127.0.0.1}:${DB_PORT:54321}/${DB_NAME:kingbase}?currentSchema=${DB_SCHEMA:public}
+    username: ${DB_USERNAME:system}
+    password: ${DB_PASSWORD:1234}
+    hikari:
+      pool-name: MpmsHikariPool
+      minimum-idle: 5
+      maximum-pool-size: 20
+      idle-timeout: 300000
+      max-lifetime: 1800000
+      connection-timeout: 30000
+
+app:
+  cors:
+    allowed-origins:
+      - http://localhost:3000
+      - http://127.0.0.1:3000
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  endpoint:
+    health:
+      show-details: when_authorized

@@ -1,0 +1,2738 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/app/(auth)/login/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "src/app/(auth)/login/page.tsx",
+      "summary": "Next.js 页面组件，渲染工作台或管理模块的 UI 与交互。",
+      "tags": [
+        "entry-point",
+        "component",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/app/(auth)/login/page.tsx:LoginPage",
+      "type": "function",
+      "name": "LoginPage",
+      "filePath": "src/app/(auth)/login/page.tsx",
+      "summary": "函数 LoginPage，位于 page.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/app/(workspace)/change/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "src/app/(workspace)/change/page.tsx",
+      "summary": "Next.js 页面组件，渲染工作台或管理模块的 UI 与交互。",
+      "tags": [
+        "entry-point",
+        "component",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/app/(workspace)/change/page.tsx:ChangePage",
+      "type": "function",
+      "name": "ChangePage",
+      "filePath": "src/app/(workspace)/change/page.tsx",
+      "summary": "函数 ChangePage，位于 page.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/app/(workspace)/document/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "src/app/(workspace)/document/page.tsx",
+      "summary": "Next.js 页面组件，渲染工作台或管理模块的 UI 与交互。",
+      "tags": [
+        "entry-point",
+        "component",
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/app/(workspace)/document/page.tsx:DocumentDetailPanel",
+      "type": "function",
+      "name": "DocumentDetailPanel",
+      "filePath": "src/app/(workspace)/document/page.tsx",
+      "summary": "函数 DocumentDetailPanel，位于 page.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/app/(workspace)/document/page.tsx:DocumentPage",
+      "type": "function",
+      "name": "DocumentPage",
+      "filePath": "src/app/(workspace)/document/page.tsx",
+      "summary": "函数 DocumentPage，位于 page.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/app/(workspace)/mbom/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "src/app/(workspace)/mbom/page.tsx",
+      "summary": "Next.js 页面组件，渲染工作台或管理模块的 UI 与交互。",
+      "tags": [
+        "entry-point",
+        "component",
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/app/(workspace)/mbom/page.tsx:MbomPage",
+      "type": "function",
+      "name": "MbomPage",
+      "filePath": "src/app/(workspace)/mbom/page.tsx",
+      "summary": "函数 MbomPage，位于 page.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/app/(workspace)/operation/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "src/app/(workspace)/operation/page.tsx",
+      "summary": "Next.js 页面组件，渲染工作台或管理模块的 UI 与交互。",
+      "tags": [
+        "entry-point",
+        "component",
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/app/(workspace)/operation/page.tsx:QualityControlTab",
+      "type": "function",
+      "name": "QualityControlTab",
+      "filePath": "src/app/(workspace)/operation/page.tsx",
+      "summary": "函数 QualityControlTab，位于 page.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/app/(workspace)/operation/page.tsx:OperationPage",
+      "type": "function",
+      "name": "OperationPage",
+      "filePath": "src/app/(workspace)/operation/page.tsx",
+      "summary": "函数 OperationPage，位于 page.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/app/(workspace)/resource/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "src/app/(workspace)/resource/page.tsx",
+      "summary": "Next.js 页面组件，渲染工作台或管理模块的 UI 与交互。",
+      "tags": [
+        "entry-point",
+        "component",
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/app/(workspace)/resource/page.tsx:ResourcePage",
+      "type": "function",
+      "name": "ResourcePage",
+      "filePath": "src/app/(workspace)/resource/page.tsx",
+      "summary": "函数 ResourcePage，位于 page.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/app/(workspace)/tooling/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "src/app/(workspace)/tooling/page.tsx",
+      "summary": "Next.js 页面组件，渲染工作台或管理模块的 UI 与交互。",
+      "tags": [
+        "entry-point",
+        "component",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/app/(workspace)/tooling/page.tsx:ToolingPage",
+      "type": "function",
+      "name": "ToolingPage",
+      "filePath": "src/app/(workspace)/tooling/page.tsx",
+      "summary": "函数 ToolingPage，位于 page.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/app/admin/workflow-templates/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "src/app/admin/workflow-templates/page.tsx",
+      "summary": "Next.js 页面组件，渲染工作台或管理模块的 UI 与交互。",
+      "tags": [
+        "entry-point",
+        "component",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/app/admin/workflow-templates/page.tsx:AdminWorkflowTemplatesPage",
+      "type": "function",
+      "name": "AdminWorkflowTemplatesPage",
+      "filePath": "src/app/admin/workflow-templates/page.tsx",
+      "summary": "函数 AdminWorkflowTemplatesPage，位于 page.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/bom-tree/bom-tree-grid.tsx",
+      "type": "file",
+      "name": "bom-tree-grid.tsx",
+      "filePath": "src/components/bom-tree/bom-tree-grid.tsx",
+      "summary": "React 组件 bom-tree-grid.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/change/change-order-wizard.tsx",
+      "type": "file",
+      "name": "change-order-wizard.tsx",
+      "filePath": "src/components/change/change-order-wizard.tsx",
+      "summary": "React 组件 change-order-wizard.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/components/change/change-order-wizard.tsx:ChangeOrderWizard",
+      "type": "function",
+      "name": "ChangeOrderWizard",
+      "filePath": "src/components/change/change-order-wizard.tsx",
+      "summary": "函数 ChangeOrderWizard，位于 change-order-wizard.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/components/change/change-summary-panel.tsx",
+      "type": "file",
+      "name": "change-summary-panel.tsx",
+      "filePath": "src/components/change/change-summary-panel.tsx",
+      "summary": "React 组件 change-summary-panel.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/change/change-summary-panel.tsx:ChangeSummaryPanel",
+      "type": "function",
+      "name": "ChangeSummaryPanel",
+      "filePath": "src/components/change/change-summary-panel.tsx",
+      "summary": "函数 ChangeSummaryPanel，位于 change-summary-panel.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/components/integration/integration-log-table.tsx",
+      "type": "file",
+      "name": "integration-log-table.tsx",
+      "filePath": "src/components/integration/integration-log-table.tsx",
+      "summary": "React 组件 integration-log-table.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/integration/integration-log-table.tsx:IntegrationLogTable",
+      "type": "function",
+      "name": "IntegrationLogTable",
+      "filePath": "src/components/integration/integration-log-table.tsx",
+      "summary": "函数 IntegrationLogTable，位于 integration-log-table.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/mbom/accountability-results.tsx",
+      "type": "file",
+      "name": "accountability-results.tsx",
+      "filePath": "src/components/mbom/accountability-results.tsx",
+      "summary": "React 组件 accountability-results.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/mbom/accountability-results.tsx:AccountabilityResults",
+      "type": "function",
+      "name": "AccountabilityResults",
+      "filePath": "src/components/mbom/accountability-results.tsx",
+      "summary": "函数 AccountabilityResults，位于 accountability-results.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/onlyoffice/onlyoffice-editor.tsx",
+      "type": "file",
+      "name": "onlyoffice-editor.tsx",
+      "filePath": "src/components/onlyoffice/onlyoffice-editor.tsx",
+      "summary": "React 组件 onlyoffice-editor.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/onlyoffice/onlyoffice-editor.tsx:OnlyOfficeEditor",
+      "type": "function",
+      "name": "OnlyOfficeEditor",
+      "filePath": "src/components/onlyoffice/onlyoffice-editor.tsx",
+      "summary": "函数 OnlyOfficeEditor，位于 onlyoffice-editor.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/operation/operation-accountability.tsx",
+      "type": "file",
+      "name": "operation-accountability.tsx",
+      "filePath": "src/components/operation/operation-accountability.tsx",
+      "summary": "React 组件 operation-accountability.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/operation/operation-accountability.tsx:OperationAccountabilityResults",
+      "type": "function",
+      "name": "OperationAccountabilityResults",
+      "filePath": "src/components/operation/operation-accountability.tsx",
+      "summary": "函数 OperationAccountabilityResults，位于 operation-accountability.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/operation/operation-accountability.tsx:OperationAccountability",
+      "type": "function",
+      "name": "OperationAccountability",
+      "filePath": "src/components/operation/operation-accountability.tsx",
+      "summary": "函数 OperationAccountability，位于 operation-accountability.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/operation/operation-resource-panel.tsx",
+      "type": "file",
+      "name": "operation-resource-panel.tsx",
+      "filePath": "src/components/operation/operation-resource-panel.tsx",
+      "summary": "React 组件 operation-resource-panel.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/components/operation/operation-resource-panel.tsx:OperationResourcePanel",
+      "type": "function",
+      "name": "OperationResourcePanel",
+      "filePath": "src/components/operation/operation-resource-panel.tsx",
+      "summary": "函数 OperationResourcePanel，位于 operation-resource-panel.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/components/process-card/process-card-form.tsx",
+      "type": "file",
+      "name": "process-card-form.tsx",
+      "filePath": "src/components/process-card/process-card-form.tsx",
+      "summary": "React 组件 process-card-form.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/components/process-card/process-card-form.tsx:ProcessCardForm",
+      "type": "function",
+      "name": "ProcessCardForm",
+      "filePath": "src/components/process-card/process-card-form.tsx",
+      "summary": "函数 ProcessCardForm，位于 process-card-form.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/components/resource/resource-table.tsx",
+      "type": "file",
+      "name": "resource-table.tsx",
+      "filePath": "src/components/resource/resource-table.tsx",
+      "summary": "React 组件 resource-table.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/resource/resource-table.tsx:ResourceTable",
+      "type": "function",
+      "name": "ResourceTable",
+      "filePath": "src/components/resource/resource-table.tsx",
+      "summary": "函数 ResourceTable，位于 resource-table.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/components/tools/screenshot-capture.tsx",
+      "type": "file",
+      "name": "screenshot-capture.tsx",
+      "filePath": "src/components/tools/screenshot-capture.tsx",
+      "summary": "React 组件 screenshot-capture.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/tools/screenshot-capture.tsx:ScreenshotCapture",
+      "type": "function",
+      "name": "ScreenshotCapture",
+      "filePath": "src/components/tools/screenshot-capture.tsx",
+      "summary": "函数 ScreenshotCapture，位于 screenshot-capture.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/components/ui/badge.tsx",
+      "type": "file",
+      "name": "badge.tsx",
+      "filePath": "src/components/ui/badge.tsx",
+      "summary": "React 组件 badge.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ui/badge.tsx:Badge",
+      "type": "function",
+      "name": "Badge",
+      "filePath": "src/components/ui/badge.tsx",
+      "summary": "函数 Badge，位于 badge.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/ui/button.tsx",
+      "type": "file",
+      "name": "button.tsx",
+      "filePath": "src/components/ui/button.tsx",
+      "summary": "React 组件 button.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/ui/button.tsx:Button",
+      "type": "function",
+      "name": "Button",
+      "filePath": "src/components/ui/button.tsx",
+      "summary": "函数 Button，位于 button.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/ui/dialog.tsx",
+      "type": "file",
+      "name": "dialog.tsx",
+      "filePath": "src/components/ui/dialog.tsx",
+      "summary": "React 组件 dialog.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/ui/dialog.tsx:DialogOverlay",
+      "type": "function",
+      "name": "DialogOverlay",
+      "filePath": "src/components/ui/dialog.tsx",
+      "summary": "函数 DialogOverlay，位于 dialog.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ui/dialog.tsx:DialogContent",
+      "type": "function",
+      "name": "DialogContent",
+      "filePath": "src/components/ui/dialog.tsx",
+      "summary": "函数 DialogContent，位于 dialog.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ui/dialog.tsx:DialogFooter",
+      "type": "function",
+      "name": "DialogFooter",
+      "filePath": "src/components/ui/dialog.tsx",
+      "summary": "函数 DialogFooter，位于 dialog.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ui/dialog.tsx:DialogTitle",
+      "type": "function",
+      "name": "DialogTitle",
+      "filePath": "src/components/ui/dialog.tsx",
+      "summary": "函数 DialogTitle，位于 dialog.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ui/dialog.tsx:DialogDescription",
+      "type": "function",
+      "name": "DialogDescription",
+      "filePath": "src/components/ui/dialog.tsx",
+      "summary": "函数 DialogDescription，位于 dialog.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/ui/input.tsx",
+      "type": "file",
+      "name": "input.tsx",
+      "filePath": "src/components/ui/input.tsx",
+      "summary": "React 组件 input.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ui/input.tsx:Input",
+      "type": "function",
+      "name": "Input",
+      "filePath": "src/components/ui/input.tsx",
+      "summary": "函数 Input，位于 input.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/ui/label.tsx",
+      "type": "file",
+      "name": "label.tsx",
+      "filePath": "src/components/ui/label.tsx",
+      "summary": "React 组件 label.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ui/label.tsx:Label",
+      "type": "function",
+      "name": "Label",
+      "filePath": "src/components/ui/label.tsx",
+      "summary": "函数 Label，位于 label.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/ui/select.tsx",
+      "type": "file",
+      "name": "select.tsx",
+      "filePath": "src/components/ui/select.tsx",
+      "summary": "React 组件 select.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/ui/select.tsx:SelectTrigger",
+      "type": "function",
+      "name": "SelectTrigger",
+      "filePath": "src/components/ui/select.tsx",
+      "summary": "函数 SelectTrigger，位于 select.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ui/select.tsx:SelectContent",
+      "type": "function",
+      "name": "SelectContent",
+      "filePath": "src/components/ui/select.tsx",
+      "summary": "函数 SelectContent，位于 select.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ui/select.tsx:SelectLabel",
+      "type": "function",
+      "name": "SelectLabel",
+      "filePath": "src/components/ui/select.tsx",
+      "summary": "函数 SelectLabel，位于 select.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ui/select.tsx:SelectItem",
+      "type": "function",
+      "name": "SelectItem",
+      "filePath": "src/components/ui/select.tsx",
+      "summary": "函数 SelectItem，位于 select.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ui/select.tsx:SelectSeparator",
+      "type": "function",
+      "name": "SelectSeparator",
+      "filePath": "src/components/ui/select.tsx",
+      "summary": "函数 SelectSeparator，位于 select.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ui/select.tsx:SelectScrollUpButton",
+      "type": "function",
+      "name": "SelectScrollUpButton",
+      "filePath": "src/components/ui/select.tsx",
+      "summary": "函数 SelectScrollUpButton，位于 select.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ui/select.tsx:SelectScrollDownButton",
+      "type": "function",
+      "name": "SelectScrollDownButton",
+      "filePath": "src/components/ui/select.tsx",
+      "summary": "函数 SelectScrollDownButton，位于 select.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/ui/table.tsx",
+      "type": "file",
+      "name": "table.tsx",
+      "filePath": "src/components/ui/table.tsx",
+      "summary": "React 组件 table.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/ui/table.tsx:Table",
+      "type": "function",
+      "name": "Table",
+      "filePath": "src/components/ui/table.tsx",
+      "summary": "函数 Table，位于 table.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ui/table.tsx:TableRow",
+      "type": "function",
+      "name": "TableRow",
+      "filePath": "src/components/ui/table.tsx",
+      "summary": "函数 TableRow，位于 table.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ui/table.tsx:TableHead",
+      "type": "function",
+      "name": "TableHead",
+      "filePath": "src/components/ui/table.tsx",
+      "summary": "函数 TableHead，位于 table.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ui/table.tsx:TableCell",
+      "type": "function",
+      "name": "TableCell",
+      "filePath": "src/components/ui/table.tsx",
+      "summary": "函数 TableCell，位于 table.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/ui/textarea.tsx",
+      "type": "file",
+      "name": "textarea.tsx",
+      "filePath": "src/components/ui/textarea.tsx",
+      "summary": "React 组件 textarea.tsx，封装可复用 UI 或业务片段。",
+      "tags": [
+        "component",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ui/textarea.tsx:Textarea",
+      "type": "function",
+      "name": "Textarea",
+      "filePath": "src/components/ui/textarea.tsx",
+      "summary": "函数 Textarea，位于 textarea.tsx，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/hooks/use-change-orders.ts",
+      "type": "file",
+      "name": "use-change-orders.ts",
+      "filePath": "src/hooks/use-change-orders.ts",
+      "summary": "React Hook use-change-orders.ts，封装数据获取或状态订阅逻辑。",
+      "tags": [
+        "hook",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/hooks/use-change-orders.ts:useChangeOrders",
+      "type": "function",
+      "name": "useChangeOrders",
+      "filePath": "src/hooks/use-change-orders.ts",
+      "summary": "函数 useChangeOrders，位于 use-change-orders.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/hooks/use-change-orders.ts:useFinalizeChangeOrder",
+      "type": "function",
+      "name": "useFinalizeChangeOrder",
+      "filePath": "src/hooks/use-change-orders.ts",
+      "summary": "函数 useFinalizeChangeOrder，位于 use-change-orders.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/hooks/use-change-orders.ts:useSubmitChangeOrderApproval",
+      "type": "function",
+      "name": "useSubmitChangeOrderApproval",
+      "filePath": "src/hooks/use-change-orders.ts",
+      "summary": "函数 useSubmitChangeOrderApproval，位于 use-change-orders.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/hooks/use-collaboration.ts",
+      "type": "file",
+      "name": "use-collaboration.ts",
+      "filePath": "src/hooks/use-collaboration.ts",
+      "summary": "React Hook use-collaboration.ts，封装数据获取或状态订阅逻辑。",
+      "tags": [
+        "hook",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/auth/mock-auth.ts",
+      "type": "file",
+      "name": "mock-auth.ts",
+      "filePath": "src/lib/auth/mock-auth.ts",
+      "summary": "库模块 mock-auth.ts，提供认证、导航或工具能力。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/auth/session.ts",
+      "type": "file",
+      "name": "session.ts",
+      "filePath": "src/lib/auth/session.ts",
+      "summary": "库模块 session.ts，提供认证、导航或工具能力。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/auth/session.ts:getSession",
+      "type": "function",
+      "name": "getSession",
+      "filePath": "src/lib/auth/session.ts",
+      "summary": "函数 getSession，位于 session.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/domain/rules/accountability-check.ts",
+      "type": "file",
+      "name": "accountability-check.ts",
+      "filePath": "src/lib/domain/rules/accountability-check.ts",
+      "summary": "库模块 accountability-check.ts，提供认证、导航或工具能力。",
+      "tags": [
+        "data-model",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/domain/rules/accountability-check.ts:buildMessage",
+      "type": "function",
+      "name": "buildMessage",
+      "filePath": "src/lib/domain/rules/accountability-check.ts",
+      "summary": "函数 buildMessage，位于 accountability-check.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/domain/rules/accountability-check.ts:checkAccountability",
+      "type": "function",
+      "name": "checkAccountability",
+      "filePath": "src/lib/domain/rules/accountability-check.ts",
+      "summary": "函数 checkAccountability，位于 accountability-check.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/domain/services/resource-service.ts",
+      "type": "file",
+      "name": "resource-service.ts",
+      "filePath": "src/lib/domain/services/resource-service.ts",
+      "summary": "领域服务 resource-service.ts，实现 MPMS 业务规则与数据操作。",
+      "tags": [
+        "data-model",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/domain/services/resource-service.ts:defaultResource",
+      "type": "function",
+      "name": "defaultResource",
+      "filePath": "src/lib/domain/services/resource-service.ts",
+      "summary": "函数 defaultResource，位于 resource-service.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/domain/services/resource-service.ts:searchResources",
+      "type": "function",
+      "name": "searchResources",
+      "filePath": "src/lib/domain/services/resource-service.ts",
+      "summary": "函数 searchResources，位于 resource-service.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/domain/services/resource-service.ts:importResourcesFromExcel",
+      "type": "function",
+      "name": "importResourcesFromExcel",
+      "filePath": "src/lib/domain/services/resource-service.ts",
+      "summary": "函数 importResourcesFromExcel，位于 resource-service.ts，处理页面或业务逻辑。",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/stores/workspace-store.ts",
+      "type": "file",
+      "name": "workspace-store.ts",
+      "filePath": "src/stores/workspace-store.ts",
+      "summary": "Zustand 状态仓库 workspace-store.ts，管理客户端全局状态。",
+      "tags": [
+        "service",
+        "utility"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/app/(auth)/login/page.tsx",
+      "target": "file:src/components/ui/button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(auth)/login/page.tsx",
+      "target": "file:src/components/ui/input.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(auth)/login/page.tsx",
+      "target": "file:src/components/ui/label.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(auth)/login/page.tsx",
+      "target": "file:src/lib/auth/mock-auth.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(auth)/login/page.tsx",
+      "target": "file:src/lib/auth/session.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(auth)/login/page.tsx",
+      "target": "function:src/app/(auth)/login/page.tsx:LoginPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/app/(auth)/login/page.tsx",
+      "target": "function:src/app/(auth)/login/page.tsx:LoginPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/app/(workspace)/change/page.tsx",
+      "target": "file:src/components/change/change-order-wizard.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/change/page.tsx",
+      "target": "file:src/components/change/change-summary-panel.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/change/page.tsx",
+      "target": "file:src/components/ui/tabs.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/change/page.tsx",
+      "target": "function:src/app/(workspace)/change/page.tsx:ChangePage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/app/(workspace)/change/page.tsx",
+      "target": "function:src/app/(workspace)/change/page.tsx:ChangePage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/app/(workspace)/document/page.tsx",
+      "target": "file:src/components/onlyoffice/onlyoffice-editor.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/document/page.tsx",
+      "target": "file:src/components/ui/badge.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/document/page.tsx",
+      "target": "file:src/components/ui/button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/document/page.tsx",
+      "target": "file:src/components/ui/dialog.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/document/page.tsx",
+      "target": "file:src/components/ui/input.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/document/page.tsx",
+      "target": "file:src/components/ui/label.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/document/page.tsx",
+      "target": "file:src/components/ui/scroll-area.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/document/page.tsx",
+      "target": "file:src/components/ui/select.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/document/page.tsx",
+      "target": "file:src/components/ui/textarea.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/document/page.tsx",
+      "target": "file:src/hooks/use-collaboration.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/document/page.tsx",
+      "target": "file:src/hooks/use-operations.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/document/page.tsx",
+      "target": "file:src/hooks/use-process-documents.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/document/page.tsx",
+      "target": "file:src/lib/domain/services/apd-export-service.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/document/page.tsx",
+      "target": "file:src/lib/domain/services/process-document-service.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/document/page.tsx",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/document/page.tsx",
+      "target": "file:src/stores/workspace-store.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/document/page.tsx",
+      "target": "function:src/app/(workspace)/document/page.tsx:DocumentDetailPanel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/app/(workspace)/document/page.tsx",
+      "target": "function:src/app/(workspace)/document/page.tsx:DocumentPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/app/(workspace)/document/page.tsx",
+      "target": "function:src/app/(workspace)/document/page.tsx:DocumentPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/app/(workspace)/mbom/page.tsx",
+      "target": "file:src/components/bom-tree/bom-tree-grid.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/mbom/page.tsx",
+      "target": "file:src/components/mbom/accountability-results.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/mbom/page.tsx",
+      "target": "file:src/components/ui/button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/mbom/page.tsx",
+      "target": "file:src/components/ui/card.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/mbom/page.tsx",
+      "target": "file:src/components/ui/input.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/mbom/page.tsx",
+      "target": "file:src/components/ui/label.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/mbom/page.tsx",
+      "target": "file:src/hooks/use-bom-nodes.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/mbom/page.tsx",
+      "target": "file:src/hooks/use-collaboration.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/mbom/page.tsx",
+      "target": "file:src/lib/auth/session.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/mbom/page.tsx",
+      "target": "file:src/lib/db/repositories/bom-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/mbom/page.tsx",
+      "target": "file:src/lib/domain/rules/accountability-check.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/mbom/page.tsx",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/mbom/page.tsx",
+      "target": "file:src/lib/workflow/workflow-service.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/mbom/page.tsx",
+      "target": "file:src/stores/workspace-store.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/mbom/page.tsx",
+      "target": "function:src/app/(workspace)/mbom/page.tsx:MbomPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/app/(workspace)/mbom/page.tsx",
+      "target": "function:src/app/(workspace)/mbom/page.tsx:MbomPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/app/(workspace)/operation/page.tsx",
+      "target": "file:src/components/onlyoffice/onlyoffice-editor.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/operation/page.tsx",
+      "target": "file:src/components/operation/operation-accountability.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/operation/page.tsx",
+      "target": "file:src/components/operation/operation-resource-panel.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/operation/page.tsx",
+      "target": "file:src/components/process-card/process-card-form.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/operation/page.tsx",
+      "target": "file:src/components/tools/screenshot-capture.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/operation/page.tsx",
+      "target": "file:src/components/ui/badge.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/operation/page.tsx",
+      "target": "file:src/components/ui/button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/operation/page.tsx",
+      "target": "file:src/components/ui/input.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/operation/page.tsx",
+      "target": "file:src/components/ui/label.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/operation/page.tsx",
+      "target": "file:src/components/ui/scroll-area.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/operation/page.tsx",
+      "target": "file:src/components/ui/table.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/operation/page.tsx",
+      "target": "file:src/components/ui/tabs.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/operation/page.tsx",
+      "target": "file:src/hooks/use-bom-nodes.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/operation/page.tsx",
+      "target": "file:src/hooks/use-collaboration.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/operation/page.tsx",
+      "target": "file:src/hooks/use-operations.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/operation/page.tsx",
+      "target": "file:src/lib/domain/services/operation-service.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/operation/page.tsx",
+      "target": "file:src/lib/domain/services/process-card-export.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/operation/page.tsx",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/operation/page.tsx",
+      "target": "file:src/stores/workspace-store.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/operation/page.tsx",
+      "target": "function:src/app/(workspace)/operation/page.tsx:QualityControlTab",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/app/(workspace)/operation/page.tsx",
+      "target": "function:src/app/(workspace)/operation/page.tsx:OperationPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/app/(workspace)/operation/page.tsx",
+      "target": "function:src/app/(workspace)/operation/page.tsx:OperationPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/app/(workspace)/resource/page.tsx",
+      "target": "file:src/components/resource/resource-table.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/resource/page.tsx",
+      "target": "file:src/components/ui/button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/resource/page.tsx",
+      "target": "file:src/components/ui/dialog.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/resource/page.tsx",
+      "target": "file:src/components/ui/input.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/resource/page.tsx",
+      "target": "file:src/components/ui/label.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/resource/page.tsx",
+      "target": "file:src/components/ui/select.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/resource/page.tsx",
+      "target": "file:src/components/ui/tabs.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/resource/page.tsx",
+      "target": "file:src/hooks/use-operations.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/resource/page.tsx",
+      "target": "file:src/lib/domain/services/resource-service.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/resource/page.tsx",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/resource/page.tsx",
+      "target": "function:src/app/(workspace)/resource/page.tsx:ResourcePage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/app/(workspace)/resource/page.tsx",
+      "target": "function:src/app/(workspace)/resource/page.tsx:ResourcePage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/app/(workspace)/tooling/page.tsx",
+      "target": "file:src/components/resource/resource-table.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/tooling/page.tsx",
+      "target": "file:src/components/ui/button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/tooling/page.tsx",
+      "target": "file:src/components/ui/dialog.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/tooling/page.tsx",
+      "target": "file:src/components/ui/input.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/tooling/page.tsx",
+      "target": "file:src/components/ui/label.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/tooling/page.tsx",
+      "target": "file:src/hooks/use-operations.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/tooling/page.tsx",
+      "target": "file:src/lib/domain/services/resource-service.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/(workspace)/tooling/page.tsx",
+      "target": "function:src/app/(workspace)/tooling/page.tsx:ToolingPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/app/(workspace)/tooling/page.tsx",
+      "target": "function:src/app/(workspace)/tooling/page.tsx:ToolingPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/app/admin/workflow-templates/page.tsx",
+      "target": "file:src/components/ui/badge.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/admin/workflow-templates/page.tsx",
+      "target": "file:src/components/ui/table.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/admin/workflow-templates/page.tsx",
+      "target": "file:src/lib/workflow/templates.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/app/admin/workflow-templates/page.tsx",
+      "target": "function:src/app/admin/workflow-templates/page.tsx:AdminWorkflowTemplatesPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/app/admin/workflow-templates/page.tsx",
+      "target": "function:src/app/admin/workflow-templates/page.tsx:AdminWorkflowTemplatesPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/change/change-order-wizard.tsx",
+      "target": "file:src/components/ui/button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/change/change-order-wizard.tsx",
+      "target": "file:src/components/ui/card.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/change/change-order-wizard.tsx",
+      "target": "file:src/components/ui/input.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/change/change-order-wizard.tsx",
+      "target": "file:src/components/ui/label.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/change/change-order-wizard.tsx",
+      "target": "file:src/components/ui/select.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/change/change-order-wizard.tsx",
+      "target": "file:src/components/ui/textarea.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/change/change-order-wizard.tsx",
+      "target": "file:src/hooks/use-change-orders.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/change/change-order-wizard.tsx",
+      "target": "file:src/hooks/use-collaboration.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/change/change-order-wizard.tsx",
+      "target": "file:src/lib/auth/session.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/change/change-order-wizard.tsx",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/change/change-order-wizard.tsx",
+      "target": "file:src/stores/workspace-store.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/change/change-order-wizard.tsx",
+      "target": "function:src/components/change/change-order-wizard.tsx:ChangeOrderWizard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/change/change-order-wizard.tsx",
+      "target": "function:src/components/change/change-order-wizard.tsx:ChangeOrderWizard",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/change/change-summary-panel.tsx",
+      "target": "file:src/components/ui/badge.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/change/change-summary-panel.tsx",
+      "target": "file:src/components/ui/button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/change/change-summary-panel.tsx",
+      "target": "file:src/components/ui/input.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/change/change-summary-panel.tsx",
+      "target": "file:src/components/ui/label.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/change/change-summary-panel.tsx",
+      "target": "file:src/components/ui/table.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/change/change-summary-panel.tsx",
+      "target": "file:src/hooks/use-change-orders.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/change/change-summary-panel.tsx",
+      "target": "file:src/lib/domain/services/change-summary-export.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/change/change-summary-panel.tsx",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/change/change-summary-panel.tsx",
+      "target": "function:src/components/change/change-summary-panel.tsx:ChangeSummaryPanel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/change/change-summary-panel.tsx",
+      "target": "function:src/components/change/change-summary-panel.tsx:ChangeSummaryPanel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/integration/integration-log-table.tsx",
+      "target": "file:src/components/ui/badge.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/integration/integration-log-table.tsx",
+      "target": "file:src/components/ui/table.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/integration/integration-log-table.tsx",
+      "target": "file:src/lib/integration/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/integration/integration-log-table.tsx",
+      "target": "function:src/components/integration/integration-log-table.tsx:IntegrationLogTable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/integration/integration-log-table.tsx",
+      "target": "function:src/components/integration/integration-log-table.tsx:IntegrationLogTable",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/mbom/accountability-results.tsx",
+      "target": "file:src/components/ui/badge.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/mbom/accountability-results.tsx",
+      "target": "file:src/components/ui/table.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/mbom/accountability-results.tsx",
+      "target": "file:src/lib/domain/rules/accountability-check.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/mbom/accountability-results.tsx",
+      "target": "function:src/components/mbom/accountability-results.tsx:AccountabilityResults",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/mbom/accountability-results.tsx",
+      "target": "function:src/components/mbom/accountability-results.tsx:AccountabilityResults",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/onlyoffice/onlyoffice-editor.tsx",
+      "target": "file:src/components/ui/button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/onlyoffice/onlyoffice-editor.tsx",
+      "target": "file:src/components/ui/card.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/onlyoffice/onlyoffice-editor.tsx",
+      "target": "function:src/components/onlyoffice/onlyoffice-editor.tsx:OnlyOfficeEditor",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/onlyoffice/onlyoffice-editor.tsx",
+      "target": "function:src/components/onlyoffice/onlyoffice-editor.tsx:OnlyOfficeEditor",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/operation/operation-accountability.tsx",
+      "target": "file:src/components/ui/badge.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/operation/operation-accountability.tsx",
+      "target": "file:src/components/ui/button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/operation/operation-accountability.tsx",
+      "target": "file:src/components/ui/table.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/operation/operation-accountability.tsx",
+      "target": "file:src/lib/domain/services/operation-service.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/operation/operation-accountability.tsx",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/operation/operation-accountability.tsx",
+      "target": "function:src/components/operation/operation-accountability.tsx:OperationAccountabilityResults",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/operation/operation-accountability.tsx",
+      "target": "function:src/components/operation/operation-accountability.tsx:OperationAccountability",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/operation/operation-accountability.tsx",
+      "target": "function:src/components/operation/operation-accountability.tsx:OperationAccountability",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/operation/operation-resource-panel.tsx",
+      "target": "file:src/components/bom-tree/bom-drag-store.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/operation/operation-resource-panel.tsx",
+      "target": "file:src/components/bom-tree/bom-tree-grid.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/operation/operation-resource-panel.tsx",
+      "target": "file:src/components/ui/badge.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/operation/operation-resource-panel.tsx",
+      "target": "file:src/components/ui/button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/operation/operation-resource-panel.tsx",
+      "target": "file:src/components/ui/input.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/operation/operation-resource-panel.tsx",
+      "target": "file:src/components/ui/label.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/operation/operation-resource-panel.tsx",
+      "target": "file:src/components/ui/table.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/operation/operation-resource-panel.tsx",
+      "target": "file:src/lib/domain/services/operation-service.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/operation/operation-resource-panel.tsx",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/operation/operation-resource-panel.tsx",
+      "target": "function:src/components/operation/operation-resource-panel.tsx:OperationResourcePanel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/operation/operation-resource-panel.tsx",
+      "target": "function:src/components/operation/operation-resource-panel.tsx:OperationResourcePanel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/process-card/process-card-form.tsx",
+      "target": "file:src/components/ui/badge.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/process-card/process-card-form.tsx",
+      "target": "file:src/components/ui/button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/process-card/process-card-form.tsx",
+      "target": "file:src/components/ui/card.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/process-card/process-card-form.tsx",
+      "target": "file:src/components/ui/checkbox.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/process-card/process-card-form.tsx",
+      "target": "file:src/components/ui/input.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/process-card/process-card-form.tsx",
+      "target": "file:src/components/ui/label.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/process-card/process-card-form.tsx",
+      "target": "file:src/components/ui/select.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/process-card/process-card-form.tsx",
+      "target": "file:src/components/ui/switch.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/process-card/process-card-form.tsx",
+      "target": "file:src/components/ui/textarea.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/process-card/process-card-form.tsx",
+      "target": "file:src/hooks/use-dictionaries.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/process-card/process-card-form.tsx",
+      "target": "file:src/lib/domain/services/operation-service.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/process-card/process-card-form.tsx",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/process-card/process-card-form.tsx",
+      "target": "function:src/components/process-card/process-card-form.tsx:ProcessCardForm",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/process-card/process-card-form.tsx",
+      "target": "function:src/components/process-card/process-card-form.tsx:ProcessCardForm",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/resource/resource-table.tsx",
+      "target": "file:src/components/ui/badge.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/resource/resource-table.tsx",
+      "target": "file:src/components/ui/button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/resource/resource-table.tsx",
+      "target": "file:src/components/ui/checkbox.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/resource/resource-table.tsx",
+      "target": "file:src/components/ui/input.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/resource/resource-table.tsx",
+      "target": "file:src/components/ui/select.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/resource/resource-table.tsx",
+      "target": "file:src/components/ui/table.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/resource/resource-table.tsx",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/resource/resource-table.tsx",
+      "target": "function:src/components/resource/resource-table.tsx:ResourceTable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/resource/resource-table.tsx",
+      "target": "function:src/components/resource/resource-table.tsx:ResourceTable",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/tools/screenshot-capture.tsx",
+      "target": "file:src/components/ui/button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/tools/screenshot-capture.tsx",
+      "target": "file:src/components/ui/input.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/tools/screenshot-capture.tsx",
+      "target": "file:src/components/ui/label.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/tools/screenshot-capture.tsx",
+      "target": "function:src/components/tools/screenshot-capture.tsx:ScreenshotCapture",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/tools/screenshot-capture.tsx",
+      "target": "function:src/components/tools/screenshot-capture.tsx:ScreenshotCapture",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/badge.tsx",
+      "target": "file:src/lib/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/ui/badge.tsx",
+      "target": "function:src/components/ui/badge.tsx:Badge",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/badge.tsx",
+      "target": "function:src/components/ui/badge.tsx:Badge",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/button.tsx",
+      "target": "file:src/lib/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/ui/button.tsx",
+      "target": "function:src/components/ui/button.tsx:Button",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/button.tsx",
+      "target": "function:src/components/ui/button.tsx:Button",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/dialog.tsx",
+      "target": "file:src/components/ui/button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/ui/dialog.tsx",
+      "target": "file:src/lib/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/ui/dialog.tsx",
+      "target": "function:src/components/ui/dialog.tsx:DialogOverlay",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/dialog.tsx",
+      "target": "function:src/components/ui/dialog.tsx:DialogOverlay",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/dialog.tsx",
+      "target": "function:src/components/ui/dialog.tsx:DialogContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/dialog.tsx",
+      "target": "function:src/components/ui/dialog.tsx:DialogContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/dialog.tsx",
+      "target": "function:src/components/ui/dialog.tsx:DialogFooter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/dialog.tsx",
+      "target": "function:src/components/ui/dialog.tsx:DialogFooter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/dialog.tsx",
+      "target": "function:src/components/ui/dialog.tsx:DialogTitle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/dialog.tsx",
+      "target": "function:src/components/ui/dialog.tsx:DialogTitle",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/dialog.tsx",
+      "target": "function:src/components/ui/dialog.tsx:DialogDescription",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/dialog.tsx",
+      "target": "function:src/components/ui/dialog.tsx:DialogDescription",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/input.tsx",
+      "target": "file:src/lib/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/ui/input.tsx",
+      "target": "function:src/components/ui/input.tsx:Input",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/input.tsx",
+      "target": "function:src/components/ui/input.tsx:Input",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/label.tsx",
+      "target": "file:src/lib/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/ui/label.tsx",
+      "target": "function:src/components/ui/label.tsx:Label",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/label.tsx",
+      "target": "function:src/components/ui/label.tsx:Label",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/select.tsx",
+      "target": "file:src/lib/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/ui/select.tsx",
+      "target": "function:src/components/ui/select.tsx:SelectTrigger",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/select.tsx",
+      "target": "function:src/components/ui/select.tsx:SelectTrigger",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/select.tsx",
+      "target": "function:src/components/ui/select.tsx:SelectContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/select.tsx",
+      "target": "function:src/components/ui/select.tsx:SelectContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/select.tsx",
+      "target": "function:src/components/ui/select.tsx:SelectLabel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/select.tsx",
+      "target": "function:src/components/ui/select.tsx:SelectLabel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/select.tsx",
+      "target": "function:src/components/ui/select.tsx:SelectItem",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/select.tsx",
+      "target": "function:src/components/ui/select.tsx:SelectItem",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/select.tsx",
+      "target": "function:src/components/ui/select.tsx:SelectSeparator",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/select.tsx",
+      "target": "function:src/components/ui/select.tsx:SelectSeparator",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/select.tsx",
+      "target": "function:src/components/ui/select.tsx:SelectScrollUpButton",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/select.tsx",
+      "target": "function:src/components/ui/select.tsx:SelectScrollUpButton",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/select.tsx",
+      "target": "function:src/components/ui/select.tsx:SelectScrollDownButton",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/select.tsx",
+      "target": "function:src/components/ui/select.tsx:SelectScrollDownButton",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/table.tsx",
+      "target": "file:src/lib/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/ui/table.tsx",
+      "target": "function:src/components/ui/table.tsx:Table",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/table.tsx",
+      "target": "function:src/components/ui/table.tsx:Table",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/table.tsx",
+      "target": "function:src/components/ui/table.tsx:TableRow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/table.tsx",
+      "target": "function:src/components/ui/table.tsx:TableRow",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/table.tsx",
+      "target": "function:src/components/ui/table.tsx:TableHead",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/table.tsx",
+      "target": "function:src/components/ui/table.tsx:TableHead",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/table.tsx",
+      "target": "function:src/components/ui/table.tsx:TableCell",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/table.tsx",
+      "target": "function:src/components/ui/table.tsx:TableCell",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/ui/textarea.tsx",
+      "target": "file:src/lib/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/ui/textarea.tsx",
+      "target": "function:src/components/ui/textarea.tsx:Textarea",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/textarea.tsx",
+      "target": "function:src/components/ui/textarea.tsx:Textarea",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/hooks/use-change-orders.ts",
+      "target": "file:src/lib/domain/services/change-order-service.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/hooks/use-change-orders.ts",
+      "target": "function:src/hooks/use-change-orders.ts:useChangeOrders",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/hooks/use-change-orders.ts",
+      "target": "function:src/hooks/use-change-orders.ts:useChangeOrders",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/hooks/use-change-orders.ts",
+      "target": "function:src/hooks/use-change-orders.ts:useFinalizeChangeOrder",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/hooks/use-change-orders.ts",
+      "target": "function:src/hooks/use-change-orders.ts:useFinalizeChangeOrder",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/hooks/use-change-orders.ts",
+      "target": "function:src/hooks/use-change-orders.ts:useSubmitChangeOrderApproval",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/hooks/use-change-orders.ts",
+      "target": "function:src/hooks/use-change-orders.ts:useSubmitChangeOrderApproval",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/hooks/use-collaboration.ts",
+      "target": "file:src/lib/db/repositories/collaboration-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/auth/session.ts",
+      "target": "function:src/lib/auth/session.ts:getSession",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/auth/session.ts",
+      "target": "function:src/lib/auth/session.ts:getSession",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/domain/rules/accountability-check.ts",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/rules/accountability-check.ts",
+      "target": "function:src/lib/domain/rules/accountability-check.ts:buildMessage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/domain/rules/accountability-check.ts",
+      "target": "function:src/lib/domain/rules/accountability-check.ts:checkAccountability",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/domain/rules/accountability-check.ts",
+      "target": "function:src/lib/domain/rules/accountability-check.ts:checkAccountability",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/domain/services/resource-service.ts",
+      "target": "file:src/lib/db/repositories/resource-repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/services/resource-service.ts",
+      "target": "file:src/lib/domain/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/domain/services/resource-service.ts",
+      "target": "function:src/lib/domain/services/resource-service.ts:defaultResource",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/domain/services/resource-service.ts",
+      "target": "function:src/lib/domain/services/resource-service.ts:searchResources",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/domain/services/resource-service.ts",
+      "target": "function:src/lib/domain/services/resource-service.ts:searchResources",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/domain/services/resource-service.ts",
+      "target": "function:src/lib/domain/services/resource-service.ts:importResourcesFromExcel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/domain/services/resource-service.ts",
+      "target": "function:src/lib/domain/services/resource-service.ts:importResourcesFromExcel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

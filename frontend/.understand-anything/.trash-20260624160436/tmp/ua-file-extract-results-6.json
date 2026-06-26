@@ -1,0 +1,1749 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 13,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "src/app/(workspace)/copilot/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 205,
+      "nonEmptyLines": 187,
+      "functions": [
+        {
+          "name": "CopilotPage",
+          "startLine": 24,
+          "endLine": 205,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "CopilotPage",
+          "line": 24,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "CopilotPage",
+          "callee": "useWorkspaceStore",
+          "lineNumber": 25
+        },
+        {
+          "caller": "CopilotPage",
+          "callee": "useCollaboration",
+          "lineNumber": 26
+        },
+        {
+          "caller": "CopilotPage",
+          "callee": "useEbomNodes",
+          "lineNumber": 27
+        },
+        {
+          "caller": "CopilotPage",
+          "callee": "useMbomNodes",
+          "lineNumber": 28
+        },
+        {
+          "caller": "CopilotPage",
+          "callee": "useCopilotStore",
+          "lineNumber": 30
+        },
+        {
+          "caller": "CopilotPage",
+          "callee": "useCopilotStore",
+          "lineNumber": 31
+        },
+        {
+          "caller": "CopilotPage",
+          "callee": "useCopilotStore",
+          "lineNumber": 32
+        },
+        {
+          "caller": "CopilotPage",
+          "callee": "useState",
+          "lineNumber": 34
+        },
+        {
+          "caller": "CopilotPage",
+          "callee": "useState",
+          "lineNumber": 35
+        },
+        {
+          "caller": "CopilotPage",
+          "callee": "useState",
+          "lineNumber": 36
+        },
+        {
+          "caller": "CopilotPage",
+          "callee": "useCallback",
+          "lineNumber": 38
+        },
+        {
+          "caller": "CopilotPage",
+          "callee": "setActiveTab",
+          "lineNumber": 41
+        },
+        {
+          "caller": "CopilotPage",
+          "callee": "addMessage",
+          "lineNumber": 42
+        },
+        {
+          "caller": "CopilotPage",
+          "callee": "setLoading",
+          "lineNumber": 51
+        },
+        {
+          "caller": "CopilotPage",
+          "callee": "buildCopilotContext",
+          "lineNumber": 53
+        },
+        {
+          "caller": "CopilotPage",
+          "callee": "runCopilotScenario",
+          "lineNumber": 60
+        },
+        {
+          "caller": "CopilotPage",
+          "callee": "invoke",
+          "lineNumber": 61
+        },
+        {
+          "caller": "CopilotPage",
+          "callee": "addMessage",
+          "lineNumber": 68
+        },
+        {
+          "caller": "CopilotPage",
+          "callee": "addMessage",
+          "lineNumber": 74
+        },
+        {
+          "caller": "CopilotPage",
+          "callee": "setLoading",
+          "lineNumber": 80
+        },
+        {
+          "caller": "CopilotPage",
+          "callee": "useCallback",
+          "lineNumber": 86
+        },
+        {
+          "caller": "CopilotPage",
+          "callee": "addMessage",
+          "lineNumber": 90
+        },
+        {
+          "caller": "CopilotPage",
+          "callee": "runScenario",
+          "lineNumber": 93
+        },
+        {
+          "caller": "CopilotPage",
+          "callee": "setLoading",
+          "lineNumber": 97
+        },
+        {
+          "caller": "CopilotPage",
+          "callee": "buildCopilotContext",
+          "lineNumber": 99
+        },
+        {
+          "caller": "CopilotPage",
+          "callee": "runCopilotScenario",
+          "lineNumber": 106
+        },
+        {
+          "caller": "CopilotPage",
+          "callee": "invoke",
+          "lineNumber": 107
+        },
+        {
+          "caller": "CopilotPage",
+          "callee": "addMessage",
+          "lineNumber": 112
+        },
+        {
+          "caller": "CopilotPage",
+          "callee": "addMessage",
+          "lineNumber": 118
+        },
+        {
+          "caller": "CopilotPage",
+          "callee": "setLoading",
+          "lineNumber": 124
+        },
+        {
+          "caller": "handleScenarioChip",
+          "callee": "setActiveScenario",
+          "lineNumber": 131
+        },
+        {
+          "caller": "handleScenarioChip",
+          "callee": "runScenario",
+          "lineNumber": 133
+        },
+        {
+          "caller": "handleScenarioChip",
+          "callee": "addMessage",
+          "lineNumber": 136
+        },
+        {
+          "caller": "handleScenarioChip",
+          "callee": "runScenario",
+          "lineNumber": 141
+        },
+        {
+          "caller": "CopilotPage",
+          "callee": "COPILOT_SCENARIO_IDS.map",
+          "lineNumber": 168
+        },
+        {
+          "caller": "CopilotPage",
+          "callee": "handleScenarioChip",
+          "lineNumber": 175
+        }
+      ],
+      "metrics": {
+        "importCount": 12,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/app/(workspace)/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 49,
+      "nonEmptyLines": 45,
+      "functions": [
+        {
+          "name": "DashboardPage",
+          "startLine": 11,
+          "endLine": 49,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "DashboardPage",
+          "line": 11,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "DashboardPage",
+          "callee": "useEbomCount",
+          "lineNumber": 12
+        },
+        {
+          "caller": "DashboardPage",
+          "callee": "useCollaborations",
+          "lineNumber": 13
+        },
+        {
+          "caller": "DashboardPage",
+          "callee": "useDictionaries",
+          "lineNumber": 14
+        },
+        {
+          "caller": "DashboardPage",
+          "callee": "useAppMeta",
+          "lineNumber": 15
+        },
+        {
+          "caller": "DashboardPage",
+          "callee": "cards.map",
+          "lineNumber": 28
+        }
+      ],
+      "metrics": {
+        "importCount": 6,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/components/copilot/apd-import-wizard.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 208,
+      "nonEmptyLines": 192,
+      "functions": [
+        {
+          "name": "ApdImportWizard",
+          "startLine": 36,
+          "endLine": 208,
+          "params": [
+            "{ collaborationId, onCommitted }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "ApdImportWizard",
+          "line": 36,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "ApdImportWizard",
+          "callee": "useRef",
+          "lineNumber": 37
+        },
+        {
+          "caller": "ApdImportWizard",
+          "callee": "useState",
+          "lineNumber": 38
+        },
+        {
+          "caller": "ApdImportWizard",
+          "callee": "useState",
+          "lineNumber": 39
+        },
+        {
+          "caller": "ApdImportWizard",
+          "callee": "useState",
+          "lineNumber": 40
+        },
+        {
+          "caller": "ApdImportWizard",
+          "callee": "useState",
+          "lineNumber": 41
+        },
+        {
+          "caller": "handleFileChange",
+          "callee": "setParsing",
+          "lineNumber": 47
+        },
+        {
+          "caller": "handleFileChange",
+          "callee": "setFileName",
+          "lineNumber": 48
+        },
+        {
+          "caller": "handleFileChange",
+          "callee": "parseApdExcel",
+          "lineNumber": 50
+        },
+        {
+          "caller": "handleFileChange",
+          "callee": "toast.warning",
+          "lineNumber": 52
+        },
+        {
+          "caller": "handleFileChange",
+          "callee": "setRows",
+          "lineNumber": 53
+        },
+        {
+          "caller": "handleFileChange",
+          "callee": "mockEnrichWithLlm",
+          "lineNumber": 56
+        },
+        {
+          "caller": "handleFileChange",
+          "callee": "setRows",
+          "lineNumber": 57
+        },
+        {
+          "caller": "handleFileChange",
+          "callee": "toast.success",
+          "lineNumber": 58
+        },
+        {
+          "caller": "handleFileChange",
+          "callee": "toast.error",
+          "lineNumber": 60
+        },
+        {
+          "caller": "handleFileChange",
+          "callee": "setRows",
+          "lineNumber": 61
+        },
+        {
+          "caller": "handleFileChange",
+          "callee": "setParsing",
+          "lineNumber": 63
+        },
+        {
+          "caller": "toggleRow",
+          "callee": "setRows",
+          "lineNumber": 69
+        },
+        {
+          "caller": "toggleRow",
+          "callee": "prev.map",
+          "lineNumber": 69
+        },
+        {
+          "caller": "toggleAll",
+          "callee": "setRows",
+          "lineNumber": 73
+        },
+        {
+          "caller": "toggleAll",
+          "callee": "prev.map",
+          "lineNumber": 73
+        },
+        {
+          "caller": "handleCommit",
+          "callee": "toast.error",
+          "lineNumber": 78
+        },
+        {
+          "caller": "handleCommit",
+          "callee": "rows.filter",
+          "lineNumber": 82
+        },
+        {
+          "caller": "handleCommit",
+          "callee": "toast.error",
+          "lineNumber": 84
+        },
+        {
+          "caller": "handleCommit",
+          "callee": "setCommitting",
+          "lineNumber": 88
+        },
+        {
+          "caller": "handleCommit",
+          "callee": "commitApdImportRows",
+          "lineNumber": 90
+        },
+        {
+          "caller": "handleCommit",
+          "callee": "toast.success",
+          "lineNumber": 92
+        },
+        {
+          "caller": "handleCommit",
+          "callee": "toast.error",
+          "lineNumber": 95
+        },
+        {
+          "caller": "handleCommit",
+          "callee": "result.errors.slice(0, 3).join",
+          "lineNumber": 95
+        },
+        {
+          "caller": "handleCommit",
+          "callee": "result.errors.slice",
+          "lineNumber": 95
+        },
+        {
+          "caller": "handleCommit",
+          "callee": "onCommitted",
+          "lineNumber": 97
+        },
+        {
+          "caller": "handleCommit",
+          "callee": "toast.error",
+          "lineNumber": 99
+        },
+        {
+          "caller": "handleCommit",
+          "callee": "setCommitting",
+          "lineNumber": 101
+        },
+        {
+          "caller": "ApdImportWizard",
+          "callee": "rows.filter",
+          "lineNumber": 105
+        },
+        {
+          "caller": "ApdImportWizard",
+          "callee": "inputRef.current?.click",
+          "lineNumber": 127
+        },
+        {
+          "caller": "ApdImportWizard",
+          "callee": "toggleAll",
+          "lineNumber": 148
+        },
+        {
+          "caller": "ApdImportWizard",
+          "callee": "toggleAll",
+          "lineNumber": 151
+        },
+        {
+          "caller": "ApdImportWizard",
+          "callee": "rows.map",
+          "lineNumber": 179
+        },
+        {
+          "caller": "ApdImportWizard",
+          "callee": "toggleRow",
+          "lineNumber": 184
+        },
+        {
+          "caller": "ApdImportWizard",
+          "callee": "Math.round",
+          "lineNumber": 197
+        }
+      ],
+      "metrics": {
+        "importCount": 7,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/components/copilot/copilot-command-input.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 82,
+      "nonEmptyLines": 76,
+      "functions": [
+        {
+          "name": "CopilotCommandInput",
+          "startLine": 21,
+          "endLine": 82,
+          "params": [
+            "{\n  onSend,\n  onScenarioSelect,\n  activeScenario,\n  disabled,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "CopilotCommandInput",
+          "line": 21,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "CopilotCommandInput",
+          "callee": "useState",
+          "lineNumber": 27
+        },
+        {
+          "caller": "handleSend",
+          "callee": "value.trim",
+          "lineNumber": 30
+        },
+        {
+          "caller": "handleSend",
+          "callee": "onSend",
+          "lineNumber": 32
+        },
+        {
+          "caller": "handleSend",
+          "callee": "setValue",
+          "lineNumber": 33
+        },
+        {
+          "caller": "handleKeyDown",
+          "callee": "event.preventDefault",
+          "lineNumber": 38
+        },
+        {
+          "caller": "handleKeyDown",
+          "callee": "handleSend",
+          "lineNumber": 39
+        },
+        {
+          "caller": "CopilotCommandInput",
+          "callee": "COPILOT_SCENARIO_IDS.filter((id) => id !== 'historical-import').map",
+          "lineNumber": 46
+        },
+        {
+          "caller": "CopilotCommandInput",
+          "callee": "COPILOT_SCENARIO_IDS.filter",
+          "lineNumber": 46
+        },
+        {
+          "caller": "CopilotCommandInput",
+          "callee": "cn",
+          "lineNumber": 52
+        },
+        {
+          "caller": "CopilotCommandInput",
+          "callee": "onScenarioSelect",
+          "lineNumber": 53
+        },
+        {
+          "caller": "CopilotCommandInput",
+          "callee": "setValue",
+          "lineNumber": 63
+        },
+        {
+          "caller": "CopilotCommandInput",
+          "callee": "value.trim",
+          "lineNumber": 74
+        }
+      ],
+      "metrics": {
+        "importCount": 4,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/components/copilot/copilot-message-list.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 83,
+      "nonEmptyLines": 78,
+      "functions": [
+        {
+          "name": "formatTime",
+          "startLine": 14,
+          "endLine": 23,
+          "params": [
+            "iso"
+          ]
+        },
+        {
+          "name": "CopilotMessageList",
+          "startLine": 25,
+          "endLine": 83,
+          "params": [
+            "{ messages }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "CopilotMessageList",
+          "line": 25,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "formatTime",
+          "callee": "new Date(iso).toLocaleTimeString",
+          "lineNumber": 16
+        },
+        {
+          "caller": "CopilotMessageList",
+          "callee": "messages.map",
+          "lineNumber": 41
+        },
+        {
+          "caller": "CopilotMessageList",
+          "callee": "cn",
+          "lineNumber": 46
+        },
+        {
+          "caller": "CopilotMessageList",
+          "callee": "cn",
+          "lineNumber": 49
+        },
+        {
+          "caller": "CopilotMessageList",
+          "callee": "cn",
+          "lineNumber": 57
+        },
+        {
+          "caller": "CopilotMessageList",
+          "callee": "cn",
+          "lineNumber": 69
+        },
+        {
+          "caller": "CopilotMessageList",
+          "callee": "formatTime",
+          "lineNumber": 74
+        }
+      ],
+      "metrics": {
+        "importCount": 5,
+        "exportCount": 1,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/components/ui/checkbox.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 32,
+      "nonEmptyLines": 28,
+      "functions": [
+        {
+          "name": "Checkbox",
+          "startLine": 9,
+          "endLine": 30,
+          "params": [
+            "{\n  className,\n  ...props\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "Checkbox",
+          "line": 32,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Checkbox",
+          "callee": "cn",
+          "lineNumber": 16
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/hooks/use-app-meta.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 9,
+      "nonEmptyLines": 8,
+      "functions": [
+        {
+          "name": "useAppMeta",
+          "startLine": 4,
+          "endLine": 9,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "useAppMeta",
+          "line": 4,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "useAppMeta",
+          "callee": "useQuery",
+          "lineNumber": 5
+        },
+        {
+          "caller": "useAppMeta",
+          "callee": "appMetaRepository.getById",
+          "lineNumber": 7
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/hooks/use-bom-nodes.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 22,
+      "nonEmptyLines": 19,
+      "functions": [
+        {
+          "name": "useEbomNodes",
+          "startLine": 8,
+          "endLine": 10,
+          "params": []
+        },
+        {
+          "name": "useEbomCount",
+          "startLine": 12,
+          "endLine": 14,
+          "params": []
+        },
+        {
+          "name": "useMbomNodes",
+          "startLine": 16,
+          "endLine": 22,
+          "params": [
+            "rootId"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "useEbomNodes",
+          "line": 8,
+          "isDefault": false
+        },
+        {
+          "name": "useEbomCount",
+          "line": 12,
+          "isDefault": false
+        },
+        {
+          "name": "useMbomNodes",
+          "line": 16,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "useEbomNodes",
+          "callee": "useQuery",
+          "lineNumber": 9
+        },
+        {
+          "caller": "useEbomCount",
+          "callee": "useQuery",
+          "lineNumber": 13
+        },
+        {
+          "caller": "useMbomNodes",
+          "callee": "useQuery",
+          "lineNumber": 17
+        },
+        {
+          "caller": "useMbomNodes",
+          "callee": "getMbomSubtree",
+          "lineNumber": 19
+        },
+        {
+          "caller": "useMbomNodes",
+          "callee": "Promise.resolve",
+          "lineNumber": 19
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 3,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/ai/apd-import-commit.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 120,
+      "nonEmptyLines": 104,
+      "functions": [
+        {
+          "name": "resolveResourceKind",
+          "startLine": 16,
+          "endLine": 21,
+          "params": [
+            "name"
+          ]
+        },
+        {
+          "name": "ensureBopRoot",
+          "startLine": 23,
+          "endLine": 32,
+          "params": [
+            "collaborationId"
+          ]
+        },
+        {
+          "name": "findNodeByCode",
+          "startLine": 34,
+          "endLine": 36,
+          "params": [
+            "nodes",
+            "code"
+          ]
+        },
+        {
+          "name": "defaultParentForLevel",
+          "startLine": 38,
+          "endLine": 46,
+          "params": [
+            "nodes",
+            "rootId",
+            "level"
+          ]
+        },
+        {
+          "name": "commitApdImportRows",
+          "startLine": 48,
+          "endLine": 120,
+          "params": [
+            "rows",
+            "collaborationId"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "commitApdImportRows",
+          "line": 48,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "resolveResourceKind",
+          "callee": "/工装|tooling/i.test",
+          "lineNumber": 17
+        },
+        {
+          "caller": "resolveResourceKind",
+          "callee": "/工具|tool/i.test",
+          "lineNumber": 18
+        },
+        {
+          "caller": "resolveResourceKind",
+          "callee": "/耗材|consumable/i.test",
+          "lineNumber": 19
+        },
+        {
+          "caller": "ensureBopRoot",
+          "callee": "collaborationRepository.getById",
+          "lineNumber": 24
+        },
+        {
+          "caller": "ensureBopRoot",
+          "callee": "initializeBopRoot",
+          "lineNumber": 30
+        },
+        {
+          "caller": "findNodeByCode",
+          "callee": "nodes.find",
+          "lineNumber": 35
+        },
+        {
+          "caller": "findNodeByCode",
+          "callee": "n.code.toLowerCase",
+          "lineNumber": 35
+        },
+        {
+          "caller": "findNodeByCode",
+          "callee": "code.toLowerCase",
+          "lineNumber": 35
+        },
+        {
+          "caller": "defaultParentForLevel",
+          "callee": "nodes.filter",
+          "lineNumber": 44
+        },
+        {
+          "caller": "commitApdImportRows",
+          "callee": "rows.filter",
+          "lineNumber": 52
+        },
+        {
+          "caller": "commitApdImportRows",
+          "callee": "ensureBopRoot",
+          "lineNumber": 60
+        },
+        {
+          "caller": "commitApdImportRows",
+          "callee": "getBopSubtree",
+          "lineNumber": 61
+        },
+        {
+          "caller": "commitApdImportRows",
+          "callee": "bopNodes.map",
+          "lineNumber": 62
+        },
+        {
+          "caller": "commitApdImportRows",
+          "callee": "createResource",
+          "lineNumber": 67
+        },
+        {
+          "caller": "commitApdImportRows",
+          "callee": "resolveResourceKind",
+          "lineNumber": 68
+        },
+        {
+          "caller": "commitApdImportRows",
+          "callee": "codeToId.get",
+          "lineNumber": 79
+        },
+        {
+          "caller": "commitApdImportRows",
+          "callee": "defaultParentForLevel",
+          "lineNumber": 80
+        },
+        {
+          "caller": "commitApdImportRows",
+          "callee": "errors.push",
+          "lineNumber": 82
+        },
+        {
+          "caller": "commitApdImportRows",
+          "callee": "createBopChild",
+          "lineNumber": 86
+        },
+        {
+          "caller": "commitApdImportRows",
+          "callee": "codeToId.set",
+          "lineNumber": 87
+        },
+        {
+          "caller": "commitApdImportRows",
+          "callee": "getBopSubtree",
+          "lineNumber": 88
+        },
+        {
+          "caller": "commitApdImportRows",
+          "callee": "codeToId.get",
+          "lineNumber": 95
+        },
+        {
+          "caller": "commitApdImportRows",
+          "callee": "defaultParentForLevel",
+          "lineNumber": 96
+        },
+        {
+          "caller": "commitApdImportRows",
+          "callee": "errors.push",
+          "lineNumber": 98
+        },
+        {
+          "caller": "commitApdImportRows",
+          "callee": "bopNodes.find",
+          "lineNumber": 102
+        },
+        {
+          "caller": "commitApdImportRows",
+          "callee": "createBopChild",
+          "lineNumber": 106
+        },
+        {
+          "caller": "commitApdImportRows",
+          "callee": "codeToId.set",
+          "lineNumber": 110
+        },
+        {
+          "caller": "commitApdImportRows",
+          "callee": "getBopSubtree",
+          "lineNumber": 111
+        },
+        {
+          "caller": "commitApdImportRows",
+          "callee": "errors.push",
+          "lineNumber": 115
+        }
+      ],
+      "metrics": {
+        "importCount": 6,
+        "exportCount": 1,
+        "functionCount": 5,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/ai/apd-import-parser.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 149,
+      "nonEmptyLines": 129,
+      "functions": [
+        {
+          "name": "cellValue",
+          "startLine": 21,
+          "endLine": 31,
+          "params": [
+            "cell"
+          ]
+        },
+        {
+          "name": "rowTexts",
+          "startLine": 33,
+          "endLine": 40,
+          "params": [
+            "row"
+          ]
+        },
+        {
+          "name": "inferEntityFromRow",
+          "startLine": 42,
+          "endLine": 102,
+          "params": [
+            "texts",
+            "sheetName"
+          ]
+        },
+        {
+          "name": "parseApdExcel",
+          "startLine": 104,
+          "endLine": 137,
+          "params": [
+            "file"
+          ]
+        },
+        {
+          "name": "mockEnrichWithLlm",
+          "startLine": 139,
+          "endLine": 149,
+          "params": [
+            "rows"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "parseApdExcel",
+          "line": 104,
+          "isDefault": false
+        },
+        {
+          "name": "mockEnrichWithLlm",
+          "line": 139,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "cellValue",
+          "callee": "value.text.trim",
+          "lineNumber": 25
+        },
+        {
+          "caller": "cellValue",
+          "callee": "String(value.result ?? '').trim",
+          "lineNumber": 28
+        },
+        {
+          "caller": "cellValue",
+          "callee": "String",
+          "lineNumber": 28
+        },
+        {
+          "caller": "cellValue",
+          "callee": "String(value).trim",
+          "lineNumber": 30
+        },
+        {
+          "caller": "cellValue",
+          "callee": "String",
+          "lineNumber": 30
+        },
+        {
+          "caller": "rowTexts",
+          "callee": "row.eachCell",
+          "lineNumber": 35
+        },
+        {
+          "caller": "rowTexts",
+          "callee": "cellValue",
+          "lineNumber": 36
+        },
+        {
+          "caller": "rowTexts",
+          "callee": "texts.push",
+          "lineNumber": 37
+        },
+        {
+          "caller": "inferEntityFromRow",
+          "callee": "texts.join",
+          "lineNumber": 46
+        },
+        {
+          "caller": "inferEntityFromRow",
+          "callee": "joined.match",
+          "lineNumber": 48
+        },
+        {
+          "caller": "inferEntityFromRow",
+          "callee": "texts.find",
+          "lineNumber": 48
+        },
+        {
+          "caller": "inferEntityFromRow",
+          "callee": "/^OP[-_]?\\d+/i.test",
+          "lineNumber": 48
+        },
+        {
+          "caller": "inferEntityFromRow",
+          "callee": "/工序/.test",
+          "lineNumber": 49
+        },
+        {
+          "caller": "inferEntityFromRow",
+          "callee": "texts.find",
+          "lineNumber": 52
+        },
+        {
+          "caller": "inferEntityFromRow",
+          "callee": "/^OP[-_]?\\d+/i.test",
+          "lineNumber": 52
+        },
+        {
+          "caller": "inferEntityFromRow",
+          "callee": "texts[0]?.slice",
+          "lineNumber": 53
+        },
+        {
+          "caller": "inferEntityFromRow",
+          "callee": "texts.find((t) => t.includes('工序') && t.length > 4)?.replace",
+          "lineNumber": 55
+        },
+        {
+          "caller": "inferEntityFromRow",
+          "callee": "texts.find",
+          "lineNumber": 55
+        },
+        {
+          "caller": "inferEntityFromRow",
+          "callee": "t.includes",
+          "lineNumber": 55
+        },
+        {
+          "caller": "inferEntityFromRow",
+          "callee": "texts.find",
+          "lineNumber": 56
+        },
+        {
+          "caller": "inferEntityFromRow",
+          "callee": "/^OP/i.test",
+          "lineNumber": 56
+        },
+        {
+          "caller": "inferEntityFromRow",
+          "callee": "code.replace",
+          "lineNumber": 60
+        },
+        {
+          "caller": "inferEntityFromRow",
+          "callee": "texts.find((t) => STAGE_PATTERN.test(t))?.match",
+          "lineNumber": 62
+        },
+        {
+          "caller": "inferEntityFromRow",
+          "callee": "texts.find",
+          "lineNumber": 62
+        },
+        {
+          "caller": "inferEntityFromRow",
+          "callee": "STAGE_PATTERN.test",
+          "lineNumber": 62
+        },
+        {
+          "caller": "inferEntityFromRow",
+          "callee": "joined.match",
+          "lineNumber": 67
+        },
+        {
+          "caller": "inferEntityFromRow",
+          "callee": "texts.some",
+          "lineNumber": 68
+        },
+        {
+          "caller": "inferEntityFromRow",
+          "callee": "GENERIC_CODE.test",
+          "lineNumber": 68
+        },
+        {
+          "caller": "inferEntityFromRow",
+          "callee": "texts.find",
+          "lineNumber": 70
+        },
+        {
+          "caller": "inferEntityFromRow",
+          "callee": "GENERIC_CODE.test",
+          "lineNumber": 70
+        },
+        {
+          "caller": "inferEntityFromRow",
+          "callee": "texts.find",
+          "lineNumber": 72
+        },
+        {
+          "caller": "inferEntityFromRow",
+          "callee": "GENERIC_CODE.test",
+          "lineNumber": 72
+        },
+        {
+          "caller": "inferEntityFromRow",
+          "callee": "/工具|工装|资源|设备|tool|resource/i.test",
+          "lineNumber": 73
+        },
+        {
+          "caller": "inferEntityFromRow",
+          "callee": "joined.match",
+          "lineNumber": 82
+        },
+        {
+          "caller": "inferEntityFromRow",
+          "callee": "texts.find",
+          "lineNumber": 86
+        },
+        {
+          "caller": "inferEntityFromRow",
+          "callee": "GENERIC_CODE.test",
+          "lineNumber": 86
+        },
+        {
+          "caller": "inferEntityFromRow",
+          "callee": "stageMatch[1].slice",
+          "lineNumber": 86
+        },
+        {
+          "caller": "inferEntityFromRow",
+          "callee": "stageMatch[1].trim",
+          "lineNumber": 87
+        },
+        {
+          "caller": "inferEntityFromRow",
+          "callee": "/工序|OP|图号|阶段|工艺/i.test",
+          "lineNumber": 92
+        },
+        {
+          "caller": "inferEntityFromRow",
+          "callee": "Date.now",
+          "lineNumber": 95
+        },
+        {
+          "caller": "parseApdExcel",
+          "callee": "file.arrayBuffer",
+          "lineNumber": 105
+        },
+        {
+          "caller": "parseApdExcel",
+          "callee": "workbook.xlsx.load",
+          "lineNumber": 107
+        },
+        {
+          "caller": "parseApdExcel",
+          "callee": "sheet.eachRow",
+          "lineNumber": 113
+        },
+        {
+          "caller": "parseApdExcel",
+          "callee": "/编号|名称|图号|工序/i.test",
+          "lineNumber": 114
+        },
+        {
+          "caller": "parseApdExcel",
+          "callee": "rowTexts(row).join",
+          "lineNumber": 114
+        },
+        {
+          "caller": "parseApdExcel",
+          "callee": "rowTexts",
+          "lineNumber": 114
+        },
+        {
+          "caller": "parseApdExcel",
+          "callee": "rowTexts",
+          "lineNumber": 118
+        },
+        {
+          "caller": "parseApdExcel",
+          "callee": "inferEntityFromRow",
+          "lineNumber": 121
+        },
+        {
+          "caller": "parseApdExcel",
+          "callee": "seen.has",
+          "lineNumber": 125
+        },
+        {
+          "caller": "parseApdExcel",
+          "callee": "seen.add",
+          "lineNumber": 126
+        },
+        {
+          "caller": "parseApdExcel",
+          "callee": "rows.push",
+          "lineNumber": 128
+        },
+        {
+          "caller": "parseApdExcel",
+          "callee": "uuidv4",
+          "lineNumber": 129
+        },
+        {
+          "caller": "mockEnrichWithLlm",
+          "callee": "invoke",
+          "lineNumber": 140
+        },
+        {
+          "caller": "mockEnrichWithLlm",
+          "callee": "rows.map",
+          "lineNumber": 145
+        },
+        {
+          "caller": "mockEnrichWithLlm",
+          "callee": "Math.min",
+          "lineNumber": 147
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 2,
+        "functionCount": 5,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/ai/copilot-scenarios.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 236,
+      "nonEmptyLines": 211,
+      "functions": [
+        {
+          "name": "handleComplianceReview",
+          "startLine": 42,
+          "endLine": 80,
+          "params": [
+            "context"
+          ]
+        },
+        {
+          "name": "handleBomConversion",
+          "startLine": 82,
+          "endLine": 111,
+          "params": [
+            "context"
+          ]
+        },
+        {
+          "name": "handleStructuredEdit",
+          "startLine": 113,
+          "endLine": 144,
+          "params": [
+            "context"
+          ]
+        },
+        {
+          "name": "handleHistoricalImport",
+          "startLine": 146,
+          "endLine": 153,
+          "params": []
+        },
+        {
+          "name": "handleKnowledgeAssistant",
+          "startLine": 155,
+          "endLine": 191,
+          "params": [
+            "context"
+          ]
+        },
+        {
+          "name": "runCopilotScenario",
+          "startLine": 204,
+          "endLine": 210,
+          "params": [
+            "scenarioId",
+            "context"
+          ]
+        },
+        {
+          "name": "buildCopilotContext",
+          "startLine": 212,
+          "endLine": 236,
+          "params": [
+            "collaborationId",
+            "collaborationName",
+            "ebomNodes",
+            "mbomNodes",
+            "userMessage"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "COPILOT_SCENARIO_IDS",
+          "line": 9,
+          "isDefault": false
+        },
+        {
+          "name": "COPILOT_SCENARIO_LABELS",
+          "line": 34,
+          "isDefault": false
+        },
+        {
+          "name": "runCopilotScenario",
+          "line": 204,
+          "isDefault": false
+        },
+        {
+          "name": "buildCopilotContext",
+          "line": 212,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "handleComplianceReview",
+          "callee": "lines.push",
+          "lineNumber": 47
+        },
+        {
+          "caller": "handleComplianceReview",
+          "callee": "validatePurchasedChildrenConstraint",
+          "lineNumber": 51
+        },
+        {
+          "caller": "handleComplianceReview",
+          "callee": "constraintErrors.push",
+          "lineNumber": 52
+        },
+        {
+          "caller": "handleComplianceReview",
+          "callee": "lines.push",
+          "lineNumber": 55
+        },
+        {
+          "caller": "handleComplianceReview",
+          "callee": "lines.push",
+          "lineNumber": 57
+        },
+        {
+          "caller": "handleComplianceReview",
+          "callee": "constraintErrors.slice(0, 5).forEach",
+          "lineNumber": 58
+        },
+        {
+          "caller": "handleComplianceReview",
+          "callee": "constraintErrors.slice",
+          "lineNumber": 58
+        },
+        {
+          "caller": "handleComplianceReview",
+          "callee": "lines.push",
+          "lineNumber": 58
+        },
+        {
+          "caller": "handleComplianceReview",
+          "callee": "lines.push",
+          "lineNumber": 63
+        },
+        {
+          "caller": "handleComplianceReview",
+          "callee": "checkOperationAccountability",
+          "lineNumber": 68
+        },
+        {
+          "caller": "handleComplianceReview",
+          "callee": "results.filter",
+          "lineNumber": 69
+        },
+        {
+          "caller": "handleComplianceReview",
+          "callee": "results.filter",
+          "lineNumber": 70
+        },
+        {
+          "caller": "handleComplianceReview",
+          "callee": "lines.push",
+          "lineNumber": 72
+        },
+        {
+          "caller": "handleComplianceReview",
+          "callee": "lines.join",
+          "lineNumber": 77
+        },
+        {
+          "caller": "handleBomConversion",
+          "callee": "checkAccountability",
+          "lineNumber": 84
+        },
+        {
+          "caller": "handleBomConversion",
+          "callee": "accountability.filter",
+          "lineNumber": 85
+        },
+        {
+          "caller": "handleBomConversion",
+          "callee": "ebomNodes.filter",
+          "lineNumber": 90
+        },
+        {
+          "caller": "handleBomConversion",
+          "callee": "lines.push",
+          "lineNumber": 96
+        },
+        {
+          "caller": "handleBomConversion",
+          "callee": "pending.slice(0, 8).forEach",
+          "lineNumber": 98
+        },
+        {
+          "caller": "handleBomConversion",
+          "callee": "pending.slice",
+          "lineNumber": 98
+        },
+        {
+          "caller": "handleBomConversion",
+          "callee": "lines.push",
+          "lineNumber": 99
+        },
+        {
+          "caller": "handleBomConversion",
+          "callee": "lines.push",
+          "lineNumber": 102
+        },
+        {
+          "caller": "handleBomConversion",
+          "callee": "lines.join",
+          "lineNumber": 108
+        },
+        {
+          "caller": "handleStructuredEdit",
+          "callee": "operations.slice(0, 6).forEach",
+          "lineNumber": 124
+        },
+        {
+          "caller": "handleStructuredEdit",
+          "callee": "operations.slice",
+          "lineNumber": 124
+        },
+        {
+          "caller": "handleStructuredEdit",
+          "callee": "hints.push",
+          "lineNumber": 127
+        },
+        {
+          "caller": "handleStructuredEdit",
+          "callee": "hints.push",
+          "lineNumber": 130
+        },
+        {
+          "caller": "handleStructuredEdit",
+          "callee": "hints.push",
+          "lineNumber": 133
+        },
+        {
+          "caller": "handleStructuredEdit",
+          "callee": "hints.join",
+          "lineNumber": 135
+        },
+        {
+          "caller": "handleStructuredEdit",
+          "callee": "lines.push",
+          "lineNumber": 136
+        },
+        {
+          "caller": "handleStructuredEdit",
+          "callee": "lines.join",
+          "lineNumber": 141
+        },
+        {
+          "caller": "handleKnowledgeAssistant",
+          "callee": "(context.userMessage ?? '').toLowerCase",
+          "lineNumber": 156
+        },
+        {
+          "caller": "handleKnowledgeAssistant",
+          "callee": "faq.find",
+          "lineNumber": 181
+        },
+        {
+          "caller": "handleKnowledgeAssistant",
+          "callee": "item.keys.some",
+          "lineNumber": 181
+        },
+        {
+          "caller": "handleKnowledgeAssistant",
+          "callee": "question.includes",
+          "lineNumber": 181
+        },
+        {
+          "caller": "runCopilotScenario",
+          "callee": "handler",
+          "lineNumber": 209
+        },
+        {
+          "caller": "buildCopilotContext",
+          "callee": "getOperationsForCollaboration",
+          "lineNumber": 222
+        }
+      ],
+      "metrics": {
+        "importCount": 4,
+        "exportCount": 4,
+        "functionCount": 7,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/ai/llm-client.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 57,
+      "nonEmptyLines": 48,
+      "functions": [
+        {
+          "name": "resolveMockResponse",
+          "startLine": 24,
+          "endLine": 39,
+          "params": [
+            "options"
+          ]
+        },
+        {
+          "name": "invoke",
+          "startLine": 42,
+          "endLine": 57,
+          "params": [
+            "messages",
+            "options"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "invoke",
+          "line": 42,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "resolveMockResponse",
+          "callee": "[...(options?.context?.messages as LlmMessage[] | undefined ?? [])]\n    .reverse()\n    .find",
+          "lineNumber": 30
+        },
+        {
+          "caller": "resolveMockResponse",
+          "callee": "[...(options?.context?.messages as LlmMessage[] | undefined ?? [])]\n    .reverse",
+          "lineNumber": 30
+        },
+        {
+          "caller": "resolveMockResponse",
+          "callee": "lastUser.content.slice",
+          "lineNumber": 35
+        },
+        {
+          "caller": "invoke",
+          "callee": "setTimeout",
+          "lineNumber": 46
+        },
+        {
+          "caller": "invoke",
+          "callee": "resolveMockResponse",
+          "lineNumber": 53
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/stores/copilot-store.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 37,
+      "nonEmptyLines": 34,
+      "exports": [
+        {
+          "name": "useCopilotStore",
+          "line": 21,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    }
+  ]
+}

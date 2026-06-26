@@ -1,0 +1,6 @@
+#技术栈
+Springboot 4.0， JDK 21
+人大金仓数据库V8，
+数据库链接池hikaricp，
+jdbc驱动优先maven下载，如果找不到用KingbaseES_V008R006C008B0014PSC002_JDBC目录中的
+前端项目在frontend目录下，该目录与backend目录平级

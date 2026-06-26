@@ -1,0 +1,6635 @@
+{
+  "schemaVersion": 1,
+  "algorithm": "louvain",
+  "totalFiles": 210,
+  "totalBatches": 14,
+  "exportsByPath": {
+    ".cursor/rules/codegraph.mdc": [],
+    ".cursor/rules/karpathy-guidelines.mdc": [],
+    ".understand-anything/.understandignore": [],
+    "eslint.config.mjs": [],
+    "next.config.ts": [],
+    "postcss.config.mjs": [],
+    "src/app/(auth)/login/page.tsx": [
+      "LoginPage"
+    ],
+    "src/app/(workspace)/approval/page.tsx": [
+      "ApprovalPage"
+    ],
+    "src/app/(workspace)/bop/page.tsx": [
+      "BopPage"
+    ],
+    "src/app/(workspace)/change/page.tsx": [
+      "ChangePage"
+    ],
+    "src/app/(workspace)/copilot/page.tsx": [
+      "CopilotPage"
+    ],
+    "src/app/(workspace)/document/page.tsx": [
+      "DocumentPage"
+    ],
+    "src/app/(workspace)/integration/page.tsx": [
+      "IntegrationPage"
+    ],
+    "src/app/(workspace)/layout.tsx": [
+      "WorkspaceLayout"
+    ],
+    "src/app/(workspace)/mbom/page.tsx": [
+      "MbomPage"
+    ],
+    "src/app/(workspace)/operation/page.tsx": [
+      "OperationPage"
+    ],
+    "src/app/(workspace)/page.tsx": [
+      "DashboardPage"
+    ],
+    "src/app/(workspace)/planner/page.tsx": [
+      "PlannerPage"
+    ],
+    "src/app/(workspace)/resource/page.tsx": [
+      "ResourcePage"
+    ],
+    "src/app/(workspace)/settings/page.tsx": [
+      "SettingsPage"
+    ],
+    "src/app/(workspace)/summary/page.tsx": [
+      "SummaryPage"
+    ],
+    "src/app/(workspace)/tooling/page.tsx": [
+      "ToolingPage"
+    ],
+    "src/app/admin/dictionaries/page.tsx": [
+      "AdminDictionariesPage"
+    ],
+    "src/app/admin/layout.tsx": [
+      "AdminLayout"
+    ],
+    "src/app/admin/page.tsx": [
+      "AdminPage"
+    ],
+    "src/app/admin/permissions/page.tsx": [
+      "AdminPermissionsPage"
+    ],
+    "src/app/admin/users/page.tsx": [
+      "AdminUsersPage"
+    ],
+    "src/app/admin/workflow-templates/page.tsx": [
+      "AdminWorkflowTemplatesPage"
+    ],
+    "src/app/api/3d/jt/route.ts": [
+      "GET"
+    ],
+    "src/app/api/health/route.ts": [
+      "GET"
+    ],
+    "src/app/api/integration/erp/push/route.ts": [
+      "POST"
+    ],
+    "src/app/api/integration/mes/push/route.ts": [
+      "POST"
+    ],
+    "src/app/api/integration/teamcenter/ebom/route.ts": [
+      "GET"
+    ],
+    "src/app/layout.tsx": [
+      "metadata",
+      "RootLayout"
+    ],
+    "src/components/admin-shell.tsx": [
+      "AdminShell"
+    ],
+    "src/components/bom-tree/bom-drag-store.ts": [
+      "BOM_NODE_DRAG_MIME",
+      "setPendingBomDrag",
+      "getPendingBomDrag",
+      "readBomNodeIdFromDataTransfer",
+      "writeBomNodeIdToDataTransfer"
+    ],
+    "src/components/bom-tree/bom-tree-grid-impl.tsx": [
+      "BomTreeGridImpl"
+    ],
+    "src/components/bom-tree/bom-tree-grid.tsx": [
+      "BomTreeGrid"
+    ],
+    "src/components/bom-tree/bom-tree-utils.ts": [
+      "KIND_LABELS",
+      "MAKE_TYPE_LABELS",
+      "buildTreeRows",
+      "findRowIdFromDragEvent"
+    ],
+    "src/components/bop/bop-property-panel.tsx": [
+      "BopPropertyPanel"
+    ],
+    "src/components/bop/bop-tree-grid-impl.tsx": [
+      "BopTreeGridImpl"
+    ],
+    "src/components/bop/bop-tree-grid.tsx": [
+      "BopTreeGrid"
+    ],
+    "src/components/bop/bop-tree-utils.ts": [
+      "LEVEL_LABELS",
+      "LIFECYCLE_LABELS",
+      "buildBopTreeRows",
+      "parseBopMode"
+    ],
+    "src/components/bop/pert-dag-editor.tsx": [
+      "PertDagEditor"
+    ],
+    "src/components/change/change-order-wizard.tsx": [
+      "ChangeOrderWizard"
+    ],
+    "src/components/change/change-summary-panel.tsx": [
+      "ChangeSummaryPanel"
+    ],
+    "src/components/copilot/apd-import-wizard.tsx": [
+      "ApdImportWizard"
+    ],
+    "src/components/copilot/copilot-command-input.tsx": [
+      "CopilotCommandInput"
+    ],
+    "src/components/copilot/copilot-message-list.tsx": [
+      "CopilotMessageList"
+    ],
+    "src/components/integration/integration-log-table.tsx": [
+      "IntegrationLogTable"
+    ],
+    "src/components/integration/integration-push-panel.tsx": [
+      "IntegrationPushPanel"
+    ],
+    "src/components/integration/integration-status-card.tsx": [
+      "IntegrationStatusCard"
+    ],
+    "src/components/layout/app-header.tsx": [
+      "AppHeader"
+    ],
+    "src/components/layout/app-shell.tsx": [
+      "AppShell"
+    ],
+    "src/components/layout/app-sidebar.tsx": [
+      "AppSidebar",
+      "MobileSidebar"
+    ],
+    "src/components/layout/auth-guard.tsx": [
+      "AuthGuard"
+    ],
+    "src/components/layout/sidebar-reveal-rail.tsx": [
+      "SidebarRevealRail"
+    ],
+    "src/components/layout/sidebar-toggle.tsx": [
+      "SidebarToggle"
+    ],
+    "src/components/mbom/accountability-results.tsx": [
+      "AccountabilityResults"
+    ],
+    "src/components/onlyoffice/onlyoffice-editor.tsx": [
+      "OnlyOfficeEditor"
+    ],
+    "src/components/operation/operation-accountability.tsx": [
+      "OperationAccountability"
+    ],
+    "src/components/operation/operation-resource-panel.tsx": [
+      "OperationResourcePanel"
+    ],
+    "src/components/placeholders/module-placeholder.tsx": [
+      "ModulePlaceholder"
+    ],
+    "src/components/planner/ebom-readonly-tree.tsx": [
+      "EbomReadonlyTree"
+    ],
+    "src/components/planner/node-property-panel.tsx": [
+      "NodePropertyPanel"
+    ],
+    "src/components/planner/planner-flow-bridge.tsx": [
+      "PlannerFlowBridge"
+    ],
+    "src/components/planner/planner-panel.tsx": [
+      "PlannerPanel"
+    ],
+    "src/components/process-card/process-card-form.tsx": [
+      "ProcessCardForm"
+    ],
+    "src/components/providers/app-providers.tsx": [
+      "AppProviders"
+    ],
+    "src/components/resource/resource-table.tsx": [
+      "ResourceTable",
+      "KIND_LABELS",
+      "isInLibrary"
+    ],
+    "src/components/theme/theme-provider.tsx": [
+      "ThemeProvider",
+      "useTheme"
+    ],
+    "src/components/theme/theme-toggle.tsx": [
+      "ThemeToggle"
+    ],
+    "src/components/tools/screenshot-capture.tsx": [
+      "ScreenshotCapture"
+    ],
+    "src/components/ui/alert-dialog.tsx": [
+      "AlertDialog",
+      "AlertDialogPortal",
+      "AlertDialogOverlay",
+      "AlertDialogTrigger",
+      "AlertDialogContent",
+      "AlertDialogHeader",
+      "AlertDialogFooter",
+      "AlertDialogTitle",
+      "AlertDialogDescription",
+      "AlertDialogAction",
+      "AlertDialogCancel"
+    ],
+    "src/components/ui/alert.tsx": [
+      "Alert",
+      "AlertTitle",
+      "AlertDescription"
+    ],
+    "src/components/ui/avatar.tsx": [
+      "Avatar",
+      "AvatarImage",
+      "AvatarFallback",
+      "AvatarBadge",
+      "AvatarGroup",
+      "AvatarGroupCount"
+    ],
+    "src/components/ui/badge.tsx": [
+      "Badge",
+      "badgeVariants"
+    ],
+    "src/components/ui/button.tsx": [
+      "Button",
+      "buttonVariants"
+    ],
+    "src/components/ui/card.tsx": [
+      "Card",
+      "CardHeader",
+      "CardFooter",
+      "CardTitle",
+      "CardAction",
+      "CardDescription",
+      "CardContent"
+    ],
+    "src/components/ui/checkbox.tsx": [
+      "Checkbox"
+    ],
+    "src/components/ui/dialog.tsx": [
+      "Dialog",
+      "DialogClose",
+      "DialogContent",
+      "DialogDescription",
+      "DialogFooter",
+      "DialogHeader",
+      "DialogOverlay",
+      "DialogPortal",
+      "DialogTitle",
+      "DialogTrigger"
+    ],
+    "src/components/ui/dropdown-menu.tsx": [
+      "DropdownMenu",
+      "DropdownMenuPortal",
+      "DropdownMenuTrigger",
+      "DropdownMenuContent",
+      "DropdownMenuGroup",
+      "DropdownMenuLabel",
+      "DropdownMenuItem",
+      "DropdownMenuCheckboxItem",
+      "DropdownMenuRadioGroup",
+      "DropdownMenuRadioItem",
+      "DropdownMenuSeparator",
+      "DropdownMenuShortcut",
+      "DropdownMenuSub",
+      "DropdownMenuSubTrigger",
+      "DropdownMenuSubContent"
+    ],
+    "src/components/ui/input.tsx": [
+      "Input"
+    ],
+    "src/components/ui/label.tsx": [
+      "Label"
+    ],
+    "src/components/ui/scroll-area.tsx": [
+      "ScrollArea",
+      "ScrollBar"
+    ],
+    "src/components/ui/select.tsx": [
+      "Select",
+      "SelectContent",
+      "SelectGroup",
+      "SelectItem",
+      "SelectLabel",
+      "SelectScrollDownButton",
+      "SelectScrollUpButton",
+      "SelectSeparator",
+      "SelectTrigger",
+      "SelectValue"
+    ],
+    "src/components/ui/separator.tsx": [
+      "Separator"
+    ],
+    "src/components/ui/sheet.tsx": [
+      "Sheet",
+      "SheetTrigger",
+      "SheetClose",
+      "SheetContent",
+      "SheetHeader",
+      "SheetFooter",
+      "SheetTitle",
+      "SheetDescription"
+    ],
+    "src/components/ui/sonner.tsx": [
+      "Toaster"
+    ],
+    "src/components/ui/switch.tsx": [
+      "Switch"
+    ],
+    "src/components/ui/table.tsx": [
+      "Table",
+      "TableHeader",
+      "TableBody",
+      "TableRow",
+      "TableHead",
+      "TableCell"
+    ],
+    "src/components/ui/tabs.tsx": [
+      "Tabs",
+      "TabsList",
+      "TabsTrigger",
+      "TabsContent",
+      "tabsListVariants"
+    ],
+    "src/components/ui/textarea.tsx": [
+      "Textarea"
+    ],
+    "src/components/viewer3d/jt-download-panel.tsx": [
+      "JtDownloadPanel"
+    ],
+    "src/components/workflow/approval-actions.tsx": [
+      "ApprovalActions"
+    ],
+    "src/components/workflow/approval-timeline.tsx": [
+      "ApprovalTimeline"
+    ],
+    "src/hooks/use-app-meta.ts": [
+      "useAppMeta"
+    ],
+    "src/hooks/use-approvals.ts": [
+      "useApprovalInbox",
+      "useApprovalHistory",
+      "useApprovalRecord",
+      "useStartApproval",
+      "useTransitionApproval"
+    ],
+    "src/hooks/use-bom-nodes.ts": [
+      "useEbomNodes",
+      "useEbomCount",
+      "useMbomNodes"
+    ],
+    "src/hooks/use-bop.ts": [
+      "useBopNodes",
+      "useEnvelopes"
+    ],
+    "src/hooks/use-change-orders.ts": [
+      "useChangeOrders",
+      "useCreateChangeOrderDraft",
+      "useComputeChangeDiff",
+      "useFinalizeChangeOrder",
+      "useSubmitChangeOrderApproval"
+    ],
+    "src/hooks/use-collaboration.ts": [
+      "useCollaborations",
+      "useCollaboration"
+    ],
+    "src/hooks/use-dictionaries.ts": [
+      "useDictionaries",
+      "useDictionariesByCategory"
+    ],
+    "src/hooks/use-operations.ts": [
+      "useOperations",
+      "useOperation",
+      "useResources"
+    ],
+    "src/hooks/use-process-documents.ts": [
+      "useProcessDocuments",
+      "useDocumentsGroupedByProduct",
+      "useDocumentFile"
+    ],
+    "src/hooks/use-process-summary.ts": [
+      "useProcessSummary"
+    ],
+    "src/lib/ag-grid/setup.ts": [],
+    "src/lib/ai/apd-import-commit.ts": [
+      "commitApdImportRows"
+    ],
+    "src/lib/ai/apd-import-parser.ts": [
+      "parseApdExcel",
+      "mockEnrichWithLlm"
+    ],
+    "src/lib/ai/copilot-scenarios.ts": [
+      "COPILOT_SCENARIO_IDS",
+      "COPILOT_SCENARIO_LABELS",
+      "runCopilotScenario",
+      "buildCopilotContext"
+    ],
+    "src/lib/ai/llm-client.ts": [
+      "invoke"
+    ],
+    "src/lib/auth/mock-auth.ts": [
+      "validateCredentials"
+    ],
+    "src/lib/auth/session.ts": [
+      "createSession",
+      "getSession",
+      "clearSession",
+      "isAuthenticated"
+    ],
+    "src/lib/db/export-import.ts": [
+      "exportDatabase",
+      "exportCollaborationHandoff",
+      "downloadJson",
+      "importDatabase",
+      "getTableCounts"
+    ],
+    "src/lib/db/repositories/app-meta-repository.ts": [
+      "appMetaRepository"
+    ],
+    "src/lib/db/repositories/approval-repository.ts": [
+      "approvalRepository",
+      "getByTargetId",
+      "getActiveByTargetId"
+    ],
+    "src/lib/db/repositories/base.ts": [],
+    "src/lib/db/repositories/bom-repository.ts": [
+      "bomRepository",
+      "getEbomNodes",
+      "countEbomNodes",
+      "getMbomNodes",
+      "getMbomSubtree"
+    ],
+    "src/lib/db/repositories/bop-repository.ts": [
+      "bopRepository",
+      "getBopNodes",
+      "getChildren",
+      "getBopSubtree"
+    ],
+    "src/lib/db/repositories/change-order-repository.ts": [
+      "changeOrderRepository",
+      "getByCollaborationId"
+    ],
+    "src/lib/db/repositories/collaboration-repository.ts": [
+      "collaborationRepository"
+    ],
+    "src/lib/db/repositories/dictionary-repository.ts": [
+      "dictionaryRepository",
+      "getByCategory"
+    ],
+    "src/lib/db/repositories/document-file-repository.ts": [
+      "documentFileRepository"
+    ],
+    "src/lib/db/repositories/envelope-repository.ts": [
+      "envelopeRepository",
+      "getByDirection"
+    ],
+    "src/lib/db/repositories/index.ts": [],
+    "src/lib/db/repositories/operation-repository.ts": [
+      "operationRepository",
+      "getByBopNodeId",
+      "getByBopParentId",
+      "getAllForBopRoot"
+    ],
+    "src/lib/db/repositories/process-document-repository.ts": [
+      "processDocumentRepository",
+      "getByProductCode",
+      "getByLinkedObjectId"
+    ],
+    "src/lib/db/repositories/resource-repository.ts": [
+      "resourceRepository"
+    ],
+    "src/lib/db/schema.ts": [
+      "MpmsDatabase",
+      "db"
+    ],
+    "src/lib/db/seed.ts": [
+      "isSeeded",
+      "seedDatabase",
+      "ensureSeeded",
+      "resetToSeed"
+    ],
+    "src/lib/domain/id-generator.ts": [
+      "nextBopCode",
+      "nextOperationCode",
+      "nextDocumentCode"
+    ],
+    "src/lib/domain/rules/accountability-check.ts": [
+      "checkAccountability"
+    ],
+    "src/lib/domain/rules/bop-hierarchy.ts": [
+      "canAddChild"
+    ],
+    "src/lib/domain/rules/dag-validation.ts": [
+      "hasCycle",
+      "validateDagAcyclic"
+    ],
+    "src/lib/domain/rules/mbom-constraints.ts": [
+      "validatePurchasedChildrenConstraint"
+    ],
+    "src/lib/domain/schemas/app-meta.ts": [
+      "appMetaSchema"
+    ],
+    "src/lib/domain/schemas/bom.ts": [
+      "bomNodeSchema"
+    ],
+    "src/lib/domain/schemas/bop.ts": [
+      "pertDagSchema",
+      "bopNodeSchema"
+    ],
+    "src/lib/domain/schemas/dictionary.ts": [
+      "dictionaryEntrySchema"
+    ],
+    "src/lib/domain/schemas/export-bundle.ts": [
+      "EXPORT_BUNDLE_VERSION",
+      "exportBundleSchema"
+    ],
+    "src/lib/domain/schemas/handoff-package.ts": [
+      "HANDOFF_SCHEMA_VERSION",
+      "handoffPackageSchema"
+    ],
+    "src/lib/domain/schemas/index.ts": [],
+    "src/lib/domain/schemas/operation.ts": [
+      "bomNodeRefSchema",
+      "resourceRefSchema",
+      "processCardStepSchema",
+      "processCardSchema",
+      "qualityControlSheetSchema",
+      "operationSchema"
+    ],
+    "src/lib/domain/schemas/process-document.ts": [
+      "processDocumentCategorySchema",
+      "processDocumentLinkedObjectTypeSchema",
+      "processDocumentSchema",
+      "documentFileSchema"
+    ],
+    "src/lib/domain/services/apd-export-service.ts": [
+      "exportApdExcel"
+    ],
+    "src/lib/domain/services/bop-service.ts": [
+      "initializeBopRoot",
+      "createBopChild",
+      "updateBopNode",
+      "deleteBopNode",
+      "updatePertDag",
+      "syncPertDagFromChildren",
+      "releaseBopNode",
+      "sendEnvelope",
+      "getBopTree"
+    ],
+    "src/lib/domain/services/change-order-service.ts": [
+      "createChangeOrderDraft",
+      "computeChangeDiff",
+      "finalizeChangeOrder",
+      "submitChangeOrderApproval",
+      "getChangeOrders"
+    ],
+    "src/lib/domain/services/change-summary-export.ts": [
+      "exportChangeOrdersToExcel",
+      "downloadChangeOrdersExcel"
+    ],
+    "src/lib/domain/services/jt-download-service.ts": [
+      "fetchJtMetadata",
+      "requestJtDownload"
+    ],
+    "src/lib/domain/services/mbom-service.ts": [
+      "initializeMbomRoot",
+      "addMbomFromEbomRef",
+      "createPhantomSemifinished",
+      "createPhantomGroup",
+      "moveMbomNode",
+      "getMbomTree"
+    ],
+    "src/lib/domain/services/operation-service.ts": [
+      "ensureOperationForBopNode",
+      "getOperationsForCollaboration",
+      "updateOperation",
+      "assignMbomItem",
+      "assignResource",
+      "removeConsumedItem",
+      "checkOperationAccountability"
+    ],
+    "src/lib/domain/services/process-card-export.ts": [
+      "exportOperationToExcel"
+    ],
+    "src/lib/domain/services/process-document-service.ts": [
+      "createProcessDocument",
+      "attachFile",
+      "getDocumentsGroupedByProduct"
+    ],
+    "src/lib/domain/services/process-summary-service.ts": [
+      "buildProcessSummary"
+    ],
+    "src/lib/domain/services/resource-service.ts": [
+      "createResource",
+      "updateResource",
+      "deleteResource",
+      "setInLibrary",
+      "searchResources",
+      "importResourcesFromExcel"
+    ],
+    "src/lib/domain/services/summary-export-service.ts": [
+      "exportProcessSummaryExcel",
+      "downloadProcessSummaryExcel"
+    ],
+    "src/lib/domain/types/app-meta.ts": [],
+    "src/lib/domain/types/approval.ts": [],
+    "src/lib/domain/types/bom.ts": [],
+    "src/lib/domain/types/bop.ts": [],
+    "src/lib/domain/types/change-order.ts": [
+      "CHANGE_REASON_CATEGORIES"
+    ],
+    "src/lib/domain/types/collaboration.ts": [],
+    "src/lib/domain/types/dictionary.ts": [],
+    "src/lib/domain/types/envelope.ts": [],
+    "src/lib/domain/types/index.ts": [],
+    "src/lib/domain/types/operation.ts": [],
+    "src/lib/domain/types/process-document.ts": [],
+    "src/lib/domain/types/resource.ts": [],
+    "src/lib/integration/config.ts": [
+      "integrationConfig",
+      "isMockIntegration"
+    ],
+    "src/lib/integration/erp-client.ts": [
+      "createErpClient"
+    ],
+    "src/lib/integration/handoff-package.ts": [
+      "buildCollaborationHandoffPackage"
+    ],
+    "src/lib/integration/integration-service.ts": [
+      "validateProductionPush",
+      "pushToErp",
+      "pushToMes",
+      "syncEbomFromTeamcenter",
+      "checkIntegrationHealth"
+    ],
+    "src/lib/integration/mes-client.ts": [
+      "createMesClient"
+    ],
+    "src/lib/integration/teamcenter-client.ts": [
+      "createTeamcenterClient",
+      "teamcenterSyncAsPushResult"
+    ],
+    "src/lib/integration/types.ts": [],
+    "src/lib/navigation.ts": [
+      "workspaceNav",
+      "footerNav",
+      "workspaceNavGroups"
+    ],
+    "src/lib/utils.ts": [
+      "cn"
+    ],
+    "src/lib/workflow/guards.ts": [
+      "validateMbomBopApproval"
+    ],
+    "src/lib/workflow/machines.ts": [
+      "getWorkflowMachine",
+      "resolveNextNode",
+      "isWorkflowComplete"
+    ],
+    "src/lib/workflow/templates.ts": [
+      "getTemplate",
+      "listTemplates",
+      "getFirstNode",
+      "isTerminalNode",
+      "getNextNode",
+      "isFirstNode"
+    ],
+    "src/lib/workflow/workflow-service.ts": [
+      "WorkflowGuardError",
+      "startApproval",
+      "transitionApproval",
+      "getInboxRecords",
+      "getHistoryRecords",
+      "getTemplate",
+      "listTemplates"
+    ],
+    "src/stores/copilot-store.ts": [
+      "useCopilotStore"
+    ],
+    "src/stores/integration-store.ts": [
+      "useIntegrationStore"
+    ],
+    "src/stores/jt-download-store.ts": [
+      "useJtDownloadStore"
+    ],
+    "src/stores/sidebar-store.ts": [
+      "useSidebarStore",
+      "useSidebarOpen"
+    ],
+    "src/stores/workspace-store.ts": [
+      "useWorkspaceStore"
+    ]
+  },
+  "batches": [
+    {
+      "batchIndex": 1,
+      "files": [
+        {
+          "path": "src/app/(auth)/login/page.tsx",
+          "language": "typescript",
+          "sizeLines": 120,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/app/(workspace)/change/page.tsx",
+          "language": "typescript",
+          "sizeLines": 33,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/app/(workspace)/document/page.tsx",
+          "language": "typescript",
+          "sizeLines": 355,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/app/(workspace)/mbom/page.tsx",
+          "language": "typescript",
+          "sizeLines": 320,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/app/(workspace)/operation/page.tsx",
+          "language": "typescript",
+          "sizeLines": 306,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/app/(workspace)/resource/page.tsx",
+          "language": "typescript",
+          "sizeLines": 304,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/app/(workspace)/tooling/page.tsx",
+          "language": "typescript",
+          "sizeLines": 149,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/app/admin/workflow-templates/page.tsx",
+          "language": "typescript",
+          "sizeLines": 61,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/bom-tree/bom-tree-grid.tsx",
+          "language": "typescript",
+          "sizeLines": 33,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/change/change-order-wizard.tsx",
+          "language": "typescript",
+          "sizeLines": 326,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/change/change-summary-panel.tsx",
+          "language": "typescript",
+          "sizeLines": 156,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/integration/integration-log-table.tsx",
+          "language": "typescript",
+          "sizeLines": 64,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/mbom/accountability-results.tsx",
+          "language": "typescript",
+          "sizeLines": 66,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/onlyoffice/onlyoffice-editor.tsx",
+          "language": "typescript",
+          "sizeLines": 36,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/operation/operation-accountability.tsx",
+          "language": "typescript",
+          "sizeLines": 102,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/operation/operation-resource-panel.tsx",
+          "language": "typescript",
+          "sizeLines": 267,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/process-card/process-card-form.tsx",
+          "language": "typescript",
+          "sizeLines": 323,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/resource/resource-table.tsx",
+          "language": "typescript",
+          "sizeLines": 189,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/tools/screenshot-capture.tsx",
+          "language": "typescript",
+          "sizeLines": 199,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/ui/badge.tsx",
+          "language": "typescript",
+          "sizeLines": 48,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/ui/button.tsx",
+          "language": "typescript",
+          "sizeLines": 58,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/ui/dialog.tsx",
+          "language": "typescript",
+          "sizeLines": 158,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/ui/input.tsx",
+          "language": "typescript",
+          "sizeLines": 20,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/ui/label.tsx",
+          "language": "typescript",
+          "sizeLines": 20,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/ui/select.tsx",
+          "language": "typescript",
+          "sizeLines": 190,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/ui/table.tsx",
+          "language": "typescript",
+          "sizeLines": 76,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/ui/textarea.tsx",
+          "language": "typescript",
+          "sizeLines": 18,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/hooks/use-change-orders.ts",
+          "language": "typescript",
+          "sizeLines": 59,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/hooks/use-collaboration.ts",
+          "language": "typescript",
+          "sizeLines": 17,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/auth/mock-auth.ts",
+          "language": "typescript",
+          "sizeLines": 6,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/auth/session.ts",
+          "language": "typescript",
+          "sizeLines": 36,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/domain/rules/accountability-check.ts",
+          "language": "typescript",
+          "sizeLines": 81,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/domain/services/resource-service.ts",
+          "language": "typescript",
+          "sizeLines": 109,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/stores/workspace-store.ts",
+          "language": "typescript",
+          "sizeLines": 13,
+          "fileCategory": "code"
+        }
+      ],
+      "batchImportData": {
+        "src/app/(auth)/login/page.tsx": [
+          "src/components/ui/button.tsx",
+          "src/components/ui/input.tsx",
+          "src/components/ui/label.tsx",
+          "src/lib/auth/mock-auth.ts",
+          "src/lib/auth/session.ts"
+        ],
+        "src/app/(workspace)/change/page.tsx": [
+          "src/components/change/change-order-wizard.tsx",
+          "src/components/change/change-summary-panel.tsx",
+          "src/components/ui/tabs.tsx"
+        ],
+        "src/app/(workspace)/document/page.tsx": [
+          "src/components/onlyoffice/onlyoffice-editor.tsx",
+          "src/components/ui/badge.tsx",
+          "src/components/ui/button.tsx",
+          "src/components/ui/dialog.tsx",
+          "src/components/ui/input.tsx",
+          "src/components/ui/label.tsx",
+          "src/components/ui/scroll-area.tsx",
+          "src/components/ui/select.tsx",
+          "src/components/ui/textarea.tsx",
+          "src/hooks/use-collaboration.ts",
+          "src/hooks/use-operations.ts",
+          "src/hooks/use-process-documents.ts",
+          "src/lib/domain/services/apd-export-service.ts",
+          "src/lib/domain/services/process-document-service.ts",
+          "src/lib/domain/types/index.ts",
+          "src/stores/workspace-store.ts"
+        ],
+        "src/app/(workspace)/mbom/page.tsx": [
+          "src/components/bom-tree/bom-tree-grid.tsx",
+          "src/components/mbom/accountability-results.tsx",
+          "src/components/ui/button.tsx",
+          "src/components/ui/card.tsx",
+          "src/components/ui/input.tsx",
+          "src/components/ui/label.tsx",
+          "src/hooks/use-bom-nodes.ts",
+          "src/hooks/use-collaboration.ts",
+          "src/lib/auth/session.ts",
+          "src/lib/db/repositories/bom-repository.ts",
+          "src/lib/domain/rules/accountability-check.ts",
+          "src/lib/domain/types/index.ts",
+          "src/lib/workflow/workflow-service.ts",
+          "src/stores/workspace-store.ts"
+        ],
+        "src/app/(workspace)/operation/page.tsx": [
+          "src/components/onlyoffice/onlyoffice-editor.tsx",
+          "src/components/operation/operation-accountability.tsx",
+          "src/components/operation/operation-resource-panel.tsx",
+          "src/components/process-card/process-card-form.tsx",
+          "src/components/tools/screenshot-capture.tsx",
+          "src/components/ui/badge.tsx",
+          "src/components/ui/button.tsx",
+          "src/components/ui/input.tsx",
+          "src/components/ui/label.tsx",
+          "src/components/ui/scroll-area.tsx",
+          "src/components/ui/table.tsx",
+          "src/components/ui/tabs.tsx",
+          "src/hooks/use-bom-nodes.ts",
+          "src/hooks/use-collaboration.ts",
+          "src/hooks/use-operations.ts",
+          "src/lib/domain/services/operation-service.ts",
+          "src/lib/domain/services/process-card-export.ts",
+          "src/lib/domain/types/index.ts",
+          "src/stores/workspace-store.ts"
+        ],
+        "src/app/(workspace)/resource/page.tsx": [
+          "src/components/resource/resource-table.tsx",
+          "src/components/ui/button.tsx",
+          "src/components/ui/dialog.tsx",
+          "src/components/ui/input.tsx",
+          "src/components/ui/label.tsx",
+          "src/components/ui/select.tsx",
+          "src/components/ui/tabs.tsx",
+          "src/hooks/use-operations.ts",
+          "src/lib/domain/services/resource-service.ts",
+          "src/lib/domain/types/index.ts"
+        ],
+        "src/app/(workspace)/tooling/page.tsx": [
+          "src/components/resource/resource-table.tsx",
+          "src/components/ui/button.tsx",
+          "src/components/ui/dialog.tsx",
+          "src/components/ui/input.tsx",
+          "src/components/ui/label.tsx",
+          "src/hooks/use-operations.ts",
+          "src/lib/domain/services/resource-service.ts"
+        ],
+        "src/app/admin/workflow-templates/page.tsx": [
+          "src/components/ui/badge.tsx",
+          "src/components/ui/table.tsx",
+          "src/lib/workflow/templates.ts"
+        ],
+        "src/components/bom-tree/bom-tree-grid.tsx": [],
+        "src/components/change/change-order-wizard.tsx": [
+          "src/components/ui/button.tsx",
+          "src/components/ui/card.tsx",
+          "src/components/ui/input.tsx",
+          "src/components/ui/label.tsx",
+          "src/components/ui/select.tsx",
+          "src/components/ui/textarea.tsx",
+          "src/hooks/use-change-orders.ts",
+          "src/hooks/use-collaboration.ts",
+          "src/lib/auth/session.ts",
+          "src/lib/domain/types/index.ts",
+          "src/stores/workspace-store.ts"
+        ],
+        "src/components/change/change-summary-panel.tsx": [
+          "src/components/ui/badge.tsx",
+          "src/components/ui/button.tsx",
+          "src/components/ui/input.tsx",
+          "src/components/ui/label.tsx",
+          "src/components/ui/table.tsx",
+          "src/hooks/use-change-orders.ts",
+          "src/lib/domain/services/change-summary-export.ts",
+          "src/lib/domain/types/index.ts"
+        ],
+        "src/components/integration/integration-log-table.tsx": [
+          "src/components/ui/badge.tsx",
+          "src/components/ui/table.tsx",
+          "src/lib/integration/types.ts"
+        ],
+        "src/components/mbom/accountability-results.tsx": [
+          "src/components/ui/badge.tsx",
+          "src/components/ui/table.tsx",
+          "src/lib/domain/rules/accountability-check.ts"
+        ],
+        "src/components/onlyoffice/onlyoffice-editor.tsx": [
+          "src/components/ui/button.tsx",
+          "src/components/ui/card.tsx"
+        ],
+        "src/components/operation/operation-accountability.tsx": [
+          "src/components/ui/badge.tsx",
+          "src/components/ui/button.tsx",
+          "src/components/ui/table.tsx",
+          "src/lib/domain/services/operation-service.ts",
+          "src/lib/domain/types/index.ts"
+        ],
+        "src/components/operation/operation-resource-panel.tsx": [
+          "src/components/bom-tree/bom-drag-store.ts",
+          "src/components/bom-tree/bom-tree-grid.tsx",
+          "src/components/ui/badge.tsx",
+          "src/components/ui/button.tsx",
+          "src/components/ui/input.tsx",
+          "src/components/ui/label.tsx",
+          "src/components/ui/table.tsx",
+          "src/lib/domain/services/operation-service.ts",
+          "src/lib/domain/types/index.ts"
+        ],
+        "src/components/process-card/process-card-form.tsx": [
+          "src/components/ui/badge.tsx",
+          "src/components/ui/button.tsx",
+          "src/components/ui/card.tsx",
+          "src/components/ui/checkbox.tsx",
+          "src/components/ui/input.tsx",
+          "src/components/ui/label.tsx",
+          "src/components/ui/select.tsx",
+          "src/components/ui/switch.tsx",
+          "src/components/ui/textarea.tsx",
+          "src/hooks/use-dictionaries.ts",
+          "src/lib/domain/services/operation-service.ts",
+          "src/lib/domain/types/index.ts"
+        ],
+        "src/components/resource/resource-table.tsx": [
+          "src/components/ui/badge.tsx",
+          "src/components/ui/button.tsx",
+          "src/components/ui/checkbox.tsx",
+          "src/components/ui/input.tsx",
+          "src/components/ui/select.tsx",
+          "src/components/ui/table.tsx",
+          "src/lib/domain/types/index.ts"
+        ],
+        "src/components/tools/screenshot-capture.tsx": [
+          "src/components/ui/button.tsx",
+          "src/components/ui/input.tsx",
+          "src/components/ui/label.tsx"
+        ],
+        "src/components/ui/badge.tsx": [
+          "src/lib/utils.ts"
+        ],
+        "src/components/ui/button.tsx": [
+          "src/lib/utils.ts"
+        ],
+        "src/components/ui/dialog.tsx": [
+          "src/components/ui/button.tsx",
+          "src/lib/utils.ts"
+        ],
+        "src/components/ui/input.tsx": [
+          "src/lib/utils.ts"
+        ],
+        "src/components/ui/label.tsx": [
+          "src/lib/utils.ts"
+        ],
+        "src/components/ui/select.tsx": [
+          "src/lib/utils.ts"
+        ],
+        "src/components/ui/table.tsx": [
+          "src/lib/utils.ts"
+        ],
+        "src/components/ui/textarea.tsx": [
+          "src/lib/utils.ts"
+        ],
+        "src/hooks/use-change-orders.ts": [
+          "src/lib/domain/services/change-order-service.ts"
+        ],
+        "src/hooks/use-collaboration.ts": [
+          "src/lib/db/repositories/collaboration-repository.ts"
+        ],
+        "src/lib/auth/mock-auth.ts": [],
+        "src/lib/auth/session.ts": [],
+        "src/lib/domain/rules/accountability-check.ts": [
+          "src/lib/domain/types/index.ts"
+        ],
+        "src/lib/domain/services/resource-service.ts": [
+          "src/lib/db/repositories/resource-repository.ts",
+          "src/lib/domain/types/index.ts"
+        ],
+        "src/stores/workspace-store.ts": []
+      },
+      "neighborMap": {
+        "src/app/(workspace)/change/page.tsx": [
+          {
+            "path": "src/components/ui/tabs.tsx",
+            "batchIndex": 3,
+            "symbols": [
+              "Tabs",
+              "TabsList",
+              "TabsTrigger",
+              "TabsContent",
+              "tabsListVariants"
+            ]
+          }
+        ],
+        "src/app/(workspace)/document/page.tsx": [
+          {
+            "path": "src/components/ui/scroll-area.tsx",
+            "batchIndex": 4,
+            "symbols": [
+              "ScrollArea",
+              "ScrollBar"
+            ]
+          },
+          {
+            "path": "src/hooks/use-operations.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "useOperations",
+              "useOperation",
+              "useResources"
+            ]
+          },
+          {
+            "path": "src/hooks/use-process-documents.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "useProcessDocuments",
+              "useDocumentsGroupedByProduct",
+              "useDocumentFile"
+            ]
+          },
+          {
+            "path": "src/lib/domain/services/apd-export-service.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "exportApdExcel"
+            ]
+          },
+          {
+            "path": "src/lib/domain/services/process-document-service.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "createProcessDocument",
+              "attachFile",
+              "getDocumentsGroupedByProduct"
+            ]
+          },
+          {
+            "path": "src/lib/domain/types/index.ts",
+            "batchIndex": 3,
+            "symbols": []
+          }
+        ],
+        "src/app/(workspace)/mbom/page.tsx": [
+          {
+            "path": "src/components/ui/card.tsx",
+            "batchIndex": 5,
+            "symbols": [
+              "Card",
+              "CardHeader",
+              "CardFooter",
+              "CardTitle",
+              "CardAction",
+              "CardDescription",
+              "CardContent"
+            ]
+          },
+          {
+            "path": "src/hooks/use-bom-nodes.ts",
+            "batchIndex": 6,
+            "symbols": [
+              "useEbomNodes",
+              "useEbomCount",
+              "useMbomNodes"
+            ]
+          },
+          {
+            "path": "src/lib/db/repositories/bom-repository.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "bomRepository",
+              "getEbomNodes",
+              "countEbomNodes",
+              "getMbomNodes",
+              "getMbomSubtree"
+            ]
+          },
+          {
+            "path": "src/lib/domain/types/index.ts",
+            "batchIndex": 3,
+            "symbols": []
+          },
+          {
+            "path": "src/lib/workflow/workflow-service.ts",
+            "batchIndex": 7,
+            "symbols": [
+              "WorkflowGuardError",
+              "startApproval",
+              "transitionApproval",
+              "getInboxRecords",
+              "getHistoryRecords",
+              "getTemplate",
+              "listTemplates"
+            ]
+          }
+        ],
+        "src/app/(workspace)/operation/page.tsx": [
+          {
+            "path": "src/components/ui/scroll-area.tsx",
+            "batchIndex": 4,
+            "symbols": [
+              "ScrollArea",
+              "ScrollBar"
+            ]
+          },
+          {
+            "path": "src/components/ui/tabs.tsx",
+            "batchIndex": 3,
+            "symbols": [
+              "Tabs",
+              "TabsList",
+              "TabsTrigger",
+              "TabsContent",
+              "tabsListVariants"
+            ]
+          },
+          {
+            "path": "src/hooks/use-bom-nodes.ts",
+            "batchIndex": 6,
+            "symbols": [
+              "useEbomNodes",
+              "useEbomCount",
+              "useMbomNodes"
+            ]
+          },
+          {
+            "path": "src/hooks/use-operations.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "useOperations",
+              "useOperation",
+              "useResources"
+            ]
+          },
+          {
+            "path": "src/lib/domain/services/operation-service.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "ensureOperationForBopNode",
+              "getOperationsForCollaboration",
+              "updateOperation",
+              "assignMbomItem",
+              "assignResource",
+              "removeConsumedItem",
+              "checkOperationAccountability"
+            ]
+          },
+          {
+            "path": "src/lib/domain/services/process-card-export.ts",
+            "batchIndex": 3,
+            "symbols": [
+              "exportOperationToExcel"
+            ]
+          },
+          {
+            "path": "src/lib/domain/types/index.ts",
+            "batchIndex": 3,
+            "symbols": []
+          }
+        ],
+        "src/app/(workspace)/resource/page.tsx": [
+          {
+            "path": "src/components/ui/tabs.tsx",
+            "batchIndex": 3,
+            "symbols": [
+              "Tabs",
+              "TabsList",
+              "TabsTrigger",
+              "TabsContent",
+              "tabsListVariants"
+            ]
+          },
+          {
+            "path": "src/hooks/use-operations.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "useOperations",
+              "useOperation",
+              "useResources"
+            ]
+          },
+          {
+            "path": "src/lib/domain/types/index.ts",
+            "batchIndex": 3,
+            "symbols": []
+          }
+        ],
+        "src/app/(workspace)/tooling/page.tsx": [
+          {
+            "path": "src/hooks/use-operations.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "useOperations",
+              "useOperation",
+              "useResources"
+            ]
+          }
+        ],
+        "src/app/admin/workflow-templates/page.tsx": [
+          {
+            "path": "src/lib/workflow/templates.ts",
+            "batchIndex": 7,
+            "symbols": [
+              "getTemplate",
+              "listTemplates",
+              "getFirstNode",
+              "isTerminalNode",
+              "getNextNode",
+              "isFirstNode"
+            ]
+          }
+        ],
+        "src/components/bom-tree/bom-tree-grid.tsx": [
+          {
+            "path": "src/app/(workspace)/planner/page.tsx",
+            "batchIndex": 3,
+            "symbols": [
+              "PlannerPage"
+            ]
+          },
+          {
+            "path": "src/components/bom-tree/bom-tree-grid-impl.tsx",
+            "batchIndex": 3,
+            "symbols": [
+              "BomTreeGridImpl"
+            ]
+          }
+        ],
+        "src/components/change/change-order-wizard.tsx": [
+          {
+            "path": "src/components/ui/card.tsx",
+            "batchIndex": 5,
+            "symbols": [
+              "Card",
+              "CardHeader",
+              "CardFooter",
+              "CardTitle",
+              "CardAction",
+              "CardDescription",
+              "CardContent"
+            ]
+          },
+          {
+            "path": "src/lib/domain/types/index.ts",
+            "batchIndex": 3,
+            "symbols": []
+          }
+        ],
+        "src/components/change/change-summary-panel.tsx": [
+          {
+            "path": "src/lib/domain/services/change-summary-export.ts",
+            "batchIndex": 3,
+            "symbols": [
+              "exportChangeOrdersToExcel",
+              "downloadChangeOrdersExcel"
+            ]
+          },
+          {
+            "path": "src/lib/domain/types/index.ts",
+            "batchIndex": 3,
+            "symbols": []
+          }
+        ],
+        "src/components/integration/integration-log-table.tsx": [
+          {
+            "path": "src/lib/integration/types.ts",
+            "batchIndex": 5,
+            "symbols": []
+          },
+          {
+            "path": "src/app/(workspace)/integration/page.tsx",
+            "batchIndex": 5,
+            "symbols": [
+              "IntegrationPage"
+            ]
+          }
+        ],
+        "src/components/onlyoffice/onlyoffice-editor.tsx": [
+          {
+            "path": "src/components/ui/card.tsx",
+            "batchIndex": 5,
+            "symbols": [
+              "Card",
+              "CardHeader",
+              "CardFooter",
+              "CardTitle",
+              "CardAction",
+              "CardDescription",
+              "CardContent"
+            ]
+          }
+        ],
+        "src/components/operation/operation-accountability.tsx": [
+          {
+            "path": "src/lib/domain/services/operation-service.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "ensureOperationForBopNode",
+              "getOperationsForCollaboration",
+              "updateOperation",
+              "assignMbomItem",
+              "assignResource",
+              "removeConsumedItem",
+              "checkOperationAccountability"
+            ]
+          },
+          {
+            "path": "src/lib/domain/types/index.ts",
+            "batchIndex": 3,
+            "symbols": []
+          }
+        ],
+        "src/components/operation/operation-resource-panel.tsx": [
+          {
+            "path": "src/components/bom-tree/bom-drag-store.ts",
+            "batchIndex": 3,
+            "symbols": [
+              "BOM_NODE_DRAG_MIME",
+              "setPendingBomDrag",
+              "getPendingBomDrag",
+              "readBomNodeIdFromDataTransfer",
+              "writeBomNodeIdToDataTransfer"
+            ]
+          },
+          {
+            "path": "src/lib/domain/services/operation-service.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "ensureOperationForBopNode",
+              "getOperationsForCollaboration",
+              "updateOperation",
+              "assignMbomItem",
+              "assignResource",
+              "removeConsumedItem",
+              "checkOperationAccountability"
+            ]
+          },
+          {
+            "path": "src/lib/domain/types/index.ts",
+            "batchIndex": 3,
+            "symbols": []
+          }
+        ],
+        "src/components/process-card/process-card-form.tsx": [
+          {
+            "path": "src/components/ui/card.tsx",
+            "batchIndex": 5,
+            "symbols": [
+              "Card",
+              "CardHeader",
+              "CardFooter",
+              "CardTitle",
+              "CardAction",
+              "CardDescription",
+              "CardContent"
+            ]
+          },
+          {
+            "path": "src/components/ui/checkbox.tsx",
+            "batchIndex": 6,
+            "symbols": [
+              "Checkbox"
+            ]
+          },
+          {
+            "path": "src/components/ui/switch.tsx",
+            "batchIndex": 4,
+            "symbols": [
+              "Switch"
+            ]
+          },
+          {
+            "path": "src/hooks/use-dictionaries.ts",
+            "batchIndex": 3,
+            "symbols": [
+              "useDictionaries",
+              "useDictionariesByCategory"
+            ]
+          },
+          {
+            "path": "src/lib/domain/services/operation-service.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "ensureOperationForBopNode",
+              "getOperationsForCollaboration",
+              "updateOperation",
+              "assignMbomItem",
+              "assignResource",
+              "removeConsumedItem",
+              "checkOperationAccountability"
+            ]
+          },
+          {
+            "path": "src/lib/domain/types/index.ts",
+            "batchIndex": 3,
+            "symbols": []
+          }
+        ],
+        "src/components/resource/resource-table.tsx": [
+          {
+            "path": "src/components/ui/checkbox.tsx",
+            "batchIndex": 6,
+            "symbols": [
+              "Checkbox"
+            ]
+          },
+          {
+            "path": "src/lib/domain/types/index.ts",
+            "batchIndex": 3,
+            "symbols": []
+          }
+        ],
+        "src/components/ui/badge.tsx": [
+          {
+            "path": "src/lib/utils.ts",
+            "batchIndex": 4,
+            "symbols": [
+              "cn"
+            ]
+          },
+          {
+            "path": "src/app/(workspace)/approval/page.tsx",
+            "batchIndex": 7,
+            "symbols": [
+              "ApprovalPage"
+            ]
+          },
+          {
+            "path": "src/app/(workspace)/copilot/page.tsx",
+            "batchIndex": 6,
+            "symbols": [
+              "CopilotPage"
+            ]
+          },
+          {
+            "path": "src/app/(workspace)/integration/page.tsx",
+            "batchIndex": 5,
+            "symbols": [
+              "IntegrationPage"
+            ]
+          },
+          {
+            "path": "src/components/copilot/apd-import-wizard.tsx",
+            "batchIndex": 6,
+            "symbols": [
+              "ApdImportWizard"
+            ]
+          },
+          {
+            "path": "src/components/copilot/copilot-message-list.tsx",
+            "batchIndex": 6,
+            "symbols": [
+              "CopilotMessageList"
+            ]
+          },
+          {
+            "path": "src/components/integration/integration-status-card.tsx",
+            "batchIndex": 5,
+            "symbols": [
+              "IntegrationStatusCard"
+            ]
+          },
+          {
+            "path": "src/components/placeholders/module-placeholder.tsx",
+            "batchIndex": 10,
+            "symbols": [
+              "ModulePlaceholder"
+            ]
+          },
+          {
+            "path": "src/components/viewer3d/jt-download-panel.tsx",
+            "batchIndex": 3,
+            "symbols": [
+              "JtDownloadPanel"
+            ]
+          }
+        ],
+        "src/components/ui/button.tsx": [
+          {
+            "path": "src/lib/utils.ts",
+            "batchIndex": 4,
+            "symbols": [
+              "cn"
+            ]
+          },
+          {
+            "path": "src/app/(workspace)/approval/page.tsx",
+            "batchIndex": 7,
+            "symbols": [
+              "ApprovalPage"
+            ]
+          },
+          {
+            "path": "src/app/(workspace)/bop/page.tsx",
+            "batchIndex": 3,
+            "symbols": [
+              "BopPage"
+            ]
+          },
+          {
+            "path": "src/app/(workspace)/copilot/page.tsx",
+            "batchIndex": 6,
+            "symbols": [
+              "CopilotPage"
+            ]
+          },
+          {
+            "path": "src/app/(workspace)/integration/page.tsx",
+            "batchIndex": 5,
+            "symbols": [
+              "IntegrationPage"
+            ]
+          },
+          {
+            "path": "src/app/(workspace)/page.tsx",
+            "batchIndex": 6,
+            "symbols": [
+              "DashboardPage"
+            ]
+          },
+          {
+            "path": "src/app/(workspace)/planner/page.tsx",
+            "batchIndex": 3,
+            "symbols": [
+              "PlannerPage"
+            ]
+          },
+          {
+            "path": "src/app/(workspace)/settings/page.tsx",
+            "batchIndex": 5,
+            "symbols": [
+              "SettingsPage"
+            ]
+          },
+          {
+            "path": "src/app/(workspace)/summary/page.tsx",
+            "batchIndex": 2,
+            "symbols": [
+              "SummaryPage"
+            ]
+          },
+          {
+            "path": "src/components/bop/bop-property-panel.tsx",
+            "batchIndex": 3,
+            "symbols": [
+              "BopPropertyPanel"
+            ]
+          },
+          {
+            "path": "src/components/bop/pert-dag-editor.tsx",
+            "batchIndex": 3,
+            "symbols": [
+              "PertDagEditor"
+            ]
+          },
+          {
+            "path": "src/components/copilot/apd-import-wizard.tsx",
+            "batchIndex": 6,
+            "symbols": [
+              "ApdImportWizard"
+            ]
+          },
+          {
+            "path": "src/components/copilot/copilot-command-input.tsx",
+            "batchIndex": 6,
+            "symbols": [
+              "CopilotCommandInput"
+            ]
+          },
+          {
+            "path": "src/components/integration/integration-push-panel.tsx",
+            "batchIndex": 5,
+            "symbols": [
+              "IntegrationPushPanel"
+            ]
+          },
+          {
+            "path": "src/components/layout/app-header.tsx",
+            "batchIndex": 4,
+            "symbols": [
+              "AppHeader"
+            ]
+          },
+          {
+            "path": "src/components/layout/app-sidebar.tsx",
+            "batchIndex": 4,
+            "symbols": [
+              "AppSidebar",
+              "MobileSidebar"
+            ]
+          },
+          {
+            "path": "src/components/layout/sidebar-toggle.tsx",
+            "batchIndex": 4,
+            "symbols": [
+              "SidebarToggle"
+            ]
+          },
+          {
+            "path": "src/components/placeholders/module-placeholder.tsx",
+            "batchIndex": 10,
+            "symbols": [
+              "ModulePlaceholder"
+            ]
+          },
+          {
+            "path": "src/components/theme/theme-toggle.tsx",
+            "batchIndex": 9,
+            "symbols": [
+              "ThemeToggle"
+            ]
+          },
+          {
+            "path": "src/components/ui/alert-dialog.tsx",
+            "batchIndex": 5,
+            "symbols": [
+              "AlertDialog",
+              "AlertDialogPortal",
+              "AlertDialogOverlay",
+              "AlertDialogTrigger",
+              "AlertDialogContent",
+              "AlertDialogHeader",
+              "AlertDialogFooter",
+              "AlertDialogTitle",
+              "AlertDialogDescription",
+              "AlertDialogAction",
+              "AlertDialogCancel"
+            ]
+          },
+          {
+            "path": "src/components/viewer3d/jt-download-panel.tsx",
+            "batchIndex": 3,
+            "symbols": [
+              "JtDownloadPanel"
+            ]
+          },
+          {
+            "path": "src/components/workflow/approval-actions.tsx",
+            "batchIndex": 7,
+            "symbols": [
+              "ApprovalActions"
+            ]
+          }
+        ],
+        "src/components/ui/dialog.tsx": [
+          {
+            "path": "src/lib/utils.ts",
+            "batchIndex": 4,
+            "symbols": [
+              "cn"
+            ]
+          },
+          {
+            "path": "src/app/(workspace)/bop/page.tsx",
+            "batchIndex": 3,
+            "symbols": [
+              "BopPage"
+            ]
+          }
+        ],
+        "src/components/ui/input.tsx": [
+          {
+            "path": "src/lib/utils.ts",
+            "batchIndex": 4,
+            "symbols": [
+              "cn"
+            ]
+          },
+          {
+            "path": "src/app/(workspace)/bop/page.tsx",
+            "batchIndex": 3,
+            "symbols": [
+              "BopPage"
+            ]
+          }
+        ],
+        "src/components/ui/label.tsx": [
+          {
+            "path": "src/lib/utils.ts",
+            "batchIndex": 4,
+            "symbols": [
+              "cn"
+            ]
+          },
+          {
+            "path": "src/app/(workspace)/bop/page.tsx",
+            "batchIndex": 3,
+            "symbols": [
+              "BopPage"
+            ]
+          },
+          {
+            "path": "src/components/workflow/approval-actions.tsx",
+            "batchIndex": 7,
+            "symbols": [
+              "ApprovalActions"
+            ]
+          }
+        ],
+        "src/components/ui/select.tsx": [
+          {
+            "path": "src/lib/utils.ts",
+            "batchIndex": 4,
+            "symbols": [
+              "cn"
+            ]
+          },
+          {
+            "path": "src/app/(workspace)/bop/page.tsx",
+            "batchIndex": 3,
+            "symbols": [
+              "BopPage"
+            ]
+          }
+        ],
+        "src/components/ui/table.tsx": [
+          {
+            "path": "src/lib/utils.ts",
+            "batchIndex": 4,
+            "symbols": [
+              "cn"
+            ]
+          },
+          {
+            "path": "src/app/(workspace)/approval/page.tsx",
+            "batchIndex": 7,
+            "symbols": [
+              "ApprovalPage"
+            ]
+          },
+          {
+            "path": "src/app/(workspace)/bop/page.tsx",
+            "batchIndex": 3,
+            "symbols": [
+              "BopPage"
+            ]
+          },
+          {
+            "path": "src/app/(workspace)/summary/page.tsx",
+            "batchIndex": 2,
+            "symbols": [
+              "SummaryPage"
+            ]
+          },
+          {
+            "path": "src/app/admin/dictionaries/page.tsx",
+            "batchIndex": 3,
+            "symbols": [
+              "AdminDictionariesPage"
+            ]
+          },
+          {
+            "path": "src/components/copilot/apd-import-wizard.tsx",
+            "batchIndex": 6,
+            "symbols": [
+              "ApdImportWizard"
+            ]
+          },
+          {
+            "path": "src/components/viewer3d/jt-download-panel.tsx",
+            "batchIndex": 3,
+            "symbols": [
+              "JtDownloadPanel"
+            ]
+          }
+        ],
+        "src/components/ui/textarea.tsx": [
+          {
+            "path": "src/lib/utils.ts",
+            "batchIndex": 4,
+            "symbols": [
+              "cn"
+            ]
+          },
+          {
+            "path": "src/app/(workspace)/bop/page.tsx",
+            "batchIndex": 3,
+            "symbols": [
+              "BopPage"
+            ]
+          },
+          {
+            "path": "src/components/copilot/copilot-command-input.tsx",
+            "batchIndex": 6,
+            "symbols": [
+              "CopilotCommandInput"
+            ]
+          },
+          {
+            "path": "src/components/workflow/approval-actions.tsx",
+            "batchIndex": 7,
+            "symbols": [
+              "ApprovalActions"
+            ]
+          }
+        ],
+        "src/hooks/use-change-orders.ts": [
+          {
+            "path": "src/lib/domain/services/change-order-service.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "createChangeOrderDraft",
+              "computeChangeDiff",
+              "finalizeChangeOrder",
+              "submitChangeOrderApproval",
+              "getChangeOrders"
+            ]
+          }
+        ],
+        "src/hooks/use-collaboration.ts": [
+          {
+            "path": "src/lib/db/repositories/collaboration-repository.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "collaborationRepository"
+            ]
+          },
+          {
+            "path": "src/app/(workspace)/bop/page.tsx",
+            "batchIndex": 3,
+            "symbols": [
+              "BopPage"
+            ]
+          },
+          {
+            "path": "src/app/(workspace)/copilot/page.tsx",
+            "batchIndex": 6,
+            "symbols": [
+              "CopilotPage"
+            ]
+          },
+          {
+            "path": "src/app/(workspace)/page.tsx",
+            "batchIndex": 6,
+            "symbols": [
+              "DashboardPage"
+            ]
+          },
+          {
+            "path": "src/app/(workspace)/planner/page.tsx",
+            "batchIndex": 3,
+            "symbols": [
+              "PlannerPage"
+            ]
+          }
+        ],
+        "src/lib/auth/session.ts": [
+          {
+            "path": "src/app/(workspace)/approval/page.tsx",
+            "batchIndex": 7,
+            "symbols": [
+              "ApprovalPage"
+            ]
+          },
+          {
+            "path": "src/app/(workspace)/bop/page.tsx",
+            "batchIndex": 3,
+            "symbols": [
+              "BopPage"
+            ]
+          },
+          {
+            "path": "src/components/layout/app-header.tsx",
+            "batchIndex": 4,
+            "symbols": [
+              "AppHeader"
+            ]
+          },
+          {
+            "path": "src/components/layout/auth-guard.tsx",
+            "batchIndex": 4,
+            "symbols": [
+              "AuthGuard"
+            ]
+          }
+        ],
+        "src/lib/domain/rules/accountability-check.ts": [
+          {
+            "path": "src/lib/domain/types/index.ts",
+            "batchIndex": 3,
+            "symbols": []
+          },
+          {
+            "path": "src/lib/ai/copilot-scenarios.ts",
+            "batchIndex": 6,
+            "symbols": [
+              "COPILOT_SCENARIO_IDS",
+              "COPILOT_SCENARIO_LABELS",
+              "runCopilotScenario",
+              "buildCopilotContext"
+            ]
+          }
+        ],
+        "src/lib/domain/services/resource-service.ts": [
+          {
+            "path": "src/lib/db/repositories/resource-repository.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "resourceRepository"
+            ]
+          },
+          {
+            "path": "src/lib/domain/types/index.ts",
+            "batchIndex": 3,
+            "symbols": []
+          },
+          {
+            "path": "src/lib/ai/apd-import-commit.ts",
+            "batchIndex": 6,
+            "symbols": [
+              "commitApdImportRows"
+            ]
+          }
+        ],
+        "src/stores/workspace-store.ts": [
+          {
+            "path": "src/app/(workspace)/bop/page.tsx",
+            "batchIndex": 3,
+            "symbols": [
+              "BopPage"
+            ]
+          },
+          {
+            "path": "src/app/(workspace)/copilot/page.tsx",
+            "batchIndex": 6,
+            "symbols": [
+              "CopilotPage"
+            ]
+          },
+          {
+            "path": "src/app/(workspace)/integration/page.tsx",
+            "batchIndex": 5,
+            "symbols": [
+              "IntegrationPage"
+            ]
+          },
+          {
+            "path": "src/app/(workspace)/planner/page.tsx",
+            "batchIndex": 3,
+            "symbols": [
+              "PlannerPage"
+            ]
+          },
+          {
+            "path": "src/app/(workspace)/settings/page.tsx",
+            "batchIndex": 5,
+            "symbols": [
+              "SettingsPage"
+            ]
+          },
+          {
+            "path": "src/components/layout/app-header.tsx",
+            "batchIndex": 4,
+            "symbols": [
+              "AppHeader"
+            ]
+          },
+          {
+            "path": "src/hooks/use-process-summary.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "useProcessSummary"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "batchIndex": 2,
+      "files": [
+        {
+          "path": "src/app/(workspace)/summary/page.tsx",
+          "language": "typescript",
+          "sizeLines": 274,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/hooks/use-operations.ts",
+          "language": "typescript",
+          "sizeLines": 29,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/hooks/use-process-documents.ts",
+          "language": "typescript",
+          "sizeLines": 26,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/hooks/use-process-summary.ts",
+          "language": "typescript",
+          "sizeLines": 56,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/db/export-import.ts",
+          "language": "typescript",
+          "sizeLines": 66,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/db/repositories/app-meta-repository.ts",
+          "language": "typescript",
+          "sizeLines": 25,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/db/repositories/base.ts",
+          "language": "typescript",
+          "sizeLines": 7,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/db/repositories/bom-repository.ts",
+          "language": "typescript",
+          "sizeLines": 61,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/db/repositories/bop-repository.ts",
+          "language": "typescript",
+          "sizeLines": 57,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/db/repositories/change-order-repository.ts",
+          "language": "typescript",
+          "sizeLines": 30,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/db/repositories/collaboration-repository.ts",
+          "language": "typescript",
+          "sizeLines": 25,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/db/repositories/dictionary-repository.ts",
+          "language": "typescript",
+          "sizeLines": 29,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/db/repositories/document-file-repository.ts",
+          "language": "typescript",
+          "sizeLines": 25,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/db/repositories/operation-repository.ts",
+          "language": "typescript",
+          "sizeLines": 47,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/db/repositories/process-document-repository.ts",
+          "language": "typescript",
+          "sizeLines": 33,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/db/repositories/resource-repository.ts",
+          "language": "typescript",
+          "sizeLines": 25,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/db/schema.ts",
+          "language": "typescript",
+          "sizeLines": 76,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/domain/id-generator.ts",
+          "language": "typescript",
+          "sizeLines": 15,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/domain/rules/mbom-constraints.ts",
+          "language": "typescript",
+          "sizeLines": 52,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/domain/schemas/bom.ts",
+          "language": "typescript",
+          "sizeLines": 31,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/domain/schemas/export-bundle.ts",
+          "language": "typescript",
+          "sizeLines": 31,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/domain/schemas/handoff-package.ts",
+          "language": "typescript",
+          "sizeLines": 51,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/domain/schemas/process-document.ts",
+          "language": "typescript",
+          "sizeLines": 35,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/domain/services/apd-export-service.ts",
+          "language": "typescript",
+          "sizeLines": 117,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/domain/services/change-order-service.ts",
+          "language": "typescript",
+          "sizeLines": 269,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/domain/services/mbom-service.ts",
+          "language": "typescript",
+          "sizeLines": 192,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/domain/services/operation-service.ts",
+          "language": "typescript",
+          "sizeLines": 179,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/domain/services/process-document-service.ts",
+          "language": "typescript",
+          "sizeLines": 74,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/domain/services/process-summary-service.ts",
+          "language": "typescript",
+          "sizeLines": 149,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/domain/services/summary-export-service.ts",
+          "language": "typescript",
+          "sizeLines": 110,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/integration/handoff-package.ts",
+          "language": "typescript",
+          "sizeLines": 88,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/workflow/guards.ts",
+          "language": "typescript",
+          "sizeLines": 30,
+          "fileCategory": "code"
+        }
+      ],
+      "batchImportData": {
+        "src/app/(workspace)/summary/page.tsx": [
+          "src/components/ui/button.tsx",
+          "src/components/ui/table.tsx",
+          "src/components/ui/tabs.tsx",
+          "src/hooks/use-process-summary.ts",
+          "src/lib/domain/services/process-summary-service.ts",
+          "src/lib/domain/types/index.ts"
+        ],
+        "src/hooks/use-operations.ts": [
+          "src/lib/db/repositories/operation-repository.ts",
+          "src/lib/db/repositories/resource-repository.ts"
+        ],
+        "src/hooks/use-process-documents.ts": [
+          "src/lib/db/repositories/document-file-repository.ts",
+          "src/lib/db/repositories/process-document-repository.ts",
+          "src/lib/domain/services/process-document-service.ts"
+        ],
+        "src/hooks/use-process-summary.ts": [
+          "src/lib/domain/services/process-summary-service.ts",
+          "src/lib/domain/services/summary-export-service.ts",
+          "src/stores/workspace-store.ts"
+        ],
+        "src/lib/db/export-import.ts": [
+          "src/lib/db/schema.ts",
+          "src/lib/domain/schemas/export-bundle.ts",
+          "src/lib/integration/handoff-package.ts"
+        ],
+        "src/lib/db/repositories/app-meta-repository.ts": [
+          "src/lib/db/repositories/base.ts",
+          "src/lib/db/schema.ts",
+          "src/lib/domain/types/index.ts"
+        ],
+        "src/lib/db/repositories/base.ts": [],
+        "src/lib/db/repositories/bom-repository.ts": [
+          "src/lib/db/repositories/base.ts",
+          "src/lib/db/schema.ts",
+          "src/lib/domain/types/index.ts"
+        ],
+        "src/lib/db/repositories/bop-repository.ts": [
+          "src/lib/db/repositories/base.ts",
+          "src/lib/db/schema.ts",
+          "src/lib/domain/types/index.ts"
+        ],
+        "src/lib/db/repositories/change-order-repository.ts": [
+          "src/lib/db/repositories/base.ts",
+          "src/lib/db/schema.ts",
+          "src/lib/domain/types/index.ts"
+        ],
+        "src/lib/db/repositories/collaboration-repository.ts": [
+          "src/lib/db/repositories/base.ts",
+          "src/lib/db/schema.ts",
+          "src/lib/domain/types/index.ts"
+        ],
+        "src/lib/db/repositories/dictionary-repository.ts": [
+          "src/lib/db/repositories/base.ts",
+          "src/lib/db/schema.ts",
+          "src/lib/domain/types/index.ts"
+        ],
+        "src/lib/db/repositories/document-file-repository.ts": [
+          "src/lib/db/repositories/base.ts",
+          "src/lib/db/schema.ts",
+          "src/lib/domain/types/index.ts"
+        ],
+        "src/lib/db/repositories/operation-repository.ts": [
+          "src/lib/db/repositories/base.ts",
+          "src/lib/db/repositories/bop-repository.ts",
+          "src/lib/db/schema.ts",
+          "src/lib/domain/types/index.ts"
+        ],
+        "src/lib/db/repositories/process-document-repository.ts": [
+          "src/lib/db/repositories/base.ts",
+          "src/lib/db/schema.ts",
+          "src/lib/domain/types/index.ts"
+        ],
+        "src/lib/db/repositories/resource-repository.ts": [
+          "src/lib/db/repositories/base.ts",
+          "src/lib/db/schema.ts",
+          "src/lib/domain/types/index.ts"
+        ],
+        "src/lib/db/schema.ts": [
+          "src/lib/domain/types/index.ts"
+        ],
+        "src/lib/domain/id-generator.ts": [
+          "src/lib/db/schema.ts"
+        ],
+        "src/lib/domain/rules/mbom-constraints.ts": [
+          "src/lib/domain/types/index.ts"
+        ],
+        "src/lib/domain/schemas/bom.ts": [],
+        "src/lib/domain/schemas/export-bundle.ts": [
+          "src/lib/domain/schemas/bom.ts",
+          "src/lib/domain/schemas/process-document.ts"
+        ],
+        "src/lib/domain/schemas/handoff-package.ts": [
+          "src/lib/domain/schemas/bom.ts",
+          "src/lib/domain/schemas/process-document.ts"
+        ],
+        "src/lib/domain/schemas/process-document.ts": [],
+        "src/lib/domain/services/apd-export-service.ts": [
+          "src/lib/db/repositories/bom-repository.ts",
+          "src/lib/db/repositories/bop-repository.ts",
+          "src/lib/db/repositories/collaboration-repository.ts",
+          "src/lib/db/repositories/operation-repository.ts"
+        ],
+        "src/lib/domain/services/change-order-service.ts": [
+          "src/lib/db/repositories/bom-repository.ts",
+          "src/lib/db/repositories/bop-repository.ts",
+          "src/lib/db/repositories/change-order-repository.ts",
+          "src/lib/db/repositories/collaboration-repository.ts",
+          "src/lib/db/repositories/operation-repository.ts",
+          "src/lib/domain/types/index.ts",
+          "src/lib/workflow/workflow-service.ts"
+        ],
+        "src/lib/domain/services/mbom-service.ts": [
+          "src/lib/db/repositories/bom-repository.ts",
+          "src/lib/db/repositories/collaboration-repository.ts",
+          "src/lib/domain/rules/mbom-constraints.ts",
+          "src/lib/domain/types/index.ts"
+        ],
+        "src/lib/domain/services/operation-service.ts": [
+          "src/lib/db/repositories/bop-repository.ts",
+          "src/lib/db/repositories/collaboration-repository.ts",
+          "src/lib/db/repositories/operation-repository.ts",
+          "src/lib/db/repositories/resource-repository.ts",
+          "src/lib/domain/types/index.ts"
+        ],
+        "src/lib/domain/services/process-document-service.ts": [
+          "src/lib/db/repositories/document-file-repository.ts",
+          "src/lib/db/repositories/process-document-repository.ts",
+          "src/lib/domain/id-generator.ts",
+          "src/lib/domain/types/index.ts"
+        ],
+        "src/lib/domain/services/process-summary-service.ts": [
+          "src/lib/db/repositories/bom-repository.ts",
+          "src/lib/db/repositories/collaboration-repository.ts",
+          "src/lib/db/repositories/operation-repository.ts",
+          "src/lib/db/repositories/resource-repository.ts",
+          "src/lib/domain/types/index.ts"
+        ],
+        "src/lib/domain/services/summary-export-service.ts": [
+          "src/lib/domain/services/process-summary-service.ts"
+        ],
+        "src/lib/integration/handoff-package.ts": [
+          "src/lib/db/repositories/bom-repository.ts",
+          "src/lib/db/repositories/bop-repository.ts",
+          "src/lib/db/repositories/collaboration-repository.ts",
+          "src/lib/db/repositories/operation-repository.ts",
+          "src/lib/db/repositories/process-document-repository.ts",
+          "src/lib/domain/schemas/handoff-package.ts",
+          "src/lib/domain/services/process-summary-service.ts"
+        ],
+        "src/lib/workflow/guards.ts": [
+          "src/lib/db/repositories/bom-repository.ts",
+          "src/lib/domain/rules/mbom-constraints.ts"
+        ]
+      },
+      "neighborMap": {
+        "src/app/(workspace)/summary/page.tsx": [
+          {
+            "path": "src/components/ui/button.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "Button",
+              "buttonVariants"
+            ]
+          },
+          {
+            "path": "src/components/ui/table.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "Table",
+              "TableHeader",
+              "TableBody",
+              "TableRow",
+              "TableHead",
+              "TableCell"
+            ]
+          },
+          {
+            "path": "src/components/ui/tabs.tsx",
+            "batchIndex": 3,
+            "symbols": [
+              "Tabs",
+              "TabsList",
+              "TabsTrigger",
+              "TabsContent",
+              "tabsListVariants"
+            ]
+          },
+          {
+            "path": "src/lib/domain/types/index.ts",
+            "batchIndex": 3,
+            "symbols": []
+          }
+        ],
+        "src/hooks/use-operations.ts": [
+          {
+            "path": "src/app/(workspace)/document/page.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "DocumentPage"
+            ]
+          },
+          {
+            "path": "src/app/(workspace)/operation/page.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "OperationPage"
+            ]
+          },
+          {
+            "path": "src/app/(workspace)/resource/page.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "ResourcePage"
+            ]
+          },
+          {
+            "path": "src/app/(workspace)/tooling/page.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "ToolingPage"
+            ]
+          }
+        ],
+        "src/hooks/use-process-documents.ts": [
+          {
+            "path": "src/app/(workspace)/document/page.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "DocumentPage"
+            ]
+          }
+        ],
+        "src/hooks/use-process-summary.ts": [
+          {
+            "path": "src/stores/workspace-store.ts",
+            "batchIndex": 1,
+            "symbols": [
+              "useWorkspaceStore"
+            ]
+          }
+        ],
+        "src/lib/db/export-import.ts": [
+          {
+            "path": "src/app/(workspace)/integration/page.tsx",
+            "batchIndex": 5,
+            "symbols": [
+              "IntegrationPage"
+            ]
+          },
+          {
+            "path": "src/app/(workspace)/settings/page.tsx",
+            "batchIndex": 5,
+            "symbols": [
+              "SettingsPage"
+            ]
+          }
+        ],
+        "src/lib/db/repositories/app-meta-repository.ts": [
+          {
+            "path": "src/lib/domain/types/index.ts",
+            "batchIndex": 3,
+            "symbols": []
+          },
+          {
+            "path": "src/hooks/use-app-meta.ts",
+            "batchIndex": 6,
+            "symbols": [
+              "useAppMeta"
+            ]
+          }
+        ],
+        "src/lib/db/repositories/base.ts": [
+          {
+            "path": "src/lib/db/repositories/approval-repository.ts",
+            "batchIndex": 7,
+            "symbols": [
+              "approvalRepository",
+              "getByTargetId",
+              "getActiveByTargetId"
+            ]
+          },
+          {
+            "path": "src/lib/db/repositories/envelope-repository.ts",
+            "batchIndex": 3,
+            "symbols": [
+              "envelopeRepository",
+              "getByDirection"
+            ]
+          }
+        ],
+        "src/lib/db/repositories/bom-repository.ts": [
+          {
+            "path": "src/lib/domain/types/index.ts",
+            "batchIndex": 3,
+            "symbols": []
+          },
+          {
+            "path": "src/app/(workspace)/mbom/page.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "MbomPage"
+            ]
+          },
+          {
+            "path": "src/hooks/use-bom-nodes.ts",
+            "batchIndex": 6,
+            "symbols": [
+              "useEbomNodes",
+              "useEbomCount",
+              "useMbomNodes"
+            ]
+          },
+          {
+            "path": "src/lib/integration/integration-service.ts",
+            "batchIndex": 5,
+            "symbols": [
+              "validateProductionPush",
+              "pushToErp",
+              "pushToMes",
+              "syncEbomFromTeamcenter",
+              "checkIntegrationHealth"
+            ]
+          },
+          {
+            "path": "src/lib/workflow/workflow-service.ts",
+            "batchIndex": 7,
+            "symbols": [
+              "WorkflowGuardError",
+              "startApproval",
+              "transitionApproval",
+              "getInboxRecords",
+              "getHistoryRecords",
+              "getTemplate",
+              "listTemplates"
+            ]
+          }
+        ],
+        "src/lib/db/repositories/bop-repository.ts": [
+          {
+            "path": "src/lib/domain/types/index.ts",
+            "batchIndex": 3,
+            "symbols": []
+          },
+          {
+            "path": "src/hooks/use-bop.ts",
+            "batchIndex": 3,
+            "symbols": [
+              "useBopNodes",
+              "useEnvelopes"
+            ]
+          },
+          {
+            "path": "src/lib/ai/apd-import-commit.ts",
+            "batchIndex": 6,
+            "symbols": [
+              "commitApdImportRows"
+            ]
+          },
+          {
+            "path": "src/lib/domain/services/bop-service.ts",
+            "batchIndex": 3,
+            "symbols": [
+              "initializeBopRoot",
+              "createBopChild",
+              "updateBopNode",
+              "deleteBopNode",
+              "updatePertDag",
+              "syncPertDagFromChildren",
+              "releaseBopNode",
+              "sendEnvelope",
+              "getBopTree"
+            ]
+          },
+          {
+            "path": "src/lib/integration/integration-service.ts",
+            "batchIndex": 5,
+            "symbols": [
+              "validateProductionPush",
+              "pushToErp",
+              "pushToMes",
+              "syncEbomFromTeamcenter",
+              "checkIntegrationHealth"
+            ]
+          },
+          {
+            "path": "src/lib/workflow/workflow-service.ts",
+            "batchIndex": 7,
+            "symbols": [
+              "WorkflowGuardError",
+              "startApproval",
+              "transitionApproval",
+              "getInboxRecords",
+              "getHistoryRecords",
+              "getTemplate",
+              "listTemplates"
+            ]
+          }
+        ],
+        "src/lib/db/repositories/change-order-repository.ts": [
+          {
+            "path": "src/lib/domain/types/index.ts",
+            "batchIndex": 3,
+            "symbols": []
+          },
+          {
+            "path": "src/lib/workflow/workflow-service.ts",
+            "batchIndex": 7,
+            "symbols": [
+              "WorkflowGuardError",
+              "startApproval",
+              "transitionApproval",
+              "getInboxRecords",
+              "getHistoryRecords",
+              "getTemplate",
+              "listTemplates"
+            ]
+          }
+        ],
+        "src/lib/db/repositories/collaboration-repository.ts": [
+          {
+            "path": "src/lib/domain/types/index.ts",
+            "batchIndex": 3,
+            "symbols": []
+          },
+          {
+            "path": "src/hooks/use-collaboration.ts",
+            "batchIndex": 1,
+            "symbols": [
+              "useCollaborations",
+              "useCollaboration"
+            ]
+          },
+          {
+            "path": "src/lib/ai/apd-import-commit.ts",
+            "batchIndex": 6,
+            "symbols": [
+              "commitApdImportRows"
+            ]
+          },
+          {
+            "path": "src/lib/domain/services/bop-service.ts",
+            "batchIndex": 3,
+            "symbols": [
+              "initializeBopRoot",
+              "createBopChild",
+              "updateBopNode",
+              "deleteBopNode",
+              "updatePertDag",
+              "syncPertDagFromChildren",
+              "releaseBopNode",
+              "sendEnvelope",
+              "getBopTree"
+            ]
+          },
+          {
+            "path": "src/lib/integration/integration-service.ts",
+            "batchIndex": 5,
+            "symbols": [
+              "validateProductionPush",
+              "pushToErp",
+              "pushToMes",
+              "syncEbomFromTeamcenter",
+              "checkIntegrationHealth"
+            ]
+          }
+        ],
+        "src/lib/db/repositories/dictionary-repository.ts": [
+          {
+            "path": "src/lib/domain/types/index.ts",
+            "batchIndex": 3,
+            "symbols": []
+          },
+          {
+            "path": "src/hooks/use-dictionaries.ts",
+            "batchIndex": 3,
+            "symbols": [
+              "useDictionaries",
+              "useDictionariesByCategory"
+            ]
+          }
+        ],
+        "src/lib/db/repositories/document-file-repository.ts": [
+          {
+            "path": "src/lib/domain/types/index.ts",
+            "batchIndex": 3,
+            "symbols": []
+          }
+        ],
+        "src/lib/db/repositories/operation-repository.ts": [
+          {
+            "path": "src/lib/domain/types/index.ts",
+            "batchIndex": 3,
+            "symbols": []
+          },
+          {
+            "path": "src/lib/integration/integration-service.ts",
+            "batchIndex": 5,
+            "symbols": [
+              "validateProductionPush",
+              "pushToErp",
+              "pushToMes",
+              "syncEbomFromTeamcenter",
+              "checkIntegrationHealth"
+            ]
+          }
+        ],
+        "src/lib/db/repositories/process-document-repository.ts": [
+          {
+            "path": "src/lib/domain/types/index.ts",
+            "batchIndex": 3,
+            "symbols": []
+          },
+          {
+            "path": "src/lib/workflow/workflow-service.ts",
+            "batchIndex": 7,
+            "symbols": [
+              "WorkflowGuardError",
+              "startApproval",
+              "transitionApproval",
+              "getInboxRecords",
+              "getHistoryRecords",
+              "getTemplate",
+              "listTemplates"
+            ]
+          }
+        ],
+        "src/lib/db/repositories/resource-repository.ts": [
+          {
+            "path": "src/lib/domain/types/index.ts",
+            "batchIndex": 3,
+            "symbols": []
+          },
+          {
+            "path": "src/lib/domain/services/resource-service.ts",
+            "batchIndex": 1,
+            "symbols": [
+              "createResource",
+              "updateResource",
+              "deleteResource",
+              "setInLibrary",
+              "searchResources",
+              "importResourcesFromExcel"
+            ]
+          }
+        ],
+        "src/lib/db/schema.ts": [
+          {
+            "path": "src/lib/domain/types/index.ts",
+            "batchIndex": 3,
+            "symbols": []
+          },
+          {
+            "path": "src/lib/db/repositories/approval-repository.ts",
+            "batchIndex": 7,
+            "symbols": [
+              "approvalRepository",
+              "getByTargetId",
+              "getActiveByTargetId"
+            ]
+          },
+          {
+            "path": "src/lib/db/repositories/envelope-repository.ts",
+            "batchIndex": 3,
+            "symbols": [
+              "envelopeRepository",
+              "getByDirection"
+            ]
+          },
+          {
+            "path": "src/lib/db/seed.ts",
+            "batchIndex": 9,
+            "symbols": [
+              "isSeeded",
+              "seedDatabase",
+              "ensureSeeded",
+              "resetToSeed"
+            ]
+          }
+        ],
+        "src/lib/domain/id-generator.ts": [
+          {
+            "path": "src/lib/domain/services/bop-service.ts",
+            "batchIndex": 3,
+            "symbols": [
+              "initializeBopRoot",
+              "createBopChild",
+              "updateBopNode",
+              "deleteBopNode",
+              "updatePertDag",
+              "syncPertDagFromChildren",
+              "releaseBopNode",
+              "sendEnvelope",
+              "getBopTree"
+            ]
+          }
+        ],
+        "src/lib/domain/rules/mbom-constraints.ts": [
+          {
+            "path": "src/lib/domain/types/index.ts",
+            "batchIndex": 3,
+            "symbols": []
+          },
+          {
+            "path": "src/lib/ai/copilot-scenarios.ts",
+            "batchIndex": 6,
+            "symbols": [
+              "COPILOT_SCENARIO_IDS",
+              "COPILOT_SCENARIO_LABELS",
+              "runCopilotScenario",
+              "buildCopilotContext"
+            ]
+          }
+        ],
+        "src/lib/domain/services/apd-export-service.ts": [
+          {
+            "path": "src/app/(workspace)/document/page.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "DocumentPage"
+            ]
+          }
+        ],
+        "src/lib/domain/services/change-order-service.ts": [
+          {
+            "path": "src/lib/domain/types/index.ts",
+            "batchIndex": 3,
+            "symbols": []
+          },
+          {
+            "path": "src/lib/workflow/workflow-service.ts",
+            "batchIndex": 7,
+            "symbols": [
+              "WorkflowGuardError",
+              "startApproval",
+              "transitionApproval",
+              "getInboxRecords",
+              "getHistoryRecords",
+              "getTemplate",
+              "listTemplates"
+            ]
+          },
+          {
+            "path": "src/hooks/use-change-orders.ts",
+            "batchIndex": 1,
+            "symbols": [
+              "useChangeOrders",
+              "useCreateChangeOrderDraft",
+              "useComputeChangeDiff",
+              "useFinalizeChangeOrder",
+              "useSubmitChangeOrderApproval"
+            ]
+          }
+        ],
+        "src/lib/domain/services/mbom-service.ts": [
+          {
+            "path": "src/lib/domain/types/index.ts",
+            "batchIndex": 3,
+            "symbols": []
+          },
+          {
+            "path": "src/app/(workspace)/planner/page.tsx",
+            "batchIndex": 3,
+            "symbols": [
+              "PlannerPage"
+            ]
+          }
+        ],
+        "src/lib/domain/services/operation-service.ts": [
+          {
+            "path": "src/lib/domain/types/index.ts",
+            "batchIndex": 3,
+            "symbols": []
+          },
+          {
+            "path": "src/app/(workspace)/operation/page.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "OperationPage"
+            ]
+          },
+          {
+            "path": "src/components/operation/operation-accountability.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "OperationAccountability"
+            ]
+          },
+          {
+            "path": "src/components/operation/operation-resource-panel.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "OperationResourcePanel"
+            ]
+          },
+          {
+            "path": "src/components/process-card/process-card-form.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "ProcessCardForm"
+            ]
+          },
+          {
+            "path": "src/lib/ai/copilot-scenarios.ts",
+            "batchIndex": 6,
+            "symbols": [
+              "COPILOT_SCENARIO_IDS",
+              "COPILOT_SCENARIO_LABELS",
+              "runCopilotScenario",
+              "buildCopilotContext"
+            ]
+          },
+          {
+            "path": "src/lib/domain/services/bop-service.ts",
+            "batchIndex": 3,
+            "symbols": [
+              "initializeBopRoot",
+              "createBopChild",
+              "updateBopNode",
+              "deleteBopNode",
+              "updatePertDag",
+              "syncPertDagFromChildren",
+              "releaseBopNode",
+              "sendEnvelope",
+              "getBopTree"
+            ]
+          }
+        ],
+        "src/lib/domain/services/process-document-service.ts": [
+          {
+            "path": "src/lib/domain/types/index.ts",
+            "batchIndex": 3,
+            "symbols": []
+          },
+          {
+            "path": "src/app/(workspace)/document/page.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "DocumentPage"
+            ]
+          }
+        ],
+        "src/lib/domain/services/process-summary-service.ts": [
+          {
+            "path": "src/lib/domain/types/index.ts",
+            "batchIndex": 3,
+            "symbols": []
+          },
+          {
+            "path": "src/lib/integration/integration-service.ts",
+            "batchIndex": 5,
+            "symbols": [
+              "validateProductionPush",
+              "pushToErp",
+              "pushToMes",
+              "syncEbomFromTeamcenter",
+              "checkIntegrationHealth"
+            ]
+          }
+        ],
+        "src/lib/workflow/guards.ts": [
+          {
+            "path": "src/lib/workflow/workflow-service.ts",
+            "batchIndex": 7,
+            "symbols": [
+              "WorkflowGuardError",
+              "startApproval",
+              "transitionApproval",
+              "getInboxRecords",
+              "getHistoryRecords",
+              "getTemplate",
+              "listTemplates"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "batchIndex": 3,
+      "files": [
+        {
+          "path": "src/app/(workspace)/bop/page.tsx",
+          "language": "typescript",
+          "sizeLines": 539,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/app/(workspace)/planner/page.tsx",
+          "language": "typescript",
+          "sizeLines": 355,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/app/admin/dictionaries/page.tsx",
+          "language": "typescript",
+          "sizeLines": 78,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/bom-tree/bom-drag-store.ts",
+          "language": "typescript",
+          "sizeLines": 29,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/bom-tree/bom-tree-grid-impl.tsx",
+          "language": "typescript",
+          "sizeLines": 267,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/bom-tree/bom-tree-utils.ts",
+          "language": "typescript",
+          "sizeLines": 67,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/bop/bop-property-panel.tsx",
+          "language": "typescript",
+          "sizeLines": 94,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/bop/bop-tree-grid-impl.tsx",
+          "language": "typescript",
+          "sizeLines": 163,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/bop/bop-tree-grid.tsx",
+          "language": "typescript",
+          "sizeLines": 27,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/bop/bop-tree-utils.ts",
+          "language": "typescript",
+          "sizeLines": 60,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/bop/pert-dag-editor.tsx",
+          "language": "typescript",
+          "sizeLines": 161,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/planner/node-property-panel.tsx",
+          "language": "typescript",
+          "sizeLines": 81,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/planner/planner-flow-bridge.tsx",
+          "language": "typescript",
+          "sizeLines": 22,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/ui/tabs.tsx",
+          "language": "typescript",
+          "sizeLines": 91,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/viewer3d/jt-download-panel.tsx",
+          "language": "typescript",
+          "sizeLines": 273,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/hooks/use-bop.ts",
+          "language": "typescript",
+          "sizeLines": 18,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/hooks/use-dictionaries.ts",
+          "language": "typescript",
+          "sizeLines": 20,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/ag-grid/setup.ts",
+          "language": "typescript",
+          "sizeLines": 11,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/db/repositories/envelope-repository.ts",
+          "language": "typescript",
+          "sizeLines": 29,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/domain/rules/bop-hierarchy.ts",
+          "language": "typescript",
+          "sizeLines": 21,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/domain/rules/dag-validation.ts",
+          "language": "typescript",
+          "sizeLines": 45,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/domain/services/bop-service.ts",
+          "language": "typescript",
+          "sizeLines": 251,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/domain/services/change-summary-export.ts",
+          "language": "typescript",
+          "sizeLines": 63,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/domain/services/jt-download-service.ts",
+          "language": "typescript",
+          "sizeLines": 48,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/domain/services/process-card-export.ts",
+          "language": "typescript",
+          "sizeLines": 51,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/domain/types/index.ts",
+          "language": "typescript",
+          "sizeLines": 11,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/stores/jt-download-store.ts",
+          "language": "typescript",
+          "sizeLines": 32,
+          "fileCategory": "code"
+        }
+      ],
+      "batchImportData": {
+        "src/app/(workspace)/bop/page.tsx": [
+          "src/components/bop/bop-property-panel.tsx",
+          "src/components/bop/bop-tree-grid.tsx",
+          "src/components/bop/bop-tree-utils.ts",
+          "src/components/bop/pert-dag-editor.tsx",
+          "src/components/ui/button.tsx",
+          "src/components/ui/dialog.tsx",
+          "src/components/ui/input.tsx",
+          "src/components/ui/label.tsx",
+          "src/components/ui/select.tsx",
+          "src/components/ui/table.tsx",
+          "src/components/ui/tabs.tsx",
+          "src/components/ui/textarea.tsx",
+          "src/hooks/use-bop.ts",
+          "src/hooks/use-collaboration.ts",
+          "src/lib/auth/session.ts",
+          "src/lib/domain/rules/bop-hierarchy.ts",
+          "src/lib/domain/services/bop-service.ts",
+          "src/lib/domain/types/index.ts",
+          "src/lib/workflow/workflow-service.ts",
+          "src/stores/workspace-store.ts"
+        ],
+        "src/app/(workspace)/planner/page.tsx": [
+          "src/components/bom-tree/bom-tree-grid.tsx",
+          "src/components/bop/bop-tree-grid.tsx",
+          "src/components/bop/bop-tree-utils.ts",
+          "src/components/planner/node-property-panel.tsx",
+          "src/components/planner/planner-flow-bridge.tsx",
+          "src/components/planner/planner-panel.tsx",
+          "src/components/ui/button.tsx",
+          "src/components/ui/tabs.tsx",
+          "src/components/viewer3d/jt-download-panel.tsx",
+          "src/hooks/use-bom-nodes.ts",
+          "src/hooks/use-bop.ts",
+          "src/hooks/use-collaboration.ts",
+          "src/lib/domain/rules/bop-hierarchy.ts",
+          "src/lib/domain/services/bop-service.ts",
+          "src/lib/domain/services/mbom-service.ts",
+          "src/lib/domain/types/index.ts",
+          "src/stores/workspace-store.ts"
+        ],
+        "src/app/admin/dictionaries/page.tsx": [
+          "src/components/ui/table.tsx",
+          "src/components/ui/tabs.tsx",
+          "src/hooks/use-dictionaries.ts",
+          "src/lib/domain/types/index.ts"
+        ],
+        "src/components/bom-tree/bom-drag-store.ts": [],
+        "src/components/bom-tree/bom-tree-grid-impl.tsx": [
+          "src/components/bom-tree/bom-drag-store.ts",
+          "src/components/bom-tree/bom-tree-grid.tsx",
+          "src/components/bom-tree/bom-tree-utils.ts",
+          "src/lib/ag-grid/setup.ts",
+          "src/lib/domain/types/index.ts"
+        ],
+        "src/components/bom-tree/bom-tree-utils.ts": [
+          "src/lib/domain/types/index.ts"
+        ],
+        "src/components/bop/bop-property-panel.tsx": [
+          "src/components/bop/bop-tree-utils.ts",
+          "src/components/ui/button.tsx",
+          "src/components/ui/card.tsx",
+          "src/lib/domain/services/bop-service.ts",
+          "src/lib/domain/types/index.ts"
+        ],
+        "src/components/bop/bop-tree-grid-impl.tsx": [
+          "src/components/bop/bop-tree-grid.tsx",
+          "src/components/bop/bop-tree-utils.ts",
+          "src/lib/ag-grid/setup.ts",
+          "src/lib/domain/types/index.ts"
+        ],
+        "src/components/bop/bop-tree-grid.tsx": [],
+        "src/components/bop/bop-tree-utils.ts": [
+          "src/lib/domain/types/index.ts"
+        ],
+        "src/components/bop/pert-dag-editor.tsx": [
+          "src/components/ui/button.tsx",
+          "src/lib/domain/rules/dag-validation.ts",
+          "src/lib/domain/types/index.ts"
+        ],
+        "src/components/planner/node-property-panel.tsx": [
+          "src/components/ui/card.tsx",
+          "src/lib/domain/types/index.ts"
+        ],
+        "src/components/planner/planner-flow-bridge.tsx": [],
+        "src/components/ui/tabs.tsx": [
+          "src/lib/utils.ts"
+        ],
+        "src/components/viewer3d/jt-download-panel.tsx": [
+          "src/components/ui/badge.tsx",
+          "src/components/ui/button.tsx",
+          "src/components/ui/table.tsx",
+          "src/lib/domain/services/jt-download-service.ts",
+          "src/lib/domain/types/index.ts",
+          "src/stores/jt-download-store.ts"
+        ],
+        "src/hooks/use-bop.ts": [
+          "src/lib/db/repositories/bop-repository.ts",
+          "src/lib/db/repositories/envelope-repository.ts"
+        ],
+        "src/hooks/use-dictionaries.ts": [
+          "src/lib/db/repositories/dictionary-repository.ts",
+          "src/lib/domain/types/index.ts"
+        ],
+        "src/lib/ag-grid/setup.ts": [],
+        "src/lib/db/repositories/envelope-repository.ts": [
+          "src/lib/db/repositories/base.ts",
+          "src/lib/db/schema.ts",
+          "src/lib/domain/types/index.ts"
+        ],
+        "src/lib/domain/rules/bop-hierarchy.ts": [
+          "src/lib/domain/types/index.ts"
+        ],
+        "src/lib/domain/rules/dag-validation.ts": [
+          "src/lib/domain/types/index.ts"
+        ],
+        "src/lib/domain/services/bop-service.ts": [
+          "src/lib/db/repositories/bop-repository.ts",
+          "src/lib/db/repositories/collaboration-repository.ts",
+          "src/lib/db/repositories/envelope-repository.ts",
+          "src/lib/domain/id-generator.ts",
+          "src/lib/domain/rules/bop-hierarchy.ts",
+          "src/lib/domain/rules/dag-validation.ts",
+          "src/lib/domain/services/operation-service.ts",
+          "src/lib/domain/types/index.ts"
+        ],
+        "src/lib/domain/services/change-summary-export.ts": [
+          "src/lib/domain/types/index.ts"
+        ],
+        "src/lib/domain/services/jt-download-service.ts": [
+          "src/stores/jt-download-store.ts"
+        ],
+        "src/lib/domain/services/process-card-export.ts": [
+          "src/lib/domain/types/index.ts"
+        ],
+        "src/lib/domain/types/index.ts": [],
+        "src/stores/jt-download-store.ts": []
+      },
+      "neighborMap": {
+        "src/app/(workspace)/bop/page.tsx": [
+          {
+            "path": "src/components/ui/button.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "Button",
+              "buttonVariants"
+            ]
+          },
+          {
+            "path": "src/components/ui/dialog.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "Dialog",
+              "DialogClose",
+              "DialogContent",
+              "DialogDescription",
+              "DialogFooter",
+              "DialogHeader",
+              "DialogOverlay",
+              "DialogPortal",
+              "DialogTitle",
+              "DialogTrigger"
+            ]
+          },
+          {
+            "path": "src/components/ui/input.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "Input"
+            ]
+          },
+          {
+            "path": "src/components/ui/label.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "Label"
+            ]
+          },
+          {
+            "path": "src/components/ui/select.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "Select",
+              "SelectContent",
+              "SelectGroup",
+              "SelectItem",
+              "SelectLabel",
+              "SelectScrollDownButton",
+              "SelectScrollUpButton",
+              "SelectSeparator",
+              "SelectTrigger",
+              "SelectValue"
+            ]
+          },
+          {
+            "path": "src/components/ui/table.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "Table",
+              "TableHeader",
+              "TableBody",
+              "TableRow",
+              "TableHead",
+              "TableCell"
+            ]
+          },
+          {
+            "path": "src/components/ui/textarea.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "Textarea"
+            ]
+          },
+          {
+            "path": "src/hooks/use-collaboration.ts",
+            "batchIndex": 1,
+            "symbols": [
+              "useCollaborations",
+              "useCollaboration"
+            ]
+          },
+          {
+            "path": "src/lib/auth/session.ts",
+            "batchIndex": 1,
+            "symbols": [
+              "createSession",
+              "getSession",
+              "clearSession",
+              "isAuthenticated"
+            ]
+          },
+          {
+            "path": "src/lib/workflow/workflow-service.ts",
+            "batchIndex": 7,
+            "symbols": [
+              "WorkflowGuardError",
+              "startApproval",
+              "transitionApproval",
+              "getInboxRecords",
+              "getHistoryRecords",
+              "getTemplate",
+              "listTemplates"
+            ]
+          },
+          {
+            "path": "src/stores/workspace-store.ts",
+            "batchIndex": 1,
+            "symbols": [
+              "useWorkspaceStore"
+            ]
+          }
+        ],
+        "src/app/(workspace)/planner/page.tsx": [
+          {
+            "path": "src/components/bom-tree/bom-tree-grid.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "BomTreeGrid"
+            ]
+          },
+          {
+            "path": "src/components/planner/planner-panel.tsx",
+            "batchIndex": 4,
+            "symbols": [
+              "PlannerPanel"
+            ]
+          },
+          {
+            "path": "src/components/ui/button.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "Button",
+              "buttonVariants"
+            ]
+          },
+          {
+            "path": "src/hooks/use-bom-nodes.ts",
+            "batchIndex": 6,
+            "symbols": [
+              "useEbomNodes",
+              "useEbomCount",
+              "useMbomNodes"
+            ]
+          },
+          {
+            "path": "src/hooks/use-collaboration.ts",
+            "batchIndex": 1,
+            "symbols": [
+              "useCollaborations",
+              "useCollaboration"
+            ]
+          },
+          {
+            "path": "src/lib/domain/services/mbom-service.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "initializeMbomRoot",
+              "addMbomFromEbomRef",
+              "createPhantomSemifinished",
+              "createPhantomGroup",
+              "moveMbomNode",
+              "getMbomTree"
+            ]
+          },
+          {
+            "path": "src/stores/workspace-store.ts",
+            "batchIndex": 1,
+            "symbols": [
+              "useWorkspaceStore"
+            ]
+          }
+        ],
+        "src/app/admin/dictionaries/page.tsx": [
+          {
+            "path": "src/components/ui/table.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "Table",
+              "TableHeader",
+              "TableBody",
+              "TableRow",
+              "TableHead",
+              "TableCell"
+            ]
+          }
+        ],
+        "src/components/bom-tree/bom-drag-store.ts": [
+          {
+            "path": "src/components/operation/operation-resource-panel.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "OperationResourcePanel"
+            ]
+          }
+        ],
+        "src/components/bom-tree/bom-tree-grid-impl.tsx": [
+          {
+            "path": "src/components/bom-tree/bom-tree-grid.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "BomTreeGrid"
+            ]
+          }
+        ],
+        "src/components/bop/bop-property-panel.tsx": [
+          {
+            "path": "src/components/ui/button.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "Button",
+              "buttonVariants"
+            ]
+          },
+          {
+            "path": "src/components/ui/card.tsx",
+            "batchIndex": 5,
+            "symbols": [
+              "Card",
+              "CardHeader",
+              "CardFooter",
+              "CardTitle",
+              "CardAction",
+              "CardDescription",
+              "CardContent"
+            ]
+          }
+        ],
+        "src/components/bop/pert-dag-editor.tsx": [
+          {
+            "path": "src/components/ui/button.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "Button",
+              "buttonVariants"
+            ]
+          }
+        ],
+        "src/components/planner/node-property-panel.tsx": [
+          {
+            "path": "src/components/ui/card.tsx",
+            "batchIndex": 5,
+            "symbols": [
+              "Card",
+              "CardHeader",
+              "CardFooter",
+              "CardTitle",
+              "CardAction",
+              "CardDescription",
+              "CardContent"
+            ]
+          }
+        ],
+        "src/components/ui/tabs.tsx": [
+          {
+            "path": "src/lib/utils.ts",
+            "batchIndex": 4,
+            "symbols": [
+              "cn"
+            ]
+          },
+          {
+            "path": "src/app/(workspace)/approval/page.tsx",
+            "batchIndex": 7,
+            "symbols": [
+              "ApprovalPage"
+            ]
+          },
+          {
+            "path": "src/app/(workspace)/change/page.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "ChangePage"
+            ]
+          },
+          {
+            "path": "src/app/(workspace)/copilot/page.tsx",
+            "batchIndex": 6,
+            "symbols": [
+              "CopilotPage"
+            ]
+          },
+          {
+            "path": "src/app/(workspace)/operation/page.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "OperationPage"
+            ]
+          },
+          {
+            "path": "src/app/(workspace)/resource/page.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "ResourcePage"
+            ]
+          },
+          {
+            "path": "src/app/(workspace)/summary/page.tsx",
+            "batchIndex": 2,
+            "symbols": [
+              "SummaryPage"
+            ]
+          }
+        ],
+        "src/components/viewer3d/jt-download-panel.tsx": [
+          {
+            "path": "src/components/ui/badge.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "Badge",
+              "badgeVariants"
+            ]
+          },
+          {
+            "path": "src/components/ui/button.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "Button",
+              "buttonVariants"
+            ]
+          },
+          {
+            "path": "src/components/ui/table.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "Table",
+              "TableHeader",
+              "TableBody",
+              "TableRow",
+              "TableHead",
+              "TableCell"
+            ]
+          }
+        ],
+        "src/hooks/use-bop.ts": [
+          {
+            "path": "src/lib/db/repositories/bop-repository.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "bopRepository",
+              "getBopNodes",
+              "getChildren",
+              "getBopSubtree"
+            ]
+          }
+        ],
+        "src/hooks/use-dictionaries.ts": [
+          {
+            "path": "src/lib/db/repositories/dictionary-repository.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "dictionaryRepository",
+              "getByCategory"
+            ]
+          },
+          {
+            "path": "src/app/(workspace)/page.tsx",
+            "batchIndex": 6,
+            "symbols": [
+              "DashboardPage"
+            ]
+          },
+          {
+            "path": "src/components/process-card/process-card-form.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "ProcessCardForm"
+            ]
+          }
+        ],
+        "src/lib/db/repositories/envelope-repository.ts": [
+          {
+            "path": "src/lib/db/repositories/base.ts",
+            "batchIndex": 2,
+            "symbols": []
+          },
+          {
+            "path": "src/lib/db/schema.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "MpmsDatabase",
+              "db"
+            ]
+          }
+        ],
+        "src/lib/domain/services/bop-service.ts": [
+          {
+            "path": "src/lib/db/repositories/bop-repository.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "bopRepository",
+              "getBopNodes",
+              "getChildren",
+              "getBopSubtree"
+            ]
+          },
+          {
+            "path": "src/lib/db/repositories/collaboration-repository.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "collaborationRepository"
+            ]
+          },
+          {
+            "path": "src/lib/domain/id-generator.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "nextBopCode",
+              "nextOperationCode",
+              "nextDocumentCode"
+            ]
+          },
+          {
+            "path": "src/lib/domain/services/operation-service.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "ensureOperationForBopNode",
+              "getOperationsForCollaboration",
+              "updateOperation",
+              "assignMbomItem",
+              "assignResource",
+              "removeConsumedItem",
+              "checkOperationAccountability"
+            ]
+          },
+          {
+            "path": "src/lib/ai/apd-import-commit.ts",
+            "batchIndex": 6,
+            "symbols": [
+              "commitApdImportRows"
+            ]
+          }
+        ],
+        "src/lib/domain/services/change-summary-export.ts": [
+          {
+            "path": "src/components/change/change-summary-panel.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "ChangeSummaryPanel"
+            ]
+          }
+        ],
+        "src/lib/domain/services/process-card-export.ts": [
+          {
+            "path": "src/app/(workspace)/operation/page.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "OperationPage"
+            ]
+          }
+        ],
+        "src/lib/domain/types/index.ts": [
+          {
+            "path": "src/app/(workspace)/operation/page.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "OperationPage"
+            ]
+          },
+          {
+            "path": "src/app/(workspace)/document/page.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "DocumentPage"
+            ]
+          },
+          {
+            "path": "src/lib/db/schema.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "MpmsDatabase",
+              "db"
+            ]
+          },
+          {
+            "path": "src/app/(workspace)/mbom/page.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "MbomPage"
+            ]
+          },
+          {
+            "path": "src/lib/workflow/workflow-service.ts",
+            "batchIndex": 7,
+            "symbols": [
+              "WorkflowGuardError",
+              "startApproval",
+              "transitionApproval",
+              "getInboxRecords",
+              "getHistoryRecords",
+              "getTemplate",
+              "listTemplates"
+            ]
+          },
+          {
+            "path": "src/components/process-card/process-card-form.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "ProcessCardForm"
+            ]
+          },
+          {
+            "path": "src/lib/db/repositories/bom-repository.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "bomRepository",
+              "getEbomNodes",
+              "countEbomNodes",
+              "getMbomNodes",
+              "getMbomSubtree"
+            ]
+          },
+          {
+            "path": "src/lib/db/repositories/bop-repository.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "bopRepository",
+              "getBopNodes",
+              "getChildren",
+              "getBopSubtree"
+            ]
+          },
+          {
+            "path": "src/lib/db/repositories/collaboration-repository.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "collaborationRepository"
+            ]
+          },
+          {
+            "path": "src/components/change/change-order-wizard.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "ChangeOrderWizard"
+            ]
+          },
+          {
+            "path": "src/app/(workspace)/approval/page.tsx",
+            "batchIndex": 7,
+            "symbols": [
+              "ApprovalPage"
+            ]
+          },
+          {
+            "path": "src/lib/db/repositories/operation-repository.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "operationRepository",
+              "getByBopNodeId",
+              "getByBopParentId",
+              "getAllForBopRoot"
+            ]
+          },
+          {
+            "path": "src/lib/domain/services/operation-service.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "ensureOperationForBopNode",
+              "getOperationsForCollaboration",
+              "updateOperation",
+              "assignMbomItem",
+              "assignResource",
+              "removeConsumedItem",
+              "checkOperationAccountability"
+            ]
+          },
+          {
+            "path": "src/app/(workspace)/resource/page.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "ResourcePage"
+            ]
+          },
+          {
+            "path": "src/components/operation/operation-resource-panel.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "OperationResourcePanel"
+            ]
+          },
+          {
+            "path": "src/lib/domain/services/process-summary-service.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "buildProcessSummary"
+            ]
+          },
+          {
+            "path": "src/components/change/change-summary-panel.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "ChangeSummaryPanel"
+            ]
+          },
+          {
+            "path": "src/components/resource/resource-table.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "ResourceTable",
+              "KIND_LABELS",
+              "isInLibrary"
+            ]
+          },
+          {
+            "path": "src/components/workflow/approval-actions.tsx",
+            "batchIndex": 7,
+            "symbols": [
+              "ApprovalActions"
+            ]
+          },
+          {
+            "path": "src/lib/ai/copilot-scenarios.ts",
+            "batchIndex": 6,
+            "symbols": [
+              "COPILOT_SCENARIO_IDS",
+              "COPILOT_SCENARIO_LABELS",
+              "runCopilotScenario",
+              "buildCopilotContext"
+            ]
+          },
+          {
+            "path": "src/lib/db/seed.ts",
+            "batchIndex": 9,
+            "symbols": [
+              "isSeeded",
+              "seedDatabase",
+              "ensureSeeded",
+              "resetToSeed"
+            ]
+          },
+          {
+            "path": "src/lib/domain/services/change-order-service.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "createChangeOrderDraft",
+              "computeChangeDiff",
+              "finalizeChangeOrder",
+              "submitChangeOrderApproval",
+              "getChangeOrders"
+            ]
+          },
+          {
+            "path": "src/lib/ai/apd-import-commit.ts",
+            "batchIndex": 6,
+            "symbols": [
+              "commitApdImportRows"
+            ]
+          },
+          {
+            "path": "src/lib/db/repositories/process-document-repository.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "processDocumentRepository",
+              "getByProductCode",
+              "getByLinkedObjectId"
+            ]
+          },
+          {
+            "path": "src/lib/db/repositories/resource-repository.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "resourceRepository"
+            ]
+          },
+          {
+            "path": "src/app/(workspace)/summary/page.tsx",
+            "batchIndex": 2,
+            "symbols": [
+              "SummaryPage"
+            ]
+          },
+          {
+            "path": "src/components/operation/operation-accountability.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "OperationAccountability"
+            ]
+          },
+          {
+            "path": "src/lib/domain/services/process-document-service.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "createProcessDocument",
+              "attachFile",
+              "getDocumentsGroupedByProduct"
+            ]
+          },
+          {
+            "path": "src/lib/db/repositories/approval-repository.ts",
+            "batchIndex": 7,
+            "symbols": [
+              "approvalRepository",
+              "getByTargetId",
+              "getActiveByTargetId"
+            ]
+          },
+          {
+            "path": "src/lib/db/repositories/change-order-repository.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "changeOrderRepository",
+              "getByCollaborationId"
+            ]
+          },
+          {
+            "path": "src/lib/db/repositories/document-file-repository.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "documentFileRepository"
+            ]
+          },
+          {
+            "path": "src/lib/domain/services/mbom-service.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "initializeMbomRoot",
+              "addMbomFromEbomRef",
+              "createPhantomSemifinished",
+              "createPhantomGroup",
+              "moveMbomNode",
+              "getMbomTree"
+            ]
+          },
+          {
+            "path": "src/lib/domain/services/resource-service.ts",
+            "batchIndex": 1,
+            "symbols": [
+              "createResource",
+              "updateResource",
+              "deleteResource",
+              "setInLibrary",
+              "searchResources",
+              "importResourcesFromExcel"
+            ]
+          },
+          {
+            "path": "src/components/workflow/approval-timeline.tsx",
+            "batchIndex": 7,
+            "symbols": [
+              "ApprovalTimeline"
+            ]
+          },
+          {
+            "path": "src/lib/db/repositories/app-meta-repository.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "appMetaRepository"
+            ]
+          },
+          {
+            "path": "src/lib/db/repositories/dictionary-repository.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "dictionaryRepository",
+              "getByCategory"
+            ]
+          },
+          {
+            "path": "src/lib/domain/rules/accountability-check.ts",
+            "batchIndex": 1,
+            "symbols": [
+              "checkAccountability"
+            ]
+          },
+          {
+            "path": "src/lib/domain/rules/mbom-constraints.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "validatePurchasedChildrenConstraint"
+            ]
+          },
+          {
+            "path": "src/components/planner/ebom-readonly-tree.tsx",
+            "batchIndex": 4,
+            "symbols": [
+              "EbomReadonlyTree"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "batchIndex": 4,
+      "files": [
+        {
+          "path": "src/app/(workspace)/layout.tsx",
+          "language": "typescript",
+          "sizeLines": 16,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/app/admin/layout.tsx",
+          "language": "typescript",
+          "sizeLines": 16,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/admin-shell.tsx",
+          "language": "typescript",
+          "sizeLines": 30,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/layout/app-header.tsx",
+          "language": "typescript",
+          "sizeLines": 80,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/layout/app-shell.tsx",
+          "language": "typescript",
+          "sizeLines": 18,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/layout/app-sidebar.tsx",
+          "language": "typescript",
+          "sizeLines": 181,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/layout/auth-guard.tsx",
+          "language": "typescript",
+          "sizeLines": 28,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/layout/sidebar-reveal-rail.tsx",
+          "language": "typescript",
+          "sizeLines": 41,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/layout/sidebar-toggle.tsx",
+          "language": "typescript",
+          "sizeLines": 40,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/planner/ebom-readonly-tree.tsx",
+          "language": "typescript",
+          "sizeLines": 99,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/planner/planner-panel.tsx",
+          "language": "typescript",
+          "sizeLines": 42,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/ui/avatar.tsx",
+          "language": "typescript",
+          "sizeLines": 109,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/ui/dropdown-menu.tsx",
+          "language": "typescript",
+          "sizeLines": 257,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/ui/scroll-area.tsx",
+          "language": "typescript",
+          "sizeLines": 55,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/ui/separator.tsx",
+          "language": "typescript",
+          "sizeLines": 28,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/ui/sheet.tsx",
+          "language": "typescript",
+          "sizeLines": 143,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/ui/switch.tsx",
+          "language": "typescript",
+          "sizeLines": 35,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/navigation.ts",
+          "language": "typescript",
+          "sizeLines": 52,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/utils.ts",
+          "language": "typescript",
+          "sizeLines": 6,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/stores/sidebar-store.ts",
+          "language": "typescript",
+          "sizeLines": 24,
+          "fileCategory": "code"
+        }
+      ],
+      "batchImportData": {
+        "src/app/(workspace)/layout.tsx": [
+          "src/components/layout/app-shell.tsx",
+          "src/components/layout/auth-guard.tsx"
+        ],
+        "src/app/admin/layout.tsx": [
+          "src/components/layout/app-shell.tsx",
+          "src/components/layout/auth-guard.tsx"
+        ],
+        "src/components/admin-shell.tsx": [
+          "src/components/ui/scroll-area.tsx"
+        ],
+        "src/components/layout/app-header.tsx": [
+          "src/components/layout/app-sidebar.tsx",
+          "src/components/layout/sidebar-toggle.tsx",
+          "src/components/theme/theme-toggle.tsx",
+          "src/components/ui/avatar.tsx",
+          "src/components/ui/button.tsx",
+          "src/components/ui/dropdown-menu.tsx",
+          "src/lib/auth/session.ts",
+          "src/stores/workspace-store.ts"
+        ],
+        "src/components/layout/app-shell.tsx": [
+          "src/components/layout/app-header.tsx",
+          "src/components/layout/app-sidebar.tsx",
+          "src/components/layout/sidebar-reveal-rail.tsx"
+        ],
+        "src/components/layout/app-sidebar.tsx": [
+          "src/components/ui/button.tsx",
+          "src/components/ui/scroll-area.tsx",
+          "src/components/ui/separator.tsx",
+          "src/components/ui/sheet.tsx",
+          "src/lib/navigation.ts",
+          "src/lib/utils.ts",
+          "src/stores/sidebar-store.ts"
+        ],
+        "src/components/layout/auth-guard.tsx": [
+          "src/lib/auth/session.ts"
+        ],
+        "src/components/layout/sidebar-reveal-rail.tsx": [
+          "src/lib/utils.ts",
+          "src/stores/sidebar-store.ts"
+        ],
+        "src/components/layout/sidebar-toggle.tsx": [
+          "src/components/ui/button.tsx",
+          "src/stores/sidebar-store.ts"
+        ],
+        "src/components/planner/ebom-readonly-tree.tsx": [
+          "src/components/ui/scroll-area.tsx",
+          "src/lib/domain/types/index.ts",
+          "src/lib/utils.ts"
+        ],
+        "src/components/planner/planner-panel.tsx": [
+          "src/lib/utils.ts"
+        ],
+        "src/components/ui/avatar.tsx": [
+          "src/lib/utils.ts"
+        ],
+        "src/components/ui/dropdown-menu.tsx": [
+          "src/lib/utils.ts"
+        ],
+        "src/components/ui/scroll-area.tsx": [
+          "src/lib/utils.ts"
+        ],
+        "src/components/ui/separator.tsx": [
+          "src/lib/utils.ts"
+        ],
+        "src/components/ui/sheet.tsx": [
+          "src/lib/utils.ts"
+        ],
+        "src/components/ui/switch.tsx": [
+          "src/lib/utils.ts"
+        ],
+        "src/lib/navigation.ts": [],
+        "src/lib/utils.ts": [],
+        "src/stores/sidebar-store.ts": []
+      },
+      "neighborMap": {
+        "src/components/layout/app-header.tsx": [
+          {
+            "path": "src/components/theme/theme-toggle.tsx",
+            "batchIndex": 9,
+            "symbols": [
+              "ThemeToggle"
+            ]
+          },
+          {
+            "path": "src/components/ui/button.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "Button",
+              "buttonVariants"
+            ]
+          },
+          {
+            "path": "src/lib/auth/session.ts",
+            "batchIndex": 1,
+            "symbols": [
+              "createSession",
+              "getSession",
+              "clearSession",
+              "isAuthenticated"
+            ]
+          },
+          {
+            "path": "src/stores/workspace-store.ts",
+            "batchIndex": 1,
+            "symbols": [
+              "useWorkspaceStore"
+            ]
+          }
+        ],
+        "src/components/layout/app-sidebar.tsx": [
+          {
+            "path": "src/components/ui/button.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "Button",
+              "buttonVariants"
+            ]
+          }
+        ],
+        "src/components/layout/auth-guard.tsx": [
+          {
+            "path": "src/lib/auth/session.ts",
+            "batchIndex": 1,
+            "symbols": [
+              "createSession",
+              "getSession",
+              "clearSession",
+              "isAuthenticated"
+            ]
+          }
+        ],
+        "src/components/layout/sidebar-toggle.tsx": [
+          {
+            "path": "src/components/ui/button.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "Button",
+              "buttonVariants"
+            ]
+          }
+        ],
+        "src/components/planner/ebom-readonly-tree.tsx": [
+          {
+            "path": "src/lib/domain/types/index.ts",
+            "batchIndex": 3,
+            "symbols": []
+          }
+        ],
+        "src/components/planner/planner-panel.tsx": [
+          {
+            "path": "src/app/(workspace)/planner/page.tsx",
+            "batchIndex": 3,
+            "symbols": [
+              "PlannerPage"
+            ]
+          }
+        ],
+        "src/components/ui/scroll-area.tsx": [
+          {
+            "path": "src/app/(workspace)/document/page.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "DocumentPage"
+            ]
+          },
+          {
+            "path": "src/app/(workspace)/operation/page.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "OperationPage"
+            ]
+          },
+          {
+            "path": "src/components/copilot/copilot-message-list.tsx",
+            "batchIndex": 6,
+            "symbols": [
+              "CopilotMessageList"
+            ]
+          }
+        ],
+        "src/components/ui/sheet.tsx": [
+          {
+            "path": "src/app/(workspace)/approval/page.tsx",
+            "batchIndex": 7,
+            "symbols": [
+              "ApprovalPage"
+            ]
+          }
+        ],
+        "src/components/ui/switch.tsx": [
+          {
+            "path": "src/components/process-card/process-card-form.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "ProcessCardForm"
+            ]
+          }
+        ],
+        "src/lib/utils.ts": [
+          {
+            "path": "src/components/copilot/copilot-command-input.tsx",
+            "batchIndex": 6,
+            "symbols": [
+              "CopilotCommandInput"
+            ]
+          },
+          {
+            "path": "src/components/copilot/copilot-message-list.tsx",
+            "batchIndex": 6,
+            "symbols": [
+              "CopilotMessageList"
+            ]
+          },
+          {
+            "path": "src/components/integration/integration-status-card.tsx",
+            "batchIndex": 5,
+            "symbols": [
+              "IntegrationStatusCard"
+            ]
+          },
+          {
+            "path": "src/components/ui/alert-dialog.tsx",
+            "batchIndex": 5,
+            "symbols": [
+              "AlertDialog",
+              "AlertDialogPortal",
+              "AlertDialogOverlay",
+              "AlertDialogTrigger",
+              "AlertDialogContent",
+              "AlertDialogHeader",
+              "AlertDialogFooter",
+              "AlertDialogTitle",
+              "AlertDialogDescription",
+              "AlertDialogAction",
+              "AlertDialogCancel"
+            ]
+          },
+          {
+            "path": "src/components/ui/alert.tsx",
+            "batchIndex": 5,
+            "symbols": [
+              "Alert",
+              "AlertTitle",
+              "AlertDescription"
+            ]
+          },
+          {
+            "path": "src/components/ui/badge.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "Badge",
+              "badgeVariants"
+            ]
+          },
+          {
+            "path": "src/components/ui/button.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "Button",
+              "buttonVariants"
+            ]
+          },
+          {
+            "path": "src/components/ui/card.tsx",
+            "batchIndex": 5,
+            "symbols": [
+              "Card",
+              "CardHeader",
+              "CardFooter",
+              "CardTitle",
+              "CardAction",
+              "CardDescription",
+              "CardContent"
+            ]
+          },
+          {
+            "path": "src/components/ui/checkbox.tsx",
+            "batchIndex": 6,
+            "symbols": [
+              "Checkbox"
+            ]
+          },
+          {
+            "path": "src/components/ui/dialog.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "Dialog",
+              "DialogClose",
+              "DialogContent",
+              "DialogDescription",
+              "DialogFooter",
+              "DialogHeader",
+              "DialogOverlay",
+              "DialogPortal",
+              "DialogTitle",
+              "DialogTrigger"
+            ]
+          },
+          {
+            "path": "src/components/ui/input.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "Input"
+            ]
+          },
+          {
+            "path": "src/components/ui/label.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "Label"
+            ]
+          },
+          {
+            "path": "src/components/ui/select.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "Select",
+              "SelectContent",
+              "SelectGroup",
+              "SelectItem",
+              "SelectLabel",
+              "SelectScrollDownButton",
+              "SelectScrollUpButton",
+              "SelectSeparator",
+              "SelectTrigger",
+              "SelectValue"
+            ]
+          },
+          {
+            "path": "src/components/ui/table.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "Table",
+              "TableHeader",
+              "TableBody",
+              "TableRow",
+              "TableHead",
+              "TableCell"
+            ]
+          },
+          {
+            "path": "src/components/ui/tabs.tsx",
+            "batchIndex": 3,
+            "symbols": [
+              "Tabs",
+              "TabsList",
+              "TabsTrigger",
+              "TabsContent",
+              "tabsListVariants"
+            ]
+          },
+          {
+            "path": "src/components/ui/textarea.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "Textarea"
+            ]
+          },
+          {
+            "path": "src/components/workflow/approval-timeline.tsx",
+            "batchIndex": 7,
+            "symbols": [
+              "ApprovalTimeline"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "batchIndex": 5,
+      "files": [
+        {
+          "path": "src/app/(workspace)/integration/page.tsx",
+          "language": "typescript",
+          "sizeLines": 132,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/app/(workspace)/settings/page.tsx",
+          "language": "typescript",
+          "sizeLines": 228,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/app/api/integration/erp/push/route.ts",
+          "language": "typescript",
+          "sizeLines": 25,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/app/api/integration/mes/push/route.ts",
+          "language": "typescript",
+          "sizeLines": 22,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/app/api/integration/teamcenter/ebom/route.ts",
+          "language": "typescript",
+          "sizeLines": 21,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/integration/integration-push-panel.tsx",
+          "language": "typescript",
+          "sizeLines": 116,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/integration/integration-status-card.tsx",
+          "language": "typescript",
+          "sizeLines": 44,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/ui/alert-dialog.tsx",
+          "language": "typescript",
+          "sizeLines": 148,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/ui/alert.tsx",
+          "language": "typescript",
+          "sizeLines": 60,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/ui/card.tsx",
+          "language": "typescript",
+          "sizeLines": 103,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/integration/config.ts",
+          "language": "typescript",
+          "sizeLines": 14,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/integration/erp-client.ts",
+          "language": "typescript",
+          "sizeLines": 58,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/integration/integration-service.ts",
+          "language": "typescript",
+          "sizeLines": 234,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/integration/mes-client.ts",
+          "language": "typescript",
+          "sizeLines": 58,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/integration/teamcenter-client.ts",
+          "language": "typescript",
+          "sizeLines": 71,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/integration/types.ts",
+          "language": "typescript",
+          "sizeLines": 67,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/stores/integration-store.ts",
+          "language": "typescript",
+          "sizeLines": 23,
+          "fileCategory": "code"
+        }
+      ],
+      "batchImportData": {
+        "src/app/(workspace)/integration/page.tsx": [
+          "src/components/integration/integration-log-table.tsx",
+          "src/components/integration/integration-push-panel.tsx",
+          "src/components/integration/integration-status-card.tsx",
+          "src/components/ui/badge.tsx",
+          "src/components/ui/button.tsx",
+          "src/components/ui/card.tsx",
+          "src/lib/db/export-import.ts",
+          "src/lib/integration/config.ts",
+          "src/lib/integration/integration-service.ts",
+          "src/stores/integration-store.ts",
+          "src/stores/workspace-store.ts"
+        ],
+        "src/app/(workspace)/settings/page.tsx": [
+          "src/components/ui/alert-dialog.tsx",
+          "src/components/ui/alert.tsx",
+          "src/components/ui/button.tsx",
+          "src/components/ui/card.tsx",
+          "src/lib/db/export-import.ts",
+          "src/lib/db/seed.ts",
+          "src/stores/workspace-store.ts"
+        ],
+        "src/app/api/integration/erp/push/route.ts": [
+          "src/lib/integration/integration-service.ts"
+        ],
+        "src/app/api/integration/mes/push/route.ts": [
+          "src/lib/integration/integration-service.ts"
+        ],
+        "src/app/api/integration/teamcenter/ebom/route.ts": [
+          "src/lib/integration/integration-service.ts"
+        ],
+        "src/components/integration/integration-push-panel.tsx": [
+          "src/components/ui/alert.tsx",
+          "src/components/ui/button.tsx",
+          "src/components/ui/card.tsx",
+          "src/lib/integration/integration-service.ts",
+          "src/stores/integration-store.ts"
+        ],
+        "src/components/integration/integration-status-card.tsx": [
+          "src/components/ui/badge.tsx",
+          "src/components/ui/card.tsx",
+          "src/lib/integration/config.ts",
+          "src/lib/utils.ts"
+        ],
+        "src/components/ui/alert-dialog.tsx": [
+          "src/components/ui/button.tsx",
+          "src/lib/utils.ts"
+        ],
+        "src/components/ui/alert.tsx": [
+          "src/lib/utils.ts"
+        ],
+        "src/components/ui/card.tsx": [
+          "src/lib/utils.ts"
+        ],
+        "src/lib/integration/config.ts": [],
+        "src/lib/integration/erp-client.ts": [
+          "src/lib/integration/config.ts",
+          "src/lib/integration/types.ts"
+        ],
+        "src/lib/integration/integration-service.ts": [
+          "src/lib/db/repositories/bom-repository.ts",
+          "src/lib/db/repositories/bop-repository.ts",
+          "src/lib/db/repositories/collaboration-repository.ts",
+          "src/lib/db/repositories/operation-repository.ts",
+          "src/lib/domain/services/process-summary-service.ts",
+          "src/lib/integration/erp-client.ts",
+          "src/lib/integration/mes-client.ts",
+          "src/lib/integration/teamcenter-client.ts",
+          "src/lib/integration/types.ts"
+        ],
+        "src/lib/integration/mes-client.ts": [
+          "src/lib/integration/config.ts",
+          "src/lib/integration/types.ts"
+        ],
+        "src/lib/integration/teamcenter-client.ts": [
+          "src/lib/integration/config.ts",
+          "src/lib/integration/types.ts"
+        ],
+        "src/lib/integration/types.ts": [],
+        "src/stores/integration-store.ts": [
+          "src/lib/integration/types.ts"
+        ]
+      },
+      "neighborMap": {
+        "src/app/(workspace)/integration/page.tsx": [
+          {
+            "path": "src/components/integration/integration-log-table.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "IntegrationLogTable"
+            ]
+          },
+          {
+            "path": "src/components/ui/badge.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "Badge",
+              "badgeVariants"
+            ]
+          },
+          {
+            "path": "src/components/ui/button.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "Button",
+              "buttonVariants"
+            ]
+          },
+          {
+            "path": "src/lib/db/export-import.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "exportDatabase",
+              "exportCollaborationHandoff",
+              "downloadJson",
+              "importDatabase",
+              "getTableCounts"
+            ]
+          },
+          {
+            "path": "src/stores/workspace-store.ts",
+            "batchIndex": 1,
+            "symbols": [
+              "useWorkspaceStore"
+            ]
+          }
+        ],
+        "src/app/(workspace)/settings/page.tsx": [
+          {
+            "path": "src/components/ui/button.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "Button",
+              "buttonVariants"
+            ]
+          },
+          {
+            "path": "src/lib/db/export-import.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "exportDatabase",
+              "exportCollaborationHandoff",
+              "downloadJson",
+              "importDatabase",
+              "getTableCounts"
+            ]
+          },
+          {
+            "path": "src/lib/db/seed.ts",
+            "batchIndex": 9,
+            "symbols": [
+              "isSeeded",
+              "seedDatabase",
+              "ensureSeeded",
+              "resetToSeed"
+            ]
+          },
+          {
+            "path": "src/stores/workspace-store.ts",
+            "batchIndex": 1,
+            "symbols": [
+              "useWorkspaceStore"
+            ]
+          }
+        ],
+        "src/components/integration/integration-push-panel.tsx": [
+          {
+            "path": "src/components/ui/button.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "Button",
+              "buttonVariants"
+            ]
+          }
+        ],
+        "src/components/integration/integration-status-card.tsx": [
+          {
+            "path": "src/components/ui/badge.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "Badge",
+              "badgeVariants"
+            ]
+          },
+          {
+            "path": "src/lib/utils.ts",
+            "batchIndex": 4,
+            "symbols": [
+              "cn"
+            ]
+          }
+        ],
+        "src/components/ui/alert-dialog.tsx": [
+          {
+            "path": "src/components/ui/button.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "Button",
+              "buttonVariants"
+            ]
+          },
+          {
+            "path": "src/lib/utils.ts",
+            "batchIndex": 4,
+            "symbols": [
+              "cn"
+            ]
+          }
+        ],
+        "src/components/ui/alert.tsx": [
+          {
+            "path": "src/lib/utils.ts",
+            "batchIndex": 4,
+            "symbols": [
+              "cn"
+            ]
+          },
+          {
+            "path": "src/components/copilot/apd-import-wizard.tsx",
+            "batchIndex": 6,
+            "symbols": [
+              "ApdImportWizard"
+            ]
+          },
+          {
+            "path": "src/components/workflow/approval-actions.tsx",
+            "batchIndex": 7,
+            "symbols": [
+              "ApprovalActions"
+            ]
+          }
+        ],
+        "src/components/ui/card.tsx": [
+          {
+            "path": "src/lib/utils.ts",
+            "batchIndex": 4,
+            "symbols": [
+              "cn"
+            ]
+          },
+          {
+            "path": "src/app/(workspace)/mbom/page.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "MbomPage"
+            ]
+          },
+          {
+            "path": "src/app/(workspace)/page.tsx",
+            "batchIndex": 6,
+            "symbols": [
+              "DashboardPage"
+            ]
+          },
+          {
+            "path": "src/components/bop/bop-property-panel.tsx",
+            "batchIndex": 3,
+            "symbols": [
+              "BopPropertyPanel"
+            ]
+          },
+          {
+            "path": "src/components/change/change-order-wizard.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "ChangeOrderWizard"
+            ]
+          },
+          {
+            "path": "src/components/onlyoffice/onlyoffice-editor.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "OnlyOfficeEditor"
+            ]
+          },
+          {
+            "path": "src/components/planner/node-property-panel.tsx",
+            "batchIndex": 3,
+            "symbols": [
+              "NodePropertyPanel"
+            ]
+          },
+          {
+            "path": "src/components/process-card/process-card-form.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "ProcessCardForm"
+            ]
+          }
+        ],
+        "src/lib/integration/integration-service.ts": [
+          {
+            "path": "src/lib/db/repositories/bom-repository.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "bomRepository",
+              "getEbomNodes",
+              "countEbomNodes",
+              "getMbomNodes",
+              "getMbomSubtree"
+            ]
+          },
+          {
+            "path": "src/lib/db/repositories/bop-repository.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "bopRepository",
+              "getBopNodes",
+              "getChildren",
+              "getBopSubtree"
+            ]
+          },
+          {
+            "path": "src/lib/db/repositories/collaboration-repository.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "collaborationRepository"
+            ]
+          },
+          {
+            "path": "src/lib/db/repositories/operation-repository.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "operationRepository",
+              "getByBopNodeId",
+              "getByBopParentId",
+              "getAllForBopRoot"
+            ]
+          },
+          {
+            "path": "src/lib/domain/services/process-summary-service.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "buildProcessSummary"
+            ]
+          }
+        ],
+        "src/lib/integration/types.ts": [
+          {
+            "path": "src/components/integration/integration-log-table.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "IntegrationLogTable"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "batchIndex": 6,
+      "files": [
+        {
+          "path": "src/app/(workspace)/copilot/page.tsx",
+          "language": "typescript",
+          "sizeLines": 205,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/app/(workspace)/page.tsx",
+          "language": "typescript",
+          "sizeLines": 49,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/copilot/apd-import-wizard.tsx",
+          "language": "typescript",
+          "sizeLines": 208,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/copilot/copilot-command-input.tsx",
+          "language": "typescript",
+          "sizeLines": 82,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/copilot/copilot-message-list.tsx",
+          "language": "typescript",
+          "sizeLines": 83,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/ui/checkbox.tsx",
+          "language": "typescript",
+          "sizeLines": 32,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/hooks/use-app-meta.ts",
+          "language": "typescript",
+          "sizeLines": 9,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/hooks/use-bom-nodes.ts",
+          "language": "typescript",
+          "sizeLines": 22,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/ai/apd-import-commit.ts",
+          "language": "typescript",
+          "sizeLines": 120,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/ai/apd-import-parser.ts",
+          "language": "typescript",
+          "sizeLines": 149,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/ai/copilot-scenarios.ts",
+          "language": "typescript",
+          "sizeLines": 236,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/ai/llm-client.ts",
+          "language": "typescript",
+          "sizeLines": 57,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/stores/copilot-store.ts",
+          "language": "typescript",
+          "sizeLines": 37,
+          "fileCategory": "code"
+        }
+      ],
+      "batchImportData": {
+        "src/app/(workspace)/copilot/page.tsx": [
+          "src/components/copilot/apd-import-wizard.tsx",
+          "src/components/copilot/copilot-command-input.tsx",
+          "src/components/copilot/copilot-message-list.tsx",
+          "src/components/ui/badge.tsx",
+          "src/components/ui/button.tsx",
+          "src/components/ui/tabs.tsx",
+          "src/hooks/use-bom-nodes.ts",
+          "src/hooks/use-collaboration.ts",
+          "src/lib/ai/copilot-scenarios.ts",
+          "src/lib/ai/llm-client.ts",
+          "src/stores/copilot-store.ts",
+          "src/stores/workspace-store.ts"
+        ],
+        "src/app/(workspace)/page.tsx": [
+          "src/components/ui/button.tsx",
+          "src/components/ui/card.tsx",
+          "src/hooks/use-app-meta.ts",
+          "src/hooks/use-bom-nodes.ts",
+          "src/hooks/use-collaboration.ts",
+          "src/hooks/use-dictionaries.ts"
+        ],
+        "src/components/copilot/apd-import-wizard.tsx": [
+          "src/components/ui/alert.tsx",
+          "src/components/ui/badge.tsx",
+          "src/components/ui/button.tsx",
+          "src/components/ui/checkbox.tsx",
+          "src/components/ui/table.tsx",
+          "src/lib/ai/apd-import-commit.ts",
+          "src/lib/ai/apd-import-parser.ts"
+        ],
+        "src/components/copilot/copilot-command-input.tsx": [
+          "src/components/ui/button.tsx",
+          "src/components/ui/textarea.tsx",
+          "src/lib/ai/copilot-scenarios.ts",
+          "src/lib/utils.ts"
+        ],
+        "src/components/copilot/copilot-message-list.tsx": [
+          "src/components/ui/badge.tsx",
+          "src/components/ui/scroll-area.tsx",
+          "src/lib/ai/copilot-scenarios.ts",
+          "src/lib/utils.ts",
+          "src/stores/copilot-store.ts"
+        ],
+        "src/components/ui/checkbox.tsx": [
+          "src/lib/utils.ts"
+        ],
+        "src/hooks/use-app-meta.ts": [
+          "src/lib/db/repositories/app-meta-repository.ts"
+        ],
+        "src/hooks/use-bom-nodes.ts": [
+          "src/lib/db/repositories/bom-repository.ts"
+        ],
+        "src/lib/ai/apd-import-commit.ts": [
+          "src/lib/ai/apd-import-parser.ts",
+          "src/lib/db/repositories/bop-repository.ts",
+          "src/lib/db/repositories/collaboration-repository.ts",
+          "src/lib/domain/services/bop-service.ts",
+          "src/lib/domain/services/resource-service.ts",
+          "src/lib/domain/types/index.ts"
+        ],
+        "src/lib/ai/apd-import-parser.ts": [
+          "src/lib/ai/llm-client.ts"
+        ],
+        "src/lib/ai/copilot-scenarios.ts": [
+          "src/lib/domain/rules/accountability-check.ts",
+          "src/lib/domain/rules/mbom-constraints.ts",
+          "src/lib/domain/services/operation-service.ts",
+          "src/lib/domain/types/index.ts"
+        ],
+        "src/lib/ai/llm-client.ts": [],
+        "src/stores/copilot-store.ts": [
+          "src/lib/ai/copilot-scenarios.ts"
+        ]
+      },
+      "neighborMap": {
+        "src/app/(workspace)/copilot/page.tsx": [
+          {
+            "path": "src/components/ui/badge.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "Badge",
+              "badgeVariants"
+            ]
+          },
+          {
+            "path": "src/components/ui/button.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "Button",
+              "buttonVariants"
+            ]
+          },
+          {
+            "path": "src/components/ui/tabs.tsx",
+            "batchIndex": 3,
+            "symbols": [
+              "Tabs",
+              "TabsList",
+              "TabsTrigger",
+              "TabsContent",
+              "tabsListVariants"
+            ]
+          },
+          {
+            "path": "src/hooks/use-collaboration.ts",
+            "batchIndex": 1,
+            "symbols": [
+              "useCollaborations",
+              "useCollaboration"
+            ]
+          },
+          {
+            "path": "src/stores/workspace-store.ts",
+            "batchIndex": 1,
+            "symbols": [
+              "useWorkspaceStore"
+            ]
+          }
+        ],
+        "src/app/(workspace)/page.tsx": [
+          {
+            "path": "src/components/ui/button.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "Button",
+              "buttonVariants"
+            ]
+          },
+          {
+            "path": "src/components/ui/card.tsx",
+            "batchIndex": 5,
+            "symbols": [
+              "Card",
+              "CardHeader",
+              "CardFooter",
+              "CardTitle",
+              "CardAction",
+              "CardDescription",
+              "CardContent"
+            ]
+          },
+          {
+            "path": "src/hooks/use-collaboration.ts",
+            "batchIndex": 1,
+            "symbols": [
+              "useCollaborations",
+              "useCollaboration"
+            ]
+          },
+          {
+            "path": "src/hooks/use-dictionaries.ts",
+            "batchIndex": 3,
+            "symbols": [
+              "useDictionaries",
+              "useDictionariesByCategory"
+            ]
+          }
+        ],
+        "src/components/copilot/apd-import-wizard.tsx": [
+          {
+            "path": "src/components/ui/alert.tsx",
+            "batchIndex": 5,
+            "symbols": [
+              "Alert",
+              "AlertTitle",
+              "AlertDescription"
+            ]
+          },
+          {
+            "path": "src/components/ui/badge.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "Badge",
+              "badgeVariants"
+            ]
+          },
+          {
+            "path": "src/components/ui/button.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "Button",
+              "buttonVariants"
+            ]
+          },
+          {
+            "path": "src/components/ui/table.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "Table",
+              "TableHeader",
+              "TableBody",
+              "TableRow",
+              "TableHead",
+              "TableCell"
+            ]
+          }
+        ],
+        "src/components/copilot/copilot-command-input.tsx": [
+          {
+            "path": "src/components/ui/button.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "Button",
+              "buttonVariants"
+            ]
+          },
+          {
+            "path": "src/components/ui/textarea.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "Textarea"
+            ]
+          },
+          {
+            "path": "src/lib/utils.ts",
+            "batchIndex": 4,
+            "symbols": [
+              "cn"
+            ]
+          }
+        ],
+        "src/components/copilot/copilot-message-list.tsx": [
+          {
+            "path": "src/components/ui/badge.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "Badge",
+              "badgeVariants"
+            ]
+          },
+          {
+            "path": "src/components/ui/scroll-area.tsx",
+            "batchIndex": 4,
+            "symbols": [
+              "ScrollArea",
+              "ScrollBar"
+            ]
+          },
+          {
+            "path": "src/lib/utils.ts",
+            "batchIndex": 4,
+            "symbols": [
+              "cn"
+            ]
+          }
+        ],
+        "src/components/ui/checkbox.tsx": [
+          {
+            "path": "src/lib/utils.ts",
+            "batchIndex": 4,
+            "symbols": [
+              "cn"
+            ]
+          },
+          {
+            "path": "src/components/process-card/process-card-form.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "ProcessCardForm"
+            ]
+          },
+          {
+            "path": "src/components/resource/resource-table.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "ResourceTable",
+              "KIND_LABELS",
+              "isInLibrary"
+            ]
+          }
+        ],
+        "src/hooks/use-app-meta.ts": [
+          {
+            "path": "src/lib/db/repositories/app-meta-repository.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "appMetaRepository"
+            ]
+          }
+        ],
+        "src/hooks/use-bom-nodes.ts": [
+          {
+            "path": "src/lib/db/repositories/bom-repository.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "bomRepository",
+              "getEbomNodes",
+              "countEbomNodes",
+              "getMbomNodes",
+              "getMbomSubtree"
+            ]
+          },
+          {
+            "path": "src/app/(workspace)/mbom/page.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "MbomPage"
+            ]
+          },
+          {
+            "path": "src/app/(workspace)/operation/page.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "OperationPage"
+            ]
+          },
+          {
+            "path": "src/app/(workspace)/planner/page.tsx",
+            "batchIndex": 3,
+            "symbols": [
+              "PlannerPage"
+            ]
+          }
+        ],
+        "src/lib/ai/apd-import-commit.ts": [
+          {
+            "path": "src/lib/db/repositories/bop-repository.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "bopRepository",
+              "getBopNodes",
+              "getChildren",
+              "getBopSubtree"
+            ]
+          },
+          {
+            "path": "src/lib/db/repositories/collaboration-repository.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "collaborationRepository"
+            ]
+          },
+          {
+            "path": "src/lib/domain/services/bop-service.ts",
+            "batchIndex": 3,
+            "symbols": [
+              "initializeBopRoot",
+              "createBopChild",
+              "updateBopNode",
+              "deleteBopNode",
+              "updatePertDag",
+              "syncPertDagFromChildren",
+              "releaseBopNode",
+              "sendEnvelope",
+              "getBopTree"
+            ]
+          },
+          {
+            "path": "src/lib/domain/services/resource-service.ts",
+            "batchIndex": 1,
+            "symbols": [
+              "createResource",
+              "updateResource",
+              "deleteResource",
+              "setInLibrary",
+              "searchResources",
+              "importResourcesFromExcel"
+            ]
+          },
+          {
+            "path": "src/lib/domain/types/index.ts",
+            "batchIndex": 3,
+            "symbols": []
+          }
+        ],
+        "src/lib/ai/copilot-scenarios.ts": [
+          {
+            "path": "src/lib/domain/rules/accountability-check.ts",
+            "batchIndex": 1,
+            "symbols": [
+              "checkAccountability"
+            ]
+          },
+          {
+            "path": "src/lib/domain/rules/mbom-constraints.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "validatePurchasedChildrenConstraint"
+            ]
+          },
+          {
+            "path": "src/lib/domain/services/operation-service.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "ensureOperationForBopNode",
+              "getOperationsForCollaboration",
+              "updateOperation",
+              "assignMbomItem",
+              "assignResource",
+              "removeConsumedItem",
+              "checkOperationAccountability"
+            ]
+          },
+          {
+            "path": "src/lib/domain/types/index.ts",
+            "batchIndex": 3,
+            "symbols": []
+          }
+        ]
+      }
+    },
+    {
+      "batchIndex": 7,
+      "files": [
+        {
+          "path": "src/app/(workspace)/approval/page.tsx",
+          "language": "typescript",
+          "sizeLines": 178,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/workflow/approval-actions.tsx",
+          "language": "typescript",
+          "sizeLines": 94,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/workflow/approval-timeline.tsx",
+          "language": "typescript",
+          "sizeLines": 89,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/hooks/use-approvals.ts",
+          "language": "typescript",
+          "sizeLines": 61,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/db/repositories/approval-repository.ts",
+          "language": "typescript",
+          "sizeLines": 34,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/workflow/machines.ts",
+          "language": "typescript",
+          "sizeLines": 59,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/workflow/templates.ts",
+          "language": "typescript",
+          "sizeLines": 125,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/workflow/workflow-service.ts",
+          "language": "typescript",
+          "sizeLines": 183,
+          "fileCategory": "code"
+        }
+      ],
+      "batchImportData": {
+        "src/app/(workspace)/approval/page.tsx": [
+          "src/components/ui/badge.tsx",
+          "src/components/ui/button.tsx",
+          "src/components/ui/sheet.tsx",
+          "src/components/ui/table.tsx",
+          "src/components/ui/tabs.tsx",
+          "src/components/workflow/approval-actions.tsx",
+          "src/components/workflow/approval-timeline.tsx",
+          "src/hooks/use-approvals.ts",
+          "src/lib/auth/session.ts",
+          "src/lib/domain/types/index.ts",
+          "src/lib/workflow/templates.ts"
+        ],
+        "src/components/workflow/approval-actions.tsx": [
+          "src/components/ui/alert.tsx",
+          "src/components/ui/button.tsx",
+          "src/components/ui/label.tsx",
+          "src/components/ui/textarea.tsx",
+          "src/hooks/use-approvals.ts",
+          "src/lib/domain/types/index.ts",
+          "src/lib/workflow/templates.ts",
+          "src/lib/workflow/workflow-service.ts"
+        ],
+        "src/components/workflow/approval-timeline.tsx": [
+          "src/lib/domain/types/index.ts",
+          "src/lib/utils.ts",
+          "src/lib/workflow/templates.ts"
+        ],
+        "src/hooks/use-approvals.ts": [
+          "src/lib/db/repositories/approval-repository.ts",
+          "src/lib/workflow/workflow-service.ts"
+        ],
+        "src/lib/db/repositories/approval-repository.ts": [
+          "src/lib/db/repositories/base.ts",
+          "src/lib/db/schema.ts",
+          "src/lib/domain/types/index.ts"
+        ],
+        "src/lib/workflow/machines.ts": [
+          "src/lib/workflow/templates.ts"
+        ],
+        "src/lib/workflow/templates.ts": [],
+        "src/lib/workflow/workflow-service.ts": [
+          "src/lib/db/repositories/approval-repository.ts",
+          "src/lib/db/repositories/bom-repository.ts",
+          "src/lib/db/repositories/bop-repository.ts",
+          "src/lib/db/repositories/change-order-repository.ts",
+          "src/lib/db/repositories/process-document-repository.ts",
+          "src/lib/domain/types/index.ts",
+          "src/lib/workflow/guards.ts",
+          "src/lib/workflow/machines.ts",
+          "src/lib/workflow/templates.ts"
+        ]
+      },
+      "neighborMap": {
+        "src/app/(workspace)/approval/page.tsx": [
+          {
+            "path": "src/components/ui/badge.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "Badge",
+              "badgeVariants"
+            ]
+          },
+          {
+            "path": "src/components/ui/button.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "Button",
+              "buttonVariants"
+            ]
+          },
+          {
+            "path": "src/components/ui/sheet.tsx",
+            "batchIndex": 4,
+            "symbols": [
+              "Sheet",
+              "SheetTrigger",
+              "SheetClose",
+              "SheetContent",
+              "SheetHeader",
+              "SheetFooter",
+              "SheetTitle",
+              "SheetDescription"
+            ]
+          },
+          {
+            "path": "src/components/ui/table.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "Table",
+              "TableHeader",
+              "TableBody",
+              "TableRow",
+              "TableHead",
+              "TableCell"
+            ]
+          },
+          {
+            "path": "src/components/ui/tabs.tsx",
+            "batchIndex": 3,
+            "symbols": [
+              "Tabs",
+              "TabsList",
+              "TabsTrigger",
+              "TabsContent",
+              "tabsListVariants"
+            ]
+          },
+          {
+            "path": "src/lib/auth/session.ts",
+            "batchIndex": 1,
+            "symbols": [
+              "createSession",
+              "getSession",
+              "clearSession",
+              "isAuthenticated"
+            ]
+          },
+          {
+            "path": "src/lib/domain/types/index.ts",
+            "batchIndex": 3,
+            "symbols": []
+          }
+        ],
+        "src/components/workflow/approval-actions.tsx": [
+          {
+            "path": "src/components/ui/alert.tsx",
+            "batchIndex": 5,
+            "symbols": [
+              "Alert",
+              "AlertTitle",
+              "AlertDescription"
+            ]
+          },
+          {
+            "path": "src/components/ui/button.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "Button",
+              "buttonVariants"
+            ]
+          },
+          {
+            "path": "src/components/ui/label.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "Label"
+            ]
+          },
+          {
+            "path": "src/components/ui/textarea.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "Textarea"
+            ]
+          },
+          {
+            "path": "src/lib/domain/types/index.ts",
+            "batchIndex": 3,
+            "symbols": []
+          }
+        ],
+        "src/components/workflow/approval-timeline.tsx": [
+          {
+            "path": "src/lib/domain/types/index.ts",
+            "batchIndex": 3,
+            "symbols": []
+          },
+          {
+            "path": "src/lib/utils.ts",
+            "batchIndex": 4,
+            "symbols": [
+              "cn"
+            ]
+          }
+        ],
+        "src/lib/db/repositories/approval-repository.ts": [
+          {
+            "path": "src/lib/db/repositories/base.ts",
+            "batchIndex": 2,
+            "symbols": []
+          },
+          {
+            "path": "src/lib/db/schema.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "MpmsDatabase",
+              "db"
+            ]
+          },
+          {
+            "path": "src/lib/domain/types/index.ts",
+            "batchIndex": 3,
+            "symbols": []
+          }
+        ],
+        "src/lib/workflow/templates.ts": [
+          {
+            "path": "src/app/admin/workflow-templates/page.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "AdminWorkflowTemplatesPage"
+            ]
+          }
+        ],
+        "src/lib/workflow/workflow-service.ts": [
+          {
+            "path": "src/lib/db/repositories/bom-repository.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "bomRepository",
+              "getEbomNodes",
+              "countEbomNodes",
+              "getMbomNodes",
+              "getMbomSubtree"
+            ]
+          },
+          {
+            "path": "src/lib/db/repositories/bop-repository.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "bopRepository",
+              "getBopNodes",
+              "getChildren",
+              "getBopSubtree"
+            ]
+          },
+          {
+            "path": "src/lib/db/repositories/change-order-repository.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "changeOrderRepository",
+              "getByCollaborationId"
+            ]
+          },
+          {
+            "path": "src/lib/db/repositories/process-document-repository.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "processDocumentRepository",
+              "getByProductCode",
+              "getByLinkedObjectId"
+            ]
+          },
+          {
+            "path": "src/lib/domain/types/index.ts",
+            "batchIndex": 3,
+            "symbols": []
+          },
+          {
+            "path": "src/lib/workflow/guards.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "validateMbomBopApproval"
+            ]
+          },
+          {
+            "path": "src/app/(workspace)/bop/page.tsx",
+            "batchIndex": 3,
+            "symbols": [
+              "BopPage"
+            ]
+          },
+          {
+            "path": "src/app/(workspace)/mbom/page.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "MbomPage"
+            ]
+          },
+          {
+            "path": "src/lib/domain/services/change-order-service.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "createChangeOrderDraft",
+              "computeChangeDiff",
+              "finalizeChangeOrder",
+              "submitChangeOrderApproval",
+              "getChangeOrders"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "batchIndex": 8,
+      "files": [
+        {
+          "path": "src/lib/domain/types/approval.ts",
+          "language": "typescript",
+          "sizeLines": 10,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/domain/types/bom.ts",
+          "language": "typescript",
+          "sizeLines": 35,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/domain/types/bop.ts",
+          "language": "typescript",
+          "sizeLines": 20,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/domain/types/change-order.ts",
+          "language": "typescript",
+          "sizeLines": 31,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/domain/types/operation.ts",
+          "language": "typescript",
+          "sizeLines": 42,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/domain/types/process-document.ts",
+          "language": "typescript",
+          "sizeLines": 26,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/domain/types/resource.ts",
+          "language": "typescript",
+          "sizeLines": 17,
+          "fileCategory": "code"
+        }
+      ],
+      "batchImportData": {
+        "src/lib/domain/types/approval.ts": [
+          "src/lib/domain/types/bom.ts"
+        ],
+        "src/lib/domain/types/bom.ts": [],
+        "src/lib/domain/types/bop.ts": [
+          "src/lib/domain/types/bom.ts"
+        ],
+        "src/lib/domain/types/change-order.ts": [
+          "src/lib/domain/types/bom.ts"
+        ],
+        "src/lib/domain/types/operation.ts": [
+          "src/lib/domain/types/bom.ts"
+        ],
+        "src/lib/domain/types/process-document.ts": [
+          "src/lib/domain/types/bom.ts"
+        ],
+        "src/lib/domain/types/resource.ts": [
+          "src/lib/domain/types/bom.ts"
+        ]
+      },
+      "neighborMap": {}
+    },
+    {
+      "batchIndex": 9,
+      "files": [
+        {
+          "path": "src/app/layout.tsx",
+          "language": "typescript",
+          "sizeLines": 44,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/providers/app-providers.tsx",
+          "language": "typescript",
+          "sizeLines": 39,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/theme/theme-provider.tsx",
+          "language": "typescript",
+          "sizeLines": 85,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/theme/theme-toggle.tsx",
+          "language": "typescript",
+          "sizeLines": 30,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/ui/sonner.tsx",
+          "language": "typescript",
+          "sizeLines": 40,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/db/seed.ts",
+          "language": "typescript",
+          "sizeLines": 77,
+          "fileCategory": "code"
+        }
+      ],
+      "batchImportData": {
+        "src/app/layout.tsx": [
+          "src/app/globals.css",
+          "src/components/providers/app-providers.tsx"
+        ],
+        "src/components/providers/app-providers.tsx": [
+          "src/components/theme/theme-provider.tsx",
+          "src/components/ui/sonner.tsx",
+          "src/lib/db/seed.ts"
+        ],
+        "src/components/theme/theme-provider.tsx": [],
+        "src/components/theme/theme-toggle.tsx": [
+          "src/components/theme/theme-provider.tsx",
+          "src/components/ui/button.tsx"
+        ],
+        "src/components/ui/sonner.tsx": [
+          "src/components/theme/theme-provider.tsx"
+        ],
+        "src/lib/db/seed.ts": [
+          "src/lib/db/schema.ts",
+          "src/lib/domain/types/index.ts",
+          "src/lib/mock/collaboration.json",
+          "src/lib/mock/dictionaries.json",
+          "src/lib/mock/seed-ebom.json",
+          "src/lib/mock/seed-resources.json"
+        ]
+      },
+      "neighborMap": {
+        "src/app/layout.tsx": [
+          {
+            "path": "src/app/globals.css",
+            "batchIndex": 14,
+            "symbols": []
+          }
+        ],
+        "src/components/theme/theme-toggle.tsx": [
+          {
+            "path": "src/components/ui/button.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "Button",
+              "buttonVariants"
+            ]
+          },
+          {
+            "path": "src/components/layout/app-header.tsx",
+            "batchIndex": 4,
+            "symbols": [
+              "AppHeader"
+            ]
+          }
+        ],
+        "src/lib/db/seed.ts": [
+          {
+            "path": "src/lib/db/schema.ts",
+            "batchIndex": 2,
+            "symbols": [
+              "MpmsDatabase",
+              "db"
+            ]
+          },
+          {
+            "path": "src/lib/domain/types/index.ts",
+            "batchIndex": 3,
+            "symbols": []
+          },
+          {
+            "path": "src/lib/mock/collaboration.json",
+            "batchIndex": 13,
+            "symbols": []
+          },
+          {
+            "path": "src/lib/mock/dictionaries.json",
+            "batchIndex": 13,
+            "symbols": []
+          },
+          {
+            "path": "src/lib/mock/seed-ebom.json",
+            "batchIndex": 13,
+            "symbols": []
+          },
+          {
+            "path": "src/lib/mock/seed-resources.json",
+            "batchIndex": 13,
+            "symbols": []
+          },
+          {
+            "path": "src/app/(workspace)/settings/page.tsx",
+            "batchIndex": 5,
+            "symbols": [
+              "SettingsPage"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "batchIndex": 10,
+      "files": [
+        {
+          "path": "src/app/admin/page.tsx",
+          "language": "typescript",
+          "sizeLines": 11,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/app/admin/permissions/page.tsx",
+          "language": "typescript",
+          "sizeLines": 11,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/app/admin/users/page.tsx",
+          "language": "typescript",
+          "sizeLines": 11,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/components/placeholders/module-placeholder.tsx",
+          "language": "typescript",
+          "sizeLines": 26,
+          "fileCategory": "code"
+        }
+      ],
+      "batchImportData": {
+        "src/app/admin/page.tsx": [
+          "src/components/placeholders/module-placeholder.tsx"
+        ],
+        "src/app/admin/permissions/page.tsx": [
+          "src/components/placeholders/module-placeholder.tsx"
+        ],
+        "src/app/admin/users/page.tsx": [
+          "src/components/placeholders/module-placeholder.tsx"
+        ],
+        "src/components/placeholders/module-placeholder.tsx": [
+          "src/components/ui/badge.tsx",
+          "src/components/ui/button.tsx"
+        ]
+      },
+      "neighborMap": {
+        "src/components/placeholders/module-placeholder.tsx": [
+          {
+            "path": "src/components/ui/badge.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "Badge",
+              "badgeVariants"
+            ]
+          },
+          {
+            "path": "src/components/ui/button.tsx",
+            "batchIndex": 1,
+            "symbols": [
+              "Button",
+              "buttonVariants"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "batchIndex": 11,
+      "files": [
+        {
+          "path": "README.md",
+          "language": "markdown",
+          "sizeLines": 51,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "components.json",
+          "language": "json",
+          "sizeLines": 24,
+          "fileCategory": "config"
+        },
+        {
+          "path": "package.json",
+          "language": "json",
+          "sizeLines": 53,
+          "fileCategory": "config"
+        },
+        {
+          "path": "pnpm-workspace.yaml",
+          "language": "yaml",
+          "sizeLines": 6,
+          "fileCategory": "config"
+        },
+        {
+          "path": "tsconfig.json",
+          "language": "json",
+          "sizeLines": 34,
+          "fileCategory": "config"
+        },
+        {
+          "path": "自研工艺管理系统开发设计方案.md",
+          "language": "markdown",
+          "sizeLines": 526,
+          "fileCategory": "docs"
+        }
+      ],
+      "batchImportData": {
+        "README.md": [],
+        "components.json": [],
+        "package.json": [],
+        "pnpm-workspace.yaml": [],
+        "tsconfig.json": [],
+        "自研工艺管理系统开发设计方案.md": []
+      },
+      "neighborMap": {}
+    },
+    {
+      "batchIndex": 12,
+      "files": [
+        {
+          "path": "docs/superpowers/specs/2026-06-23-mpms-p0-foundation-design.md",
+          "language": "markdown",
+          "sizeLines": 521,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "docs/superpowers/specs/2026-06-23-mpms-p1-planner-mbom-design.md",
+          "language": "markdown",
+          "sizeLines": 50,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "docs/superpowers/specs/2026-06-23-mpms-p2-bop-design.md",
+          "language": "markdown",
+          "sizeLines": 32,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "docs/superpowers/specs/2026-06-23-mpms-p3-operation-design.md",
+          "language": "markdown",
+          "sizeLines": 36,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "docs/superpowers/specs/2026-06-23-mpms-p4-resource-document-design.md",
+          "language": "markdown",
+          "sizeLines": 29,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "docs/superpowers/specs/2026-06-23-mpms-p5-approval-change-design.md",
+          "language": "markdown",
+          "sizeLines": 33,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "docs/superpowers/specs/2026-06-23-mpms-p6-summary-3d-design.md",
+          "language": "markdown",
+          "sizeLines": 29,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "docs/superpowers/specs/2026-06-23-mpms-p7-copilot-design.md",
+          "language": "markdown",
+          "sizeLines": 28,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "docs/superpowers/specs/2026-06-23-mpms-p8-integration-design.md",
+          "language": "markdown",
+          "sizeLines": 28,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "docs/superpowers/specs/2026-06-24-ui-beautification-design.md",
+          "language": "markdown",
+          "sizeLines": 223,
+          "fileCategory": "docs"
+        }
+      ],
+      "batchImportData": {
+        "docs/superpowers/specs/2026-06-23-mpms-p0-foundation-design.md": [],
+        "docs/superpowers/specs/2026-06-23-mpms-p1-planner-mbom-design.md": [],
+        "docs/superpowers/specs/2026-06-23-mpms-p2-bop-design.md": [],
+        "docs/superpowers/specs/2026-06-23-mpms-p3-operation-design.md": [],
+        "docs/superpowers/specs/2026-06-23-mpms-p4-resource-document-design.md": [],
+        "docs/superpowers/specs/2026-06-23-mpms-p5-approval-change-design.md": [],
+        "docs/superpowers/specs/2026-06-23-mpms-p6-summary-3d-design.md": [],
+        "docs/superpowers/specs/2026-06-23-mpms-p7-copilot-design.md": [],
+        "docs/superpowers/specs/2026-06-23-mpms-p8-integration-design.md": [],
+        "docs/superpowers/specs/2026-06-24-ui-beautification-design.md": []
+      },
+      "neighborMap": {}
+    },
+    {
+      "batchIndex": 13,
+      "files": [
+        {
+          "path": "src/lib/mock/collaboration.json",
+          "language": "json",
+          "sizeLines": 11,
+          "fileCategory": "config"
+        },
+        {
+          "path": "src/lib/mock/dictionaries.json",
+          "language": "json",
+          "sizeLines": 52,
+          "fileCategory": "config"
+        },
+        {
+          "path": "src/lib/mock/seed-ebom.json",
+          "language": "json",
+          "sizeLines": 247,
+          "fileCategory": "config"
+        },
+        {
+          "path": "src/lib/mock/seed-resources.json",
+          "language": "json",
+          "sizeLines": 114,
+          "fileCategory": "config"
+        }
+      ],
+      "batchImportData": {
+        "src/lib/mock/collaboration.json": [],
+        "src/lib/mock/dictionaries.json": [],
+        "src/lib/mock/seed-ebom.json": [],
+        "src/lib/mock/seed-resources.json": []
+      },
+      "neighborMap": {
+        "src/lib/mock/collaboration.json": [
+          {
+            "path": "src/lib/db/seed.ts",
+            "batchIndex": 9,
+            "symbols": [
+              "isSeeded",
+              "seedDatabase",
+              "ensureSeeded",
+              "resetToSeed"
+            ]
+          }
+        ],
+        "src/lib/mock/dictionaries.json": [
+          {
+            "path": "src/lib/db/seed.ts",
+            "batchIndex": 9,
+            "symbols": [
+              "isSeeded",
+              "seedDatabase",
+              "ensureSeeded",
+              "resetToSeed"
+            ]
+          }
+        ],
+        "src/lib/mock/seed-ebom.json": [
+          {
+            "path": "src/lib/db/seed.ts",
+            "batchIndex": 9,
+            "symbols": [
+              "isSeeded",
+              "seedDatabase",
+              "ensureSeeded",
+              "resetToSeed"
+            ]
+          }
+        ],
+        "src/lib/mock/seed-resources.json": [
+          {
+            "path": "src/lib/db/seed.ts",
+            "batchIndex": 9,
+            "symbols": [
+              "isSeeded",
+              "seedDatabase",
+              "ensureSeeded",
+              "resetToSeed"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "batchIndex": 14,
+      "files": [
+        {
+          "path": ".cursor/rules/codegraph.mdc",
+          "language": "mdc",
+          "sizeLines": 39,
+          "fileCategory": "code"
+        },
+        {
+          "path": ".cursor/rules/karpathy-guidelines.mdc",
+          "language": "mdc",
+          "sizeLines": 70,
+          "fileCategory": "code"
+        },
+        {
+          "path": ".understand-anything/.understandignore",
+          "language": "unknown",
+          "sizeLines": 56,
+          "fileCategory": "code"
+        },
+        {
+          "path": ".understand-anything/config.json",
+          "language": "json",
+          "sizeLines": 3,
+          "fileCategory": "config"
+        },
+        {
+          "path": "docs/superpowers/plans/2026-06-23-mpms-p0-foundation.md",
+          "language": "markdown",
+          "sizeLines": 1603,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "docs/superpowers/plans/2026-06-24-ui-beautification.md",
+          "language": "markdown",
+          "sizeLines": 648,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "eslint.config.mjs",
+          "language": "javascript",
+          "sizeLines": 18,
+          "fileCategory": "code"
+        },
+        {
+          "path": "next.config.ts",
+          "language": "typescript",
+          "sizeLines": 8,
+          "fileCategory": "code"
+        },
+        {
+          "path": "postcss.config.mjs",
+          "language": "javascript",
+          "sizeLines": 7,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/app/api/3d/jt/route.ts",
+          "language": "typescript",
+          "sizeLines": 16,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/app/api/health/route.ts",
+          "language": "typescript",
+          "sizeLines": 9,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/app/globals.css",
+          "language": "css",
+          "sizeLines": 129,
+          "fileCategory": "markup"
+        },
+        {
+          "path": "src/lib/db/repositories/index.ts",
+          "language": "typescript",
+          "sizeLines": 11,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/domain/schemas/app-meta.ts",
+          "language": "typescript",
+          "sizeLines": 12,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/domain/schemas/bop.ts",
+          "language": "typescript",
+          "sizeLines": 27,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/domain/schemas/dictionary.ts",
+          "language": "typescript",
+          "sizeLines": 9,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/domain/schemas/index.ts",
+          "language": "typescript",
+          "sizeLines": 8,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/domain/schemas/operation.ts",
+          "language": "typescript",
+          "sizeLines": 55,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/domain/types/app-meta.ts",
+          "language": "typescript",
+          "sizeLines": 6,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/domain/types/collaboration.ts",
+          "language": "typescript",
+          "sizeLines": 9,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/domain/types/dictionary.ts",
+          "language": "typescript",
+          "sizeLines": 8,
+          "fileCategory": "code"
+        },
+        {
+          "path": "src/lib/domain/types/envelope.ts",
+          "language": "typescript",
+          "sizeLines": 10,
+          "fileCategory": "code"
+        }
+      ],
+      "batchImportData": {
+        ".cursor/rules/codegraph.mdc": [],
+        ".cursor/rules/karpathy-guidelines.mdc": [],
+        ".understand-anything/.understandignore": [],
+        ".understand-anything/config.json": [],
+        "docs/superpowers/plans/2026-06-23-mpms-p0-foundation.md": [],
+        "docs/superpowers/plans/2026-06-24-ui-beautification.md": [],
+        "eslint.config.mjs": [],
+        "next.config.ts": [],
+        "postcss.config.mjs": [],
+        "src/app/api/3d/jt/route.ts": [],
+        "src/app/api/health/route.ts": [],
+        "src/app/globals.css": [],
+        "src/lib/db/repositories/index.ts": [],
+        "src/lib/domain/schemas/app-meta.ts": [],
+        "src/lib/domain/schemas/bop.ts": [],
+        "src/lib/domain/schemas/dictionary.ts": [],
+        "src/lib/domain/schemas/index.ts": [],
+        "src/lib/domain/schemas/operation.ts": [],
+        "src/lib/domain/types/app-meta.ts": [],
+        "src/lib/domain/types/collaboration.ts": [],
+        "src/lib/domain/types/dictionary.ts": [],
+        "src/lib/domain/types/envelope.ts": []
+      },
+      "neighborMap": {
+        "src/app/globals.css": [
+          {
+            "path": "src/app/layout.tsx",
+            "batchIndex": 9,
+            "symbols": [
+              "metadata",
+              "RootLayout"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

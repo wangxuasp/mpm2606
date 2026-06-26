@@ -1,0 +1,1265 @@
+{
+    "projectRoot":  "C:/My Projects/Codes/mpm2606/frontend",
+    "files":  [
+                  {
+                      "path":  ".cursor/rules/codegraph.mdc",
+                      "language":  "mdc",
+                      "sizeLines":  39,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  ".cursor/rules/karpathy-guidelines.mdc",
+                      "language":  "mdc",
+                      "sizeLines":  70,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  ".understand-anything/.understandignore",
+                      "language":  "unknown",
+                      "sizeLines":  56,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  ".understand-anything/config.json",
+                      "language":  "json",
+                      "sizeLines":  3,
+                      "fileCategory":  "config"
+                  },
+                  {
+                      "path":  "自研工艺管理系统开发设计方�?md",
+                      "language":  "markdown",
+                      "sizeLines":  526,
+                      "fileCategory":  "docs"
+                  },
+                  {
+                      "path":  "components.json",
+                      "language":  "json",
+                      "sizeLines":  24,
+                      "fileCategory":  "config"
+                  },
+                  {
+                      "path":  "docs/superpowers/plans/2026-06-23-mpms-p0-foundation.md",
+                      "language":  "markdown",
+                      "sizeLines":  1603,
+                      "fileCategory":  "docs"
+                  },
+                  {
+                      "path":  "docs/superpowers/plans/2026-06-24-ui-beautification.md",
+                      "language":  "markdown",
+                      "sizeLines":  648,
+                      "fileCategory":  "docs"
+                  },
+                  {
+                      "path":  "docs/superpowers/specs/2026-06-23-mpms-p0-foundation-design.md",
+                      "language":  "markdown",
+                      "sizeLines":  521,
+                      "fileCategory":  "docs"
+                  },
+                  {
+                      "path":  "docs/superpowers/specs/2026-06-23-mpms-p1-planner-mbom-design.md",
+                      "language":  "markdown",
+                      "sizeLines":  50,
+                      "fileCategory":  "docs"
+                  },
+                  {
+                      "path":  "docs/superpowers/specs/2026-06-23-mpms-p2-bop-design.md",
+                      "language":  "markdown",
+                      "sizeLines":  32,
+                      "fileCategory":  "docs"
+                  },
+                  {
+                      "path":  "docs/superpowers/specs/2026-06-23-mpms-p3-operation-design.md",
+                      "language":  "markdown",
+                      "sizeLines":  36,
+                      "fileCategory":  "docs"
+                  },
+                  {
+                      "path":  "docs/superpowers/specs/2026-06-23-mpms-p4-resource-document-design.md",
+                      "language":  "markdown",
+                      "sizeLines":  29,
+                      "fileCategory":  "docs"
+                  },
+                  {
+                      "path":  "docs/superpowers/specs/2026-06-23-mpms-p5-approval-change-design.md",
+                      "language":  "markdown",
+                      "sizeLines":  33,
+                      "fileCategory":  "docs"
+                  },
+                  {
+                      "path":  "docs/superpowers/specs/2026-06-23-mpms-p6-summary-3d-design.md",
+                      "language":  "markdown",
+                      "sizeLines":  29,
+                      "fileCategory":  "docs"
+                  },
+                  {
+                      "path":  "docs/superpowers/specs/2026-06-23-mpms-p7-copilot-design.md",
+                      "language":  "markdown",
+                      "sizeLines":  28,
+                      "fileCategory":  "docs"
+                  },
+                  {
+                      "path":  "docs/superpowers/specs/2026-06-23-mpms-p8-integration-design.md",
+                      "language":  "markdown",
+                      "sizeLines":  28,
+                      "fileCategory":  "docs"
+                  },
+                  {
+                      "path":  "docs/superpowers/specs/2026-06-24-ui-beautification-design.md",
+                      "language":  "markdown",
+                      "sizeLines":  223,
+                      "fileCategory":  "docs"
+                  },
+                  {
+                      "path":  "eslint.config.mjs",
+                      "language":  "javascript",
+                      "sizeLines":  18,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "next.config.ts",
+                      "language":  "typescript",
+                      "sizeLines":  8,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "package.json",
+                      "language":  "json",
+                      "sizeLines":  53,
+                      "fileCategory":  "config"
+                  },
+                  {
+                      "path":  "pnpm-workspace.yaml",
+                      "language":  "yaml",
+                      "sizeLines":  6,
+                      "fileCategory":  "config"
+                  },
+                  {
+                      "path":  "postcss.config.mjs",
+                      "language":  "javascript",
+                      "sizeLines":  7,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "README.md",
+                      "language":  "markdown",
+                      "sizeLines":  51,
+                      "fileCategory":  "docs"
+                  },
+                  {
+                      "path":  "src/app/(auth)/login/page.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  120,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/app/(workspace)/approval/page.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  178,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/app/(workspace)/bop/page.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  539,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/app/(workspace)/change/page.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  33,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/app/(workspace)/copilot/page.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  205,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/app/(workspace)/document/page.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  355,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/app/(workspace)/integration/page.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  132,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/app/(workspace)/layout.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  16,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/app/(workspace)/mbom/page.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  320,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/app/(workspace)/operation/page.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  306,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/app/(workspace)/page.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  49,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/app/(workspace)/planner/page.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  355,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/app/(workspace)/resource/page.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  304,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/app/(workspace)/settings/page.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  228,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/app/(workspace)/summary/page.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  274,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/app/(workspace)/tooling/page.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  149,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/app/admin/dictionaries/page.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  78,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/app/admin/layout.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  16,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/app/admin/page.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  11,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/app/admin/permissions/page.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  11,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/app/admin/users/page.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  11,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/app/admin/workflow-templates/page.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  61,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/app/api/3d/jt/route.ts",
+                      "language":  "typescript",
+                      "sizeLines":  16,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/app/api/health/route.ts",
+                      "language":  "typescript",
+                      "sizeLines":  9,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/app/api/integration/erp/push/route.ts",
+                      "language":  "typescript",
+                      "sizeLines":  25,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/app/api/integration/mes/push/route.ts",
+                      "language":  "typescript",
+                      "sizeLines":  22,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/app/api/integration/teamcenter/ebom/route.ts",
+                      "language":  "typescript",
+                      "sizeLines":  21,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/app/globals.css",
+                      "language":  "css",
+                      "sizeLines":  129,
+                      "fileCategory":  "markup"
+                  },
+                  {
+                      "path":  "src/app/layout.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  44,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/admin-shell.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  30,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/bom-tree/bom-drag-store.ts",
+                      "language":  "typescript",
+                      "sizeLines":  29,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/bom-tree/bom-tree-grid-impl.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  267,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/bom-tree/bom-tree-grid.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  33,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/bom-tree/bom-tree-utils.ts",
+                      "language":  "typescript",
+                      "sizeLines":  67,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/bop/bop-property-panel.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  94,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/bop/bop-tree-grid-impl.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  163,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/bop/bop-tree-grid.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  27,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/bop/bop-tree-utils.ts",
+                      "language":  "typescript",
+                      "sizeLines":  60,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/bop/pert-dag-editor.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  161,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/change/change-order-wizard.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  326,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/change/change-summary-panel.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  156,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/copilot/apd-import-wizard.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  208,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/copilot/copilot-command-input.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  82,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/copilot/copilot-message-list.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  83,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/integration/integration-log-table.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  64,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/integration/integration-push-panel.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  116,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/integration/integration-status-card.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  44,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/layout/app-header.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  80,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/layout/app-shell.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  18,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/layout/app-sidebar.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  181,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/layout/auth-guard.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  28,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/layout/sidebar-reveal-rail.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  41,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/layout/sidebar-toggle.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  40,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/mbom/accountability-results.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  66,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/onlyoffice/onlyoffice-editor.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  36,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/operation/operation-accountability.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  102,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/operation/operation-resource-panel.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  267,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/placeholders/module-placeholder.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  26,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/planner/ebom-readonly-tree.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  99,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/planner/node-property-panel.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  81,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/planner/planner-flow-bridge.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  22,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/planner/planner-panel.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  42,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/process-card/process-card-form.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  323,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/providers/app-providers.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  39,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/resource/resource-table.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  189,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/theme/theme-provider.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  85,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/theme/theme-toggle.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  30,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/tools/screenshot-capture.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  199,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/ui/alert-dialog.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  148,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/ui/alert.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  60,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/ui/avatar.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  109,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/ui/badge.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  48,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/ui/button.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  58,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/ui/card.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  103,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/ui/checkbox.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  32,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/ui/dialog.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  158,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/ui/dropdown-menu.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  257,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/ui/input.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  20,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/ui/label.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  20,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/ui/scroll-area.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  55,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/ui/select.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  190,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/ui/separator.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  28,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/ui/sheet.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  143,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/ui/sonner.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  40,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/ui/switch.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  35,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/ui/table.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  76,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/ui/tabs.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  91,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/ui/textarea.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  18,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/viewer3d/jt-download-panel.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  273,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/workflow/approval-actions.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  94,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/components/workflow/approval-timeline.tsx",
+                      "language":  "typescript",
+                      "sizeLines":  89,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/hooks/use-app-meta.ts",
+                      "language":  "typescript",
+                      "sizeLines":  9,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/hooks/use-approvals.ts",
+                      "language":  "typescript",
+                      "sizeLines":  61,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/hooks/use-bom-nodes.ts",
+                      "language":  "typescript",
+                      "sizeLines":  22,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/hooks/use-bop.ts",
+                      "language":  "typescript",
+                      "sizeLines":  18,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/hooks/use-change-orders.ts",
+                      "language":  "typescript",
+                      "sizeLines":  59,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/hooks/use-collaboration.ts",
+                      "language":  "typescript",
+                      "sizeLines":  17,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/hooks/use-dictionaries.ts",
+                      "language":  "typescript",
+                      "sizeLines":  20,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/hooks/use-operations.ts",
+                      "language":  "typescript",
+                      "sizeLines":  29,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/hooks/use-process-documents.ts",
+                      "language":  "typescript",
+                      "sizeLines":  26,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/hooks/use-process-summary.ts",
+                      "language":  "typescript",
+                      "sizeLines":  56,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/ag-grid/setup.ts",
+                      "language":  "typescript",
+                      "sizeLines":  11,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/ai/apd-import-commit.ts",
+                      "language":  "typescript",
+                      "sizeLines":  120,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/ai/apd-import-parser.ts",
+                      "language":  "typescript",
+                      "sizeLines":  149,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/ai/copilot-scenarios.ts",
+                      "language":  "typescript",
+                      "sizeLines":  236,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/ai/llm-client.ts",
+                      "language":  "typescript",
+                      "sizeLines":  57,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/auth/mock-auth.ts",
+                      "language":  "typescript",
+                      "sizeLines":  6,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/auth/session.ts",
+                      "language":  "typescript",
+                      "sizeLines":  36,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/db/export-import.ts",
+                      "language":  "typescript",
+                      "sizeLines":  66,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/db/repositories/app-meta-repository.ts",
+                      "language":  "typescript",
+                      "sizeLines":  25,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/db/repositories/approval-repository.ts",
+                      "language":  "typescript",
+                      "sizeLines":  34,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/db/repositories/base.ts",
+                      "language":  "typescript",
+                      "sizeLines":  7,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/db/repositories/bom-repository.ts",
+                      "language":  "typescript",
+                      "sizeLines":  61,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/db/repositories/bop-repository.ts",
+                      "language":  "typescript",
+                      "sizeLines":  57,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/db/repositories/change-order-repository.ts",
+                      "language":  "typescript",
+                      "sizeLines":  30,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/db/repositories/collaboration-repository.ts",
+                      "language":  "typescript",
+                      "sizeLines":  25,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/db/repositories/dictionary-repository.ts",
+                      "language":  "typescript",
+                      "sizeLines":  29,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/db/repositories/document-file-repository.ts",
+                      "language":  "typescript",
+                      "sizeLines":  25,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/db/repositories/envelope-repository.ts",
+                      "language":  "typescript",
+                      "sizeLines":  29,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/db/repositories/index.ts",
+                      "language":  "typescript",
+                      "sizeLines":  11,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/db/repositories/operation-repository.ts",
+                      "language":  "typescript",
+                      "sizeLines":  47,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/db/repositories/process-document-repository.ts",
+                      "language":  "typescript",
+                      "sizeLines":  33,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/db/repositories/resource-repository.ts",
+                      "language":  "typescript",
+                      "sizeLines":  25,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/db/schema.ts",
+                      "language":  "typescript",
+                      "sizeLines":  76,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/db/seed.ts",
+                      "language":  "typescript",
+                      "sizeLines":  77,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/domain/id-generator.ts",
+                      "language":  "typescript",
+                      "sizeLines":  15,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/domain/rules/accountability-check.ts",
+                      "language":  "typescript",
+                      "sizeLines":  81,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/domain/rules/bop-hierarchy.ts",
+                      "language":  "typescript",
+                      "sizeLines":  21,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/domain/rules/dag-validation.ts",
+                      "language":  "typescript",
+                      "sizeLines":  45,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/domain/rules/mbom-constraints.ts",
+                      "language":  "typescript",
+                      "sizeLines":  52,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/domain/schemas/app-meta.ts",
+                      "language":  "typescript",
+                      "sizeLines":  12,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/domain/schemas/bom.ts",
+                      "language":  "typescript",
+                      "sizeLines":  31,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/domain/schemas/bop.ts",
+                      "language":  "typescript",
+                      "sizeLines":  27,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/domain/schemas/dictionary.ts",
+                      "language":  "typescript",
+                      "sizeLines":  9,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/domain/schemas/export-bundle.ts",
+                      "language":  "typescript",
+                      "sizeLines":  31,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/domain/schemas/handoff-package.ts",
+                      "language":  "typescript",
+                      "sizeLines":  51,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/domain/schemas/index.ts",
+                      "language":  "typescript",
+                      "sizeLines":  8,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/domain/schemas/operation.ts",
+                      "language":  "typescript",
+                      "sizeLines":  55,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/domain/schemas/process-document.ts",
+                      "language":  "typescript",
+                      "sizeLines":  35,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/domain/services/apd-export-service.ts",
+                      "language":  "typescript",
+                      "sizeLines":  117,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/domain/services/bop-service.ts",
+                      "language":  "typescript",
+                      "sizeLines":  251,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/domain/services/change-order-service.ts",
+                      "language":  "typescript",
+                      "sizeLines":  269,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/domain/services/change-summary-export.ts",
+                      "language":  "typescript",
+                      "sizeLines":  63,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/domain/services/jt-download-service.ts",
+                      "language":  "typescript",
+                      "sizeLines":  48,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/domain/services/mbom-service.ts",
+                      "language":  "typescript",
+                      "sizeLines":  192,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/domain/services/operation-service.ts",
+                      "language":  "typescript",
+                      "sizeLines":  179,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/domain/services/process-card-export.ts",
+                      "language":  "typescript",
+                      "sizeLines":  51,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/domain/services/process-document-service.ts",
+                      "language":  "typescript",
+                      "sizeLines":  74,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/domain/services/process-summary-service.ts",
+                      "language":  "typescript",
+                      "sizeLines":  149,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/domain/services/resource-service.ts",
+                      "language":  "typescript",
+                      "sizeLines":  109,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/domain/services/summary-export-service.ts",
+                      "language":  "typescript",
+                      "sizeLines":  110,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/domain/types/app-meta.ts",
+                      "language":  "typescript",
+                      "sizeLines":  6,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/domain/types/approval.ts",
+                      "language":  "typescript",
+                      "sizeLines":  10,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/domain/types/bom.ts",
+                      "language":  "typescript",
+                      "sizeLines":  35,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/domain/types/bop.ts",
+                      "language":  "typescript",
+                      "sizeLines":  20,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/domain/types/change-order.ts",
+                      "language":  "typescript",
+                      "sizeLines":  31,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/domain/types/collaboration.ts",
+                      "language":  "typescript",
+                      "sizeLines":  9,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/domain/types/dictionary.ts",
+                      "language":  "typescript",
+                      "sizeLines":  8,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/domain/types/envelope.ts",
+                      "language":  "typescript",
+                      "sizeLines":  10,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/domain/types/index.ts",
+                      "language":  "typescript",
+                      "sizeLines":  11,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/domain/types/operation.ts",
+                      "language":  "typescript",
+                      "sizeLines":  42,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/domain/types/process-document.ts",
+                      "language":  "typescript",
+                      "sizeLines":  26,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/domain/types/resource.ts",
+                      "language":  "typescript",
+                      "sizeLines":  17,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/integration/config.ts",
+                      "language":  "typescript",
+                      "sizeLines":  14,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/integration/erp-client.ts",
+                      "language":  "typescript",
+                      "sizeLines":  58,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/integration/handoff-package.ts",
+                      "language":  "typescript",
+                      "sizeLines":  88,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/integration/integration-service.ts",
+                      "language":  "typescript",
+                      "sizeLines":  234,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/integration/mes-client.ts",
+                      "language":  "typescript",
+                      "sizeLines":  58,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/integration/teamcenter-client.ts",
+                      "language":  "typescript",
+                      "sizeLines":  71,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/integration/types.ts",
+                      "language":  "typescript",
+                      "sizeLines":  67,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/mock/collaboration.json",
+                      "language":  "json",
+                      "sizeLines":  11,
+                      "fileCategory":  "config"
+                  },
+                  {
+                      "path":  "src/lib/mock/dictionaries.json",
+                      "language":  "json",
+                      "sizeLines":  52,
+                      "fileCategory":  "config"
+                  },
+                  {
+                      "path":  "src/lib/mock/seed-ebom.json",
+                      "language":  "json",
+                      "sizeLines":  247,
+                      "fileCategory":  "config"
+                  },
+                  {
+                      "path":  "src/lib/mock/seed-resources.json",
+                      "language":  "json",
+                      "sizeLines":  114,
+                      "fileCategory":  "config"
+                  },
+                  {
+                      "path":  "src/lib/navigation.ts",
+                      "language":  "typescript",
+                      "sizeLines":  52,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/utils.ts",
+                      "language":  "typescript",
+                      "sizeLines":  6,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/workflow/guards.ts",
+                      "language":  "typescript",
+                      "sizeLines":  30,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/workflow/machines.ts",
+                      "language":  "typescript",
+                      "sizeLines":  59,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/workflow/templates.ts",
+                      "language":  "typescript",
+                      "sizeLines":  125,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/lib/workflow/workflow-service.ts",
+                      "language":  "typescript",
+                      "sizeLines":  183,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/stores/copilot-store.ts",
+                      "language":  "typescript",
+                      "sizeLines":  37,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/stores/integration-store.ts",
+                      "language":  "typescript",
+                      "sizeLines":  23,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/stores/jt-download-store.ts",
+                      "language":  "typescript",
+                      "sizeLines":  32,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/stores/sidebar-store.ts",
+                      "language":  "typescript",
+                      "sizeLines":  24,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "src/stores/workspace-store.ts",
+                      "language":  "typescript",
+                      "sizeLines":  13,
+                      "fileCategory":  "code"
+                  },
+                  {
+                      "path":  "tsconfig.json",
+                      "language":  "json",
+                      "sizeLines":  34,
+                      "fileCategory":  "config"
+                  }
+              ]
+}

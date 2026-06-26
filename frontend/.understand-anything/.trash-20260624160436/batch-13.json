@@ -1,0 +1,53 @@
+{
+  "nodes": [
+    {
+      "id": "config:src/lib/mock/collaboration.json",
+      "type": "config",
+      "name": "collaboration.json",
+      "filePath": "src/lib/mock/collaboration.json",
+      "summary": "配置文件 collaboration.json，控制构建、编译或运行时行为。",
+      "tags": [
+        "configuration",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:src/lib/mock/dictionaries.json",
+      "type": "config",
+      "name": "dictionaries.json",
+      "filePath": "src/lib/mock/dictionaries.json",
+      "summary": "配置文件 dictionaries.json，控制构建、编译或运行时行为。",
+      "tags": [
+        "configuration",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "config:src/lib/mock/seed-ebom.json",
+      "type": "config",
+      "name": "seed-ebom.json",
+      "filePath": "src/lib/mock/seed-ebom.json",
+      "summary": "配置文件 seed-ebom.json，控制构建、编译或运行时行为。",
+      "tags": [
+        "configuration",
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "config:src/lib/mock/seed-resources.json",
+      "type": "config",
+      "name": "seed-resources.json",
+      "filePath": "src/lib/mock/seed-resources.json",
+      "summary": "配置文件 seed-resources.json，控制构建、编译或运行时行为。",
+      "tags": [
+        "configuration",
+        "utility"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": []
+}

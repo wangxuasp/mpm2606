@@ -1,0 +1,3580 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 32,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "src/app/(workspace)/summary/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 274,
+      "nonEmptyLines": 259,
+      "functions": [
+        {
+          "name": "EmptyTable",
+          "startLine": 25,
+          "endLine": 27,
+          "params": [
+            "{ message }"
+          ]
+        },
+        {
+          "name": "SummaryTables",
+          "startLine": 29,
+          "endLine": 218,
+          "params": [
+            "{ summary }"
+          ]
+        },
+        {
+          "name": "SummaryPage",
+          "startLine": 220,
+          "endLine": 274,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "SummaryPage",
+          "line": 220,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "SummaryTables",
+          "callee": "summary.installedParts.map",
+          "lineNumber": 57
+        },
+        {
+          "caller": "SummaryTables",
+          "callee": "summary.equipmentTools.map",
+          "lineNumber": 87
+        },
+        {
+          "caller": "SummaryTables",
+          "callee": "summary.toolings.map",
+          "lineNumber": 116
+        },
+        {
+          "caller": "SummaryTables",
+          "callee": "summary.materialQuotas.map",
+          "lineNumber": 147
+        },
+        {
+          "caller": "SummaryTables",
+          "callee": "summary.workHours.map",
+          "lineNumber": 177
+        },
+        {
+          "caller": "SummaryTables",
+          "callee": "summary.headcount.map",
+          "lineNumber": 204
+        },
+        {
+          "caller": "SummaryPage",
+          "callee": "useProcessSummary",
+          "lineNumber": 221
+        },
+        {
+          "caller": "handleBuild",
+          "callee": "build",
+          "lineNumber": 225
+        },
+        {
+          "caller": "handleBuild",
+          "callee": "toast.success",
+          "lineNumber": 226
+        },
+        {
+          "caller": "handleBuild",
+          "callee": "toast.error",
+          "lineNumber": 228
+        },
+        {
+          "caller": "handleExport",
+          "callee": "exportExcel",
+          "lineNumber": 234
+        },
+        {
+          "caller": "handleExport",
+          "callee": "toast.success",
+          "lineNumber": 235
+        },
+        {
+          "caller": "handleExport",
+          "callee": "toast.error",
+          "lineNumber": 237
+        }
+      ],
+      "metrics": {
+        "importCount": 6,
+        "exportCount": 1,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/hooks/use-operations.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 29,
+      "nonEmptyLines": 26,
+      "functions": [
+        {
+          "name": "useOperations",
+          "startLine": 8,
+          "endLine": 14,
+          "params": [
+            "bopRootId"
+          ]
+        },
+        {
+          "name": "useOperation",
+          "startLine": 16,
+          "endLine": 22,
+          "params": [
+            "id"
+          ]
+        },
+        {
+          "name": "useResources",
+          "startLine": 24,
+          "endLine": 29,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "useOperations",
+          "line": 8,
+          "isDefault": false
+        },
+        {
+          "name": "useOperation",
+          "line": 16,
+          "isDefault": false
+        },
+        {
+          "name": "useResources",
+          "line": 24,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "useOperations",
+          "callee": "useQuery",
+          "lineNumber": 9
+        },
+        {
+          "caller": "useOperations",
+          "callee": "getAllForBopRoot",
+          "lineNumber": 11
+        },
+        {
+          "caller": "useOperations",
+          "callee": "Promise.resolve",
+          "lineNumber": 11
+        },
+        {
+          "caller": "useOperation",
+          "callee": "useQuery",
+          "lineNumber": 17
+        },
+        {
+          "caller": "useOperation",
+          "callee": "operationRepository.getById",
+          "lineNumber": 19
+        },
+        {
+          "caller": "useOperation",
+          "callee": "Promise.resolve",
+          "lineNumber": 19
+        },
+        {
+          "caller": "useResources",
+          "callee": "useQuery",
+          "lineNumber": 25
+        },
+        {
+          "caller": "useResources",
+          "callee": "resourceRepository.getAll",
+          "lineNumber": 27
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 3,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/hooks/use-process-documents.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 26,
+      "nonEmptyLines": 23,
+      "functions": [
+        {
+          "name": "useProcessDocuments",
+          "startLine": 6,
+          "endLine": 11,
+          "params": []
+        },
+        {
+          "name": "useDocumentsGroupedByProduct",
+          "startLine": 13,
+          "endLine": 18,
+          "params": []
+        },
+        {
+          "name": "useDocumentFile",
+          "startLine": 20,
+          "endLine": 26,
+          "params": [
+            "id"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "useProcessDocuments",
+          "line": 6,
+          "isDefault": false
+        },
+        {
+          "name": "useDocumentsGroupedByProduct",
+          "line": 13,
+          "isDefault": false
+        },
+        {
+          "name": "useDocumentFile",
+          "line": 20,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "useProcessDocuments",
+          "callee": "useQuery",
+          "lineNumber": 7
+        },
+        {
+          "caller": "useProcessDocuments",
+          "callee": "processDocumentRepository.getAll",
+          "lineNumber": 9
+        },
+        {
+          "caller": "useDocumentsGroupedByProduct",
+          "callee": "useQuery",
+          "lineNumber": 14
+        },
+        {
+          "caller": "useDocumentsGroupedByProduct",
+          "callee": "getDocumentsGroupedByProduct",
+          "lineNumber": 16
+        },
+        {
+          "caller": "useDocumentFile",
+          "callee": "useQuery",
+          "lineNumber": 21
+        },
+        {
+          "caller": "useDocumentFile",
+          "callee": "documentFileRepository.getById",
+          "lineNumber": 23
+        },
+        {
+          "caller": "useDocumentFile",
+          "callee": "Promise.resolve",
+          "lineNumber": 23
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 3,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/hooks/use-process-summary.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 56,
+      "nonEmptyLines": 51,
+      "functions": [
+        {
+          "name": "useProcessSummary",
+          "startLine": 11,
+          "endLine": 56,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "useProcessSummary",
+          "line": 11,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "useProcessSummary",
+          "callee": "useWorkspaceStore",
+          "lineNumber": 12
+        },
+        {
+          "caller": "useProcessSummary",
+          "callee": "useState",
+          "lineNumber": 13
+        },
+        {
+          "caller": "useProcessSummary",
+          "callee": "useState",
+          "lineNumber": 14
+        },
+        {
+          "caller": "useProcessSummary",
+          "callee": "useState",
+          "lineNumber": 15
+        },
+        {
+          "caller": "useProcessSummary",
+          "callee": "useCallback",
+          "lineNumber": 17
+        },
+        {
+          "caller": "useProcessSummary",
+          "callee": "setIsBuilding",
+          "lineNumber": 21
+        },
+        {
+          "caller": "useProcessSummary",
+          "callee": "buildProcessSummary",
+          "lineNumber": 23
+        },
+        {
+          "caller": "useProcessSummary",
+          "callee": "setSummary",
+          "lineNumber": 24
+        },
+        {
+          "caller": "useProcessSummary",
+          "callee": "setIsBuilding",
+          "lineNumber": 27
+        },
+        {
+          "caller": "useProcessSummary",
+          "callee": "useCallback",
+          "lineNumber": 31
+        },
+        {
+          "caller": "useProcessSummary",
+          "callee": "setIsExporting",
+          "lineNumber": 37
+        },
+        {
+          "caller": "useProcessSummary",
+          "callee": "exportProcessSummaryExcel",
+          "lineNumber": 39
+        },
+        {
+          "caller": "useProcessSummary",
+          "callee": "downloadProcessSummaryExcel",
+          "lineNumber": 40
+        },
+        {
+          "caller": "useProcessSummary",
+          "callee": "setIsExporting",
+          "lineNumber": 42
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/db/export-import.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 66,
+      "nonEmptyLines": 60,
+      "functions": [
+        {
+          "name": "exportDatabase",
+          "startLine": 20,
+          "endLine": 32,
+          "params": []
+        },
+        {
+          "name": "exportCollaborationHandoff",
+          "startLine": 34,
+          "endLine": 36,
+          "params": [
+            "collaborationId"
+          ]
+        },
+        {
+          "name": "downloadJson",
+          "startLine": 38,
+          "endLine": 46,
+          "params": [
+            "data",
+            "filename"
+          ]
+        },
+        {
+          "name": "importDatabase",
+          "startLine": 48,
+          "endLine": 58,
+          "params": [
+            "raw"
+          ]
+        },
+        {
+          "name": "getTableCounts",
+          "startLine": 60,
+          "endLine": 66,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "exportDatabase",
+          "line": 20,
+          "isDefault": false
+        },
+        {
+          "name": "exportCollaborationHandoff",
+          "line": 34,
+          "isDefault": false
+        },
+        {
+          "name": "downloadJson",
+          "line": 38,
+          "isDefault": false
+        },
+        {
+          "name": "importDatabase",
+          "line": 48,
+          "isDefault": false
+        },
+        {
+          "name": "getTableCounts",
+          "line": 60,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "exportDatabase",
+          "callee": "db.table(name).toArray",
+          "lineNumber": 23
+        },
+        {
+          "caller": "exportDatabase",
+          "callee": "db.table",
+          "lineNumber": 23
+        },
+        {
+          "caller": "exportDatabase",
+          "callee": "new Date().toISOString",
+          "lineNumber": 28
+        },
+        {
+          "caller": "exportCollaborationHandoff",
+          "callee": "buildCollaborationHandoffPackage",
+          "lineNumber": 35
+        },
+        {
+          "caller": "downloadJson",
+          "callee": "JSON.stringify",
+          "lineNumber": 39
+        },
+        {
+          "caller": "downloadJson",
+          "callee": "URL.createObjectURL",
+          "lineNumber": 40
+        },
+        {
+          "caller": "downloadJson",
+          "callee": "document.createElement",
+          "lineNumber": 41
+        },
+        {
+          "caller": "downloadJson",
+          "callee": "a.click",
+          "lineNumber": 44
+        },
+        {
+          "caller": "downloadJson",
+          "callee": "URL.revokeObjectURL",
+          "lineNumber": 45
+        },
+        {
+          "caller": "importDatabase",
+          "callee": "exportBundleSchema.parse",
+          "lineNumber": 49
+        },
+        {
+          "caller": "importDatabase",
+          "callee": "db.transaction",
+          "lineNumber": 50
+        },
+        {
+          "caller": "importDatabase",
+          "callee": "TABLE_NAMES.map",
+          "lineNumber": 50
+        },
+        {
+          "caller": "importDatabase",
+          "callee": "db.table",
+          "lineNumber": 50
+        },
+        {
+          "caller": "importDatabase",
+          "callee": "db.table",
+          "lineNumber": 52
+        },
+        {
+          "caller": "importDatabase",
+          "callee": "table.clear",
+          "lineNumber": 53
+        },
+        {
+          "caller": "importDatabase",
+          "callee": "table.bulkAdd",
+          "lineNumber": 55
+        },
+        {
+          "caller": "getTableCounts",
+          "callee": "db.table(name).count",
+          "lineNumber": 63
+        },
+        {
+          "caller": "getTableCounts",
+          "callee": "db.table",
+          "lineNumber": 63
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 5,
+        "functionCount": 5,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/db/repositories/app-meta-repository.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 25,
+      "nonEmptyLines": 24,
+      "exports": [
+        {
+          "name": "appMetaRepository",
+          "line": 5,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "getAll",
+          "callee": "db.appMeta.toArray",
+          "lineNumber": 7
+        },
+        {
+          "caller": "getById",
+          "callee": "db.appMeta.get",
+          "lineNumber": 10
+        },
+        {
+          "caller": "create",
+          "callee": "db.appMeta.add",
+          "lineNumber": 13
+        },
+        {
+          "caller": "update",
+          "callee": "db.appMeta.update",
+          "lineNumber": 17
+        },
+        {
+          "caller": "update",
+          "callee": "db.appMeta.get",
+          "lineNumber": 18
+        },
+        {
+          "caller": "delete",
+          "callee": "db.appMeta.delete",
+          "lineNumber": 23
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/db/repositories/base.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 7,
+      "nonEmptyLines": 7,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/db/repositories/bom-repository.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 61,
+      "nonEmptyLines": 54,
+      "functions": [
+        {
+          "name": "getEbomNodes",
+          "startLine": 27,
+          "endLine": 29,
+          "params": []
+        },
+        {
+          "name": "countEbomNodes",
+          "startLine": 31,
+          "endLine": 33,
+          "params": []
+        },
+        {
+          "name": "getMbomNodes",
+          "startLine": 35,
+          "endLine": 37,
+          "params": []
+        },
+        {
+          "name": "getMbomSubtree",
+          "startLine": 39,
+          "endLine": 61,
+          "params": [
+            "rootId"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "bomRepository",
+          "line": 5,
+          "isDefault": false
+        },
+        {
+          "name": "getEbomNodes",
+          "line": 27,
+          "isDefault": false
+        },
+        {
+          "name": "countEbomNodes",
+          "line": 31,
+          "isDefault": false
+        },
+        {
+          "name": "getMbomNodes",
+          "line": 35,
+          "isDefault": false
+        },
+        {
+          "name": "getMbomSubtree",
+          "line": 39,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "getAll",
+          "callee": "db.bomNodes.toArray",
+          "lineNumber": 7
+        },
+        {
+          "caller": "getById",
+          "callee": "db.bomNodes.get",
+          "lineNumber": 10
+        },
+        {
+          "caller": "create",
+          "callee": "db.bomNodes.add",
+          "lineNumber": 13
+        },
+        {
+          "caller": "update",
+          "callee": "db.bomNodes.update",
+          "lineNumber": 17
+        },
+        {
+          "caller": "update",
+          "callee": "db.bomNodes.get",
+          "lineNumber": 18
+        },
+        {
+          "caller": "delete",
+          "callee": "db.bomNodes.delete",
+          "lineNumber": 23
+        },
+        {
+          "caller": "getEbomNodes",
+          "callee": "db.bomNodes.where('type').equals('EBOM').toArray",
+          "lineNumber": 28
+        },
+        {
+          "caller": "getEbomNodes",
+          "callee": "db.bomNodes.where('type').equals",
+          "lineNumber": 28
+        },
+        {
+          "caller": "getEbomNodes",
+          "callee": "db.bomNodes.where",
+          "lineNumber": 28
+        },
+        {
+          "caller": "countEbomNodes",
+          "callee": "db.bomNodes.where('type').equals('EBOM').count",
+          "lineNumber": 32
+        },
+        {
+          "caller": "countEbomNodes",
+          "callee": "db.bomNodes.where('type').equals",
+          "lineNumber": 32
+        },
+        {
+          "caller": "countEbomNodes",
+          "callee": "db.bomNodes.where",
+          "lineNumber": 32
+        },
+        {
+          "caller": "getMbomNodes",
+          "callee": "db.bomNodes.where('type').equals('MBOM').toArray",
+          "lineNumber": 36
+        },
+        {
+          "caller": "getMbomNodes",
+          "callee": "db.bomNodes.where('type').equals",
+          "lineNumber": 36
+        },
+        {
+          "caller": "getMbomNodes",
+          "callee": "db.bomNodes.where",
+          "lineNumber": 36
+        },
+        {
+          "caller": "getMbomSubtree",
+          "callee": "getMbomNodes",
+          "lineNumber": 40
+        },
+        {
+          "caller": "getMbomSubtree",
+          "callee": "allMbom.find",
+          "lineNumber": 41
+        },
+        {
+          "caller": "getMbomSubtree",
+          "callee": "childrenByParent.get",
+          "lineNumber": 47
+        },
+        {
+          "caller": "getMbomSubtree",
+          "callee": "siblings.push",
+          "lineNumber": 48
+        },
+        {
+          "caller": "getMbomSubtree",
+          "callee": "childrenByParent.set",
+          "lineNumber": 49
+        },
+        {
+          "caller": "getMbomSubtree",
+          "callee": "queue.shift",
+          "lineNumber": 56
+        },
+        {
+          "caller": "getMbomSubtree",
+          "callee": "result.push",
+          "lineNumber": 57
+        },
+        {
+          "caller": "getMbomSubtree",
+          "callee": "queue.push",
+          "lineNumber": 58
+        },
+        {
+          "caller": "getMbomSubtree",
+          "callee": "childrenByParent.get",
+          "lineNumber": 58
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 5,
+        "functionCount": 4,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/db/repositories/bop-repository.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 57,
+      "nonEmptyLines": 51,
+      "functions": [
+        {
+          "name": "getBopNodes",
+          "startLine": 27,
+          "endLine": 29,
+          "params": []
+        },
+        {
+          "name": "getChildren",
+          "startLine": 31,
+          "endLine": 33,
+          "params": [
+            "parentId"
+          ]
+        },
+        {
+          "name": "getBopSubtree",
+          "startLine": 35,
+          "endLine": 57,
+          "params": [
+            "rootId"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "bopRepository",
+          "line": 5,
+          "isDefault": false
+        },
+        {
+          "name": "getBopNodes",
+          "line": 27,
+          "isDefault": false
+        },
+        {
+          "name": "getChildren",
+          "line": 31,
+          "isDefault": false
+        },
+        {
+          "name": "getBopSubtree",
+          "line": 35,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "getAll",
+          "callee": "db.bopNodes.toArray",
+          "lineNumber": 7
+        },
+        {
+          "caller": "getById",
+          "callee": "db.bopNodes.get",
+          "lineNumber": 10
+        },
+        {
+          "caller": "create",
+          "callee": "db.bopNodes.add",
+          "lineNumber": 13
+        },
+        {
+          "caller": "update",
+          "callee": "db.bopNodes.update",
+          "lineNumber": 17
+        },
+        {
+          "caller": "update",
+          "callee": "db.bopNodes.get",
+          "lineNumber": 18
+        },
+        {
+          "caller": "delete",
+          "callee": "db.bopNodes.delete",
+          "lineNumber": 23
+        },
+        {
+          "caller": "getBopNodes",
+          "callee": "db.bopNodes.toArray",
+          "lineNumber": 28
+        },
+        {
+          "caller": "getChildren",
+          "callee": "db.bopNodes.where('parentId').equals(parentId).toArray",
+          "lineNumber": 32
+        },
+        {
+          "caller": "getChildren",
+          "callee": "db.bopNodes.where('parentId').equals",
+          "lineNumber": 32
+        },
+        {
+          "caller": "getChildren",
+          "callee": "db.bopNodes.where",
+          "lineNumber": 32
+        },
+        {
+          "caller": "getBopSubtree",
+          "callee": "getBopNodes",
+          "lineNumber": 36
+        },
+        {
+          "caller": "getBopSubtree",
+          "callee": "all.find",
+          "lineNumber": 37
+        },
+        {
+          "caller": "getBopSubtree",
+          "callee": "childrenByParent.get",
+          "lineNumber": 43
+        },
+        {
+          "caller": "getBopSubtree",
+          "callee": "siblings.push",
+          "lineNumber": 44
+        },
+        {
+          "caller": "getBopSubtree",
+          "callee": "childrenByParent.set",
+          "lineNumber": 45
+        },
+        {
+          "caller": "getBopSubtree",
+          "callee": "queue.shift",
+          "lineNumber": 52
+        },
+        {
+          "caller": "getBopSubtree",
+          "callee": "result.push",
+          "lineNumber": 53
+        },
+        {
+          "caller": "getBopSubtree",
+          "callee": "queue.push",
+          "lineNumber": 54
+        },
+        {
+          "caller": "getBopSubtree",
+          "callee": "childrenByParent.get",
+          "lineNumber": 54
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 4,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/db/repositories/change-order-repository.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 30,
+      "nonEmptyLines": 28,
+      "functions": [
+        {
+          "name": "getByCollaborationId",
+          "startLine": 27,
+          "endLine": 30,
+          "params": [
+            "collaborationId"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "changeOrderRepository",
+          "line": 5,
+          "isDefault": false
+        },
+        {
+          "name": "getByCollaborationId",
+          "line": 27,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "getAll",
+          "callee": "db.changeOrders.toArray",
+          "lineNumber": 7
+        },
+        {
+          "caller": "getById",
+          "callee": "db.changeOrders.get",
+          "lineNumber": 10
+        },
+        {
+          "caller": "create",
+          "callee": "db.changeOrders.add",
+          "lineNumber": 13
+        },
+        {
+          "caller": "update",
+          "callee": "db.changeOrders.update",
+          "lineNumber": 17
+        },
+        {
+          "caller": "update",
+          "callee": "db.changeOrders.get",
+          "lineNumber": 18
+        },
+        {
+          "caller": "delete",
+          "callee": "db.changeOrders.delete",
+          "lineNumber": 23
+        },
+        {
+          "caller": "getByCollaborationId",
+          "callee": "db.changeOrders.toArray",
+          "lineNumber": 28
+        },
+        {
+          "caller": "getByCollaborationId",
+          "callee": "all.filter",
+          "lineNumber": 29
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/db/repositories/collaboration-repository.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 25,
+      "nonEmptyLines": 24,
+      "exports": [
+        {
+          "name": "collaborationRepository",
+          "line": 5,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "getAll",
+          "callee": "db.collaborationLinks.toArray",
+          "lineNumber": 7
+        },
+        {
+          "caller": "getById",
+          "callee": "db.collaborationLinks.get",
+          "lineNumber": 10
+        },
+        {
+          "caller": "create",
+          "callee": "db.collaborationLinks.add",
+          "lineNumber": 13
+        },
+        {
+          "caller": "update",
+          "callee": "db.collaborationLinks.update",
+          "lineNumber": 17
+        },
+        {
+          "caller": "update",
+          "callee": "db.collaborationLinks.get",
+          "lineNumber": 18
+        },
+        {
+          "caller": "delete",
+          "callee": "db.collaborationLinks.delete",
+          "lineNumber": 23
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/db/repositories/dictionary-repository.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 29,
+      "nonEmptyLines": 27,
+      "functions": [
+        {
+          "name": "getByCategory",
+          "startLine": 27,
+          "endLine": 29,
+          "params": [
+            "category"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "dictionaryRepository",
+          "line": 5,
+          "isDefault": false
+        },
+        {
+          "name": "getByCategory",
+          "line": 27,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "getAll",
+          "callee": "db.dictionaries.toArray",
+          "lineNumber": 7
+        },
+        {
+          "caller": "getById",
+          "callee": "db.dictionaries.get",
+          "lineNumber": 10
+        },
+        {
+          "caller": "create",
+          "callee": "db.dictionaries.add",
+          "lineNumber": 13
+        },
+        {
+          "caller": "update",
+          "callee": "db.dictionaries.update",
+          "lineNumber": 17
+        },
+        {
+          "caller": "update",
+          "callee": "db.dictionaries.get",
+          "lineNumber": 18
+        },
+        {
+          "caller": "delete",
+          "callee": "db.dictionaries.delete",
+          "lineNumber": 23
+        },
+        {
+          "caller": "getByCategory",
+          "callee": "db.dictionaries.where('category').equals(category).sortBy",
+          "lineNumber": 28
+        },
+        {
+          "caller": "getByCategory",
+          "callee": "db.dictionaries.where('category').equals",
+          "lineNumber": 28
+        },
+        {
+          "caller": "getByCategory",
+          "callee": "db.dictionaries.where",
+          "lineNumber": 28
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/db/repositories/document-file-repository.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 25,
+      "nonEmptyLines": 24,
+      "exports": [
+        {
+          "name": "documentFileRepository",
+          "line": 5,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "getAll",
+          "callee": "db.documentFiles.toArray",
+          "lineNumber": 7
+        },
+        {
+          "caller": "getById",
+          "callee": "db.documentFiles.get",
+          "lineNumber": 10
+        },
+        {
+          "caller": "create",
+          "callee": "db.documentFiles.add",
+          "lineNumber": 13
+        },
+        {
+          "caller": "update",
+          "callee": "db.documentFiles.update",
+          "lineNumber": 17
+        },
+        {
+          "caller": "update",
+          "callee": "db.documentFiles.get",
+          "lineNumber": 18
+        },
+        {
+          "caller": "delete",
+          "callee": "db.documentFiles.delete",
+          "lineNumber": 23
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/db/repositories/operation-repository.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 47,
+      "nonEmptyLines": 41,
+      "functions": [
+        {
+          "name": "getByBopNodeId",
+          "startLine": 28,
+          "endLine": 30,
+          "params": [
+            "bopNodeId"
+          ]
+        },
+        {
+          "name": "getByBopParentId",
+          "startLine": 32,
+          "endLine": 34,
+          "params": [
+            "bopParentId"
+          ]
+        },
+        {
+          "name": "getAllForBopRoot",
+          "startLine": 36,
+          "endLine": 47,
+          "params": [
+            "rootId"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "operationRepository",
+          "line": 6,
+          "isDefault": false
+        },
+        {
+          "name": "getByBopNodeId",
+          "line": 28,
+          "isDefault": false
+        },
+        {
+          "name": "getByBopParentId",
+          "line": 32,
+          "isDefault": false
+        },
+        {
+          "name": "getAllForBopRoot",
+          "line": 36,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "getAll",
+          "callee": "db.operations.toArray",
+          "lineNumber": 8
+        },
+        {
+          "caller": "getById",
+          "callee": "db.operations.get",
+          "lineNumber": 11
+        },
+        {
+          "caller": "create",
+          "callee": "db.operations.add",
+          "lineNumber": 14
+        },
+        {
+          "caller": "update",
+          "callee": "db.operations.update",
+          "lineNumber": 18
+        },
+        {
+          "caller": "update",
+          "callee": "db.operations.get",
+          "lineNumber": 19
+        },
+        {
+          "caller": "delete",
+          "callee": "db.operations.delete",
+          "lineNumber": 24
+        },
+        {
+          "caller": "getByBopNodeId",
+          "callee": "db.operations.where('bopNodeId').equals(bopNodeId).first",
+          "lineNumber": 29
+        },
+        {
+          "caller": "getByBopNodeId",
+          "callee": "db.operations.where('bopNodeId').equals",
+          "lineNumber": 29
+        },
+        {
+          "caller": "getByBopNodeId",
+          "callee": "db.operations.where",
+          "lineNumber": 29
+        },
+        {
+          "caller": "getByBopParentId",
+          "callee": "db.operations.where('bopParentId').equals(bopParentId).toArray",
+          "lineNumber": 33
+        },
+        {
+          "caller": "getByBopParentId",
+          "callee": "db.operations.where('bopParentId').equals",
+          "lineNumber": 33
+        },
+        {
+          "caller": "getByBopParentId",
+          "callee": "db.operations.where",
+          "lineNumber": 33
+        },
+        {
+          "caller": "getAllForBopRoot",
+          "callee": "getBopSubtree",
+          "lineNumber": 37
+        },
+        {
+          "caller": "getAllForBopRoot",
+          "callee": "subtree\n    .filter((node) => node.level === 'operation')\n    .map",
+          "lineNumber": 38
+        },
+        {
+          "caller": "getAllForBopRoot",
+          "callee": "subtree\n    .filter",
+          "lineNumber": 38
+        },
+        {
+          "caller": "getAllForBopRoot",
+          "callee": "db.operations.toArray",
+          "lineNumber": 44
+        },
+        {
+          "caller": "getAllForBopRoot",
+          "callee": "all.filter",
+          "lineNumber": 46
+        },
+        {
+          "caller": "getAllForBopRoot",
+          "callee": "nodeIdSet.has",
+          "lineNumber": 46
+        }
+      ],
+      "metrics": {
+        "importCount": 4,
+        "exportCount": 4,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/db/repositories/process-document-repository.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 33,
+      "nonEmptyLines": 30,
+      "functions": [
+        {
+          "name": "getByProductCode",
+          "startLine": 27,
+          "endLine": 29,
+          "params": [
+            "productCode"
+          ]
+        },
+        {
+          "name": "getByLinkedObjectId",
+          "startLine": 31,
+          "endLine": 33,
+          "params": [
+            "linkedObjectId"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "processDocumentRepository",
+          "line": 5,
+          "isDefault": false
+        },
+        {
+          "name": "getByProductCode",
+          "line": 27,
+          "isDefault": false
+        },
+        {
+          "name": "getByLinkedObjectId",
+          "line": 31,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "getAll",
+          "callee": "db.processDocuments.toArray",
+          "lineNumber": 7
+        },
+        {
+          "caller": "getById",
+          "callee": "db.processDocuments.get",
+          "lineNumber": 10
+        },
+        {
+          "caller": "create",
+          "callee": "db.processDocuments.add",
+          "lineNumber": 13
+        },
+        {
+          "caller": "update",
+          "callee": "db.processDocuments.update",
+          "lineNumber": 17
+        },
+        {
+          "caller": "update",
+          "callee": "db.processDocuments.get",
+          "lineNumber": 18
+        },
+        {
+          "caller": "delete",
+          "callee": "db.processDocuments.delete",
+          "lineNumber": 23
+        },
+        {
+          "caller": "getByProductCode",
+          "callee": "db.processDocuments.where('productCode').equals(productCode).toArray",
+          "lineNumber": 28
+        },
+        {
+          "caller": "getByProductCode",
+          "callee": "db.processDocuments.where('productCode').equals",
+          "lineNumber": 28
+        },
+        {
+          "caller": "getByProductCode",
+          "callee": "db.processDocuments.where",
+          "lineNumber": 28
+        },
+        {
+          "caller": "getByLinkedObjectId",
+          "callee": "db.processDocuments.where('linkedObjectId').equals(linkedObjectId).toArray",
+          "lineNumber": 32
+        },
+        {
+          "caller": "getByLinkedObjectId",
+          "callee": "db.processDocuments.where('linkedObjectId').equals",
+          "lineNumber": 32
+        },
+        {
+          "caller": "getByLinkedObjectId",
+          "callee": "db.processDocuments.where",
+          "lineNumber": 32
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 3,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/db/repositories/resource-repository.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 25,
+      "nonEmptyLines": 24,
+      "exports": [
+        {
+          "name": "resourceRepository",
+          "line": 5,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "getAll",
+          "callee": "db.resources.toArray",
+          "lineNumber": 7
+        },
+        {
+          "caller": "getById",
+          "callee": "db.resources.get",
+          "lineNumber": 10
+        },
+        {
+          "caller": "create",
+          "callee": "db.resources.add",
+          "lineNumber": 13
+        },
+        {
+          "caller": "update",
+          "callee": "db.resources.update",
+          "lineNumber": 17
+        },
+        {
+          "caller": "update",
+          "callee": "db.resources.get",
+          "lineNumber": 18
+        },
+        {
+          "caller": "delete",
+          "callee": "db.resources.delete",
+          "lineNumber": 23
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/db/schema.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 76,
+      "nonEmptyLines": 73,
+      "classes": [
+        {
+          "name": "MpmsDatabase",
+          "startLine": 17,
+          "endLine": 74,
+          "methods": [
+            "constructor"
+          ],
+          "properties": [
+            "collaborationLinks",
+            "bomNodes",
+            "bopNodes",
+            "operations",
+            "resources",
+            "processDocuments",
+            "documentFiles",
+            "changeOrders",
+            "approvalRecords",
+            "envelopes",
+            "dictionaries",
+            "appMeta"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "MpmsDatabase",
+          "line": 17,
+          "isDefault": false
+        },
+        {
+          "name": "db",
+          "line": 76,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "constructor",
+          "callee": "super",
+          "lineNumber": 32
+        },
+        {
+          "caller": "constructor",
+          "callee": "this.version(1).stores",
+          "lineNumber": 33
+        },
+        {
+          "caller": "constructor",
+          "callee": "this.version",
+          "lineNumber": 33
+        },
+        {
+          "caller": "constructor",
+          "callee": "this.version(2).stores",
+          "lineNumber": 46
+        },
+        {
+          "caller": "constructor",
+          "callee": "this.version",
+          "lineNumber": 46
+        },
+        {
+          "caller": "constructor",
+          "callee": "this.version(3).stores",
+          "lineNumber": 59
+        },
+        {
+          "caller": "constructor",
+          "callee": "this.version",
+          "lineNumber": 59
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 2,
+        "functionCount": 0,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "src/lib/domain/id-generator.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 15,
+      "nonEmptyLines": 13,
+      "functions": [
+        {
+          "name": "nextCounter",
+          "startLine": 3,
+          "endLine": 11,
+          "params": [
+            "key",
+            "prefix"
+          ]
+        },
+        {
+          "name": "nextBopCode",
+          "startLine": 13,
+          "endLine": 13,
+          "params": []
+        },
+        {
+          "name": "nextOperationCode",
+          "startLine": 14,
+          "endLine": 14,
+          "params": []
+        },
+        {
+          "name": "nextDocumentCode",
+          "startLine": 15,
+          "endLine": 15,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "nextBopCode",
+          "line": 13,
+          "isDefault": false
+        },
+        {
+          "name": "nextOperationCode",
+          "line": 14,
+          "isDefault": false
+        },
+        {
+          "name": "nextDocumentCode",
+          "line": 15,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "nextCounter",
+          "callee": "db.appMeta.get",
+          "lineNumber": 4
+        },
+        {
+          "caller": "nextCounter",
+          "callee": "db.appMeta.update",
+          "lineNumber": 7
+        },
+        {
+          "caller": "nextCounter",
+          "callee": "String(next).padStart",
+          "lineNumber": 10
+        },
+        {
+          "caller": "nextCounter",
+          "callee": "String",
+          "lineNumber": 10
+        },
+        {
+          "caller": "nextBopCode",
+          "callee": "nextCounter",
+          "lineNumber": 13
+        },
+        {
+          "caller": "nextOperationCode",
+          "callee": "nextCounter",
+          "lineNumber": 14
+        },
+        {
+          "caller": "nextDocumentCode",
+          "callee": "nextCounter",
+          "lineNumber": 15
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 3,
+        "functionCount": 4,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/domain/rules/mbom-constraints.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 52,
+      "nonEmptyLines": 45,
+      "functions": [
+        {
+          "name": "isRestrictedParent",
+          "startLine": 3,
+          "endLine": 5,
+          "params": [
+            "parent"
+          ]
+        },
+        {
+          "name": "isForbiddenChild",
+          "startLine": 7,
+          "endLine": 9,
+          "params": [
+            "node"
+          ]
+        },
+        {
+          "name": "validateNodeAgainstParent",
+          "startLine": 11,
+          "endLine": 26,
+          "params": [
+            "nodes",
+            "nodeId"
+          ]
+        },
+        {
+          "name": "validatePurchasedChildrenConstraint",
+          "startLine": 29,
+          "endLine": 52,
+          "params": [
+            "nodes",
+            "nodeId"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "validatePurchasedChildrenConstraint",
+          "line": 29,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "validateNodeAgainstParent",
+          "callee": "nodes.map",
+          "lineNumber": 15
+        },
+        {
+          "caller": "validateNodeAgainstParent",
+          "callee": "nodeMap.get",
+          "lineNumber": 16
+        },
+        {
+          "caller": "validateNodeAgainstParent",
+          "callee": "nodeMap.get",
+          "lineNumber": 19
+        },
+        {
+          "caller": "validateNodeAgainstParent",
+          "callee": "isRestrictedParent",
+          "lineNumber": 22
+        },
+        {
+          "caller": "validateNodeAgainstParent",
+          "callee": "isForbiddenChild",
+          "lineNumber": 22
+        },
+        {
+          "caller": "validatePurchasedChildrenConstraint",
+          "callee": "childrenByParent.get",
+          "lineNumber": 36
+        },
+        {
+          "caller": "validatePurchasedChildrenConstraint",
+          "callee": "siblings.push",
+          "lineNumber": 37
+        },
+        {
+          "caller": "validatePurchasedChildrenConstraint",
+          "callee": "childrenByParent.set",
+          "lineNumber": 38
+        },
+        {
+          "caller": "validatePurchasedChildrenConstraint",
+          "callee": "queue.shift",
+          "lineNumber": 44
+        },
+        {
+          "caller": "validatePurchasedChildrenConstraint",
+          "callee": "validateNodeAgainstParent",
+          "lineNumber": 45
+        },
+        {
+          "caller": "validatePurchasedChildrenConstraint",
+          "callee": "childrenByParent.get",
+          "lineNumber": 47
+        },
+        {
+          "caller": "validatePurchasedChildrenConstraint",
+          "callee": "queue.push",
+          "lineNumber": 48
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 4,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/domain/schemas/bom.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 31,
+      "nonEmptyLines": 30,
+      "exports": [
+        {
+          "name": "bomNodeSchema",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/domain/schemas/export-bundle.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 31,
+      "nonEmptyLines": 29,
+      "exports": [
+        {
+          "name": "EXPORT_BUNDLE_VERSION",
+          "line": 5,
+          "isDefault": false
+        },
+        {
+          "name": "exportBundleSchema",
+          "line": 7,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 2,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/domain/schemas/handoff-package.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 51,
+      "nonEmptyLines": 48,
+      "exports": [
+        {
+          "name": "HANDOFF_SCHEMA_VERSION",
+          "line": 5,
+          "isDefault": false
+        },
+        {
+          "name": "handoffPackageSchema",
+          "line": 7,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 2,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/domain/schemas/process-document.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 35,
+      "nonEmptyLines": 31,
+      "exports": [
+        {
+          "name": "processDocumentCategorySchema",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "processDocumentLinkedObjectTypeSchema",
+          "line": 9,
+          "isDefault": false
+        },
+        {
+          "name": "processDocumentSchema",
+          "line": 15,
+          "isDefault": false
+        },
+        {
+          "name": "documentFileSchema",
+          "line": 31,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 4,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/domain/services/apd-export-service.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 117,
+      "nonEmptyLines": 106,
+      "functions": [
+        {
+          "name": "exportApdExcel",
+          "startLine": 7,
+          "endLine": 117,
+          "params": [
+            "collaborationId"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "exportApdExcel",
+          "line": 7,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "exportApdExcel",
+          "callee": "collaborationRepository.getById",
+          "lineNumber": 8
+        },
+        {
+          "caller": "exportApdExcel",
+          "callee": "workbook.addWorksheet",
+          "lineNumber": 15
+        },
+        {
+          "caller": "exportApdExcel",
+          "callee": "getBopSubtree",
+          "lineNumber": 25
+        },
+        {
+          "caller": "exportApdExcel",
+          "callee": "bopSheet.addRow",
+          "lineNumber": 27
+        },
+        {
+          "caller": "exportApdExcel",
+          "callee": "workbook.addWorksheet",
+          "lineNumber": 37
+        },
+        {
+          "caller": "exportApdExcel",
+          "callee": "getAllForBopRoot",
+          "lineNumber": 49
+        },
+        {
+          "caller": "exportApdExcel",
+          "callee": "opSheet.addRow",
+          "lineNumber": 52
+        },
+        {
+          "caller": "exportApdExcel",
+          "callee": "workbook.addWorksheet",
+          "lineNumber": 63
+        },
+        {
+          "caller": "exportApdExcel",
+          "callee": "getMbomSubtree",
+          "lineNumber": 74
+        },
+        {
+          "caller": "exportApdExcel",
+          "callee": "mbomSheet.addRow",
+          "lineNumber": 76
+        },
+        {
+          "caller": "exportApdExcel",
+          "callee": "workbook.addWorksheet",
+          "lineNumber": 87
+        },
+        {
+          "caller": "exportApdExcel",
+          "callee": "cardSheet.addRow",
+          "lineNumber": 101
+        },
+        {
+          "caller": "exportApdExcel",
+          "callee": "workbook.xlsx.writeBuffer",
+          "lineNumber": 113
+        }
+      ],
+      "metrics": {
+        "importCount": 4,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/domain/services/change-order-service.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 269,
+      "nonEmptyLines": 232,
+      "functions": [
+        {
+          "name": "buildSnapshot",
+          "startLine": 20,
+          "endLine": 54,
+          "params": [
+            "collaborationId"
+          ]
+        },
+        {
+          "name": "snapshotToId",
+          "startLine": 56,
+          "endLine": 58,
+          "params": [
+            "snapshot"
+          ]
+        },
+        {
+          "name": "parseSnapshot",
+          "startLine": 60,
+          "endLine": 66,
+          "params": [
+            "raw"
+          ]
+        },
+        {
+          "name": "formatDiff",
+          "startLine": 68,
+          "endLine": 111,
+          "params": [
+            "before",
+            "after"
+          ]
+        },
+        {
+          "name": "createChangeOrderDraft",
+          "startLine": 113,
+          "endLine": 147,
+          "params": [
+            "collaborationId"
+          ]
+        },
+        {
+          "name": "computeChangeDiff",
+          "startLine": 149,
+          "endLine": 176,
+          "params": [
+            "collaborationId"
+          ]
+        },
+        {
+          "name": "finalizeChangeOrder",
+          "startLine": 187,
+          "endLine": 216,
+          "params": [
+            "id",
+            "data"
+          ]
+        },
+        {
+          "name": "submitChangeOrderApproval",
+          "startLine": 218,
+          "endLine": 238,
+          "params": [
+            "id",
+            "actor"
+          ]
+        },
+        {
+          "name": "getChangeOrders",
+          "startLine": 240,
+          "endLine": 269,
+          "params": [
+            "filters"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "createChangeOrderDraft",
+          "line": 113,
+          "isDefault": false
+        },
+        {
+          "name": "computeChangeDiff",
+          "line": 149,
+          "isDefault": false
+        },
+        {
+          "name": "finalizeChangeOrder",
+          "line": 187,
+          "isDefault": false
+        },
+        {
+          "name": "submitChangeOrderApproval",
+          "line": 218,
+          "isDefault": false
+        },
+        {
+          "name": "getChangeOrders",
+          "line": 240,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "buildSnapshot",
+          "callee": "collaborationRepository.getById",
+          "lineNumber": 21
+        },
+        {
+          "caller": "buildSnapshot",
+          "callee": "bomRepository.getById",
+          "lineNumber": 29
+        },
+        {
+          "caller": "buildSnapshot",
+          "callee": "getMbomSubtree",
+          "lineNumber": 31
+        },
+        {
+          "caller": "buildSnapshot",
+          "callee": "bopRepository.getById",
+          "lineNumber": 38
+        },
+        {
+          "caller": "buildSnapshot",
+          "callee": "getBopSubtree",
+          "lineNumber": 40
+        },
+        {
+          "caller": "buildSnapshot",
+          "callee": "getAllForBopRoot",
+          "lineNumber": 42
+        },
+        {
+          "caller": "snapshotToId",
+          "callee": "JSON.stringify",
+          "lineNumber": 57
+        },
+        {
+          "caller": "parseSnapshot",
+          "callee": "JSON.parse",
+          "lineNumber": 62
+        },
+        {
+          "caller": "formatDiff",
+          "callee": "lines.push",
+          "lineNumber": 77
+        },
+        {
+          "caller": "formatDiff",
+          "callee": "impact.push",
+          "lineNumber": 78
+        },
+        {
+          "caller": "formatDiff",
+          "callee": "lines.push",
+          "lineNumber": 80
+        },
+        {
+          "caller": "formatDiff",
+          "callee": "lines.push",
+          "lineNumber": 84
+        },
+        {
+          "caller": "formatDiff",
+          "callee": "lines.push",
+          "lineNumber": 89
+        },
+        {
+          "caller": "formatDiff",
+          "callee": "impact.push",
+          "lineNumber": 90
+        },
+        {
+          "caller": "formatDiff",
+          "callee": "lines.push",
+          "lineNumber": 92
+        },
+        {
+          "caller": "formatDiff",
+          "callee": "lines.push",
+          "lineNumber": 96
+        },
+        {
+          "caller": "formatDiff",
+          "callee": "lines.push",
+          "lineNumber": 101
+        },
+        {
+          "caller": "formatDiff",
+          "callee": "impact.push",
+          "lineNumber": 102
+        },
+        {
+          "caller": "formatDiff",
+          "callee": "lines.push",
+          "lineNumber": 104
+        },
+        {
+          "caller": "formatDiff",
+          "callee": "lines.join",
+          "lineNumber": 108
+        },
+        {
+          "caller": "formatDiff",
+          "callee": "impact.join",
+          "lineNumber": 109
+        },
+        {
+          "caller": "createChangeOrderDraft",
+          "callee": "collaborationRepository.getById",
+          "lineNumber": 116
+        },
+        {
+          "caller": "createChangeOrderDraft",
+          "callee": "buildSnapshot",
+          "lineNumber": 121
+        },
+        {
+          "caller": "createChangeOrderDraft",
+          "callee": "collab.name.split",
+          "lineNumber": 122
+        },
+        {
+          "caller": "createChangeOrderDraft",
+          "callee": "bomRepository.getById",
+          "lineNumber": 126
+        },
+        {
+          "caller": "createChangeOrderDraft",
+          "callee": "uuidv4",
+          "lineNumber": 131
+        },
+        {
+          "caller": "createChangeOrderDraft",
+          "callee": "snapshotToId",
+          "lineNumber": 138
+        },
+        {
+          "caller": "createChangeOrderDraft",
+          "callee": "new Date().toISOString",
+          "lineNumber": 141
+        },
+        {
+          "caller": "createChangeOrderDraft",
+          "callee": "changeOrderRepository.create",
+          "lineNumber": 145
+        },
+        {
+          "caller": "computeChangeDiff",
+          "callee": "buildSnapshot",
+          "lineNumber": 154
+        },
+        {
+          "caller": "computeChangeDiff",
+          "callee": "snapshotToId",
+          "lineNumber": 155
+        },
+        {
+          "caller": "computeChangeDiff",
+          "callee": "getByCollaborationId",
+          "lineNumber": 157
+        },
+        {
+          "caller": "computeChangeDiff",
+          "callee": "drafts\n    .filter((d) => d.lifecycleState === 'draft')\n    .sort",
+          "lineNumber": 158
+        },
+        {
+          "caller": "computeChangeDiff",
+          "callee": "drafts\n    .filter",
+          "lineNumber": 158
+        },
+        {
+          "caller": "computeChangeDiff",
+          "callee": "(b.createdAt ?? '').localeCompare",
+          "lineNumber": 160
+        },
+        {
+          "caller": "computeChangeDiff",
+          "callee": "parseSnapshot",
+          "lineNumber": 163
+        },
+        {
+          "caller": "computeChangeDiff",
+          "callee": "formatDiff",
+          "lineNumber": 174
+        },
+        {
+          "caller": "finalizeChangeOrder",
+          "callee": "changeOrderRepository.getById",
+          "lineNumber": 191
+        },
+        {
+          "caller": "finalizeChangeOrder",
+          "callee": "computeChangeDiff",
+          "lineNumber": 201
+        },
+        {
+          "caller": "finalizeChangeOrder",
+          "callee": "changeOrderRepository.update",
+          "lineNumber": 207
+        },
+        {
+          "caller": "submitChangeOrderApproval",
+          "callee": "changeOrderRepository.getById",
+          "lineNumber": 222
+        },
+        {
+          "caller": "submitChangeOrderApproval",
+          "callee": "order.reason.trim",
+          "lineNumber": 226
+        },
+        {
+          "caller": "submitChangeOrderApproval",
+          "callee": "startApproval",
+          "lineNumber": 230
+        },
+        {
+          "caller": "submitChangeOrderApproval",
+          "callee": "changeOrderRepository.update",
+          "lineNumber": 237
+        },
+        {
+          "caller": "getChangeOrders",
+          "callee": "changeOrderRepository.getAll",
+          "lineNumber": 245
+        },
+        {
+          "caller": "getChangeOrders",
+          "callee": "filters.productCode.trim().toLowerCase",
+          "lineNumber": 248
+        },
+        {
+          "caller": "getChangeOrders",
+          "callee": "filters.productCode.trim",
+          "lineNumber": 248
+        },
+        {
+          "caller": "getChangeOrders",
+          "callee": "orders.filter",
+          "lineNumber": 249
+        },
+        {
+          "caller": "getChangeOrders",
+          "callee": "o.productCode.toLowerCase().includes",
+          "lineNumber": 249
+        },
+        {
+          "caller": "getChangeOrders",
+          "callee": "o.productCode.toLowerCase",
+          "lineNumber": 249
+        },
+        {
+          "caller": "getChangeOrders",
+          "callee": "new Date(filters.dateFrom).getTime",
+          "lineNumber": 253
+        },
+        {
+          "caller": "getChangeOrders",
+          "callee": "orders.filter",
+          "lineNumber": 254
+        },
+        {
+          "caller": "getChangeOrders",
+          "callee": "new Date(o.createdAt).getTime",
+          "lineNumber": 256
+        },
+        {
+          "caller": "getChangeOrders",
+          "callee": "new Date(filters.dateTo).getTime",
+          "lineNumber": 261
+        },
+        {
+          "caller": "getChangeOrders",
+          "callee": "orders.filter",
+          "lineNumber": 262
+        },
+        {
+          "caller": "getChangeOrders",
+          "callee": "new Date(o.createdAt).getTime",
+          "lineNumber": 264
+        },
+        {
+          "caller": "getChangeOrders",
+          "callee": "orders.sort",
+          "lineNumber": 268
+        },
+        {
+          "caller": "getChangeOrders",
+          "callee": "(b.createdAt ?? '').localeCompare",
+          "lineNumber": 268
+        }
+      ],
+      "metrics": {
+        "importCount": 7,
+        "exportCount": 5,
+        "functionCount": 9,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/domain/services/mbom-service.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 192,
+      "nonEmptyLines": 168,
+      "functions": [
+        {
+          "name": "countSiblingsByKind",
+          "startLine": 11,
+          "endLine": 20,
+          "params": [
+            "parentId",
+            "kind",
+            "marker"
+          ]
+        },
+        {
+          "name": "initializeMbomRoot",
+          "startLine": 22,
+          "endLine": 52,
+          "params": [
+            "collaborationId",
+            "ebomRootId"
+          ]
+        },
+        {
+          "name": "addMbomFromEbomRef",
+          "startLine": 54,
+          "endLine": 106,
+          "params": [
+            "ebomNodeId",
+            "targetParentMbomId",
+            "collaborationId"
+          ]
+        },
+        {
+          "name": "createPhantomSemifinished",
+          "startLine": 108,
+          "endLine": 130,
+          "params": [
+            "parentId"
+          ]
+        },
+        {
+          "name": "createPhantomGroup",
+          "startLine": 132,
+          "endLine": 153,
+          "params": [
+            "parentId"
+          ]
+        },
+        {
+          "name": "moveMbomNode",
+          "startLine": 155,
+          "endLine": 188,
+          "params": [
+            "nodeId",
+            "newParentId"
+          ]
+        },
+        {
+          "name": "getMbomTree",
+          "startLine": 190,
+          "endLine": 192,
+          "params": [
+            "mbomRootId"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "initializeMbomRoot",
+          "line": 22,
+          "isDefault": false
+        },
+        {
+          "name": "addMbomFromEbomRef",
+          "line": 54,
+          "isDefault": false
+        },
+        {
+          "name": "createPhantomSemifinished",
+          "line": 108,
+          "isDefault": false
+        },
+        {
+          "name": "createPhantomGroup",
+          "line": 132,
+          "isDefault": false
+        },
+        {
+          "name": "moveMbomNode",
+          "line": 155,
+          "isDefault": false
+        },
+        {
+          "name": "getMbomTree",
+          "line": 190,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "countSiblingsByKind",
+          "callee": "getMbomNodes",
+          "lineNumber": 16
+        },
+        {
+          "caller": "countSiblingsByKind",
+          "callee": "allMbom.filter",
+          "lineNumber": 17
+        },
+        {
+          "caller": "countSiblingsByKind",
+          "callee": "n.code.includes",
+          "lineNumber": 18
+        },
+        {
+          "caller": "initializeMbomRoot",
+          "callee": "collaborationRepository.getById",
+          "lineNumber": 26
+        },
+        {
+          "caller": "initializeMbomRoot",
+          "callee": "bomRepository.getById",
+          "lineNumber": 31
+        },
+        {
+          "caller": "initializeMbomRoot",
+          "callee": "uuidv4",
+          "lineNumber": 37
+        },
+        {
+          "caller": "initializeMbomRoot",
+          "callee": "bomRepository.create",
+          "lineNumber": 49
+        },
+        {
+          "caller": "initializeMbomRoot",
+          "callee": "collaborationRepository.update",
+          "lineNumber": 50
+        },
+        {
+          "caller": "addMbomFromEbomRef",
+          "callee": "collaborationRepository.getById",
+          "lineNumber": 59
+        },
+        {
+          "caller": "addMbomFromEbomRef",
+          "callee": "bomRepository.getById",
+          "lineNumber": 64
+        },
+        {
+          "caller": "addMbomFromEbomRef",
+          "callee": "bomRepository.getById",
+          "lineNumber": 69
+        },
+        {
+          "caller": "addMbomFromEbomRef",
+          "callee": "uuidv4",
+          "lineNumber": 75
+        },
+        {
+          "caller": "addMbomFromEbomRef",
+          "callee": "getMbomNodes",
+          "lineNumber": 95
+        },
+        {
+          "caller": "addMbomFromEbomRef",
+          "callee": "validatePurchasedChildrenConstraint",
+          "lineNumber": 96
+        },
+        {
+          "caller": "addMbomFromEbomRef",
+          "callee": "bomRepository.create",
+          "lineNumber": 104
+        },
+        {
+          "caller": "createPhantomSemifinished",
+          "callee": "bomRepository.getById",
+          "lineNumber": 109
+        },
+        {
+          "caller": "createPhantomSemifinished",
+          "callee": "countSiblingsByKind",
+          "lineNumber": 114
+        },
+        {
+          "caller": "createPhantomSemifinished",
+          "callee": "uuidv4",
+          "lineNumber": 116
+        },
+        {
+          "caller": "createPhantomSemifinished",
+          "callee": "String(seq).padStart",
+          "lineNumber": 119
+        },
+        {
+          "caller": "createPhantomSemifinished",
+          "callee": "String",
+          "lineNumber": 119
+        },
+        {
+          "caller": "createPhantomSemifinished",
+          "callee": "bomRepository.create",
+          "lineNumber": 128
+        },
+        {
+          "caller": "createPhantomGroup",
+          "callee": "bomRepository.getById",
+          "lineNumber": 133
+        },
+        {
+          "caller": "createPhantomGroup",
+          "callee": "countSiblingsByKind",
+          "lineNumber": 138
+        },
+        {
+          "caller": "createPhantomGroup",
+          "callee": "uuidv4",
+          "lineNumber": 140
+        },
+        {
+          "caller": "createPhantomGroup",
+          "callee": "String(seq).padStart",
+          "lineNumber": 143
+        },
+        {
+          "caller": "createPhantomGroup",
+          "callee": "String",
+          "lineNumber": 143
+        },
+        {
+          "caller": "createPhantomGroup",
+          "callee": "bomRepository.create",
+          "lineNumber": 151
+        },
+        {
+          "caller": "moveMbomNode",
+          "callee": "bomRepository.getById",
+          "lineNumber": 159
+        },
+        {
+          "caller": "moveMbomNode",
+          "callee": "bomRepository.getById",
+          "lineNumber": 164
+        },
+        {
+          "caller": "moveMbomNode",
+          "callee": "getMbomSubtree",
+          "lineNumber": 173
+        },
+        {
+          "caller": "moveMbomNode",
+          "callee": "subtree.some",
+          "lineNumber": 174
+        },
+        {
+          "caller": "moveMbomNode",
+          "callee": "getMbomNodes",
+          "lineNumber": 178
+        },
+        {
+          "caller": "moveMbomNode",
+          "callee": "allMbom.map",
+          "lineNumber": 179
+        },
+        {
+          "caller": "moveMbomNode",
+          "callee": "validatePurchasedChildrenConstraint",
+          "lineNumber": 182
+        },
+        {
+          "caller": "moveMbomNode",
+          "callee": "bomRepository.update",
+          "lineNumber": 187
+        },
+        {
+          "caller": "getMbomTree",
+          "callee": "getMbomSubtree",
+          "lineNumber": 191
+        }
+      ],
+      "metrics": {
+        "importCount": 4,
+        "exportCount": 6,
+        "functionCount": 7,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/domain/services/operation-service.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 179,
+      "nonEmptyLines": 159,
+      "functions": [
+        {
+          "name": "defaultOperation",
+          "startLine": 21,
+          "endLine": 41,
+          "params": [
+            "bopNodeId",
+            "bopNode"
+          ]
+        },
+        {
+          "name": "ensureOperationForBopNode",
+          "startLine": 43,
+          "endLine": 58,
+          "params": [
+            "bopNodeId"
+          ]
+        },
+        {
+          "name": "getOperationsForCollaboration",
+          "startLine": 60,
+          "endLine": 67,
+          "params": [
+            "collaborationId"
+          ]
+        },
+        {
+          "name": "updateOperation",
+          "startLine": 69,
+          "endLine": 78,
+          "params": [
+            "id",
+            "partial"
+          ]
+        },
+        {
+          "name": "upsertBomRef",
+          "startLine": 80,
+          "endLine": 83,
+          "params": [
+            "refs",
+            "ref"
+          ]
+        },
+        {
+          "name": "assignMbomItem",
+          "startLine": 85,
+          "endLine": 106,
+          "params": [
+            "operationId",
+            "bomNodeId",
+            "quantity",
+            "instanceType"
+          ]
+        },
+        {
+          "name": "assignResource",
+          "startLine": 108,
+          "endLine": 129,
+          "params": [
+            "operationId",
+            "resourceId"
+          ]
+        },
+        {
+          "name": "removeConsumedItem",
+          "startLine": 131,
+          "endLine": 143,
+          "params": [
+            "operationId",
+            "bomNodeId"
+          ]
+        },
+        {
+          "name": "checkOperationAccountability",
+          "startLine": 145,
+          "endLine": 179,
+          "params": [
+            "operation",
+            "mbomNodes"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "ensureOperationForBopNode",
+          "line": 43,
+          "isDefault": false
+        },
+        {
+          "name": "getOperationsForCollaboration",
+          "line": 60,
+          "isDefault": false
+        },
+        {
+          "name": "updateOperation",
+          "line": 69,
+          "isDefault": false
+        },
+        {
+          "name": "assignMbomItem",
+          "line": 85,
+          "isDefault": false
+        },
+        {
+          "name": "assignResource",
+          "line": 108,
+          "isDefault": false
+        },
+        {
+          "name": "removeConsumedItem",
+          "line": 131,
+          "isDefault": false
+        },
+        {
+          "name": "checkOperationAccountability",
+          "line": 145,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "defaultOperation",
+          "callee": "uuidv4",
+          "lineNumber": 23
+        },
+        {
+          "caller": "ensureOperationForBopNode",
+          "callee": "getByBopNodeId",
+          "lineNumber": 44
+        },
+        {
+          "caller": "ensureOperationForBopNode",
+          "callee": "bopRepository.getById",
+          "lineNumber": 47
+        },
+        {
+          "caller": "ensureOperationForBopNode",
+          "callee": "defaultOperation",
+          "lineNumber": 55
+        },
+        {
+          "caller": "ensureOperationForBopNode",
+          "callee": "operationRepository.create",
+          "lineNumber": 56
+        },
+        {
+          "caller": "getOperationsForCollaboration",
+          "callee": "collaborationRepository.getById",
+          "lineNumber": 61
+        },
+        {
+          "caller": "getOperationsForCollaboration",
+          "callee": "getAllForBopRoot",
+          "lineNumber": 66
+        },
+        {
+          "caller": "updateOperation",
+          "callee": "operationRepository.getById",
+          "lineNumber": 73
+        },
+        {
+          "caller": "updateOperation",
+          "callee": "operationRepository.update",
+          "lineNumber": 77
+        },
+        {
+          "caller": "upsertBomRef",
+          "callee": "refs.filter",
+          "lineNumber": 81
+        },
+        {
+          "caller": "assignMbomItem",
+          "callee": "operationRepository.getById",
+          "lineNumber": 91
+        },
+        {
+          "caller": "assignMbomItem",
+          "callee": "operationRepository.update",
+          "lineNumber": 98
+        },
+        {
+          "caller": "assignMbomItem",
+          "callee": "upsertBomRef",
+          "lineNumber": 99
+        },
+        {
+          "caller": "assignMbomItem",
+          "callee": "operationRepository.update",
+          "lineNumber": 103
+        },
+        {
+          "caller": "assignMbomItem",
+          "callee": "upsertBomRef",
+          "lineNumber": 104
+        },
+        {
+          "caller": "assignResource",
+          "callee": "operationRepository.getById",
+          "lineNumber": 112
+        },
+        {
+          "caller": "assignResource",
+          "callee": "resourceRepository.getById",
+          "lineNumber": 117
+        },
+        {
+          "caller": "assignResource",
+          "callee": "operation.resources.some",
+          "lineNumber": 122
+        },
+        {
+          "caller": "assignResource",
+          "callee": "operationRepository.update",
+          "lineNumber": 126
+        },
+        {
+          "caller": "removeConsumedItem",
+          "callee": "operationRepository.getById",
+          "lineNumber": 135
+        },
+        {
+          "caller": "removeConsumedItem",
+          "callee": "operationRepository.update",
+          "lineNumber": 140
+        },
+        {
+          "caller": "removeConsumedItem",
+          "callee": "operation.consumedItems.filter",
+          "lineNumber": 141
+        },
+        {
+          "caller": "checkOperationAccountability",
+          "callee": "mbomNodes.map",
+          "lineNumber": 149
+        },
+        {
+          "caller": "checkOperationAccountability",
+          "callee": "operation.consumedItems\n    .filter((item) => item.instanceType === 'MEConsumed')\n    .map",
+          "lineNumber": 151
+        },
+        {
+          "caller": "checkOperationAccountability",
+          "callee": "operation.consumedItems\n    .filter",
+          "lineNumber": 151
+        },
+        {
+          "caller": "checkOperationAccountability",
+          "callee": "mbomById.get",
+          "lineNumber": 154
+        }
+      ],
+      "metrics": {
+        "importCount": 5,
+        "exportCount": 7,
+        "functionCount": 9,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/domain/services/process-document-service.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 74,
+      "nonEmptyLines": 66,
+      "functions": [
+        {
+          "name": "createProcessDocument",
+          "startLine": 20,
+          "endLine": 37,
+          "params": [
+            "input"
+          ]
+        },
+        {
+          "name": "attachFile",
+          "startLine": 39,
+          "endLine": 56,
+          "params": [
+            "documentId",
+            "file"
+          ]
+        },
+        {
+          "name": "getDocumentsGroupedByProduct",
+          "startLine": 58,
+          "endLine": 74,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "createProcessDocument",
+          "line": 20,
+          "isDefault": false
+        },
+        {
+          "name": "attachFile",
+          "line": 39,
+          "isDefault": false
+        },
+        {
+          "name": "getDocumentsGroupedByProduct",
+          "line": 58,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "createProcessDocument",
+          "callee": "nextDocumentCode",
+          "lineNumber": 23
+        },
+        {
+          "caller": "createProcessDocument",
+          "callee": "uuidv4",
+          "lineNumber": 25
+        },
+        {
+          "caller": "createProcessDocument",
+          "callee": "processDocumentRepository.create",
+          "lineNumber": 36
+        },
+        {
+          "caller": "attachFile",
+          "callee": "processDocumentRepository.getById",
+          "lineNumber": 40
+        },
+        {
+          "caller": "attachFile",
+          "callee": "uuidv4",
+          "lineNumber": 43
+        },
+        {
+          "caller": "attachFile",
+          "callee": "documentFileRepository.create",
+          "lineNumber": 44
+        },
+        {
+          "caller": "attachFile",
+          "callee": "processDocumentRepository.update",
+          "lineNumber": 51
+        },
+        {
+          "caller": "getDocumentsGroupedByProduct",
+          "callee": "processDocumentRepository.getAll",
+          "lineNumber": 61
+        },
+        {
+          "caller": "getDocumentsGroupedByProduct",
+          "callee": "groups.get",
+          "lineNumber": 66
+        },
+        {
+          "caller": "getDocumentsGroupedByProduct",
+          "callee": "list.push",
+          "lineNumber": 67
+        },
+        {
+          "caller": "getDocumentsGroupedByProduct",
+          "callee": "groups.set",
+          "lineNumber": 68
+        },
+        {
+          "caller": "getDocumentsGroupedByProduct",
+          "callee": "Array.from(groups.entries())\n    .map(([productCode, documents]) => ({ productCode, documents }))\n    .sort",
+          "lineNumber": 71
+        },
+        {
+          "caller": "getDocumentsGroupedByProduct",
+          "callee": "Array.from(groups.entries())\n    .map",
+          "lineNumber": 71
+        },
+        {
+          "caller": "getDocumentsGroupedByProduct",
+          "callee": "Array.from",
+          "lineNumber": 71
+        },
+        {
+          "caller": "getDocumentsGroupedByProduct",
+          "callee": "groups.entries",
+          "lineNumber": 71
+        },
+        {
+          "caller": "getDocumentsGroupedByProduct",
+          "callee": "a.productCode.localeCompare",
+          "lineNumber": 73
+        }
+      ],
+      "metrics": {
+        "importCount": 4,
+        "exportCount": 3,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/domain/services/process-summary-service.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 149,
+      "nonEmptyLines": 130,
+      "functions": [
+        {
+          "name": "buildProcessSummary",
+          "startLine": 60,
+          "endLine": 149,
+          "params": [
+            "collaborationId"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "buildProcessSummary",
+          "line": 60,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "buildProcessSummary",
+          "callee": "collaborationRepository.getById",
+          "lineNumber": 61
+        },
+        {
+          "caller": "buildProcessSummary",
+          "callee": "getAllForBopRoot",
+          "lineNumber": 67
+        },
+        {
+          "caller": "buildProcessSummary",
+          "callee": "getMbomSubtree",
+          "lineNumber": 71
+        },
+        {
+          "caller": "buildProcessSummary",
+          "callee": "mbomNodes.map",
+          "lineNumber": 74
+        },
+        {
+          "caller": "buildProcessSummary",
+          "callee": "resourceRepository.getAll",
+          "lineNumber": 75
+        },
+        {
+          "caller": "buildProcessSummary",
+          "callee": "resources.map",
+          "lineNumber": 76
+        },
+        {
+          "caller": "buildProcessSummary",
+          "callee": "mbomById.get",
+          "lineNumber": 85
+        },
+        {
+          "caller": "buildProcessSummary",
+          "callee": "installedParts.push",
+          "lineNumber": 86
+        },
+        {
+          "caller": "buildProcessSummary",
+          "callee": "resourceById.get",
+          "lineNumber": 96
+        },
+        {
+          "caller": "buildProcessSummary",
+          "callee": "equipmentTools.push",
+          "lineNumber": 98
+        },
+        {
+          "caller": "buildProcessSummary",
+          "callee": "mbomById.get",
+          "lineNumber": 107
+        },
+        {
+          "caller": "buildProcessSummary",
+          "callee": "toolings.push",
+          "lineNumber": 108
+        },
+        {
+          "caller": "buildProcessSummary",
+          "callee": "mbomNodes\n    .filter((node) => node.id !== collaboration.mbomRootId)\n    .map",
+          "lineNumber": 117
+        },
+        {
+          "caller": "buildProcessSummary",
+          "callee": "mbomNodes\n    .filter",
+          "lineNumber": 117
+        },
+        {
+          "caller": "buildProcessSummary",
+          "callee": "operations.map",
+          "lineNumber": 129
+        },
+        {
+          "caller": "buildProcessSummary",
+          "callee": "operations.map",
+          "lineNumber": 135
+        }
+      ],
+      "metrics": {
+        "importCount": 5,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/domain/services/summary-export-service.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 110,
+      "nonEmptyLines": 100,
+      "functions": [
+        {
+          "name": "exportProcessSummaryExcel",
+          "startLine": 11,
+          "endLine": 101,
+          "params": [
+            "summary"
+          ]
+        },
+        {
+          "name": "downloadProcessSummaryExcel",
+          "startLine": 103,
+          "endLine": 110,
+          "params": [
+            "blob",
+            "filename"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "exportProcessSummaryExcel",
+          "line": 11,
+          "isDefault": false
+        },
+        {
+          "name": "downloadProcessSummaryExcel",
+          "line": 103,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "exportProcessSummaryExcel",
+          "callee": "workbook.addWorksheet",
+          "lineNumber": 14
+        },
+        {
+          "caller": "exportProcessSummaryExcel",
+          "callee": "installedSheet.getRow",
+          "lineNumber": 22
+        },
+        {
+          "caller": "exportProcessSummaryExcel",
+          "callee": "installedSheet.addRow",
+          "lineNumber": 24
+        },
+        {
+          "caller": "exportProcessSummaryExcel",
+          "callee": "workbook.addWorksheet",
+          "lineNumber": 27
+        },
+        {
+          "caller": "exportProcessSummaryExcel",
+          "callee": "equipmentSheet.getRow",
+          "lineNumber": 34
+        },
+        {
+          "caller": "exportProcessSummaryExcel",
+          "callee": "equipmentSheet.addRow",
+          "lineNumber": 36
+        },
+        {
+          "caller": "exportProcessSummaryExcel",
+          "callee": "workbook.addWorksheet",
+          "lineNumber": 42
+        },
+        {
+          "caller": "exportProcessSummaryExcel",
+          "callee": "toolingSheet.getRow",
+          "lineNumber": 49
+        },
+        {
+          "caller": "exportProcessSummaryExcel",
+          "callee": "toolingSheet.addRow",
+          "lineNumber": 51
+        },
+        {
+          "caller": "exportProcessSummaryExcel",
+          "callee": "workbook.addWorksheet",
+          "lineNumber": 54
+        },
+        {
+          "caller": "exportProcessSummaryExcel",
+          "callee": "materialSheet.getRow",
+          "lineNumber": 63
+        },
+        {
+          "caller": "exportProcessSummaryExcel",
+          "callee": "materialSheet.addRow",
+          "lineNumber": 65
+        },
+        {
+          "caller": "exportProcessSummaryExcel",
+          "callee": "workbook.addWorksheet",
+          "lineNumber": 75
+        },
+        {
+          "caller": "exportProcessSummaryExcel",
+          "callee": "workHoursSheet.getRow",
+          "lineNumber": 81
+        },
+        {
+          "caller": "exportProcessSummaryExcel",
+          "callee": "workHoursSheet.addRow",
+          "lineNumber": 83
+        },
+        {
+          "caller": "exportProcessSummaryExcel",
+          "callee": "workbook.addWorksheet",
+          "lineNumber": 86
+        },
+        {
+          "caller": "exportProcessSummaryExcel",
+          "callee": "headcountSheet.getRow",
+          "lineNumber": 92
+        },
+        {
+          "caller": "exportProcessSummaryExcel",
+          "callee": "headcountSheet.addRow",
+          "lineNumber": 94
+        },
+        {
+          "caller": "exportProcessSummaryExcel",
+          "callee": "workbook.xlsx.writeBuffer",
+          "lineNumber": 97
+        },
+        {
+          "caller": "downloadProcessSummaryExcel",
+          "callee": "URL.createObjectURL",
+          "lineNumber": 104
+        },
+        {
+          "caller": "downloadProcessSummaryExcel",
+          "callee": "document.createElement",
+          "lineNumber": 105
+        },
+        {
+          "caller": "downloadProcessSummaryExcel",
+          "callee": "a.click",
+          "lineNumber": 108
+        },
+        {
+          "caller": "downloadProcessSummaryExcel",
+          "callee": "URL.revokeObjectURL",
+          "lineNumber": 109
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 2,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/integration/handoff-package.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 88,
+      "nonEmptyLines": 78,
+      "functions": [
+        {
+          "name": "buildCollaborationHandoffPackage",
+          "startLine": 13,
+          "endLine": 88,
+          "params": [
+            "collaborationId"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "buildCollaborationHandoffPackage",
+          "line": 13,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "buildCollaborationHandoffPackage",
+          "callee": "collaborationRepository.getById",
+          "lineNumber": 16
+        },
+        {
+          "caller": "buildCollaborationHandoffPackage",
+          "callee": "getMbomSubtree",
+          "lineNumber": 28
+        },
+        {
+          "caller": "buildCollaborationHandoffPackage",
+          "callee": "nodes.find",
+          "lineNumber": 29
+        },
+        {
+          "caller": "buildCollaborationHandoffPackage",
+          "callee": "getBopSubtree",
+          "lineNumber": 37
+        },
+        {
+          "caller": "buildCollaborationHandoffPackage",
+          "callee": "nodes.find",
+          "lineNumber": 38
+        },
+        {
+          "caller": "buildCollaborationHandoffPackage",
+          "callee": "getAllForBopRoot",
+          "lineNumber": 43
+        },
+        {
+          "caller": "buildCollaborationHandoffPackage",
+          "callee": "processDocumentRepository.getAll",
+          "lineNumber": 46
+        },
+        {
+          "caller": "buildCollaborationHandoffPackage",
+          "callee": "allDocs.filter",
+          "lineNumber": 47
+        },
+        {
+          "caller": "buildCollaborationHandoffPackage",
+          "callee": "buildProcessSummary",
+          "lineNumber": 53
+        },
+        {
+          "caller": "buildCollaborationHandoffPackage",
+          "callee": "bomRepository.getById",
+          "lineNumber": 58
+        },
+        {
+          "caller": "buildCollaborationHandoffPackage",
+          "callee": "Boolean",
+          "lineNumber": 59
+        },
+        {
+          "caller": "buildCollaborationHandoffPackage",
+          "callee": "new Date().toISOString",
+          "lineNumber": 64
+        },
+        {
+          "caller": "buildCollaborationHandoffPackage",
+          "callee": "handoffPackageSchema.parse",
+          "lineNumber": 87
+        }
+      ],
+      "metrics": {
+        "importCount": 7,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/workflow/guards.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 30,
+      "nonEmptyLines": 25,
+      "functions": [
+        {
+          "name": "validateMbomBopApproval",
+          "startLine": 9,
+          "endLine": 30,
+          "params": [
+            "targetId",
+            "targetType"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "validateMbomBopApproval",
+          "line": 9,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "validateMbomBopApproval",
+          "callee": "getMbomSubtree",
+          "lineNumber": 17
+        },
+        {
+          "caller": "validateMbomBopApproval",
+          "callee": "validatePurchasedChildrenConstraint",
+          "lineNumber": 23
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    }
+  ]
+}

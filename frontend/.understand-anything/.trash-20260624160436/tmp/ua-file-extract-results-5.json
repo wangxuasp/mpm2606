@@ -1,0 +1,1979 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 17,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "src/app/(workspace)/integration/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 132,
+      "nonEmptyLines": 122,
+      "functions": [
+        {
+          "name": "IntegrationPage",
+          "startLine": 24,
+          "endLine": 132,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "IntegrationPage",
+          "line": 24,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "IntegrationPage",
+          "callee": "useWorkspaceStore",
+          "lineNumber": 25
+        },
+        {
+          "caller": "IntegrationPage",
+          "callee": "useWorkspaceStore",
+          "lineNumber": 26
+        },
+        {
+          "caller": "IntegrationPage",
+          "callee": "useIntegrationStore",
+          "lineNumber": 27
+        },
+        {
+          "caller": "IntegrationPage",
+          "callee": "useIntegrationStore",
+          "lineNumber": 28
+        },
+        {
+          "caller": "IntegrationPage",
+          "callee": "useQuery",
+          "lineNumber": 30
+        },
+        {
+          "caller": "handleExportHandoff",
+          "callee": "toast.error",
+          "lineNumber": 38
+        },
+        {
+          "caller": "handleExportHandoff",
+          "callee": "exportCollaborationHandoff",
+          "lineNumber": 42
+        },
+        {
+          "caller": "handleExportHandoff",
+          "callee": "downloadJson",
+          "lineNumber": 43
+        },
+        {
+          "caller": "handleExportHandoff",
+          "callee": "Date.now",
+          "lineNumber": 43
+        },
+        {
+          "caller": "handleExportHandoff",
+          "callee": "toast.success",
+          "lineNumber": 44
+        },
+        {
+          "caller": "handleExportHandoff",
+          "callee": "toast.error",
+          "lineNumber": 46
+        },
+        {
+          "caller": "IntegrationPage",
+          "callee": "isMockIntegration",
+          "lineNumber": 71
+        }
+      ],
+      "metrics": {
+        "importCount": 11,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/app/(workspace)/settings/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 228,
+      "nonEmptyLines": 212,
+      "functions": [
+        {
+          "name": "SettingsPage",
+          "startLine": 35,
+          "endLine": 228,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "SettingsPage",
+          "line": 35,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "SettingsPage",
+          "callee": "useQueryClient",
+          "lineNumber": 36
+        },
+        {
+          "caller": "SettingsPage",
+          "callee": "useRef",
+          "lineNumber": 37
+        },
+        {
+          "caller": "SettingsPage",
+          "callee": "useWorkspaceStore",
+          "lineNumber": 38
+        },
+        {
+          "caller": "SettingsPage",
+          "callee": "useWorkspaceStore",
+          "lineNumber": 39
+        },
+        {
+          "caller": "SettingsPage",
+          "callee": "useState",
+          "lineNumber": 40
+        },
+        {
+          "caller": "SettingsPage",
+          "callee": "useState",
+          "lineNumber": 41
+        },
+        {
+          "caller": "SettingsPage",
+          "callee": "useState",
+          "lineNumber": 42
+        },
+        {
+          "caller": "SettingsPage",
+          "callee": "useState",
+          "lineNumber": 43
+        },
+        {
+          "caller": "SettingsPage",
+          "callee": "useState",
+          "lineNumber": 44
+        },
+        {
+          "caller": "SettingsPage",
+          "callee": "useQuery",
+          "lineNumber": 46
+        },
+        {
+          "caller": "invalidateAll",
+          "callee": "queryClient.invalidateQueries",
+          "lineNumber": 52
+        },
+        {
+          "caller": "handleExport",
+          "callee": "setError",
+          "lineNumber": 56
+        },
+        {
+          "caller": "handleExport",
+          "callee": "exportDatabase",
+          "lineNumber": 58
+        },
+        {
+          "caller": "handleExport",
+          "callee": "downloadJson",
+          "lineNumber": 59
+        },
+        {
+          "caller": "handleExport",
+          "callee": "Date.now",
+          "lineNumber": 59
+        },
+        {
+          "caller": "handleExport",
+          "callee": "setError",
+          "lineNumber": 61
+        },
+        {
+          "caller": "handleHandoffExport",
+          "callee": "setError",
+          "lineNumber": 67
+        },
+        {
+          "caller": "handleHandoffExport",
+          "callee": "setError",
+          "lineNumber": 70
+        },
+        {
+          "caller": "handleHandoffExport",
+          "callee": "exportCollaborationHandoff",
+          "lineNumber": 72
+        },
+        {
+          "caller": "handleHandoffExport",
+          "callee": "downloadJson",
+          "lineNumber": 73
+        },
+        {
+          "caller": "handleHandoffExport",
+          "callee": "Date.now",
+          "lineNumber": 75
+        },
+        {
+          "caller": "handleHandoffExport",
+          "callee": "setError",
+          "lineNumber": 78
+        },
+        {
+          "caller": "handleFileChange",
+          "callee": "setError",
+          "lineNumber": 83
+        },
+        {
+          "caller": "handleFileChange",
+          "callee": "JSON.parse",
+          "lineNumber": 90
+        },
+        {
+          "caller": "handleFileChange",
+          "callee": "setPendingImport",
+          "lineNumber": 91
+        },
+        {
+          "caller": "handleFileChange",
+          "callee": "setImportDialogOpen",
+          "lineNumber": 92
+        },
+        {
+          "caller": "handleFileChange",
+          "callee": "setError",
+          "lineNumber": 94
+        },
+        {
+          "caller": "handleFileChange",
+          "callee": "reader.readAsText",
+          "lineNumber": 98
+        },
+        {
+          "caller": "confirmImport",
+          "callee": "setBusy",
+          "lineNumber": 103
+        },
+        {
+          "caller": "confirmImport",
+          "callee": "setError",
+          "lineNumber": 104
+        },
+        {
+          "caller": "confirmImport",
+          "callee": "importDatabase",
+          "lineNumber": 106
+        },
+        {
+          "caller": "confirmImport",
+          "callee": "invalidateAll",
+          "lineNumber": 107
+        },
+        {
+          "caller": "confirmImport",
+          "callee": "setImportDialogOpen",
+          "lineNumber": 108
+        },
+        {
+          "caller": "confirmImport",
+          "callee": "setPendingImport",
+          "lineNumber": 109
+        },
+        {
+          "caller": "confirmImport",
+          "callee": "setError",
+          "lineNumber": 112
+        },
+        {
+          "caller": "confirmImport",
+          "callee": "e.issues.map((issue) => `${issue.path.join('.')}: ${issue.message}`).join",
+          "lineNumber": 112
+        },
+        {
+          "caller": "confirmImport",
+          "callee": "e.issues.map",
+          "lineNumber": 112
+        },
+        {
+          "caller": "confirmImport",
+          "callee": "issue.path.join",
+          "lineNumber": 112
+        },
+        {
+          "caller": "confirmImport",
+          "callee": "setError",
+          "lineNumber": 114
+        },
+        {
+          "caller": "confirmImport",
+          "callee": "setImportDialogOpen",
+          "lineNumber": 116
+        },
+        {
+          "caller": "confirmImport",
+          "callee": "setBusy",
+          "lineNumber": 118
+        },
+        {
+          "caller": "confirmReset",
+          "callee": "setBusy",
+          "lineNumber": 123
+        },
+        {
+          "caller": "confirmReset",
+          "callee": "setError",
+          "lineNumber": 124
+        },
+        {
+          "caller": "confirmReset",
+          "callee": "resetToSeed",
+          "lineNumber": 126
+        },
+        {
+          "caller": "confirmReset",
+          "callee": "invalidateAll",
+          "lineNumber": 127
+        },
+        {
+          "caller": "confirmReset",
+          "callee": "setResetDialogOpen",
+          "lineNumber": 128
+        },
+        {
+          "caller": "confirmReset",
+          "callee": "setError",
+          "lineNumber": 130
+        },
+        {
+          "caller": "confirmReset",
+          "callee": "setBusy",
+          "lineNumber": 132
+        },
+        {
+          "caller": "SettingsPage",
+          "callee": "fileInputRef.current?.click",
+          "lineNumber": 160
+        },
+        {
+          "caller": "SettingsPage",
+          "callee": "setResetDialogOpen",
+          "lineNumber": 170
+        },
+        {
+          "caller": "SettingsPage",
+          "callee": "Object.entries(tableCounts).map",
+          "lineNumber": 183
+        },
+        {
+          "caller": "SettingsPage",
+          "callee": "Object.entries",
+          "lineNumber": 183
+        }
+      ],
+      "metrics": {
+        "importCount": 7,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/app/api/integration/erp/push/route.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 25,
+      "nonEmptyLines": 21,
+      "functions": [
+        {
+          "name": "POST",
+          "startLine": 5,
+          "endLine": 25,
+          "params": [
+            "request"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "POST",
+          "line": 5,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "POST",
+          "callee": "request.json",
+          "lineNumber": 6
+        },
+        {
+          "caller": "POST",
+          "callee": "NextResponse.json",
+          "lineNumber": 12
+        },
+        {
+          "caller": "POST",
+          "callee": "pushToErp",
+          "lineNumber": 16
+        },
+        {
+          "caller": "POST",
+          "callee": "logs.push",
+          "lineNumber": 17
+        },
+        {
+          "caller": "POST",
+          "callee": "NextResponse.json",
+          "lineNumber": 20
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/app/api/integration/mes/push/route.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 22,
+      "nonEmptyLines": 18,
+      "functions": [
+        {
+          "name": "POST",
+          "startLine": 5,
+          "endLine": 22,
+          "params": [
+            "request"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "POST",
+          "line": 5,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "POST",
+          "callee": "request.json",
+          "lineNumber": 6
+        },
+        {
+          "caller": "POST",
+          "callee": "NextResponse.json",
+          "lineNumber": 9
+        },
+        {
+          "caller": "POST",
+          "callee": "pushToMes",
+          "lineNumber": 13
+        },
+        {
+          "caller": "POST",
+          "callee": "logs.push",
+          "lineNumber": 14
+        },
+        {
+          "caller": "POST",
+          "callee": "NextResponse.json",
+          "lineNumber": 17
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/app/api/integration/teamcenter/ebom/route.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 21,
+      "nonEmptyLines": 18,
+      "functions": [
+        {
+          "name": "GET",
+          "startLine": 5,
+          "endLine": 21,
+          "params": [
+            "request"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "GET",
+          "line": 5,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "GET",
+          "callee": "request.nextUrl.searchParams.get",
+          "lineNumber": 6
+        },
+        {
+          "caller": "GET",
+          "callee": "NextResponse.json",
+          "lineNumber": 8
+        },
+        {
+          "caller": "GET",
+          "callee": "syncEbomFromTeamcenter",
+          "lineNumber": 12
+        },
+        {
+          "caller": "GET",
+          "callee": "logs.push",
+          "lineNumber": 13
+        },
+        {
+          "caller": "GET",
+          "callee": "NextResponse.json",
+          "lineNumber": 16
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/components/integration/integration-push-panel.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 116,
+      "nonEmptyLines": 107,
+      "functions": [
+        {
+          "name": "IntegrationPushPanel",
+          "startLine": 27,
+          "endLine": 116,
+          "params": [
+            "{ collaborationId, productCode }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "IntegrationPushPanel",
+          "line": 27,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "IntegrationPushPanel",
+          "callee": "useIntegrationStore",
+          "lineNumber": 28
+        },
+        {
+          "caller": "IntegrationPushPanel",
+          "callee": "useState",
+          "lineNumber": 29
+        },
+        {
+          "caller": "IntegrationPushPanel",
+          "callee": "useState",
+          "lineNumber": 30
+        },
+        {
+          "caller": "runValidate",
+          "callee": "validateProductionPush",
+          "lineNumber": 35
+        },
+        {
+          "caller": "runValidate",
+          "callee": "setValidation",
+          "lineNumber": 36
+        },
+        {
+          "caller": "runValidate",
+          "callee": "toast.success",
+          "lineNumber": 38
+        },
+        {
+          "caller": "runValidate",
+          "callee": "toast.error",
+          "lineNumber": 40
+        },
+        {
+          "caller": "runValidate",
+          "callee": "result.errors.join",
+          "lineNumber": 40
+        },
+        {
+          "caller": "handleErpPush",
+          "callee": "setBusy",
+          "lineNumber": 45
+        },
+        {
+          "caller": "handleErpPush",
+          "callee": "pushToErp",
+          "lineNumber": 47
+        },
+        {
+          "caller": "handleErpPush",
+          "callee": "toast.success",
+          "lineNumber": 48
+        },
+        {
+          "caller": "handleErpPush",
+          "callee": "toast.error",
+          "lineNumber": 49
+        },
+        {
+          "caller": "handleErpPush",
+          "callee": "setBusy",
+          "lineNumber": 51
+        },
+        {
+          "caller": "handleMesPush",
+          "callee": "setBusy",
+          "lineNumber": 56
+        },
+        {
+          "caller": "handleMesPush",
+          "callee": "pushToMes",
+          "lineNumber": 58
+        },
+        {
+          "caller": "handleMesPush",
+          "callee": "toast.success",
+          "lineNumber": 59
+        },
+        {
+          "caller": "handleMesPush",
+          "callee": "toast.error",
+          "lineNumber": 60
+        },
+        {
+          "caller": "handleMesPush",
+          "callee": "setBusy",
+          "lineNumber": 62
+        },
+        {
+          "caller": "handleTcSync",
+          "callee": "setBusy",
+          "lineNumber": 67
+        },
+        {
+          "caller": "handleTcSync",
+          "callee": "syncEbomFromTeamcenter",
+          "lineNumber": 69
+        },
+        {
+          "caller": "handleTcSync",
+          "callee": "toast.success",
+          "lineNumber": 70
+        },
+        {
+          "caller": "handleTcSync",
+          "callee": "toast.error",
+          "lineNumber": 71
+        },
+        {
+          "caller": "handleTcSync",
+          "callee": "setBusy",
+          "lineNumber": 73
+        },
+        {
+          "caller": "IntegrationPushPanel",
+          "callee": "validation.errors.join",
+          "lineNumber": 89
+        },
+        {
+          "caller": "IntegrationPushPanel",
+          "callee": "validation.warnings.join",
+          "lineNumber": 95
+        }
+      ],
+      "metrics": {
+        "importCount": 5,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/components/integration/integration-status-card.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 44,
+      "nonEmptyLines": 41,
+      "functions": [
+        {
+          "name": "IntegrationStatusCard",
+          "startLine": 16,
+          "endLine": 44,
+          "params": [
+            "{\n  title,\n  description,\n  ok,\n  message,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "IntegrationStatusCard",
+          "line": 16,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "IntegrationStatusCard",
+          "callee": "cn",
+          "lineNumber": 35
+        },
+        {
+          "caller": "IntegrationStatusCard",
+          "callee": "isMockIntegration",
+          "lineNumber": 36
+        }
+      ],
+      "metrics": {
+        "importCount": 4,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/components/ui/alert-dialog.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 148,
+      "nonEmptyLines": 134,
+      "functions": [
+        {
+          "name": "AlertDialog",
+          "startLine": 9,
+          "endLine": 13,
+          "params": [
+            "{\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "AlertDialogTrigger",
+          "startLine": 15,
+          "endLine": 21,
+          "params": [
+            "{\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "AlertDialogPortal",
+          "startLine": 23,
+          "endLine": 29,
+          "params": [
+            "{\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "AlertDialogOverlay",
+          "startLine": 31,
+          "endLine": 45,
+          "params": [
+            "{\n  className,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "AlertDialogContent",
+          "startLine": 47,
+          "endLine": 64,
+          "params": [
+            "{\n  className,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "AlertDialogHeader",
+          "startLine": 66,
+          "endLine": 74,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "AlertDialogFooter",
+          "startLine": 76,
+          "endLine": 84,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "AlertDialogTitle",
+          "startLine": 86,
+          "endLine": 97,
+          "params": [
+            "{\n  className,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "AlertDialogDescription",
+          "startLine": 99,
+          "endLine": 110,
+          "params": [
+            "{\n  className,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "AlertDialogAction",
+          "startLine": 112,
+          "endLine": 122,
+          "params": [
+            "{\n  className,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "AlertDialogCancel",
+          "startLine": 124,
+          "endLine": 134,
+          "params": [
+            "{\n  className,\n  ...props\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "AlertDialog",
+          "line": 136,
+          "isDefault": false
+        },
+        {
+          "name": "AlertDialogPortal",
+          "line": 136,
+          "isDefault": false
+        },
+        {
+          "name": "AlertDialogOverlay",
+          "line": 136,
+          "isDefault": false
+        },
+        {
+          "name": "AlertDialogTrigger",
+          "line": 136,
+          "isDefault": false
+        },
+        {
+          "name": "AlertDialogContent",
+          "line": 136,
+          "isDefault": false
+        },
+        {
+          "name": "AlertDialogHeader",
+          "line": 136,
+          "isDefault": false
+        },
+        {
+          "name": "AlertDialogFooter",
+          "line": 136,
+          "isDefault": false
+        },
+        {
+          "name": "AlertDialogTitle",
+          "line": 136,
+          "isDefault": false
+        },
+        {
+          "name": "AlertDialogDescription",
+          "line": 136,
+          "isDefault": false
+        },
+        {
+          "name": "AlertDialogAction",
+          "line": 136,
+          "isDefault": false
+        },
+        {
+          "name": "AlertDialogCancel",
+          "line": 136,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "AlertDialogOverlay",
+          "callee": "cn",
+          "lineNumber": 38
+        },
+        {
+          "caller": "AlertDialogContent",
+          "callee": "cn",
+          "lineNumber": 56
+        },
+        {
+          "caller": "AlertDialogHeader",
+          "callee": "cn",
+          "lineNumber": 70
+        },
+        {
+          "caller": "AlertDialogFooter",
+          "callee": "cn",
+          "lineNumber": 80
+        },
+        {
+          "caller": "AlertDialogTitle",
+          "callee": "cn",
+          "lineNumber": 93
+        },
+        {
+          "caller": "AlertDialogDescription",
+          "callee": "cn",
+          "lineNumber": 106
+        },
+        {
+          "caller": "AlertDialogAction",
+          "callee": "cn",
+          "lineNumber": 118
+        },
+        {
+          "caller": "AlertDialogAction",
+          "callee": "buttonVariants",
+          "lineNumber": 118
+        },
+        {
+          "caller": "AlertDialogCancel",
+          "callee": "cn",
+          "lineNumber": 130
+        },
+        {
+          "caller": "AlertDialogCancel",
+          "callee": "buttonVariants",
+          "lineNumber": 130
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 11,
+        "functionCount": 11,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/components/ui/alert.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 60,
+      "nonEmptyLines": 54,
+      "functions": [
+        {
+          "name": "Alert",
+          "startLine": 22,
+          "endLine": 35,
+          "params": [
+            "{\n  className,\n  variant,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "AlertTitle",
+          "startLine": 37,
+          "endLine": 45,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "AlertDescription",
+          "startLine": 47,
+          "endLine": 58,
+          "params": [
+            "{ className, ...props }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "Alert",
+          "line": 60,
+          "isDefault": false
+        },
+        {
+          "name": "AlertTitle",
+          "line": 60,
+          "isDefault": false
+        },
+        {
+          "name": "AlertDescription",
+          "line": 60,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Alert",
+          "callee": "cn",
+          "lineNumber": 31
+        },
+        {
+          "caller": "Alert",
+          "callee": "alertVariants",
+          "lineNumber": 31
+        },
+        {
+          "caller": "AlertTitle",
+          "callee": "cn",
+          "lineNumber": 41
+        },
+        {
+          "caller": "AlertDescription",
+          "callee": "cn",
+          "lineNumber": 51
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 3,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/components/ui/card.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 103,
+      "nonEmptyLines": 94,
+      "functions": [
+        {
+          "name": "Card",
+          "startLine": 5,
+          "endLine": 21,
+          "params": [
+            "{\n  className,\n  size = \"default\",\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "CardHeader",
+          "startLine": 23,
+          "endLine": 34,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "CardTitle",
+          "startLine": 36,
+          "endLine": 47,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "CardDescription",
+          "startLine": 49,
+          "endLine": 57,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "CardAction",
+          "startLine": 59,
+          "endLine": 70,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "CardContent",
+          "startLine": 72,
+          "endLine": 80,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "CardFooter",
+          "startLine": 82,
+          "endLine": 93,
+          "params": [
+            "{ className, ...props }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "Card",
+          "line": 95,
+          "isDefault": false
+        },
+        {
+          "name": "CardHeader",
+          "line": 95,
+          "isDefault": false
+        },
+        {
+          "name": "CardFooter",
+          "line": 95,
+          "isDefault": false
+        },
+        {
+          "name": "CardTitle",
+          "line": 95,
+          "isDefault": false
+        },
+        {
+          "name": "CardAction",
+          "line": 95,
+          "isDefault": false
+        },
+        {
+          "name": "CardDescription",
+          "line": 95,
+          "isDefault": false
+        },
+        {
+          "name": "CardContent",
+          "line": 95,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Card",
+          "callee": "cn",
+          "lineNumber": 14
+        },
+        {
+          "caller": "CardHeader",
+          "callee": "cn",
+          "lineNumber": 27
+        },
+        {
+          "caller": "CardTitle",
+          "callee": "cn",
+          "lineNumber": 40
+        },
+        {
+          "caller": "CardDescription",
+          "callee": "cn",
+          "lineNumber": 53
+        },
+        {
+          "caller": "CardAction",
+          "callee": "cn",
+          "lineNumber": 63
+        },
+        {
+          "caller": "CardContent",
+          "callee": "cn",
+          "lineNumber": 76
+        },
+        {
+          "caller": "CardFooter",
+          "callee": "cn",
+          "lineNumber": 86
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 7,
+        "functionCount": 7,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/integration/config.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 14,
+      "nonEmptyLines": 12,
+      "functions": [
+        {
+          "name": "isMockIntegration",
+          "startLine": 12,
+          "endLine": 14,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "integrationConfig",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "isMockIntegration",
+          "line": 12,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/integration/erp-client.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 58,
+      "nonEmptyLines": 51,
+      "functions": [
+        {
+          "name": "delay",
+          "startLine": 52,
+          "endLine": 54,
+          "params": [
+            "ms"
+          ]
+        },
+        {
+          "name": "createErpClient",
+          "startLine": 56,
+          "endLine": 58,
+          "params": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "MockErpClient",
+          "startLine": 9,
+          "endLine": 22,
+          "methods": [
+            "pushProductionData",
+            "healthCheck"
+          ],
+          "properties": []
+        },
+        {
+          "name": "LiveErpClient",
+          "startLine": 24,
+          "endLine": 50,
+          "methods": [
+            "pushProductionData",
+            "healthCheck"
+          ],
+          "properties": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "createErpClient",
+          "line": 56,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "pushProductionData",
+          "callee": "delay",
+          "lineNumber": 11
+        },
+        {
+          "caller": "pushProductionData",
+          "callee": "Date.now",
+          "lineNumber": 15
+        },
+        {
+          "caller": "pushProductionData",
+          "callee": "fetch",
+          "lineNumber": 26
+        },
+        {
+          "caller": "pushProductionData",
+          "callee": "JSON.stringify",
+          "lineNumber": 29
+        },
+        {
+          "caller": "pushProductionData",
+          "callee": "res.json",
+          "lineNumber": 34
+        },
+        {
+          "caller": "healthCheck",
+          "callee": "fetch",
+          "lineNumber": 44
+        },
+        {
+          "caller": "delay",
+          "callee": "setTimeout",
+          "lineNumber": 53
+        },
+        {
+          "caller": "createErpClient",
+          "callee": "isMockIntegration",
+          "lineNumber": 57
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 2,
+        "classCount": 2
+      }
+    },
+    {
+      "path": "src/lib/integration/integration-service.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 234,
+      "nonEmptyLines": 212,
+      "functions": [
+        {
+          "name": "validateProductionPush",
+          "startLine": 22,
+          "endLine": 63,
+          "params": [
+            "collaborationId"
+          ]
+        },
+        {
+          "name": "makeLog",
+          "startLine": 67,
+          "endLine": 84,
+          "params": [
+            "system",
+            "action",
+            "collaborationId",
+            "result",
+            "payloadSummary"
+          ]
+        },
+        {
+          "name": "pushToErp",
+          "startLine": 86,
+          "endLine": 146,
+          "params": [
+            "collaborationId",
+            "productCode",
+            "writeLog"
+          ]
+        },
+        {
+          "name": "pushToMes",
+          "startLine": 148,
+          "endLine": 204,
+          "params": [
+            "collaborationId",
+            "writeLog"
+          ]
+        },
+        {
+          "name": "syncEbomFromTeamcenter",
+          "startLine": 206,
+          "endLine": 225,
+          "params": [
+            "collaborationId",
+            "writeLog"
+          ]
+        },
+        {
+          "name": "checkIntegrationHealth",
+          "startLine": 227,
+          "endLine": 234,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "validateProductionPush",
+          "line": 22,
+          "isDefault": false
+        },
+        {
+          "name": "pushToErp",
+          "line": 86,
+          "isDefault": false
+        },
+        {
+          "name": "pushToMes",
+          "line": 148,
+          "isDefault": false
+        },
+        {
+          "name": "syncEbomFromTeamcenter",
+          "line": 206,
+          "isDefault": false
+        },
+        {
+          "name": "checkIntegrationHealth",
+          "line": 227,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "validateProductionPush",
+          "callee": "collaborationRepository.getById",
+          "lineNumber": 28
+        },
+        {
+          "caller": "validateProductionPush",
+          "callee": "errors.push",
+          "lineNumber": 34
+        },
+        {
+          "caller": "validateProductionPush",
+          "callee": "bomRepository.getById",
+          "lineNumber": 36
+        },
+        {
+          "caller": "validateProductionPush",
+          "callee": "errors.push",
+          "lineNumber": 38
+        },
+        {
+          "caller": "validateProductionPush",
+          "callee": "errors.push",
+          "lineNumber": 40
+        },
+        {
+          "caller": "validateProductionPush",
+          "callee": "errors.push",
+          "lineNumber": 45
+        },
+        {
+          "caller": "validateProductionPush",
+          "callee": "bopRepository.getById",
+          "lineNumber": 47
+        },
+        {
+          "caller": "validateProductionPush",
+          "callee": "errors.push",
+          "lineNumber": 49
+        },
+        {
+          "caller": "validateProductionPush",
+          "callee": "errors.push",
+          "lineNumber": 51
+        },
+        {
+          "caller": "validateProductionPush",
+          "callee": "getAllForBopRoot",
+          "lineNumber": 56
+        },
+        {
+          "caller": "validateProductionPush",
+          "callee": "warnings.push",
+          "lineNumber": 59
+        },
+        {
+          "caller": "makeLog",
+          "callee": "uuidv4",
+          "lineNumber": 75
+        },
+        {
+          "caller": "makeLog",
+          "callee": "new Date().toISOString",
+          "lineNumber": 82
+        },
+        {
+          "caller": "pushToErp",
+          "callee": "validateProductionPush",
+          "lineNumber": 91
+        },
+        {
+          "caller": "pushToErp",
+          "callee": "validation.errors.join",
+          "lineNumber": 95
+        },
+        {
+          "caller": "pushToErp",
+          "callee": "writeLog",
+          "lineNumber": 97
+        },
+        {
+          "caller": "pushToErp",
+          "callee": "makeLog",
+          "lineNumber": 97
+        },
+        {
+          "caller": "pushToErp",
+          "callee": "collaborationRepository.getById",
+          "lineNumber": 101
+        },
+        {
+          "caller": "pushToErp",
+          "callee": "writeLog",
+          "lineNumber": 104
+        },
+        {
+          "caller": "pushToErp",
+          "callee": "makeLog",
+          "lineNumber": 104
+        },
+        {
+          "caller": "pushToErp",
+          "callee": "bomRepository.getById",
+          "lineNumber": 108
+        },
+        {
+          "caller": "pushToErp",
+          "callee": "writeLog",
+          "lineNumber": 111
+        },
+        {
+          "caller": "pushToErp",
+          "callee": "makeLog",
+          "lineNumber": 111
+        },
+        {
+          "caller": "pushToErp",
+          "callee": "buildProcessSummary",
+          "lineNumber": 115
+        },
+        {
+          "caller": "pushToErp",
+          "callee": "summary.materialQuotas.map",
+          "lineNumber": 121
+        },
+        {
+          "caller": "pushToErp",
+          "callee": "summary.workHours.map",
+          "lineNumber": 128
+        },
+        {
+          "caller": "pushToErp",
+          "callee": "createErpClient",
+          "lineNumber": 134
+        },
+        {
+          "caller": "pushToErp",
+          "callee": "client.pushProductionData",
+          "lineNumber": 135
+        },
+        {
+          "caller": "pushToErp",
+          "callee": "writeLog",
+          "lineNumber": 136
+        },
+        {
+          "caller": "pushToErp",
+          "callee": "makeLog",
+          "lineNumber": 137
+        },
+        {
+          "caller": "pushToMes",
+          "callee": "validateProductionPush",
+          "lineNumber": 152
+        },
+        {
+          "caller": "pushToMes",
+          "callee": "validation.errors.join",
+          "lineNumber": 156
+        },
+        {
+          "caller": "pushToMes",
+          "callee": "writeLog",
+          "lineNumber": 158
+        },
+        {
+          "caller": "pushToMes",
+          "callee": "makeLog",
+          "lineNumber": 158
+        },
+        {
+          "caller": "pushToMes",
+          "callee": "collaborationRepository.getById",
+          "lineNumber": 162
+        },
+        {
+          "caller": "pushToMes",
+          "callee": "writeLog",
+          "lineNumber": 165
+        },
+        {
+          "caller": "pushToMes",
+          "callee": "makeLog",
+          "lineNumber": 165
+        },
+        {
+          "caller": "pushToMes",
+          "callee": "bopRepository.getById",
+          "lineNumber": 169
+        },
+        {
+          "caller": "pushToMes",
+          "callee": "writeLog",
+          "lineNumber": 172
+        },
+        {
+          "caller": "pushToMes",
+          "callee": "makeLog",
+          "lineNumber": 172
+        },
+        {
+          "caller": "pushToMes",
+          "callee": "getAllForBopRoot",
+          "lineNumber": 176
+        },
+        {
+          "caller": "pushToMes",
+          "callee": "operations.map",
+          "lineNumber": 182
+        },
+        {
+          "caller": "pushToMes",
+          "callee": "createMesClient",
+          "lineNumber": 192
+        },
+        {
+          "caller": "pushToMes",
+          "callee": "client.pushProductionPlan",
+          "lineNumber": 193
+        },
+        {
+          "caller": "pushToMes",
+          "callee": "writeLog",
+          "lineNumber": 194
+        },
+        {
+          "caller": "pushToMes",
+          "callee": "makeLog",
+          "lineNumber": 195
+        },
+        {
+          "caller": "syncEbomFromTeamcenter",
+          "callee": "collaborationRepository.getById",
+          "lineNumber": 210
+        },
+        {
+          "caller": "syncEbomFromTeamcenter",
+          "callee": "writeLog",
+          "lineNumber": 213
+        },
+        {
+          "caller": "syncEbomFromTeamcenter",
+          "callee": "makeLog",
+          "lineNumber": 213
+        },
+        {
+          "caller": "syncEbomFromTeamcenter",
+          "callee": "teamcenterSyncAsPushResult",
+          "lineNumber": 217
+        },
+        {
+          "caller": "syncEbomFromTeamcenter",
+          "callee": "writeLog",
+          "lineNumber": 221
+        },
+        {
+          "caller": "syncEbomFromTeamcenter",
+          "callee": "makeLog",
+          "lineNumber": 222
+        },
+        {
+          "caller": "checkIntegrationHealth",
+          "callee": "Promise.all",
+          "lineNumber": 228
+        },
+        {
+          "caller": "checkIntegrationHealth",
+          "callee": "createErpClient().healthCheck",
+          "lineNumber": 229
+        },
+        {
+          "caller": "checkIntegrationHealth",
+          "callee": "createErpClient",
+          "lineNumber": 229
+        },
+        {
+          "caller": "checkIntegrationHealth",
+          "callee": "createMesClient().healthCheck",
+          "lineNumber": 230
+        },
+        {
+          "caller": "checkIntegrationHealth",
+          "callee": "createMesClient",
+          "lineNumber": 230
+        },
+        {
+          "caller": "checkIntegrationHealth",
+          "callee": "createTeamcenterClient().healthCheck",
+          "lineNumber": 231
+        },
+        {
+          "caller": "checkIntegrationHealth",
+          "callee": "createTeamcenterClient",
+          "lineNumber": 231
+        }
+      ],
+      "metrics": {
+        "importCount": 9,
+        "exportCount": 5,
+        "functionCount": 6,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/integration/mes-client.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 58,
+      "nonEmptyLines": 51,
+      "functions": [
+        {
+          "name": "delay",
+          "startLine": 52,
+          "endLine": 54,
+          "params": [
+            "ms"
+          ]
+        },
+        {
+          "name": "createMesClient",
+          "startLine": 56,
+          "endLine": 58,
+          "params": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "MockMesClient",
+          "startLine": 9,
+          "endLine": 22,
+          "methods": [
+            "pushProductionPlan",
+            "healthCheck"
+          ],
+          "properties": []
+        },
+        {
+          "name": "LiveMesClient",
+          "startLine": 24,
+          "endLine": 50,
+          "methods": [
+            "pushProductionPlan",
+            "healthCheck"
+          ],
+          "properties": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "createMesClient",
+          "line": 56,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "pushProductionPlan",
+          "callee": "delay",
+          "lineNumber": 11
+        },
+        {
+          "caller": "pushProductionPlan",
+          "callee": "Date.now",
+          "lineNumber": 15
+        },
+        {
+          "caller": "pushProductionPlan",
+          "callee": "fetch",
+          "lineNumber": 26
+        },
+        {
+          "caller": "pushProductionPlan",
+          "callee": "JSON.stringify",
+          "lineNumber": 29
+        },
+        {
+          "caller": "pushProductionPlan",
+          "callee": "res.json",
+          "lineNumber": 34
+        },
+        {
+          "caller": "healthCheck",
+          "callee": "fetch",
+          "lineNumber": 44
+        },
+        {
+          "caller": "delay",
+          "callee": "setTimeout",
+          "lineNumber": 53
+        },
+        {
+          "caller": "createMesClient",
+          "callee": "isMockIntegration",
+          "lineNumber": 57
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 2,
+        "classCount": 2
+      }
+    },
+    {
+      "path": "src/lib/integration/teamcenter-client.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 71,
+      "nonEmptyLines": 63,
+      "functions": [
+        {
+          "name": "delay",
+          "startLine": 53,
+          "endLine": 55,
+          "params": [
+            "ms"
+          ]
+        },
+        {
+          "name": "createTeamcenterClient",
+          "startLine": 57,
+          "endLine": 59,
+          "params": []
+        },
+        {
+          "name": "teamcenterSyncAsPushResult",
+          "startLine": 61,
+          "endLine": 71,
+          "params": [
+            "request"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "MockTeamcenterClient",
+          "startLine": 13,
+          "endLine": 26,
+          "methods": [
+            "syncEbom",
+            "healthCheck"
+          ],
+          "properties": []
+        },
+        {
+          "name": "LiveTeamcenterClient",
+          "startLine": 28,
+          "endLine": 51,
+          "methods": [
+            "syncEbom",
+            "healthCheck"
+          ],
+          "properties": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "createTeamcenterClient",
+          "line": 57,
+          "isDefault": false
+        },
+        {
+          "name": "teamcenterSyncAsPushResult",
+          "line": 61,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "syncEbom",
+          "callee": "delay",
+          "lineNumber": 15
+        },
+        {
+          "caller": "syncEbom",
+          "callee": "url.searchParams.set",
+          "lineNumber": 31
+        },
+        {
+          "caller": "syncEbom",
+          "callee": "url.searchParams.set",
+          "lineNumber": 32
+        },
+        {
+          "caller": "syncEbom",
+          "callee": "fetch",
+          "lineNumber": 33
+        },
+        {
+          "caller": "syncEbom",
+          "callee": "url.toString",
+          "lineNumber": 33
+        },
+        {
+          "caller": "syncEbom",
+          "callee": "res.json",
+          "lineNumber": 37
+        },
+        {
+          "caller": "healthCheck",
+          "callee": "fetch",
+          "lineNumber": 42
+        },
+        {
+          "caller": "delay",
+          "callee": "setTimeout",
+          "lineNumber": 54
+        },
+        {
+          "caller": "createTeamcenterClient",
+          "callee": "isMockIntegration",
+          "lineNumber": 58
+        },
+        {
+          "caller": "teamcenterSyncAsPushResult",
+          "callee": "createTeamcenterClient",
+          "lineNumber": 64
+        },
+        {
+          "caller": "teamcenterSyncAsPushResult",
+          "callee": "client.syncEbom",
+          "lineNumber": 65
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 2,
+        "functionCount": 3,
+        "classCount": 2
+      }
+    },
+    {
+      "path": "src/lib/integration/types.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 67,
+      "nonEmptyLines": 59,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/stores/integration-store.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 23,
+      "nonEmptyLines": 21,
+      "exports": [
+        {
+          "name": "useIntegrationStore",
+          "line": 11,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    }
+  ]
+}
