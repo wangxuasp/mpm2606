@@ -1,3 +1,5 @@
+import type { LucideIcon } from 'lucide-react'
+import { Box, Boxes, Cpu, Layers, Package } from 'lucide-react'
 import type { BomKind, BomNode, MakeType } from '@/lib/domain/types'
 
 export interface BomTreeRow extends BomNode {
@@ -10,6 +12,15 @@ export const KIND_LABELS: Record<BomKind, string> = {
   'phantom-group': '虚拟组',
   purchased: '外购件',
   'software-purchase': '软件外购',
+}
+
+/** 结构树行首图标：按零部件类型区分 */
+export const KIND_ICONS: Record<BomKind, LucideIcon> = {
+  part: Box,
+  'phantom-semifinished': Layers,
+  'phantom-group': Boxes,
+  purchased: Package,
+  'software-purchase': Cpu,
 }
 
 export const MAKE_TYPE_LABELS: Record<MakeType, string> = {

@@ -29,8 +29,8 @@ export function SidebarRevealRail() {
       <span
         aria-hidden
         className={cn(
-          'flex h-20 items-center overflow-hidden rounded-r-md border border-l-0 border-cyan-500/30',
-          'bg-sidebar/95 shadow-lg backdrop-blur-sm transition-all duration-300 motion-reduce:transition-none',
+          'flex h-20 items-center overflow-hidden rounded-r-md border border-l-0 border-border',
+          'bg-sidebar/95 transition-all duration-300 motion-reduce:transition-none',
           'w-1 group-hover:w-9 group-focus-visible:w-9',
         )}
       >

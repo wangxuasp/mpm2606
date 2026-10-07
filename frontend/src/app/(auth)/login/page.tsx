@@ -66,13 +66,11 @@ export default function LoginPage() {
       <div className="absolute inset-0 bg-[#0B1120]/75 lg:bg-gradient-to-r lg:from-[#0B1120]/90 lg:via-[#0B1120]/70 lg:to-[#0B1120]/40" />
 
       <div className="relative flex flex-1 flex-col items-center justify-center px-4 py-10 lg:items-end lg:pr-16">
-        <div className="w-full max-w-sm rounded-xl border border-cyan-500/20 bg-white/5 p-8 shadow-2xl backdrop-blur-md">
+        <div className="w-full max-w-sm rounded-lg border border-white/15 bg-white/5 p-8 backdrop-blur-md">
           <div className="mb-6 text-center">
-            <p className="text-xs font-medium tracking-widest text-cyan-400/80 uppercase">
-              Extech MPMS
-            </p>
-            <h1 className="mt-2 text-xl font-bold">制造工艺管理系统</h1>
-            <p className="mt-1 text-sm text-white/60">V11.0</p>
+            <p className="text-lg font-semibold tracking-wide text-white">Extech MPMS</p>
+            <h1 className="mt-1 text-sm font-medium text-white/80">制造工艺管理系统</h1>
+            <p className="mt-1 text-xs text-white/50">V11.0</p>
           </div>
 
           <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-4">

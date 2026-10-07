@@ -34,17 +34,16 @@ export function AppHeader() {
   }
 
   return (
-    <header className="relative flex h-14 items-center gap-3 border-b border-border/50 px-4 md:px-6">
-      <div className="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-cyan-500/20 to-transparent" />
+    <header className="flex h-12 items-center gap-3 border-b border-border px-3 md:px-4">
       <MobileSidebar />
       <SidebarToggle />
-      <div className="flex min-w-0 flex-1 items-center gap-3">
-        <h1 className="truncate text-base font-semibold">Extech MPMS</h1>
-        {productCode && (
-          <span className="hidden text-sm text-muted-foreground sm:inline">
-            型号 {productCode}
+      <div className="flex min-w-0 flex-1 items-center gap-2">
+        <h1 className="truncate text-sm font-semibold tracking-wide">Extech MPMS</h1>
+        {productCode ? (
+          <span className="hidden truncate text-xs text-muted-foreground sm:inline">
+            {productCode}
           </span>
-        )}
+        ) : null}
       </div>
       <div className="flex items-center gap-1">
         <ThemeToggle />

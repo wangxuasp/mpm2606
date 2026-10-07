@@ -18,10 +18,10 @@ import { useSidebarStore } from '@/stores/sidebar-store'
 
 function SidebarBrand({ onCollapse }: { onCollapse?: () => void }) {
   return (
-    <div className="flex items-start justify-between gap-2 border-b border-cyan-500/30 px-4 py-4">
+    <div className="flex items-start justify-between gap-2 border-b border-sidebar-border px-4 py-3">
       <div className="min-w-0">
-        <p className="text-base font-bold tracking-wide text-primary">MPMS</p>
-        <p className="text-xs text-muted-foreground">Extech 制造工艺管理系统 V11.0</p>
+        <p className="text-sm font-semibold tracking-wide text-foreground">Extech MPMS</p>
+        <p className="text-xs text-muted-foreground">制造工艺管理 · V11.0</p>
       </div>
       {onCollapse ? (
         <Button

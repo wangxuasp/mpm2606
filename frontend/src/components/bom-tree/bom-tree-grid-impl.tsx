@@ -15,6 +15,7 @@ import '@/lib/ag-grid/setup'
 import {
   buildTreeRows,
   findRowIdFromDragEvent,
+  KIND_ICONS,
   KIND_LABELS,
   MAKE_TYPE_LABELS,
   type BomTreeRow,
@@ -29,20 +30,46 @@ import {
 import 'ag-grid-community/styles/ag-grid.css'
 import 'ag-grid-community/styles/ag-theme-quartz.css'
 
+function KindIcon({ kind }: { kind: BomTreeRow['kind'] }) {
+  const Icon = KIND_ICONS[kind]
+  const label = KIND_LABELS[kind]
+  return (
+    <Icon
+      className="size-3.5 shrink-0 text-muted-foreground"
+      aria-label={label}
+      title={label}
+    />
+  )
+}
+
+function KindCellRenderer(params: ICellRendererParams<BomTreeRow>) {
+  const data = params.data
+  if (!data?.kind) return null
+  return (
+    <span className="inline-flex items-center gap-1.5">
+      <KindIcon kind={data.kind} />
+      <span className="truncate">{KIND_LABELS[data.kind]}</span>
+    </span>
+  )
+}
+
 function makeGroupCellRenderer(enableNativeDrag: boolean) {
   return function GroupCellRenderer(params: ICellRendererParams<BomTreeRow>) {
     const data = params.data
     if (!data) return null
     const label = (
-      <span className="truncate">
-        {data.code} — {data.name}
+      <span className="inline-flex min-w-0 max-w-full items-center gap-1.5">
+        <KindIcon kind={data.kind} />
+        <span className="truncate">
+          {data.code} — {data.name}
+        </span>
       </span>
     )
     if (!enableNativeDrag) return label
     return (
       <span
         draggable
-        className="inline-flex max-w-full cursor-grab truncate active:cursor-grabbing"
+        className="inline-flex max-w-full cursor-grab items-center active:cursor-grabbing"
         onDragStart={(e) => {
           e.stopPropagation()
           if (e.dataTransfer) {
@@ -100,8 +127,8 @@ export function BomTreeGridImpl({
       {
         field: 'kind',
         headerName: '类型',
-        width: 110,
-        valueFormatter: (p) => (p.value ? KIND_LABELS[p.value as BomNode['kind']] : ''),
+        width: 120,
+        cellRenderer: KindCellRenderer,
       },
       {
         field: 'makeType',
