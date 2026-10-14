@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: ${SERVER_PORT:8081}
 
 spring:
   application:
@@ -8,9 +8,9 @@ spring:
     active: dev
   datasource:
     driver-class-name: com.kingbase8.Driver
-    url: jdbc:kingbase8://${DB_HOST:127.0.0.1}:${DB_PORT:54321}/${DB_NAME:kingbase}?currentSchema=${DB_SCHEMA:public}
-    username: ${DB_USERNAME:system}
-    password: ${DB_PASSWORD:1234}
+    url: jdbc:kingbase8://${DB_HOST}:${DB_PORT}/${DB_NAME}?currentSchema=${DB_SCHEMA:public}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
     hikari:
       pool-name: MpmsHikariPool
       minimum-idle: 5

@@ -6,6 +6,10 @@ export interface PertDag {
 }
 export interface BopNode {
   id: string
+  objectPuid?: string
+  objectType?: string
+  revisionPuid?: string | null
+  sequenceNo?: string | null
   code: string
   name: string
   revision: string

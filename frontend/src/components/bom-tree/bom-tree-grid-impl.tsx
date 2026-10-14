@@ -34,11 +34,9 @@ function KindIcon({ kind }: { kind: BomTreeRow['kind'] }) {
   const Icon = KIND_ICONS[kind]
   const label = KIND_LABELS[kind]
   return (
-    <Icon
-      className="size-3.5 shrink-0 text-muted-foreground"
-      aria-label={label}
-      title={label}
-    />
+    <span title={label} aria-label={label}>
+      <Icon className="size-3.5 shrink-0 text-muted-foreground" />
+    </span>
   )
 }
 

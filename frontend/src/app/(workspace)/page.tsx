@@ -13,6 +13,7 @@ import { Button, buttonVariants } from '@/components/ui/button'
 import { useApprovalInbox } from '@/hooks/use-approvals'
 import { useEbomCount } from '@/hooks/use-bom-nodes'
 import { useCollaboration, useCollaborations } from '@/hooks/use-collaboration'
+import { useDataPage } from '@/hooks/use-data-resources'
 import { useDictionaries } from '@/hooks/use-dictionaries'
 import { usePitems } from '@/hooks/use-pitems'
 import { useWorkspaceStore } from '@/stores/workspace-store'
@@ -71,6 +72,12 @@ export default function DashboardPage() {
     error: pitemsFetchError,
     refetch: refetchPitems,
   } = usePitems()
+  const { data: puserPage, isLoading: pusersLoading } = useDataPage(
+    'puser',
+    0,
+    1,
+    '',
+  )
 
   const collabLabel = collab?.name ?? collaborationId ?? '未选择协同'
 
@@ -91,6 +98,10 @@ export default function DashboardPage() {
           <CompactStat label="EBOM" value={ebomCount} />
           <CompactStat label="协同" value={collaborations.length} />
           <CompactStat label="PITEM" value={pitemsLoading ? '…' : pitems.length} />
+          <CompactStat
+            label="PUSER"
+            value={pusersLoading ? '…' : (puserPage?.totalElements ?? 0)}
+          />
           <CompactStat label="字典" value={dictionaries.length} />
           <CompactStat label="待办审批" value={inbox.length} />
         </div>
@@ -119,9 +130,14 @@ export default function DashboardPage() {
         <section className="flex min-h-0 flex-1 flex-col rounded-md border border-border">
           <div className="flex items-center justify-between border-b border-border px-3 py-2">
             <h2 className="text-sm font-medium">PITEM 数据</h2>
-            <Button variant="outline" size="sm" onClick={() => refetchPitems()}>
-              刷新
-            </Button>
+            <div className="flex items-center gap-2">
+              <Button variant="outline" size="sm" onClick={() => refetchPitems()}>
+                刷新
+              </Button>
+              <Link href="/pitems" className={buttonVariants({ size: 'sm' })}>
+                管理数据
+              </Link>
+            </div>
           </div>
           <div className="min-h-[360px] flex-1 p-2">
             {pitemsLoading ? (

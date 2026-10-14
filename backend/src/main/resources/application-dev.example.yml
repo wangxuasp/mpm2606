@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:kingbase8://${DB_HOST:localhost}:${DB_PORT:54321}/${DB_NAME:kingbase}?currentSchema=${DB_SCHEMA:public}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+
+logging:
+  level:
+    com.extech.mpms: DEBUG
+    com.zaxxer.hikari: INFO
