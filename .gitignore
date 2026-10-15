@@ -1,6 +1,54 @@
-# Archive backup
-frontend.zip
+# Archives and delivery bundles
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+
+# Build outputs
+backend/target/
+frontend/.next/
+frontend/node_modules/
+frontend/.turbo/
+frontend/out/
+frontend/build/
+frontend/coverage/
+*.tsbuildinfo
+
+# Local IDE and tool state
+.idea/
+.vscode/
+.cursor/
+.codegraph/
+.understand-anything/
+*.iml
+*.log
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+.factorypath
+
+# Local runtime configuration and secrets
+.env
+.env.*
+!.env.example
+backend/src/main/resources/application-dev.yml
+backend/src/main/resources/application-local.yml
+!backend/src/main/resources/application-dev.example.yml
+!backend/src/main/resources/application-local.example.yml
+*.pem
+*.key
+*.p12
+*.jks
+*.keystore
 
 # OS
 .DS_Store
 Thumbs.db
+Desktop.ini
+
+# Runtime logs and local database driver bundles
+backend/KingbaseES_V008R006C008B0014PSC002_JDBC/

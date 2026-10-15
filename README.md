@@ -9,11 +9,21 @@ Extech MPMS（制造工艺管理系统）V11.0 — 前后端分离 monorepo，�
 
 ## 本地联调
 
-前端默认 `http://localhost:3000`，后端默认 `http://localhost:8080`。后端已配置 CORS，可与前端开发服务器联调。
+前端默认 `http://localhost:3000`，后端默认 `http://localhost:8081`。后端已配置 CORS，可与前端开发服务器联调。
 
 ```bash
 # 终端 1 — 后端（需 KingbaseES 可用）
 cd backend
+
+# 先在当前终端设置数据库连接环境变量
+# PowerShell 示例：
+$env:DB_HOST = "localhost"
+$env:DB_PORT = "54321"
+$env:DB_NAME = "kingbase"
+$env:DB_SCHEMA = "public"
+$env:DB_USERNAME = "system"
+$env:DB_PASSWORD = "<本地数据库密码>"
+
 mvn spring-boot:run -Dspring-boot.run.profiles=dev
 
 # 终端 2 — 前端
@@ -56,8 +66,10 @@ pnpm start
 
 ### 登录
 
-- 用户名：`admin`
-- 密码：`admin`
+- 演示用户名：`admin`
+- 演示密码：`admin`
+
+当前登录仍是前端 Mock 会话；接入 Teamcenter 账号体系属于下一阶段任务。
 
 ### P0 功能清单
 
@@ -98,22 +110,28 @@ Extech MPMS 后端服务，技术栈详见 [backend/reqirements.md](backend/reqi
 
 ### 数据库配置
 
-通过环境变量或 `application-dev.yml` 配置：
+通过环境变量配置：
 
-| 变量 | 默认值 | 说明 |
-|------|--------|------|
-| `DB_HOST` | `localhost` | 数据库主机 |
-| `DB_PORT` | `54321` | 端口 |
-| `DB_NAME` | `mpms` | 库名 |
-| `DB_SCHEMA` | `public` | Schema |
-| `DB_USERNAME` | `system` | 用户名 |
-| `DB_PASSWORD` | 空 | 密码 |
+| 变量 | 必填 | 说明 |
+|------|------|------|
+| `DB_HOST` | 是 | 数据库主机 |
+| `DB_PORT` | 是 | 数据库端口 |
+| `DB_NAME` | 是 | 数据库名 |
+| `DB_SCHEMA` | 否 | Schema，默认 `public` |
+| `DB_USERNAME` | 是 | 数据库用户名 |
+| `DB_PASSWORD` | 是 | 数据库密码 |
+
+本机开发可复制 `backend/src/main/resources/application-dev.example.yml` 为
+`application-dev.yml` 后填写连接信息。实际的 `application-dev.yml` 已被 Git
+忽略，只保留在开发机本地。
 
 ### JDBC 驱动
 
 优先使用 Maven Central 上的 `cn.com.kingbase:kingbase8`。
 
 若 Maven 无法解析驱动，请将 `KingbaseES_V008R006C008B0014PSC002_JDBC` 目录中的 jar 安装到本地仓库：
+
+> 本地 JDBC 驱动交付目录已加入 `.gitignore`，不会提交到 GitHub。
 
 ```bash
 cd backend
@@ -142,7 +160,17 @@ mvn spring-boot:run -Dspring-boot.run.profiles=dev
 java -jar target/mpms-backend-11.0.0-p0.jar --spring.profiles.active=dev
 ```
 
-默认端口 `8080`，健康检查：`GET /api/health`
+默认端口 `8081`，健康检查：`GET /api/health`
+
+数据管理接口位于 `/api/data`，当前支持 `pitem`、`puser` 的查询、详情、
+新增、编辑和删除。前端工作区提供“零组件数据”和“用户数据”两个入口。
+
+---
+
+## GitHub 上传
+
+首次上传前必须完成敏感信息检查、后端测试、前端构建和提交文件审计。完整流程见
+[`GITHUB_UPLOAD.md`](GITHUB_UPLOAD.md)。
 
 ---
 

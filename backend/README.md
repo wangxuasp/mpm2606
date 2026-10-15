@@ -17,16 +17,21 @@ Extech MPMS 后端服务，技术栈见 `reqirements.md`。
 
 ## 数据库配置
 
-通过环境变量或 `application-dev.yml` 配置：
+通过环境变量配置：
 
-| 变量 | 默认值 | 说明 |
-|------|--------|------|
-| `DB_HOST` | `localhost` | 数据库主机 |
-| `DB_PORT` | `54321` | 端口 |
-| `DB_NAME` | `mpms` | 库名 |
-| `DB_SCHEMA` | `public` | Schema |
-| `DB_USERNAME` | `system` | 用户名 |
-| `DB_PASSWORD` | 空 | 密码 |
+| 变量 | 必填 | 说明 |
+|------|------|------|
+| `DB_HOST` | 是 | 数据库主机 |
+| `DB_PORT` | 是 | 数据库端口 |
+| `DB_NAME` | 是 | 数据库名 |
+| `DB_SCHEMA` | 否 | Schema，默认 `public` |
+| `DB_USERNAME` | 是 | 数据库用户名 |
+| `DB_PASSWORD` | 是 | 数据库密码 |
+| `SERVER_PORT` | 否 | 后端 HTTP 端口，默认 `8081` |
+
+本机开发可复制 `src/main/resources/application-dev.example.yml` 为
+`application-dev.yml` 后填写连接信息。实际的 `application-dev.yml` 已被 Git
+忽略，不会进入仓库。
 
 ## JDBC 驱动
 
@@ -58,6 +63,19 @@ mvn spring-boot:run -Dspring-boot.run.profiles=dev
 java -jar target/mpms-backend-11.0.0-p0.jar --spring.profiles.active=dev
 ```
 
-默认端口 `8080`，健康检查：`GET /api/health`
+默认端口 `8081`，健康检查：`GET /api/health`
 
 前端开发服务器默认 `http://localhost:3000`，已配置 CORS。
+
+## 数据接口
+
+- `GET /api/data`：返回可管理的数据资源元数据。
+- `GET /api/data/{resource}/metadata`：返回表结构、字段标签和校验信息。
+- `GET /api/data/{resource}?page=0&size=20&keyword=`：分页与关键字查询。
+- `GET /api/data/{resource}/{id}`：查询单条详情。
+- `POST /api/data/{resource}`：新增记录。
+- `PUT /api/data/{resource}/{id}`：编辑记录。
+- `DELETE /api/data/{resource}/{id}`：删除记录。
+
+当前 `resource` 仅允许 `pitem` 和 `puser`。写接口只修改金仓展示库，
+不会回写 Oracle。

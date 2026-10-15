@@ -1,6 +1,8 @@
 import type { LucideIcon } from 'lucide-react'
 import {
   LayoutDashboard,
+  Boxes,
+  Users,
   GitBranch,
   Route,
   Wrench,
@@ -24,6 +26,8 @@ export type NavItem = {
 
 export const workspaceNav: NavItem[] = [
   { title: '工作台', url: '/', icon: LayoutDashboard },
+  { title: '零组件数据', url: '/pitems', icon: Boxes },
+  { title: '用户数据', url: '/pusers', icon: Users },
   { title: '制造工艺规划器', url: '/planner', icon: GitBranch },
   { title: 'MBOM 重构', url: '/mbom', icon: GitBranch },
   { title: '工艺路线', url: '/bop', icon: Route },
@@ -45,8 +49,9 @@ export const footerNav: NavItem[] = [
 
 export const workspaceNavGroups = [
   { title: '概览', items: workspaceNav.slice(0, 1) },
-  { title: '制造规划', items: workspaceNav.slice(1, 5) },
-  { title: '资源与文档', items: workspaceNav.slice(5, 8) },
-  { title: '流程管理', items: workspaceNav.slice(8, 11) },
-  { title: '智能助手', items: workspaceNav.slice(11, 12) },
+  { title: '基础数据', items: workspaceNav.slice(1, 3) },
+  { title: '制造规划', items: workspaceNav.slice(3, 7) },
+  { title: '资源与文档', items: workspaceNav.slice(7, 10) },
+  { title: '流程管理', items: workspaceNav.slice(10, 13) },
+  { title: '智能助手', items: workspaceNav.slice(13, 14) },
 ]

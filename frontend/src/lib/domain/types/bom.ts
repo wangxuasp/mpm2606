@@ -15,6 +15,10 @@ export interface MaterialAttrs {
 
 export interface BomNode {
   id: string
+  objectPuid?: string
+  objectType?: string
+  revisionPuid?: string | null
+  sequenceNo?: string | null
   type: BomType
   kind: BomKind
   code: string
