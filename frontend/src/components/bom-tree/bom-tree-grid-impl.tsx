@@ -1,8 +1,9 @@
 'use client'
 
-import { useCallback, useMemo, useRef, useState } from 'react'
+import { useCallback, useMemo, useRef } from 'react'
 import { AgGridReact } from 'ag-grid-react'
 import type { ICellRendererParams } from 'ag-grid-community'
+import { GripVertical } from 'lucide-react'
 import {
   type CellValueChangedEvent,
   type ColDef,
@@ -14,6 +15,7 @@ import type { BomNode } from '@/lib/domain/types'
 import '@/lib/ag-grid/setup'
 import {
   buildTreeRows,
+  findRowElementFromDragEvent,
   findRowIdFromDragEvent,
   KIND_ICONS,
   KIND_LABELS,
@@ -23,6 +25,7 @@ import {
 import type { BomTreeGridProps } from './bom-tree-grid'
 import {
   readBomNodeIdFromDataTransfer,
+  setTreeNodeDragPreview,
   setPendingBomDrag,
   writeBomNodeIdToDataTransfer,
 } from './bom-drag-store'
@@ -67,9 +70,11 @@ function makeGroupCellRenderer(enableNativeDrag: boolean) {
     return (
       <span
         draggable
-        className="inline-flex max-w-full cursor-grab items-center active:cursor-grabbing"
+        title="拖动以复制到目标结构"
+        className="inline-flex w-full max-w-full cursor-grab items-center gap-1.5 active:cursor-grabbing"
         onDragStart={(e) => {
           e.stopPropagation()
+          setTreeNodeDragPreview(e, `${data.code} — ${data.name}`, '复制到目标结构')
           if (e.dataTransfer) {
             writeBomNodeIdToDataTransfer(e.dataTransfer, data.id)
           } else {
@@ -78,6 +83,7 @@ function makeGroupCellRenderer(enableNativeDrag: boolean) {
         }}
         onDragEnd={() => setPendingBomDrag(null)}
       >
+        <GripVertical className="size-3.5 shrink-0 text-muted-foreground" aria-hidden />
         {label}
       </span>
     )
@@ -96,9 +102,15 @@ export function BomTreeGridImpl({
   multiSelect = false,
   onSelectionChanged,
   onCellValueChanged,
+  onCopyNode,
+  onPasteNode,
+  onCloneNode,
+  onViewProperties,
+  canPaste = false,
 }: BomTreeGridProps) {
   const gridRef = useRef<AgGridReact<BomTreeRow>>(null)
-  const [dropTargetId, setDropTargetId] = useState<string | null>(null)
+  const containerRef = useRef<HTMLDivElement>(null)
+  const dropTargetRef = useRef<string | null>(null)
 
   const rowData = useMemo(() => buildTreeRows(nodes, rootId), [nodes, rootId])
 
@@ -225,14 +237,29 @@ export function BomTreeGridImpl({
       if (!dropTarget) return
       e.preventDefault()
       e.dataTransfer.dropEffect = 'copy'
-      setDropTargetId(findRowIdFromDragEvent(e))
+      const nextTargetId = findRowIdFromDragEvent(e)
+      if (dropTargetRef.current === nextTargetId) return
+      containerRef.current
+        ?.querySelectorAll('.mpms-tree-drop-target')
+        .forEach((row) => row.classList.remove('mpms-tree-drop-target'))
+      findRowElementFromDragEvent(e)?.classList.add('mpms-tree-drop-target')
+      dropTargetRef.current = nextTargetId
     },
     [dropTarget],
   )
 
-  const handleDragLeave = useCallback(() => {
-    setDropTargetId(null)
+  const clearDropTarget = useCallback(() => {
+    dropTargetRef.current = null
+    containerRef.current
+      ?.querySelectorAll('.mpms-tree-drop-target')
+      .forEach((row) => row.classList.remove('mpms-tree-drop-target'))
   }, [])
+
+  const handleDragLeave = useCallback((e: React.DragEvent) => {
+    const relatedTarget = e.relatedTarget
+    if (relatedTarget instanceof Node && e.currentTarget.contains(relatedTarget)) return
+    clearDropTarget()
+  }, [clearDropTarget])
 
   const handleDrop = useCallback(
     (e: React.DragEvent) => {
@@ -240,12 +267,12 @@ export function BomTreeGridImpl({
       e.preventDefault()
       const bomNodeId = readBomNodeIdFromDataTransfer(e.dataTransfer)
       if (!bomNodeId) return
-      const targetParentMbomId = findRowIdFromDragEvent(e) ?? dropTargetId ?? rootId
+      const targetParentMbomId = findRowIdFromDragEvent(e) ?? dropTargetRef.current ?? rootId
       onExternalDrop?.(bomNodeId, targetParentMbomId)
       setPendingBomDrag(null)
-      setDropTargetId(null)
+      clearDropTarget()
     },
-    [dropTarget, dropTargetId, rootId, onExternalDrop],
+    [dropTarget, rootId, onExternalDrop, clearDropTarget],
   )
 
   if (!rootId) {
@@ -258,7 +285,8 @@ export function BomTreeGridImpl({
 
   return (
     <div
-      className={`ag-theme-quartz h-full w-full ${dropTarget && dropTargetId ? 'ring-2 ring-primary/40' : ''}`}
+      ref={containerRef}
+      className="ag-theme-quartz h-full w-full"
       onDragOver={handleDragOver}
       onDragLeave={handleDragLeave}
       onDrop={handleDrop}
@@ -286,6 +314,30 @@ export function BomTreeGridImpl({
         onSelectionChanged={handleSelectionChanged}
         onCellValueChanged={handleCellValueChanged}
         onRowDragEnd={handleRowDragEnd}
+        getContextMenuItems={(params) => {
+          const nodeId = params.node?.data?.id
+          if (!nodeId) return []
+          const items = []
+          if (onCopyNode) {
+            items.push({ name: '复制', action: () => onCopyNode(nodeId) })
+          }
+          if (onPasteNode && canPaste) {
+            items.push({ name: '粘贴到此处', action: () => onPasteNode(nodeId) })
+          }
+          if (onCloneNode) {
+            items.push({
+              name: '递归克隆子树',
+              action: () => onCloneNode(nodeId),
+            })
+          }
+          if (onViewProperties) {
+            items.push({
+              name: '查看属性',
+              action: () => onViewProperties(nodeId),
+            })
+          }
+          return items
+        }}
       />
     </div>
   )

@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { LogOut } from 'lucide-react'
 import { clearSession, getSession, type Session } from '@/lib/auth/session'
+import { queryClient } from '@/components/providers/app-providers'
 import { useWorkspaceStore } from '@/stores/workspace-store'
 import { Avatar, AvatarFallback } from '@/components/ui/avatar'
 import { Button } from '@/components/ui/button'
@@ -25,12 +26,22 @@ export function AppHeader() {
   const [session, setSession] = useState<Session | null>(null)
 
   useEffect(() => {
-    setSession(getSession())
+    let cancelled = false
+    getSession().then((value) => {
+      if (!cancelled) setSession(value)
+    })
+    return () => {
+      cancelled = true
+    }
   }, [])
 
-  const handleLogout = () => {
-    clearSession()
-    router.push('/login')
+  const handleLogout = async () => {
+    try {
+      await clearSession()
+    } finally {
+      queryClient.clear()
+      router.push('/login')
+    }
   }
 
   return (

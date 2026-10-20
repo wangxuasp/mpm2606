@@ -69,6 +69,21 @@ export interface MpmNodeDetail {
   relations: MpmRelation[]
   forms: MpmAttachment[]
   datasets: MpmAttachment[]
+  extendedProperties: MpmExtendedProperty[]
+}
+
+export interface MpmExtendedProperty {
+  sourcePuid: string
+  propertyName: string
+  displayName: string
+  propertyType: string
+  rawValue?: string | null
+  displayValue?: string | null
+  defined: boolean
+  present: boolean
+  editable: boolean
+  storage?: string | null
+  emptyReason?: string | null
 }
 
 export interface MpmObjectPage {

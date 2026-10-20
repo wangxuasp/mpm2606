@@ -44,7 +44,8 @@ public class DataResourceCatalog {
                 "Teamcenter 零组件主数据，当前允许在金仓展示库中独立维护。",
                 "puid",
                 List.of(
-                        field("puid", "PUID（主键）", STRING, 60, true, true, true),
+                        // PUID 是主键，列表里不展示（listVisible=false），避免页面上出现一列无意义的技术串
+                        field("puid", "PUID（主键）", STRING, 60, true, false, true),
                         field("pitem_id", "零组件 ID", STRING, 512, true, true, false),
                         field("vla_772_2", "VLA_772_2", DECIMAL, 0, true, true, false),
                         field("pfnd0originallocationcode", "原始位置编码", STRING, 128, false, true, false),
@@ -71,7 +72,8 @@ public class DataResourceCatalog {
                 "Teamcenter 用户主数据，当前允许在金仓展示库中独立维护。",
                 "puid",
                 List.of(
-                        field("puid", "PUID（主键）", STRING, 60, true, true, true),
+                        // PUID 是主键，列表里不展示（listVisible=false）
+                        field("puid", "PUID（主键）", STRING, 60, true, false, true),
                         field("pos_username", "用户名", STRING, 128, true, true, false),
                         field("pip_clearance", "IP 保密级别", STRING, 512, false, true, false),
                         field("pgeography", "地理区域", STRING, 8, false, true, false),

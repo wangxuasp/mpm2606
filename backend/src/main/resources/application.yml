@@ -13,13 +13,18 @@ spring:
     password: ${DB_PASSWORD}
     hikari:
       pool-name: MpmsHikariPool
-      minimum-idle: 5
-      maximum-pool-size: 20
-      idle-timeout: 300000
+      # 金仓开发版 max_connections 只有 10，除后端外还可能有其他客户端，
+      # 所以空闲连接要尽快还回去：minimum-idle=0 + 60 秒回收。
+      # 客户环境连接数充足时可用 DB_POOL_SIZE 调大上限。
+      minimum-idle: 0
+      maximum-pool-size: ${DB_POOL_SIZE:4}
+      idle-timeout: 60000
       max-lifetime: 1800000
       connection-timeout: 30000
 
 app:
+  # 检查演示期间置为 true 可冻结所有写操作（认证接口除外）
+  write-frozen: ${APP_WRITE_FROZEN:false}
   cors:
     allowed-origins:
       - http://localhost:3000

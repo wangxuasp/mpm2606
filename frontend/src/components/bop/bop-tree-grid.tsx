@@ -8,6 +8,18 @@ export interface BopTreeGridProps {
   readOnly?: boolean
   onNodeSelect?: (node: import('@/lib/domain/types').BopNode | null) => void
   onRowDragEnd?: (nodeId: string, newParentId: string | null) => void
+  dragSource?: boolean
+  dropTarget?: boolean
+  onExternalDrop?: (nodeId: string, targetParentId: string | null) => void
+  onCopyNode?: (nodeId: string) => void
+  onPasteNode?: (nodeId: string) => void
+  canPaste?: boolean
+  /** 右键“递归克隆子树”，参数为源节点 id */
+  onCloneNode?: (nodeId: string) => void
+  /** 右键“查看属性”，参数为节点 id */
+  onViewProperties?: (nodeId: string) => void
+  multiSelect?: boolean
+  onSelectionChanged?: (nodes: import('@/lib/domain/types').BopNode[]) => void
 }
 
 const BopTreeGridImpl = dynamic(

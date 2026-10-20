@@ -129,7 +129,7 @@ export function ChangeOrderWizard({ onComplete }: ChangeOrderWizardProps) {
 
   const handleSubmit = async () => {
     if (!order) return
-    const session = getSession()
+    const session = await getSession()
     const actor = session?.displayName ?? '未知用户'
     try {
       await submitApproval.mutateAsync({ id: order.id, actor })

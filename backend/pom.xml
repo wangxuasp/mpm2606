@@ -40,6 +40,12 @@
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
 
+        <!-- 直接复用 Teamcenter PPOM_USER.PNEWPASSWORD 的 bcrypt 哈希，仅需 crypto 模块 -->
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-crypto</artifactId>
+        </dependency>
+
         <!-- 人大金仓 JDBC：优先从 Maven Central 拉取 -->
         <dependency>
             <groupId>cn.com.kingbase</groupId>

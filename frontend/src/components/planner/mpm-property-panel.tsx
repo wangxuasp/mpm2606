@@ -1,9 +1,19 @@
 'use client'
 
+import { useState } from 'react'
+import { Check, Pencil, X } from 'lucide-react'
+import { toast } from 'sonner'
 import { Badge } from '@/components/ui/badge'
+import { Button } from '@/components/ui/button'
+import { Input } from '@/components/ui/input'
 import { ScrollArea } from '@/components/ui/scroll-area'
 import { useMpmNode } from '@/hooks/use-mpm'
-import type { MpmAttachment, MpmRelation } from '@/lib/domain/types'
+import {
+  useTcObjectRelations,
+  useUpdateTcObjectProperties,
+} from '@/hooks/use-object-metadata'
+import type { MpmAttachment, MpmExtendedProperty, MpmRelation } from '@/lib/domain/types'
+import { emptyReasonLabel } from '@/lib/tc/property-labels'
 
 function Field({ label, value }: { label: string; value?: string | number | null }) {
   return (
@@ -18,6 +28,191 @@ function formatDate(value: string | null | undefined) {
   if (!value) return '—'
   const date = new Date(value)
   return Number.isNaN(date.getTime()) ? value : date.toLocaleString('zh-CN')
+}
+
+function ExtendedProperties({
+  selectedPuid,
+  properties,
+}: {
+  selectedPuid: string
+  properties: MpmExtendedProperty[]
+}) {
+  const update = useUpdateTcObjectProperties(selectedPuid)
+  const [editing, setEditing] = useState<{
+    sourcePuid: string
+    propertyName: string
+    value: string
+  } | null>(null)
+
+  const save = async () => {
+    if (!editing) return
+    try {
+      await update.mutateAsync([{
+        sourcePuid: editing.sourcePuid,
+        propertyName: editing.propertyName,
+        value: editing.value,
+      }])
+      toast.success('属性已保存')
+      setEditing(null)
+    } catch (error) {
+      toast.error(error instanceof Error ? error.message : '属性保存失败')
+    }
+  }
+
+  if (properties.length === 0) return null
+  return (
+    <section className="border-t">
+      <div className="flex items-center justify-between px-3 py-2">
+        <h3 className="text-xs font-medium text-muted-foreground">扩展与自定义属性</h3>
+        <Badge variant="secondary">{properties.length}</Badge>
+      </div>
+      <div className="divide-y border-t">
+        {properties.map((property, index) => (
+          <div
+            key={`${property.propertyName}-${index}`}
+            className="grid grid-cols-[110px_minmax(0,1fr)] gap-3 px-3 py-2"
+          >
+            <div className="min-w-0">
+              <p className="break-words text-xs text-muted-foreground">
+                {property.displayName || property.propertyName}
+              </p>
+              <p className="mt-0.5 break-all text-[10px] text-muted-foreground/70">
+                {property.propertyType}
+                {property.storage ? ` · ${property.storage}` : ''}
+              </p>
+            </div>
+            <div className="min-w-0">
+              {editing?.sourcePuid === property.sourcePuid
+              && editing.propertyName === property.propertyName ? (
+                <div className="flex items-center gap-1">
+                  <Input
+                    value={editing.value}
+                    onChange={(event) =>
+                      setEditing({ ...editing, value: event.target.value })
+                    }
+                    onKeyDown={(event) => {
+                      if (event.key === 'Enter') void save()
+                      if (event.key === 'Escape') setEditing(null)
+                    }}
+                    className="h-7 text-xs"
+                    autoFocus
+                  />
+                  <Button
+                    type="button"
+                    size="icon-sm"
+                    variant="ghost"
+                    onClick={() => void save()}
+                    disabled={update.isPending}
+                    aria-label="保存属性"
+                  >
+                    <Check className="size-3.5" />
+                  </Button>
+                  <Button
+                    type="button"
+                    size="icon-sm"
+                    variant="ghost"
+                    onClick={() => setEditing(null)}
+                    aria-label="取消编辑"
+                  >
+                    <X className="size-3.5" />
+                  </Button>
+                </div>
+              ) : property.present ? (
+                <div className="flex items-start gap-1">
+                  <p className="min-w-0 flex-1 break-words text-sm">
+                    {property.displayValue || property.rawValue}
+                  </p>
+                  {property.editable && property.storage === 'COLUMN' ? (
+                    <Button
+                      type="button"
+                      size="icon-xs"
+                      variant="ghost"
+                      onClick={() =>
+                        setEditing({
+                          sourcePuid: property.sourcePuid,
+                          propertyName: property.propertyName,
+                          value: property.rawValue ?? '',
+                        })
+                      }
+                      aria-label="编辑属性"
+                    >
+                      <Pencil className="size-3" />
+                    </Button>
+                  ) : null}
+                </div>
+              ) : (
+                <div className="flex items-center gap-1">
+                  <Badge variant="outline" className="text-[10px] font-normal">
+                    {emptyReasonLabel(property.emptyReason)}
+                  </Badge>
+                  {property.editable && property.storage === 'COLUMN' ? (
+                    <Button
+                      type="button"
+                      size="icon-xs"
+                      variant="ghost"
+                      onClick={() =>
+                        setEditing({
+                          sourcePuid: property.sourcePuid,
+                          propertyName: property.propertyName,
+                          value: '',
+                        })
+                      }
+                      aria-label="设置属性"
+                    >
+                      <Pencil className="size-3" />
+                    </Button>
+                  ) : null}
+                </div>
+              )}
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  )
+}
+
+function UnifiedRelations({ puid }: { puid: string }) {
+  const relations = useTcObjectRelations(puid)
+  if (relations.isLoading) return null
+  if (relations.isError || !relations.data?.length) return null
+  return (
+    <section className="border-t">
+      <div className="flex items-center justify-between px-3 py-2">
+        <h3 className="text-xs font-medium text-muted-foreground">引用与使用关系</h3>
+        <Badge variant="secondary">{relations.data.length}</Badge>
+      </div>
+      <div className="divide-y border-t">
+        {relations.data.map((relation) => {
+          const otherPuid = relation.direction === 'in'
+            ? relation.sourcePuid
+            : relation.targetPuid
+          const otherName = relation.direction === 'in'
+            ? relation.sourceName
+            : relation.targetName
+          const otherType = relation.direction === 'in'
+            ? relation.sourceType
+            : relation.targetType
+          return (
+            <div key={`${relation.relationPuid}-${relation.direction}-${otherPuid}`} className="px-3 py-2">
+              <div className="flex min-w-0 items-center gap-2">
+                <Badge variant={relation.direction === 'in' ? 'secondary' : 'outline'} className="shrink-0 text-[10px]">
+                  {relation.direction === 'in' ? '被引用' : '引用'}
+                </Badge>
+                <span className="truncate text-sm">{otherName || otherPuid}</span>
+              </div>
+              <p className="mt-1 truncate text-[11px] text-muted-foreground">
+                {relation.relationTypeName || relation.relationTypePuid}
+                {otherType ? ` · ${otherType}` : ''}
+                {relation.sequenceNo ? ` · 序号 ${relation.sequenceNo}` : ''}
+                {relation.quantity ? ` · 数量 ${relation.quantity}` : ''}
+              </p>
+            </div>
+          )
+        })}
+      </div>
+    </section>
+  )
 }
 
 function RelationTable({ relations }: { relations: MpmRelation[] }) {
@@ -137,6 +332,11 @@ export function MpmPropertyPanel({ puid }: { puid: string | null }) {
           <RelationTable relations={data.relations} />
         </div>
       </section>
+      <UnifiedRelations puid={puid} />
+      <ExtendedProperties
+        selectedPuid={puid}
+        properties={data.extendedProperties ?? []}
+      />
       <AttachmentList title="表单" attachments={data.forms} />
       <AttachmentList title="数据集" attachments={data.datasets} />
     </ScrollArea>
