@@ -3,6 +3,8 @@ package com.extech.mpms.model.mpm;
 import java.math.BigDecimal;
 import java.util.List;
 
+import com.extech.mpms.model.metadata.TcMetadataModels.PropertyValue;
+
 public final class MpmModels {
 
     private MpmModels() {
@@ -83,7 +85,8 @@ public final class MpmModels {
             ObjectSummary object,
             List<Relation> relations,
             List<Attachment> forms,
-            List<Attachment> datasets
+            List<Attachment> datasets,
+            List<PropertyValue> extendedProperties
     ) {
     }
 

@@ -22,7 +22,7 @@ import { Badge } from '@/components/ui/badge'
 import { ApprovalActions } from '@/components/workflow/approval-actions'
 import { ApprovalTimeline } from '@/components/workflow/approval-timeline'
 import { useApprovalHistory, useApprovalInbox } from '@/hooks/use-approvals'
-import { getSession } from '@/lib/auth/session'
+import { useSession } from '@/hooks/use-session'
 import { getTemplate } from '@/lib/workflow/templates'
 import type { ApprovalRecord } from '@/lib/domain/types'
 
@@ -105,7 +105,7 @@ export default function ApprovalPage() {
   const { data: history = [], isLoading: historyLoading } = useApprovalHistory()
   const [selected, setSelected] = useState<ApprovalRecord | null>(null)
 
-  const session = getSession()
+  const session = useSession()
   const actor = session?.displayName ?? '系统管理员'
 
   const template = selected ? getTemplate(selected.template) : null

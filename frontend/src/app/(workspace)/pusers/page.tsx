@@ -1,5 +1,5 @@
-import { DataResourcePage } from '@/components/data/data-resource-page'
+import { redirect } from 'next/navigation'
 
 export default function PusersPage() {
-  return <DataResourcePage resourceKey="puser" />
+  redirect('/organization')
 }

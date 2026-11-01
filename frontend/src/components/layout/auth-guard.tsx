@@ -9,11 +9,24 @@ export function AuthGuard({ children }: { children: React.ReactNode }) {
   const [checked, setChecked] = useState(false)
 
   useEffect(() => {
-    if (!isAuthenticated()) {
-      router.replace('/login')
-      return
+    let cancelled = false
+    isAuthenticated()
+      .then((authenticated) => {
+        if (cancelled) return
+        if (!authenticated) {
+          router.replace('/login')
+          return
+        }
+        setChecked(true)
+      })
+      .catch(() => {
+        if (!cancelled) {
+          router.replace('/login')
+        }
+      })
+    return () => {
+      cancelled = true
     }
-    setChecked(true)
   }, [router])
 
   if (!checked) {

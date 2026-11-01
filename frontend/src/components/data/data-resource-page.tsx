@@ -124,7 +124,10 @@ export function DataResourcePage({ resourceKey }: DataResourcePageProps) {
   const listQuery = useDataPage(resourceKey, page, pageSize, keyword)
   const dataPage = listQuery.data
   const listFields = useMemo(
-    () => metadata?.fields.filter((field) => field.listVisible) ?? [],
+    () =>
+      // PUID 是 Teamcenter 内部主键，对业务用户没有意义，任何情况下都不展示，
+      // 即使后端元数据误把 listVisible 置为 true 也不露出。
+      metadata?.fields.filter((field) => field.listVisible && field.name !== 'puid') ?? [],
     [metadata],
   )
 

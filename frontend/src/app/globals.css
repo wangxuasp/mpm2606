@@ -129,3 +129,79 @@
     @apply font-sans;
   }
 }
+
+@layer components {
+  .mpms-tree-drag-preview {
+    position: fixed;
+    top: -10000px;
+    left: -10000px;
+    display: inline-flex;
+    max-width: 24rem;
+    align-items: center;
+    gap: 0.5rem;
+    overflow: hidden;
+    border: 1px solid var(--primary);
+    border-radius: var(--radius);
+    background: var(--popover);
+    padding: 0.45rem 0.7rem;
+    color: var(--popover-foreground);
+    box-shadow: 0 10px 24px rgb(0 0 0 / 24%);
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 1.2;
+    pointer-events: none;
+  }
+
+  .mpms-tree-drag-preview__title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .mpms-tree-drag-preview__meta {
+    flex-shrink: 0;
+    color: var(--muted-foreground);
+    font-size: 0.65rem;
+    font-weight: 500;
+  }
+
+  .mpms-tree-drop-target .ag-cell {
+    background-color: color-mix(in oklab, var(--primary) 18%, transparent);
+    box-shadow: inset 0 0 0 1px var(--primary);
+  }
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+
+  .process-card-print,
+  .process-card-print * {
+    visibility: visible;
+  }
+
+  .process-card-print {
+    position: absolute;
+    inset: 0 auto auto 0;
+    width: 100%;
+    background: white;
+    color: black;
+  }
+
+  /* 属性对话框：打印时只露出属性清单，并解除滚动区域的裁切 */
+  .object-properties-print,
+  .object-properties-print * {
+    visibility: visible;
+  }
+
+  .object-properties-print {
+    position: absolute;
+    inset: 0 auto auto 0;
+    width: 100%;
+    max-height: none !important;
+    overflow: visible !important;
+    background: white;
+    color: black;
+  }
+}

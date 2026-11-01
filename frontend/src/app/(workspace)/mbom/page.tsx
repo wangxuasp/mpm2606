@@ -135,7 +135,7 @@ export default function MbomPage() {
       toast.error('请先初始化 MBOM')
       return
     }
-    const session = getSession()
+    const session = await getSession()
     const actor = session?.displayName ?? '系统管理员'
     setSubmittingApproval(true)
     try {

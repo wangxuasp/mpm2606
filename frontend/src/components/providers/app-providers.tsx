@@ -6,7 +6,8 @@ import { Toaster } from '@/components/ui/sonner'
 import { ThemeProvider } from '@/components/theme/theme-provider'
 import { ensureSeeded } from '@/lib/db/seed'
 
-const queryClient = new QueryClient()
+/** 退出登录或切换账号时必须清空，避免上一个账号的数据残留。 */
+export const queryClient = new QueryClient()
 
 export function AppProviders({ children }: { children: React.ReactNode }) {
   const [ready, setReady] = useState(false)

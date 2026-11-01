@@ -1,6 +1,7 @@
 package com.extech.mpms.service;
 
 import com.extech.mpms.exception.ApiException;
+import com.extech.mpms.model.metadata.TcMetadataModels.ObjectProperties;
 import com.extech.mpms.model.mpm.MpmModels.CatalogEntry;
 import com.extech.mpms.model.mpm.MpmModels.ObjectSummary;
 import com.extech.mpms.repository.MpmReadRepository;
@@ -22,7 +23,7 @@ class MpmReadServiceTest {
         repository.summaries.put("ROOT", summary("ROOT", "ROOT-001", "根节点", "Item"));
         repository.occurrences.add(occurrence("ROOT", "OCC-1", "CHILD", "CHILD-001", "子件", "Part"));
         repository.occurrences.add(occurrence("CHILD", "OCC-2", "ROOT", "ROOT-001", "根节点", "Item"));
-        MpmReadService service = new MpmReadService(repository);
+        MpmReadService service = service(repository);
 
         var tree = service.getTree("ROOT");
 
@@ -38,7 +39,7 @@ class MpmReadServiceTest {
         FakeMpmReadRepository repository = new FakeMpmReadRepository();
         repository.itemPuids.put("REV-1", "ITEM-1");
         repository.summaries.put("ITEM-1", summary("ITEM-1", "CODE-1", "对象", "Item"));
-        MpmReadService service = new MpmReadService(repository);
+        MpmReadService service = service(repository);
 
         var detail = service.getNode("REV-1");
 
@@ -47,7 +48,7 @@ class MpmReadServiceTest {
 
     @Test
     void rejectsInvalidPagination() {
-        MpmReadService service = new MpmReadService(new FakeMpmReadRepository());
+        MpmReadService service = service(new FakeMpmReadRepository());
 
         assertThatThrownBy(() -> service.listItems(-1, 20, "", ""))
                 .isInstanceOf(ApiException.class)
@@ -76,6 +77,22 @@ class MpmReadServiceTest {
                 null,
                 null
         );
+    }
+
+    private MpmReadService service(FakeMpmReadRepository repository) {
+        return new MpmReadService(repository, new FakeTcMetadataService());
+    }
+
+    private static final class FakeTcMetadataService extends TcMetadataService {
+
+        private FakeTcMetadataService() {
+            super(null, null);
+        }
+
+        @Override
+        public ObjectProperties readProperties(String puid, boolean includeEmpty) {
+            return new ObjectProperties(puid, "", "", false, null, false, List.of());
+        }
     }
 
     private OccurrenceRow occurrence(

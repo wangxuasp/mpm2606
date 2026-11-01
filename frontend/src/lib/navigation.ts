@@ -1,8 +1,8 @@
 import type { LucideIcon } from 'lucide-react'
 import {
   LayoutDashboard,
+  Building2,
   Boxes,
-  Users,
   GitBranch,
   Route,
   Wrench,
@@ -16,6 +16,8 @@ import {
   Link2,
   Settings,
   Shield,
+  Home,
+  Workflow,
 } from 'lucide-react'
 
 export type NavItem = {
@@ -26,8 +28,9 @@ export type NavItem = {
 
 export const workspaceNav: NavItem[] = [
   { title: '工作台', url: '/', icon: LayoutDashboard },
+  { title: '个人工作区', url: '/workspace', icon: Home },
   { title: '零组件数据', url: '/pitems', icon: Boxes },
-  { title: '用户数据', url: '/pusers', icon: Users },
+  { title: '组织', url: '/organization', icon: Building2 },
   { title: '制造工艺规划器', url: '/planner', icon: GitBranch },
   { title: 'MBOM 重构', url: '/mbom', icon: GitBranch },
   { title: '工艺路线', url: '/bop', icon: Route },
@@ -37,6 +40,7 @@ export const workspaceNav: NavItem[] = [
   { title: '工装管理', url: '/tooling', icon: Hammer },
   { title: '工艺更改', url: '/change', icon: RefreshCw },
   { title: '工艺审批', url: '/approval', icon: CheckCircle },
+  { title: '工作流程查看器', url: '/workflow', icon: Workflow },
   { title: '工艺汇总', url: '/summary', icon: BarChart3 },
   { title: 'AI Copilot', url: '/copilot', icon: Bot },
 ]
@@ -48,10 +52,10 @@ export const footerNav: NavItem[] = [
 ]
 
 export const workspaceNavGroups = [
-  { title: '概览', items: workspaceNav.slice(0, 1) },
-  { title: '基础数据', items: workspaceNav.slice(1, 3) },
-  { title: '制造规划', items: workspaceNav.slice(3, 7) },
-  { title: '资源与文档', items: workspaceNav.slice(7, 10) },
-  { title: '流程管理', items: workspaceNav.slice(10, 13) },
-  { title: '智能助手', items: workspaceNav.slice(13, 14) },
+  { title: '概览', items: workspaceNav.slice(0, 2) },
+  { title: '基础数据', items: workspaceNav.slice(2, 4) },
+  { title: '制造规划', items: workspaceNav.slice(4, 8) },
+  { title: '资源与文档', items: workspaceNav.slice(8, 11) },
+  { title: '流程管理', items: workspaceNav.slice(11, 15) },
+  { title: '智能助手', items: workspaceNav.slice(15, 16) },
 ]

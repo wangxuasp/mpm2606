@@ -1,36 +1,20 @@
-const SESSION_KEY = 'mpms_session'
+import { fetchCurrentUser, logout, type AuthProfile } from '@/lib/api/auth-client'
 
-export interface Session {
-  token: string
-  userId: string
-  displayName: string
-}
+/** 会话完全由后端 HttpOnly Cookie 维护，前端不再保存任何凭据。 */
+export type Session = AuthProfile
 
-export function createSession(): Session {
-  const session: Session = {
-    token: crypto.randomUUID(),
-    userId: 'admin',
-    displayName: '系统管理员',
-  }
-  localStorage.setItem(SESSION_KEY, JSON.stringify(session))
-  return session
-}
-
-export function getSession(): Session | null {
-  if (typeof window === 'undefined') return null
-  const raw = localStorage.getItem(SESSION_KEY)
-  if (!raw) return null
+export async function getSession(): Promise<Session | null> {
   try {
-    return JSON.parse(raw) as Session
+    return await fetchCurrentUser()
   } catch {
     return null
   }
 }
 
-export function clearSession(): void {
-  localStorage.removeItem(SESSION_KEY)
+export async function clearSession(): Promise<void> {
+  await logout()
 }
 
-export function isAuthenticated(): boolean {
-  return getSession() !== null
+export async function isAuthenticated(): Promise<boolean> {
+  return (await getSession()) !== null
 }

@@ -1,12 +1,13 @@
 'use client'
 
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import Image from 'next/image'
 import { useForm } from 'react-hook-form'
 import { z } from 'zod'
 import { useRouter } from 'next/navigation'
-import { validateCredentials } from '@/lib/auth/mock-auth'
-import { createSession, isAuthenticated } from '@/lib/auth/session'
+import { login } from '@/lib/api/auth-client'
+import { isAuthenticated } from '@/lib/auth/session'
+import { queryClient } from '@/components/providers/app-providers'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
@@ -26,14 +27,21 @@ export default function LoginPage() {
     setError,
     formState: { errors },
   } = useForm<LoginForm>()
+  const [submitting, setSubmitting] = useState(false)
 
   useEffect(() => {
-    if (isAuthenticated()) {
-      router.replace('/')
+    let cancelled = false
+    isAuthenticated().then((authenticated) => {
+      if (!cancelled && authenticated) {
+        router.replace('/')
+      }
+    })
+    return () => {
+      cancelled = true
     }
   }, [router])
 
-  const onSubmit = (data: LoginForm) => {
+  const onSubmit = async (data: LoginForm) => {
     const parsed = loginSchema.safeParse(data)
     if (!parsed.success) {
       for (const issue of parsed.error.issues) {
@@ -45,12 +53,18 @@ export default function LoginPage() {
       return
     }
 
-    if (!validateCredentials(parsed.data.username, parsed.data.password)) {
-      setError('password', { message: '用户名或密码错误' })
-      return
+    setSubmitting(true)
+    try {
+      await login(parsed.data.username, parsed.data.password)
+      queryClient.clear()
+      router.replace('/')
+    } catch (error) {
+      setError('password', {
+        message: error instanceof Error ? error.message : '登录失败，请稍后重试',
+      })
+    } finally {
+      setSubmitting(false)
     }
-    createSession()
-    router.replace('/')
   }
 
   return (
@@ -103,8 +117,8 @@ export default function LoginPage() {
                 <p className="text-sm text-red-400">{errors.password.message}</p>
               )}
             </div>
-            <Button type="submit" className="mt-2 w-full">
-              登录
+            <Button type="submit" className="mt-2 w-full" disabled={submitting}>
+              {submitting ? '正在登录...' : '登录'}
             </Button>
           </form>
         </div>

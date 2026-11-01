@@ -10,6 +10,7 @@ import com.extech.mpms.model.mpm.MpmModels.Page;
 import com.extech.mpms.model.mpm.MpmModels.Relation;
 import com.extech.mpms.model.mpm.MpmModels.TreeNode;
 import com.extech.mpms.model.mpm.MpmModels.TreeResponse;
+import com.extech.mpms.model.metadata.TcMetadataModels.PropertyValue;
 import com.extech.mpms.repository.MpmReadRepository;
 import com.extech.mpms.repository.MpmReadRepository.OccurrenceRow;
 import org.springframework.stereotype.Service;
@@ -29,9 +30,14 @@ public class MpmReadService {
     private static final int MAX_TREE_DEPTH = 30;
 
     private final MpmReadRepository repository;
+    private final TcMetadataService metadataService;
 
-    public MpmReadService(MpmReadRepository repository) {
+    public MpmReadService(
+            MpmReadRepository repository,
+            TcMetadataService metadataService
+    ) {
         this.repository = repository;
+        this.metadataService = metadataService;
     }
 
     public Page<ObjectSummary> listItems(
@@ -99,7 +105,58 @@ public class MpmReadService {
 
         List<Attachment> forms = repository.findForms(targetPuids);
         List<Attachment> datasets = repository.findDatasets(targetPuids);
-        return new NodeDetail(object, relations, forms, datasets);
+        List<PropertyValue> extendedProperties = new ArrayList<>();
+        appendExtendedProperties(extendedProperties, itemPuid, null);
+        if (object.revisionPuid() != null && !object.revisionPuid().isBlank()) {
+            appendExtendedProperties(extendedProperties, object.revisionPuid(), null);
+        }
+        for (Attachment form : forms) {
+            appendExtendedProperties(
+                    extendedProperties,
+                    form.puid(),
+                    form.name() == null || form.name().isBlank() ? "表单" : form.name()
+            );
+        }
+        return new NodeDetail(object, relations, forms, datasets, extendedProperties);
+    }
+
+    private void appendExtendedProperties(
+            List<PropertyValue> target,
+            String puid,
+            String prefix
+    ) {
+        if (puid == null || puid.isBlank()) {
+            return;
+        }
+        try {
+            for (PropertyValue property : metadataService.readProperties(puid, true).properties()) {
+                if (property.propertyName() == null
+                        || property.propertyName().startsWith("pobject_")
+                        || property.propertyName().equals("owner")
+                        || property.propertyName().equals("created_at")
+                        || property.propertyName().equals("modified_at")) {
+                    continue;
+                }
+                String displayName = prefix == null
+                        ? property.displayName()
+                        : prefix + " · " + property.displayName();
+                target.add(new PropertyValue(
+                        property.sourcePuid(),
+                        property.propertyName(),
+                        displayName,
+                        property.propertyType(),
+                        property.rawValue(),
+                        property.displayValue(),
+                        property.defined(),
+                        property.present(),
+                        property.editable(),
+                        property.storage(),
+                        property.emptyReason()
+                ));
+            }
+        } catch (ApiException ignored) {
+            // 自定义表单可能不在工作区对象表中，节点详情仍应正常返回。
+        }
     }
 
     private void appendChildren(

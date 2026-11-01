@@ -66,13 +66,17 @@ function buildPath(nodeId: string, nodeMap: Map<string, BomNode>, rootId: string
   return path
 }
 
-export function findRowIdFromDragEvent(e: React.DragEvent): string | null {
+export function findRowElementFromDragEvent(e: React.DragEvent): HTMLElement | null {
   let el = e.target as HTMLElement | null
   while (el) {
     if (el.getAttribute('role') === 'row') {
-      return el.getAttribute('row-id')
+      return el
     }
     el = el.parentElement
   }
   return null
+}
+
+export function findRowIdFromDragEvent(e: React.DragEvent): string | null {
+  return findRowElementFromDragEvent(e)?.getAttribute('row-id') ?? null
 }
